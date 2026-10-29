@@ -1,39 +1,39 @@
 {
- "date": "2026-10-28",
- "weekday": "周三",
- "updatedAt": "2026-10-28 14:18",
+ "date": "2026-10-29",
+ "weekday": "周四",
+ "updatedAt": "2026-10-29 06:55",
  "highlights": [
   {
-   "text": "SK海力士2027—2028年过半产能已签给14家大客户、称短缺持续到2030年，我司存储采购要按多年高价、紧供给规划。",
-   "item": "SK海力士三季度营收104.6万亿韩元、营业利润率80%，2027—2028年过半产能已签长协"
+   "text": "Alphabet谷歌云三季度收入增103%至307亿美元，TPU整柜外销成增长来源，海外非英伟达算力的主要对手已是谷歌。",
+   "item": "Alphabet三季度谷歌云收入翻倍至307亿美元，TPU系统对外销售成重要增长来源"
   },
   {
-   "text": "甲骨文云将上架谷歌TPU和OpenAI自研芯片，海外可选AI加速器从英伟达为主变为多家并存。",
-   "item": "甲骨文云将上架谷歌TPU、OpenAI自研Jalapeño和Cerebras芯片，TPU首次进入谷歌外部云"
+   "text": "微软Azure增速升至48%，但商业新签订单同比降12%、剩余履约义务环比持平，海外AI云新增订单势头弱于收入增速。",
+   "item": "微软FY27Q1 Azure增速升至48%，但商业剩余履约义务环比持平、新签订单同比降12%"
   },
   {
-   "text": "我司首次把“韬定律”用于基站，UBBPi基带称节能约40%，U6GHz VitaAAU已在阿联酋、港澳商用。",
-   "item": "我司发布新一代无线产品：首次把“韬定律”用于基站，UBBPi基带称节能约40%"
+   "text": "据路透，长鑫HBM3E良率仅20%—30%、性能接近HBM3，昇腾2026年的HBM成本压力难靠国产HBM缓解。",
+   "item": "据路透：长鑫存储HBM3E良率仅20%—30%，已向国产AI芯片厂送样，拟两个月内小批量生产"
   },
   {
-   "text": "崔东树：9月汽车行业利润同比降68%、单车利润约464元，车企对智驾、座舱外采部件的压价会加大。",
-   "item": "崔东树：前三季度汽车行业利润率3.3%，9月单月降至1.4%、利润同比降68%"
+   "text": "我司Pura 90 Plus首发麒麟9025、5499元起，全系12GB内存靠软件压缩宣传省出存储空间，应对存储涨价。",
+   "item": "我司发布Pura 90 Plus：首发麒麟9025，12GB+256GB售5499元，1TB版6999元"
   },
   {
-   "text": "比亚迪把激光雷达城市领航下放到7.69万元级秦PLUS并承诺事故兜底，乾崑在15万元以下车型的空间被压缩。",
-   "item": "比亚迪第三代秦PLUS DM-i上市，7.69万元起，可选激光雷达版天神之眼B并承诺1年城市领航兜底"
+   "text": "工信部前三季度电信业务收入同比降2.5%，而业务总量增7.3%，国内运营商缺少扩大网络投资的收入基础。",
+   "item": "工信部：前三季度电信业务收入1.3万亿元，同比下降2.5%，5G基站达525.4万个"
   },
   {
-   "text": "中科曙光三季度营收增61%、净利增217%，并与海光加码互连芯片，以海光为核心的国产服务器路线正在放量。",
-   "item": "中科曙光三季度净利7.53亿元、同比增217%，与海光共同增资企业级互连芯片子公司"
+   "text": "大众把中国改为全球研发出口基地，海外车型智驾交给小鹏和酷睿程，乾崑进入外资海外车型面对的是股权绑定伙伴。",
+   "item": "大众把中国改为全球研发和出口基地，与小鹏的电子架构、与地平线合资的酷睿程智驾将随车出海"
   },
   {
-   "text": "理想i6改款据报全系换装自研M100智驾芯片，马赫心科技称将对外供货，车企自研芯片开始争外部客户。",
-   "item": "理想i6改款今晚上市，据报全系换装自研马赫M100智驾芯片和96kWh连山5C电池"
+   "text": "乘联分会10月前25天乘用车零售同比降26%，批发比零售多约24万辆，年底清库存压力可能传到智驾零部件价格。",
+   "item": "乘联分会：10月1—25日乘用车零售114.5万辆、同比降26%，新能源零售同比降13%"
   },
   {
-   "text": "据报台积电拟上调CoWoS价格10%—20%、设备交期拉长到6—8个月，海外AI芯片降价空间变小。",
-   "item": "据报：台积电拟上调CoWoS封装价格10%—20%"
+   "text": "维谛三季度营收增61%、有机订单翻倍，但增长最快的美洲我司难以参与，数字能源海外增量主要看亚太和中东。",
+   "item": "维谛三季度营收43.1亿美元、增61%，有机订单翻倍以上，全年营收指引上调6.5亿美元"
   }
  ],
  "sections": [
@@ -43,114 +43,144 @@
    "items": [
     {
      "tag": "竞争",
-     "title": "甲骨文云将上架谷歌TPU、OpenAI自研Jalapeño和Cerebras芯片，TPU首次进入谷歌外部云",
-     "summary": "甲骨文在拉斯维加斯AI World大会（美东10月27日）宣布扩充OCI加速器选项：2027年起提供谷歌第八代TPU 8t（训练）和8i（推理），谷歌称甲骨文将成为首家对外出租TPU的大型云厂商；部署OpenAI与博通合研的Jalapeño推理芯片；2027年上线Cerebras CS-4推理系统；同时引入SambaNova SN50，并把英伟达Vera Rubin扩至多吉瓦规模。甲骨文剩余履约义务为6640亿美元。",
-     "comment": "1. 谷歌TPU和OpenAI自研芯片开始通过第三方云出租，海外客户对非英伟达芯片的接受度提高，但昇腾在海外要同时面对TPU、定制ASIC和GPU三类对手。",
-     "sources": [
-      {
-       "name": "The Next Platform",
-       "url": "https://www.nextplatform.com/ai/2026/10/27/oracle-is-expanding-the-accelerator-options-in-oci-for-enterprises/5305815"
-      },
-      {
-       "name": "Analytics India Magazine",
-       "url": "https://analyticsindiamag.com/ai-news/oracle-expands-ai-compute-options-with-nvidia-google-tpus-and-cerebras"
-      },
-      {
-       "name": "Seoul Economic Daily",
-       "url": "https://en.sedaily.com/international/2026/10/28/openai-weighs-buying-google-tpus-easing-nvidia-reliance"
-      }
-     ]
-    },
-    {
-     "tag": "竞争",
-     "title": "中科曙光三季度净利7.53亿元、同比增217%，与海光共同增资企业级互连芯片子公司",
-     "summary": "中科曙光10月27日晚披露三季报：三季度营收47.73亿元、同比增60.68%，归母净利7.53亿元、同比增217.19%；前三季度营收122.38亿元、增38.75%，净利17.25亿元、增78.51%。同日公告与关联方海光信息共同对一家参股公司增资，曙光出资不超过1.15亿元，标的成立于2020年、主营企业级互连芯片，增资后曙光、海光持股均由27.4%降至25%。",
-     "table": [
-      [
+     "title": "Alphabet三季度谷歌云收入翻倍至307亿美元，TPU系统对外销售成重要增长来源",
+     "summary": "Alphabet三季度营收1276亿美元、增25%；谷歌云收入307亿美元、增103%，经营利润111亿美元，TPU系统销售为重要贡献；云积压订单5610亿美元。季度资本支出514亿美元，维持2026年1950亿—2050亿美元指引，称2027年将显著增加；自由现金流为-91亿美元。",
+     "table": {
+      "caption": "Alphabet 2026年三季度要点",
+      "columns": [
        "指标",
-       "三季度",
-       "同比",
-       "前三季度"
+       "数值",
+       "同比/说明"
       ],
-      [
-       "营收",
-       "47.73亿元",
-       "+60.68%",
-       "122.38亿元"
-      ],
-      [
-       "归母净利",
-       "7.53亿元",
-       "+217.19%",
-       "17.25亿元"
+      "rows": [
+       [
+        "谷歌云收入",
+        "307亿美元",
+        "+103%"
+       ],
+       [
+        "谷歌云经营利润",
+        "111亿美元",
+        "上年同期36亿美元"
+       ],
+       [
+        "云积压订单",
+        "5610亿美元",
+        "约55%在24个月内确认"
+       ],
+       [
+        "季度资本支出",
+        "514亿美元",
+        "上年同期240亿美元"
+       ],
+       [
+        "2026年资本支出指引",
+        "1950亿—2050亿美元",
+        "维持不变，2027年显著增加"
+       ],
+       [
+        "Gemini应用用户",
+        "10亿",
+        "API约每分钟320亿token"
+       ]
       ]
-     ],
-     "comment": "1. 曙光单季营收增61%、净利增217%，以海光芯片为核心的国产服务器正在放量，是昇腾整机和超节点在政企、智算中心市场的直接对手。\n2. 曙光、海光一起加码互连芯片，补的正是超节点的关键短板，两家在超节点上与我司的差距可能缩小。",
+     },
+     "comment": "1. 谷歌已把自研TPU做成整柜对外卖给近100家客户，并点名TPU系统是云收入翻倍的重要来源，这与我司昇腾超节点对外销售的路线相同，海外市场上非英伟达AI算力的主要对手已是谷歌。\n2. 谷歌三季度资本支出514亿美元仍称供给受限，并预告2027年支出显著高于今年约2000亿美元，海外云厂商对HBM和先进封装的抢购2027年不会退潮，昇腾服务器的存储成本难以回落。",
      "sources": [
       {
-       "name": "界面新闻",
-       "url": "https://www.jiemian.com/article/15248717.html"
+       "name": "Alphabet三季度财报新闻稿",
+       "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf"
       },
       {
-       "name": "网易",
-       "url": "https://www.163.com/dy/article/LA97BPIT0519APGA.html"
+       "name": "Investing.com 业绩会实录",
+       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037"
       },
       {
-       "name": "IT之家",
-       "url": "https://www.ithome.com/1/018/659.htm"
+       "name": "TradingKey",
+       "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262248965-google-earnings-report-q3-services-cloud-search-capital-expenditures-cash-tradingkey"
       }
      ]
     },
     {
      "tag": "关注",
-     "title": "海外GPU租赁价继续上涨：H100单月涨43%，H200每小时6.42美元",
-     "summary": "据Ornn算力价格指数，截至10月27日：H100每小时3.57美元，单日涨12.6%、近一月涨43.4%；H200为6.42美元，近一月涨39.0%；B200为9.66美元，近一月涨19.6%。与10月23日期报道的H200每小时6.02美元、B200每小时9.32美元相比，几天内分别再涨约7%和4%。",
-     "table": [
-      [
-       "型号",
-       "每小时价格",
-       "近一月涨幅",
-       "日期"
+     "title": "微软FY27Q1 Azure增速升至48%，但商业剩余履约义务环比持平、新签订单同比降12%",
+     "summary": "微软截至9月季度营收923亿美元、增19%；Azure收入332亿美元、增48%（上季42%）。资本支出（含融资租赁）452亿美元、增30%，现金资本支出394亿美元。商业剩余履约义务6770亿美元、环比基本持平，商业新签订单同比降12%；自由现金流186亿美元、降27%；Windows OEM与设备收入降22%。",
+     "table": {
+      "caption": "微软2027财年一季度要点",
+      "columns": [
+       "指标",
+       "数值",
+       "同比"
       ],
-      [
-       "H100 SXM",
-       "3.57美元",
-       "+43.4%",
-       "10月27日"
-      ],
-      [
-       "H200",
-       "6.42美元",
-       "+39.0%",
-       "10月27日"
-      ],
-      [
-       "B200",
-       "9.66美元",
-       "+19.6%",
-       "10月27日"
+      "rows": [
+       [
+        "营收",
+        "923亿美元",
+        "+19%"
+       ],
+       [
+        "Azure收入",
+        "332亿美元",
+        "+48%"
+       ],
+       [
+        "资本支出（含融资租赁）",
+        "452亿美元",
+        "+30%"
+       ],
+       [
+        "商业剩余履约义务",
+        "6770亿美元",
+        "+73%，环比持平"
+       ],
+       [
+        "商业新签订单",
+        "未披露金额",
+        "-12%"
+       ],
+       [
+        "自由现金流",
+        "186亿美元",
+        "-27%"
+       ]
       ]
-     ],
+     },
+     "comment": "1. Azure加速到48%的同时商业剩余履约义务环比不增、新签订单同比降12%，微软云增长主要靠交付存量大单，海外AI云新增订单的势头弱于收入增速所显示的。",
      "sources": [
       {
-       "name": "Ornn OCPI",
-       "url": "https://data.ornn.com/"
+       "name": "新浪财经（财联社）",
+       "url": "https://finance.sina.cn/2026-10-29/detail-iniwvmzh6291104.d.html"
       },
       {
-       "name": "Dreaming Press",
-       "url": "https://dreaming.press/posts/gpu-rental-price-october-2026.html"
+       "name": "新浪新闻",
+       "url": "https://www.sina.cn/weibo/detail/5359230224958403.html"
       }
      ]
     },
     {
      "tag": "竞争",
-     "title": "华勤技术三季度营收723亿元，数据业务收入增228%，超节点产品收入61.91亿元",
-     "summary": "华勤技术10月27日晚披露三季报：三季度营收722.95亿元、同比增60.86%，净利13.24亿元、增9.43%；前三季度营收1660.14亿元、净利43.23亿元。公告称报告期内数据业务收入224.56亿元、同比增228%，其中超节点产品收入61.91亿元。",
-     "comment": "1. 手机ODM华勤的超节点收入已做到61.91亿元，超节点整机的门槛在降低，整机环节利润会被压薄，以整机形态销售昇腾的模式将面对更多低价对手。",
+     "title": "据The Information：OpenAI计划直接采购谷歌TPU，并招聘TPU编译器岗位",
+     "summary": "据The Information援引知情人士，OpenAI计划购买谷歌TPU（此前以租用为主），价格、数量和交付时间未披露，双方未确认。OpenAI已在用英伟达、AMD芯片，并与博通合作自研推理芯片Jalapeño，计划2026年底首批部署。",
+     "comment": "1. OpenAI为TPU专门招聘编译器岗位，说明头部模型厂换用新芯片的主要成本在软件栈迁移；昇腾争取国内头部模型厂时，同样取决于CANN适配成本，而不只是单卡指标。",
      "sources": [
       {
-       "name": "搜狐（晚间公告汇总）",
-       "url": "https://www.sohu.com/a/1093466433_122014422"
+       "name": "RuntimeWire",
+       "url": "https://runtimewire.com/article/openai-plans-to-buy-google-tpus"
+      },
+      {
+       "name": "KuCoin News",
+       "url": "https://www.kucoin.com/news/flash/openai-reportedly-plans-to-purchase-google-s-ai-chips-to-reduce-reliance-on-nvidia"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "甲骨文称资本支出在2029财年开始回落，预计当年自由现金流约300亿美元",
+     "summary": "甲骨文10月28日表示，资本支出见顶后将于2029财年开始下降，预计该财年自由现金流约300亿美元（2026财年约为-240亿美元）；到2030年5月前新增股债融资不超过200亿美元；重申本财年营收至少900亿美元、2030财年2250亿美元目标。",
+     "sources": [
+      {
+       "name": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/article/oracle-stock-soars-as-it-promises-the-ai-spending-will-start-paying-for-itself-201056802.html"
       }
      ]
     }
@@ -161,68 +191,176 @@
    "name": "终端",
    "items": [
     {
-     "tag": "竞争",
-     "title": "REDMI K100发布：骁龙8至尊版+10000mAh电池，双11价2999元起",
-     "summary": "10月27日晚，小米发布REDMI K100，搭载骁龙8至尊版，K系列标准版首次配备游戏独显D2，配10000mAh电池、100W快充、6.83英寸1.5K 165Hz直屏和IP68防护。三个版本定价3499/3999/4499元，双11特惠价2999/3499/3899元，叠加国补后约2549元起，10月31日10:00开售。",
-     "table": [
-      [
-       "版本",
-       "定价（元）",
-       "双11价（元）"
+     "tag": "关注",
+     "title": "我司发布Pura 90 Plus：首发麒麟9025，12GB+256GB售5499元，1TB版6999元",
+     "summary": "10月28日双十一全场景发布会上，我司发布Pura 90 Plus：麒麟9025芯片、1英寸可变光圈主摄、5700mAh电池，出厂搭载HarmonyOS 7，“超空间存储”称1TB版可省出110GB。5499元起，首销5199元起，国补后4699元起，10月31日开售。Mate 90系列同步推出最高800元以旧换新补贴。",
+     "table": {
+      "caption": "Pura 90 Plus定价（元）",
+      "columns": [
+       "配置",
+       "标价",
+       "说明"
       ],
-      [
-       "12GB+256GB",
-       "3499",
-       "2999"
-      ],
-      [
-       "12GB+512GB",
-       "3999",
-       "3499"
-      ],
-      [
-       "16GB+512GB",
-       "4499",
-       "3899"
+      "rows": [
+       [
+        "12GB+256GB",
+        "5499",
+        "首销5199，国补后4699起"
+       ],
+       [
+        "12GB+512GB",
+        "5999",
+        "双11期间最高优惠300"
+       ],
+       [
+        "12GB+1TB",
+        "6999",
+        "超空间存储称可省110GB"
+       ]
       ]
-     ],
-     "comment": "1. 存储涨价下，K100标准版仍以2999元（国补后约2549元）把旗舰芯片、10000mAh电池和12GB+256GB放进3000元档，我司nova等2000—3000元档机型面临直接价格压力。",
+     },
+     "comment": "1. 全系固定12GB运行内存，靠存储容量拉开1500元价差，并用“超空间存储”宣称省出25GB—110GB；在存储涨价期间，我司把软件压缩做成卖点，替代加大内存或存储配置，单机存储成本上升对定价的压力相对小。",
      "sources": [
       {
        "name": "IT之家",
-       "url": "https://www.ithome.com/1/018/635.htm"
+       "url": "https://www.ithome.com/1/018/915.htm"
       },
       {
-       "name": "腾讯新闻",
-       "url": "https://news.qq.com/rain/a/20261027A0CPXO00"
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34351001"
       },
       {
-       "name": "新浪新闻",
-       "url": "https://www.sina.cn/weibo/detail/5358785016627527.html"
+       "name": "爱范儿",
+       "url": "https://www.ifanr.com/digest/1686381"
       }
      ]
     },
     {
      "tag": "竞争",
-     "title": "苹果发布M6版14英寸MacBook Pro和iMac，维持6月涨价后的价格并取消低价入门配置",
-     "summary": "10月27日，苹果发布搭载M6芯片的14英寸MacBook Pro和24英寸iMac。MacBook Pro起售价1999美元（国行15999元），起步配置为16GB内存+1TB存储，与6月上调后的M5版持平；据Hardware Busters，这比M5版首发价1599美元高400美元，且低价入门款被取消。iMac起售价1499美元（国行12499元），同样维持6月涨价后的水平。两款均于10月28日开启预购，11月6日发售。",
-     "comment": "1. 苹果没有回调6月因存储成本上调的价格，并取消低价入门款，Mac起步价抬到1.6万元档，我司MateBook高端型号在1万—1.5万元价位少了苹果的直接竞争。",
+     "title": "苹果发布首款触屏MacBook Pro：OLED屏，国行22999元起，比mini-LED版贵3000元",
+     "summary": "10月28日（北京时间29日凌晨）苹果洛杉矶发布会推出“MacBook Pro with PROLED XDR Display”，这是苹果首款触屏笔记本，采用OLED屏和灵动岛，搭载M5 Pro/M5 Max，最高128GB统一内存，14/16英寸各轻约半磅。美国2899美元起，国行14英寸22999元、16英寸27999元起，10月30日起预购（国行），11月6日发售。",
+     "table": {
+      "caption": "触屏MacBook Pro起售价",
+      "columns": [
+       "型号",
+       "美国",
+       "国行"
+      ],
+      "rows": [
+       [
+        "14英寸 M5 Pro",
+        "2899美元",
+        "22999元"
+       ],
+       [
+        "16英寸 M5 Pro",
+        "3399美元",
+        "27999元"
+       ],
+       [
+        "14英寸 M5 Max",
+        "4449美元",
+        "未获取"
+       ],
+       [
+        "16英寸 M5 Max",
+        "4799美元",
+        "未获取"
+       ]
+      ]
+     },
+     "comment": "1. 苹果把OLED和触控做成比mini-LED版贵3000元、比M6基础版贵7000元的顶配选项，没有下放到主力价位。在存储涨价期间，苹果选择抬高Mac的最高售价，而不是降价抢量。\n2. 触屏一直是Windows和鸿蒙笔记本区别于MacBook的卖点之一。苹果补上触屏后，我司MateBook高端机型在2万元以上价位，要靠OLED、触控以外的功能与苹果拉开差距。",
      "sources": [
       {
-       "name": "Apple Newsroom（MacBook Pro）",
-       "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+       "name": "Gizmodo",
+       "url": "https://gizmodo.com/macbook-pro-with-proled-xdr-display-2000831724"
       },
       {
-       "name": "Apple Newsroom（iMac）",
-       "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-new-imac-with-m6/"
+       "name": "什么值得买",
+       "url": "https://post.smzdm.com/p/aqrq2d7v/"
       },
       {
-       "name": "Hardware Busters",
-       "url": "https://hwbusters.com/news/apples-m6-macbook-pro-starts-at-1999-and-the-new-imac-costs-more-too/"
+       "name": "Macworld",
+       "url": "https://www.macworld.com/article/3268887/pro-and-tell-event-live-blog-apples-last-launch-of-the-year-happens-now.html"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "畅享100系列发布：全系麒麟8系芯片，1399元起，Pro Max配8800mAh电池售1999元",
+     "summary": "10月28日发布畅享100系列，10月31日10:08开售。畅享100售1399元起，国补后1189元起；畅享100 Pro搭载麒麟8020A，1799元起；畅享100 Pro Max搭载麒麟8020系列，配8800mAh电池和北斗一键求救，1999元起。同场还发布FreeClip 2拼色版（1299元）和凌霄SoC路由X2 Pro。",
+     "table": {
+      "caption": "畅享100系列起售价（元）",
+      "columns": [
+       "机型",
+       "芯片",
+       "起售价"
+      ],
+      "rows": [
+       [
+        "畅享100",
+        "麒麟8系",
+        "1399（国补后1189）"
+       ],
+       [
+        "畅享100 Pro",
+        "麒麟8020A",
+        "1799"
+       ],
+       [
+        "畅享100 Pro Max",
+        "麒麟8020系列",
+        "1999"
+       ]
+      ]
+     },
+     "comment": "1. 千元档全部换用自研麒麟8系芯片后，我司从高端Mate到入门畅享都已用上自研SoC，入门机的芯片供应和成本不再取决于外部SoC厂商的价格和配额，但麒麟8系的产能要同时支撑畅享和nova两条大出货量产品线。",
+     "sources": [
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/2026-10-28/doc-iniwukpw3364925.shtml"
+      },
+      {
+       "name": "爱范儿",
+       "url": "https://www.ifanr.com/digest/1686381"
       },
       {
        "name": "新浪新闻",
-       "url": "https://www.sina.cn/weibo/detail/5358742612217889.html"
+       "url": "https://www.sina.cn/weibo/detail/5359096577920226.html"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "iQOO Neo12发布即开售：标价4399元起，叠加首销优惠、平台优惠和国补后3149元",
+     "summary": "10月28日iQOO Neo12发布并开售：第五代骁龙8至尊版+自研Q3电竞芯片，9000mAh电池，2K 185Hz屏。12GB+256GB标价4399元，首销价4199元，叠加平台限时优惠后3649元，再用国补（15%，封顶500元）后3149元；16GB+1TB标价6499元。据测算，比Neo11当前成交价每档贵50—350元。",
+     "sources": [
+      {
+       "name": "什么值得买",
+       "url": "https://post.smzdm.com/p/a6zpxkmg/"
+      },
+      {
+       "name": "什么值得买",
+       "url": "https://post.smzdm.com/p/a6zpxk6o/"
+      },
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-10-28/doc-iniwuzmq3218764.shtml"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "XREAL Aura开售：首款Android XR有线AR眼镜，首发价1099美元",
+     "summary": "10月28日XREAL Aura开放订购，是首款运行谷歌Android XR的AR眼镜：计算单元用高通骁龙Reality Elite（48 TOPS），配自研X1S空间协处理器。12GB+256GB限时价1099美元（原价1279美元），16GB+512GB限时价1299美元。先在美、加、日、韩销售，11月中旬发货，2027年进入谷歌商店门店。",
+     "sources": [
+      {
+       "name": "Road to VR",
+       "url": "https://roadtovr.com/google-ar-glasses-xreal-aura-release-date-price/"
+      },
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/"
       }
      ]
     }
@@ -233,59 +371,101 @@
    "name": "联接",
    "items": [
     {
-     "tag": "利好",
-     "title": "我司发布新一代无线产品：首次把“韬定律”用于基站，UBBPi基带称节能约40%",
-     "summary": "10月27日我司在上海练秋湖研发中心举办Decoding China 2026，无线网络业务管理委员会主任方向发布：首次将“韬（τ）定律”时间缩微思路引入基站设计，推出OSCAR智能信道处理方案和UBBPi基带系列，称平均体验提升1.3倍、节能约40%；面向U6GHz的VitaAAU采用RetinaMIMO，256TRx、1500+阵子，覆盖较业界1024阵子方案提升约30%，峰值超10Gbps，已在阿联酋、中国香港、中国澳门商用；RANSpirit自智网络已落地25张以上网络、超120万小区。",
-     "table": [
-      [
-       "产品",
-       "我司公布的指标"
+     "tag": "风险",
+     "title": "工信部：前三季度电信业务收入1.3万亿元，同比下降2.5%，5G基站达525.4万个",
+     "summary": "工信部10月28日发布前三季度通信业运行数据：电信业务收入累计1.3万亿元，同比降2.5%；按上年不变价计算的业务总量增7.3%；移动互联网流量增17%；5G基站525.4万个，较上年末净增41.6万个；10G PON端口3340万个，净增177.9万个。",
+     "table": {
+      "caption": "2026年前三季度通信业主要指标",
+      "columns": [
+       "指标",
+       "数值",
+       "变化"
       ],
-      [
-       "UBBPi基带",
-       "平均体验提升1.3倍，节能约40%"
-      ],
-      [
-       "VitaAAU（U6GHz）",
-       "256TRx，覆盖较1024阵子方案提升约30%，峰值超10Gbps"
-      ],
-      [
-       "RANSpirit",
-       "25张以上网络，超120万小区"
+      "rows": [
+       [
+        "电信业务收入",
+        "1.3万亿元",
+        "同比-2.5%"
+       ],
+       [
+        "电信业务总量（不变价）",
+        "—",
+        "同比+7.3%"
+       ],
+       [
+        "移动互联网流量",
+        "3362亿GB",
+        "同比+17%"
+       ],
+       [
+        "5G基站",
+        "525.4万个",
+        "较上年末+41.6万个"
+       ],
+       [
+        "10G PON端口",
+        "3340万个",
+        "较上年末+177.9万个"
+       ],
+       [
+        "千兆宽带用户",
+        "2.65亿户",
+        "较上年末+2645万户"
+       ]
       ]
-     ],
-     "comment": "1. 韬定律从芯片和计算延伸到基带，用系统设计弥补制程受限，说明我司无线产品在不依赖先进制程的条件下仍能做出能效提升。\n2. U6GHz是5G-A到6G的过渡频段，VitaAAU已在阿联酋、港澳商用，海外订单规模取决于各国U6GHz频谱何时分配。",
+     },
+     "comment": "1. 业务总量增7.3%而收入降2.5%，说明流量增长已换不来收入；叠加中国移动三季度单季归母净利润同比降约12%，国内运营商缺少扩大无线和固网投资的收入基础，我司国内运营商网络业务的增量更多要靠算力网络和政企项目，而不是传统无线和固网集采。",
      "sources": [
       {
-       "name": "IT之家",
-       "url": "https://www.ithome.com/1/018/392.htm"
+       "name": "网易（转载工信部数据）",
+       "url": "https://www.163.com/dy/article/LABJR57Q0519QIKK.html"
       },
       {
-       "name": "澎湃新闻",
-       "url": "https://www.thepaper.cn/newsDetail_forward_34349417"
+       "name": "每日经济新闻",
+       "url": "https://www.nbd.com.cn/articles/2026-10-28/4623789.html"
       },
       {
-       "name": "快科技",
-       "url": "https://news.mydrivers.com/1/1161/1161178.htm"
-      },
-      {
-       "name": "网易",
-       "url": "https://www.163.com/dy/article/LAAUA6IB051492LM.html"
+       "name": "腾讯新闻（中国移动三季报）",
+       "url": "https://news.qq.com/rain/a/20261021A09S4Z00"
       }
      ]
     },
     {
      "tag": "关注",
-     "title": "新进展：新易盛10月累计跌约39%，公司称四季度订单强劲、1.6T放量或加速",
-     "summary": "新易盛10月27日收跌5.6%至237.59元，10月累计跌38.9%。公司回应投资者称经营正常、在手订单充足，预计四季度订单强劲、产量和出货较上期显著提升，800G和1.6T为今年交付主力，1.6T放量节奏可能加快。机构将本轮回撤归因于前期拥挤交易消化和FCC扰动等，称产业景气未逆转。",
+     "title": "SpaceX地面网络：美国铁塔称已接手Dish弃置的5G射频设备，美银估8万站约60亿美元RAN机会",
+     "summary": "美国铁塔CEO在三季度业绩会上称，依据破产弃置令公司已拥有Dish Wireless的5G设备，可向“所有有意方”提供；分析机构认为这些设备适配SpaceX在购的2GHz和800MHz频谱。美银10月28日估算SpaceX约8万个美国站点的建设带来约60亿美元RAN增量，诺基亚、爱立信为主要受益方。",
+     "comment": "1. 美国市场我司无法参与，这笔约60亿美元的潜在RAN需求只会流向诺基亚、爱立信、三星；但MoffettNathanson认为8万站含小站且可能是长期目标，加上Dish旧设备可能被直接利用，对两家欧洲厂商的实际新增订单规模暂不宜高估。",
      "sources": [
       {
-       "name": "21经济网",
-       "url": "https://www.21jingji.com/article/20261027/herald/08b4b9ee51113e064f561927322646a5.html"
+       "name": "Light Reading",
+       "url": "https://www.lightreading.com/5g/tower-companies-now-own-dish-s-abandoned-5g-radios-and-spacex-might-become-a-buyer"
       },
       {
-       "name": "21财经",
-       "url": "https://m.21jingji.com/article/20261026/herald/f3e922c275ab55475901bd6cf3faac9e.html"
+       "name": "StocksToTrade",
+       "url": "https://stockstotrade.com/news/nokia-corporation-sponsored-nok-news-2026_10_28/"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "英国VMO2在诺基亚站点试GPU版AI-RAN，频谱效率提升20%，但称集中化需大幅扩容光纤",
+     "summary": "Virgin Media O2在伦敦帕丁顿一个诺基亚站点加装英伟达GPU，用AI估计信道质量，频谱效率提升20%，但近期14亿英镑网络投资中无GPU RAN部署计划；其负责人称集中化处理需约75Gbit/s前传，而站点现有光纤仅10Gbit/s。爱立信称约6万个基站已用自研ASIC上的AI链路自适应，频谱效率提升约10%。",
+     "comment": "1. 运营商自己算出GPU集中化方案要把单站光纤带宽扩到7倍以上，且暂不纳入投资计划，说明短期内主流仍是专用基带芯片内置AI的路线（与爱立信、我司基带路线一致）；若GPU方案的20%增益在规模商用中成立，这一判断才会动摇。",
+     "sources": [
+      {
+       "name": "Light Reading",
+       "url": "https://www.lightreading.com/5g/vmo2-judges-ericsson-vs-nokia-on-ai-ran"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "T-Mobile三季度资本开支22.7亿美元、同比降14%，全年约100亿美元指引不变",
+     "summary": "T-Mobile美东10月28日盘后发布三季报：营收235.8亿美元、同比增7.4%，服务收入193.8亿美元、增6.2%；三季度资本开支22.7亿美元，同比降14%；全年资本开支指引维持约100亿美元，核心调整后EBITDA指引中值上调1亿美元。",
+     "sources": [
+      {
+       "name": "T-Mobile投资者关系",
+       "url": "https://investor.t-mobile.com/news-releases/news-release-details/t-mobile-delivers-strong-account-and-arpa-growth-translating"
       }
      ]
     }
@@ -296,113 +476,117 @@
    "name": "汽车",
    "items": [
     {
-     "tag": "风险",
-     "title": "崔东树：前三季度汽车行业利润率3.3%，9月单月降至1.4%、利润同比降68%",
-     "summary": "乘联分会秘书长崔东树10月27日发文：1—9月汽车行业营收80435亿元、增2.6%，成本71627亿元、增3.8%，利润2675亿元、降23%，利润率3.3%，为近4年低位；9月单月利润142亿元、同比降68%，利润率1.4%，粗略测算单车利润约464元。",
-     "table": [
-      [
+     "tag": "关注",
+     "title": "乘联分会：10月1—25日乘用车零售114.5万辆、同比降26%，新能源零售同比降13%",
+     "summary": "乘联分会10月28日数据：10月1—25日全国乘用车零售114.5万辆，同比降26%；批发138.4万辆，同比降22%。新能源零售75.3万辆、同比降13%，批发100.8万辆、同比增3%；零售渗透率65.7%，批发渗透率72.9%。今年累计零售1447.9万辆、同比降22%。",
+     "table": {
+      "caption": "乘联分会10月1—25日数据",
+      "columns": [
        "指标",
-       "1—9月",
-       "9月",
-       "同比(9月)"
+       "销量（万辆）",
+       "同比",
+       "环比"
       ],
-      [
-       "营收",
-       "80435亿元",
-       "10374亿元",
-       "+0.6%"
-      ],
-      [
-       "利润",
-       "2675亿元",
-       "142亿元",
-       "-68%"
-      ],
-      [
-       "利润率",
-       "3.3%",
-       "1.4%",
-       "—"
-      ],
-      [
-       "单车利润(估)",
-       "约1145元",
-       "约464元",
-       "—"
+      "rows": [
+       [
+        "乘用车零售",
+        "114.5",
+        "-26%",
+        "0%"
+       ],
+       [
+        "乘用车批发",
+        "138.4",
+        "-22%",
+        "+3%"
+       ],
+       [
+        "新能源零售",
+        "75.3",
+        "-13%",
+        "-1%"
+       ],
+       [
+        "新能源批发",
+        "100.8",
+        "+3%",
+        "+6%"
+       ],
+       [
+        "今年累计零售",
+        "1447.9",
+        "-22%",
+        "—"
+       ]
       ]
-     ],
-     "comment": "1. 9月单车利润仅约464元，车企对智驾、座舱等外采部件的压价会加大，乾崑方案的报价和毛利承压。\n2. 前三季度成本增速3.8%高于营收2.6%，车企降本无非减少高阶智驾标配或改用自研芯片，两条路都会压缩乾崑的空间。",
+     },
+     "comment": "1. 25天内批发比零售多约24万辆、新能源多约25.5万辆，新车在经销商处积压，年底清库存的降价压力可能传到智驾和座舱零部件采购价上，乾崑方案的议价空间取决于合作车企的库存消化速度。",
      "sources": [
       {
-       "name": "新浪科技（快科技）",
-       "url": "https://finance.sina.com.cn/tech/roll/2026-10-28/doc-iniwttse3369593.shtml"
+       "name": "我的钢铁网（转乘联分会）",
+       "url": "https://news.mysteel.com/a/26102817/8F488365DDC5D379.html"
       },
       {
-       "name": "新浪新闻",
-       "url": "https://www.sina.cn/weibo/detail/5358617792348382.html"
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15256371.html"
+      },
+      {
+       "name": "星岛财讯",
+       "url": "https://m.stnn.cc/detail/6ae1b9188f9d2b19ddf90d13.html"
       }
      ]
     },
     {
      "tag": "竞争",
-     "title": "比亚迪第三代秦PLUS DM-i上市，7.69万元起，可选激光雷达版天神之眼B并承诺1年城市领航兜底",
-     "summary": "比亚迪10月27日上市第三代秦PLUS DM-i，指导价7.99万—10.09万元，限时7.69万—9.79万元；纯电续航140/220km，满油满电最高2290km。可选天神之眼B辅助驾驶激光版或天神之眼5.0，支持城市领航、高快领航和全场景泊车，并在泊车兜底之外提供1年城市领航安全兜底。秦家族1—9月销量20.76万辆，同比降54.7%。",
-     "comment": "1. 比亚迪把激光雷达城市领航下放到7.69万元级车型并对事故兜底，城市NOA的价格门槛被拉到10万元以下，乾崑在15万元以下车型的空间被压缩。",
+     "title": "大众把中国改为全球研发和出口基地，与小鹏的电子架构、与地平线合资的酷睿程智驾将随车出海",
+     "summary": "大众10月28日在合肥宣布，中国策略从“在中国，为中国”改为“在中国，为全球”。与小鹏合作的CEA架构和VEGA平台（850V快充、可升级L3）将用于东南亚、南美、非洲等地的车型，2027年推出。大众中国CEO确认，与地平线合资的酷睿程2027年出海。大众三季度在华销量40.58万辆，同比降38.5%；大众中国负责人预计2026年中国车市销量低于1900万辆。",
+     "comment": "1. 大众海外车型的智驾和电子架构交给了自己参股或合资的小鹏和酷睿程，乾崑想进入外资车企的海外车型，面对的是对方已经锁定的股权合作伙伴，并不是公开竞标。\n2. 大众三季度在华销量降38.5%，自己也预计2026年中国车市不到1900万辆，外资合资品牌在国内的智驾采购量在缩小，乾崑在合资品牌上的增量要更多依靠出口车型。",
      "sources": [
       {
-       "name": "新浪科技",
-       "url": "https://finance.sina.com.cn/tech/roll/2026-10-27/doc-iniwrzhy3808030.shtml"
+       "name": "Reuters（经KSL）",
+       "url": "https://www.ksl.com/article/51641888/volkswagen-in-strategy-shift-plans-to-globalise-china-developed-technology"
       },
       {
-       "name": "CnEVPost",
-       "url": "https://cnevpost.com/2026/10/27/byd-launches-3rd-gen-qin-plus-dm-i/"
-      }
-     ]
-    },
-    {
-     "tag": "竞争",
-     "title": "理想i6改款今晚上市，据报全系换装自研马赫M100智驾芯片和96kWh连山5C电池",
-     "summary": "2026款理想i6定于10月28日19:30上市，官方已公布CLTC续航：后驱780km、四驱710km。据报全系标配自研马赫M100智驾芯片（5nm、1280TOPS）和高通8797座舱芯片，换装96kWh自研连山5C电池，准现车最快1—2周交付，售价待公布。马赫心科技10月16日已签署16.25亿元首轮融资，称将对外供货。",
-     "comment": "1. 理想把自研M100从旗舰L9扩到走量的纯电车型，马赫心科技融资后还要对外供货，车企自研智驾芯片开始和地平线、英伟达及我司争外部客户。",
-     "sources": [
-      {
-       "name": "新浪新闻",
-       "url": "https://www.sina.cn/weibo/detail/5358720041357578.html"
+       "name": "dpa（经Yahoo Finance）",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/volkswagen-shifts-china-strategy-focus-164832855.html"
       },
       {
        "name": "新浪新闻",
-       "url": "https://www.sina.cn/weibo/detail/5358723192324219.html"
-      },
-      {
-       "name": "IT之家",
-       "url": "https://www.ithome.com/1/014/007.htm"
-      }
-     ]
-    },
-    {
-     "tag": "竞争",
-     "title": "小鹏GX、G9L下周在中东上市，海外门店超1200家，前三季度海外销量翻倍",
-     "summary": "小鹏10月27日称GX与G9L将于下周在中东上市，中东GX订单近4000台；海外门店超1200家，覆盖83个国家和地区，新签尼日利亚、阿曼、科威特、阿尔巴尼亚经销商。1—9月海外销量59479辆、同比增100.1%，占总交付20.9%（去年同期9.5%），同期总交付28.44万辆、同比降9.2%。",
-     "comment": "1. 小鹏国内下滑、海外翻倍，海外销量占比已到两成，出海成为新势力对冲国内下滑的主要渠道；而据报问界要到2027年秋才进入欧洲，鸿蒙智行出海节奏明显慢于小鹏。",
-     "sources": [
-      {
-       "name": "CnEVPost",
-       "url": "https://cnevpost.com/2026/10/27/xpeng-gx-g9l-launch-middle-east-next-week/"
-      },
-      {
-       "name": "什么值得买",
-       "url": "https://post.smzdm.com/p/a03x2w7z/"
+       "url": "https://www.sina.cn/weibo/detail/5359110863461545.html"
       }
      ]
     },
     {
      "tag": "关注",
-     "title": "1—9月欧洲销量：吉利、比亚迪进入车企前十，比亚迪同比增134.6%",
-     "summary": "据界面新闻援引易车统计，2026年1—9月欧洲市场吉利集团销量34.39万辆、同比增14.5%，排第8；比亚迪28.40万辆、同比增134.6%，排第9；福特27.73万辆、降15.2%，排第10；特斯拉26.06万辆、增50%，排第13。",
+     "title": "奔驰三季度在华乘用车销量降逾20%，全年乘用车利润率指引年内第二次下调至2%—3%",
+     "summary": "奔驰10月28日公布三季报：集团息税前利润18亿欧元，乘用车销量40.7万辆、同比降8%，其中中国降逾20%，中国以外增1%。乘用车调整后利润率全年指引从约3%下调至2%—3%，四季度乘用车利润预计接近盈亏平衡。中国占奔驰乘用车销量约20%，几年前超过三分之一。",
      "sources": [
       {
-       "name": "新浪财经（界面新闻）",
-       "url": "https://finance.sina.cn/2026-10-27/detail-iniwrzhy3814143.d.html"
+       "name": "BigGo Finance",
+       "url": "https://finance.biggo.com/news/US_MBGYY_2026-10-28"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "新进展：理想i6改款上市，限时23.98万元起，全系标配自研马赫M100智驾芯片",
+     "summary": "理想i6改款10月28日晚上市，指导价24.98万元，限时价23.98万元起，11月初开始交付。全系标配单颗自研马赫M100芯片（1280TOPS）和车顶激光雷达，可选双芯片版；座舱用高通骁龙8797；电池为96kWh连山5C、800V平台，后驱版CLTC续航780公里。",
+     "comment": "1. 理想在24万元的车型上全系标配自研芯片和激光雷达，在主流价位段把智驾硬件做成了标配，对乾崑和鸿蒙智行同价位车型形成直接竞争。",
+     "sources": [
+      {
+       "name": "新浪新闻",
+       "url": "https://www.sina.cn/weibo/detail/5359149006198040.html"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "问界新M8定于11月13日上市，预售价38.98万元起，全系标配乾崑ADS 5和四颗激光雷达",
+     "summary": "问界10月28日宣布新M8将于11月13日上市，10月30日起门店试驾，预售价38.98万元起。全系基于面向L3设计的架构，标配华为乾崑ADS 5、896线主激光雷达等四颗激光雷达，共38个传感器，并标配双腔空气悬架。",
+     "sources": [
+      {
+       "name": "CNMO",
+       "url": "https://smartcar.cnmo.com/news/821265.html"
       }
      ]
     }
@@ -414,17 +598,112 @@
    "items": [
     {
      "tag": "竞争",
-     "title": "Enphase三季度营收2.93亿美元、同比降29%，四季度指引再降至2.25亿—2.55亿美元",
-     "summary": "Enphase美东时间10月27日盘后（北京时间28日凌晨）发布三季报：营收2.933亿美元，上年同期4.104亿美元；GAAP毛利率43.3%，净利2340万美元。出货微型逆变器约142万台（655.2MW），电池129.9MWh。美国终端售出同比降35%，公司称受高利率和25D户用税收抵免到期影响；欧洲收入环比降约11%、售出降12%，法国尤弱。四季度营收指引2.25亿—2.55亿美元，电池出货100—120MWh。",
-     "comment": "1. Enphase欧洲售出环比降12%、法国最弱，我司欧洲户用光伏逆变器和户储面对同一批需求，四季度欧洲户用收入大概率继续偏弱。",
+     "title": "维谛三季度营收43.1亿美元、增61%，有机订单翻倍以上，全年营收指引上调6.5亿美元",
+     "summary": "维谛10月28日发布三季报：营收43.13亿美元、同比增61%（有机增55%），有机订单同比增超100%，调整后营业利润率25.2%；客户预付款41.2亿美元、库存32.9亿美元均较上年翻倍以上。全年营收指引上调至144.5亿—148.5亿美元。管理层称原生800V直流2027年进入客户验证、2028年部署，中国市场“初现回暖迹象”，今后不再披露订单数据。",
+     "table": {
+      "caption": "维谛2026年三季度分区域营收增速",
+      "columns": [
+       "区域",
+       "同比增速",
+       "有机增速"
+      ],
+      "rows": [
+       [
+        "美洲",
+        "75%",
+        "66%"
+       ],
+       [
+        "亚太",
+        "50%",
+        "48%"
+       ],
+       [
+        "欧洲中东非洲",
+        "23%",
+        "19%"
+       ],
+       [
+        "合计",
+        "61%",
+        "55%"
+       ]
+      ]
+     },
+     "comment": "1. 维谛增长最快的美洲（增75%）我司数字能源基本无法参与，可争取的亚太也增50%，数据中心供配电和温控的海外增量对我司主要在亚太和中东。",
      "sources": [
       {
-       "name": "StockTitan",
-       "url": "https://www.stocktitan.net/news/ENPH/enphase-energy-reports-financial-results-for-the-third-quarter-of-9j4i50z5ccag.html"
+       "name": "StockTitan（维谛财报新闻稿）",
+       "url": "https://www.stocktitan.net/news/VRT/vertiv-reports-strong-third-quarter-2026-with-net-sales-growth-of-61-m3nhlt378p4h.html"
       },
       {
-       "name": "Manila Times/GlobeNewswire",
-       "url": "https://www.manilatimes.net/2026/10/28/tmt-newswire/globenewswire/enphase-energy-reports-financial-results-for-the-third-quarter-of-2026/2455535"
+       "name": "StockTitan",
+       "url": "https://www.stocktitan.net/articles/vertiv-q3-2026-earnings-customers-prepaid-4-billion"
+      },
+      {
+       "name": "Investing.com（电话会纪要）",
+       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-vertiv-tops-q3-2026-estimates-and-raises-outlook-93CH-4980196"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "光伏产业链价格横盘：多晶硅减产落地但成交清淡，TOPCon组件0.717元/W",
+     "summary": "硅业分会10月28日称，本周n型复投料成交均价4.3万元/吨、颗粒硅4.03万元/吨，均与上周持平；10月起减产落地，西南部分企业停产，下游以消化库存为主。InfoLink同日报价：TOPCon组件均价0.717元/W、周降0.3%，分布式项目0.735元/W，210尺寸TOPCon电池片涨3.4%至0.305元/W。",
+     "table": {
+      "caption": "10月28日光伏主产业链均价（InfoLink）",
+      "columns": [
+       "环节",
+       "均价",
+       "周变化"
+      ],
+      "rows": [
+       [
+        "多晶硅致密料",
+        "40.0元/kg",
+        "持平"
+       ],
+       [
+        "N型硅片182",
+        "1.000元/片",
+        "持平"
+       ],
+       [
+        "TOPCon电池片210",
+        "0.305元/W",
+        "+3.4%"
+       ],
+       [
+        "TOPCon组件",
+        "0.717元/W",
+        "-0.3%"
+       ],
+       [
+        "欧洲项目中国组件FOB",
+        "0.115美元/W",
+        "持平"
+       ]
+      ]
+     },
+     "sources": [
+      {
+       "name": "新浪财经（硅业分会）",
+       "url": "https://finance.sina.com.cn/7x24/2026-10-28/doc-iniwukpw3383024.shtml"
+      },
+      {
+       "name": "InfoLink现货价格",
+       "url": "https://www.infolink-group.com/spot-price/"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "澳大利亚能源展：宁德时代、亿纬锂能、阳光电源集中签约，据报中国企业前三季度拿下澳洲储能订单26.5GWh",
+     "summary": "澳大利亚能源展10月28日开幕，宁德时代与日立能源、EPEC集团等签署合作备忘录；亿纬锂能与Akaysha、日立能源等签战略合作；阳光电源10月27日获ENGIE Hazelwood二期150MW/300MWh储能项目。据行家说储能统计，1—9月中国储能企业获澳洲订单26.5GWh。",
+     "sources": [
+      {
+       "name": "新浪财经",
+       "url": "https://finance.sina.com.cn/roll/2026-10-28/doc-iniwuqvx5940800.shtml"
       }
      ]
     }
@@ -436,27 +715,61 @@
    "items": [
     {
      "tag": "关注",
-     "title": "美贸易代表办公室拟把对华船舶港口费暂停再延两个月至2027年1月9日",
-     "summary": "美贸易代表办公室10月26日（美东）发布通知，就延长暂停对华海事行业301措施（对中国相关船舶收港口费）征求意见，拟将原定11月初到期的暂停延至2027年1月9日，称仍在与中方接触以消除相关做法。与9月中美休战整体延至2027年1月10日的期限基本对齐。",
+     "title": "商务部：今年以旧换新带动销售超2万亿元，前三季度通讯器材零售增18.1%、9月增31.1%",
+     "summary": "10月28日商务部召开以旧换新推进会：2026年以来带动相关品类销售额超2万亿元、惠及超2.5亿人次，购买数码和智能产品超1.206亿件；2026年2500亿元超长期特别国债资金已全部下达，第四批625亿元9月下达。会议未公布2027年安排。",
+     "table": {
+      "caption": "消费品以旧换新进展（2026年以来）",
+      "columns": [
+       "指标",
+       "数值"
+      ],
+      "rows": [
+       [
+        "带动销售额",
+        "超2万亿元"
+       ],
+       [
+        "购买数码和智能产品",
+        "超1.206亿件"
+       ],
+       [
+        "家电以旧换新",
+        "超1.0099亿台"
+       ],
+       [
+        "1—9月通讯器材零售额",
+        "8123亿元，同比+18.1%"
+       ],
+       [
+        "9月通讯器材零售额",
+        "同比+31.1%"
+       ],
+       [
+        "全年补贴资金",
+        "2500亿元已全部下达"
+       ]
+      ]
+     },
+     "comment": "1. 9月通讯器材零售增31.1%，比前三季度平均18.1%高出13个百分点，补贴对国内手机需求的拉动在四季度前仍在加快，利好我司终端双11和年末销量。\n2. 全年2500亿元已全部下达、会议没有提2027年是否延续，明年一季度国内手机需求有没有补贴支撑，取决于年底中央经济工作会议怎么定。",
      "sources": [
       {
-       "name": "gCaptain（转述彭博）",
-       "url": "https://gcaptain.com/us-plans-two-month-extension-to-shipping-fee-truce-with-china/"
+       "name": "新浪科技（转IT之家）",
+       "url": "https://finance.sina.com.cn/tech/digi/2026-10-28/doc-iniwukpx9515249.shtml"
       },
       {
-       "name": "Geopolitechs",
-       "url": "https://www.geopolitechs.org/p/new-details-on-us-china-trade-talks"
+       "name": "FX168",
+       "url": "https://www.fx168news.com/express/fastnews/1456803"
       }
      ]
     },
     {
      "tag": "关注",
-     "title": "安世半导体三季度不含中国业务营收3.89亿美元，环比增9.3%",
-     "summary": "安世10月27日发布三季度业绩：不含已于2025年10月1日出表的中国子公司，营收3.89亿美元、环比增9.3%，经营现金流5500万美元，现金4.46亿美元；马来西亚、菲律宾封测年产能约550亿颗，并与印度塔塔合作晶圆制造和封测，预计四季度增长加快。2025年全年报告仍未发布。",
+     "title": "美联储10月议息维持利率3.75%—4%不变，投票10比2",
+     "summary": "美联储10月28日（北京时间10月29日凌晨）宣布联邦基金利率维持在3.75%—4%，投票10比2；9月加息后选择等待更多数据，称通胀仍偏高。主席沃什随后召开发布会。",
      "sources": [
       {
-       "name": "Evertiq",
-       "url": "https://evertiq.com/design/2026-10-27-nexperia-grows-revenue-for-another-quarter-without-its-chinese-units"
+       "name": "Fox Business",
+       "url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-october-28-2026"
       }
      ]
     }
@@ -467,90 +780,98 @@
    "name": "芯片半导体",
    "items": [
     {
-     "tag": "风险",
-     "title": "SK海力士三季度营收104.6万亿韩元、营业利润率80%，2027—2028年过半产能已签长协",
-     "summary": "SK海力士10月28日发布三季报：营收104.6万亿韩元，环比增32%；营业利润83.3万亿韩元，利润率80%。DRAM均价环比涨近三成，NAND涨约25%。公司已与14家大客户签长协，覆盖2027—2028年一半以上产能，期限多为五年。公司称存储供不应求将持续到2030年，2027年资本开支将大幅增加；预计四季度HBM4出货量和营收都将超过HBM3E；明年HBM量价谈判已完成。另外，公司已停止推进Solidigm上市。",
-     "table": [
-      [
+     "tag": "关注",
+     "title": "据路透：长鑫存储HBM3E良率仅20%—30%，已向国产AI芯片厂送样，拟两个月内小批量生产",
+     "summary": "据路透10月28日报道，长鑫已向多家国产AI芯片设计公司送样HBM3E（标准版和提良率改进版），计划约两个月内有限量产，相关产品最早2027年上市；良率约20%—30%，SK海力士约70%；测试性能更接近上一代HBM3，成本将高于海外同类产品。",
+     "table": {
+      "caption": "HBM对比（据路透及Counterpoint）",
+      "columns": [
        "指标",
-       "三季度",
-       "环比/同比"
+       "长鑫",
+       "SK海力士"
       ],
-      [
-       "营收",
-       "104.6万亿韩元",
-       "+32%/+328%"
-      ],
-      [
-       "营业利润",
-       "83.3万亿韩元",
-       "+38%/+632%"
-      ],
-      [
-       "营业利润率",
-       "80%",
-       "—"
-      ],
-      [
-       "DRAM/NAND均价",
-       "涨近30%/涨约25%",
-       "环比"
-      ],
-      [
-       "四季度DRAM出货指引",
-       "增约25%",
-       "环比"
+      "rows": [
+       [
+        "HBM3E良率",
+        "约20%—30%",
+        "约70%"
+       ],
+       [
+        "二季度HBM收入份额",
+        "—",
+        "50%（三星33%、美光18%）"
+       ],
+       [
+        "通用DRAM收入份额",
+        "约10%，全球第四",
+        "—"
+       ]
       ]
-     ],
-     "comment": "1. 2027—2028年一半以上产能已签给14家大客户，剩下的产能只能随行就市抢购，我司终端和服务器的存储采购要按多年高价、紧供给来规划。\n2. 公司称新增产能优先用于HBM4、服务器DDR5和AI服务器用LPDDR5 SOCAMM，没有提手机内存扩产，手机存储成本压力短期难缓解。",
+     },
+     "comment": "1. 仅按良率折算，长鑫每颗合格HBM3E分摊的晶圆成本约为SK海力士的2.3—3.5倍，且性能接近上一代HBM3、最早2027年才进入终端产品，2026年内昇腾的HBM供应和成本压力难以靠国产HBM缓解。",
      "sources": [
       {
-       "name": "SK海力士新闻中心",
-       "url": "https://news.skhynix.com/en/q3-2026-business-results/"
+       "name": "TrendForce",
+       "url": "https://www.trendforce.com/news/2026/10/28/news-cxmt-reportedly-ships-hbm3e-samples-eyes-production-within-2-months-despite-20-30-yields/"
       },
       {
-       "name": "BigGo Finance",
-       "url": "https://finance.biggo.com/news/US_SKHY_2026-10-27"
+       "name": "The Next Web（转引路透）",
+       "url": "https://thenextweb.com/news/cxmt-hbm3e-ai-memory-low-yields-reuters"
       },
       {
-       "name": "Investing.com",
-       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-sk-hynix-posts-record-q3-2026-results-shares-jump-after-hours-93CH-4977343"
-      },
-      {
-       "name": "HNGN",
-       "url": "https://www.hngn.com/articles/273599/20261028/sk-hynix-posts-first-100-trillion-won-quarter-80-margin.htm"
+       "name": "Edaily",
+       "url": "https://en.edaily.co.kr/news/eda202610285751/"
       }
      ]
     },
     {
      "tag": "关注",
-     "title": "据报：台积电拟上调CoWoS封装价格10%—20%",
-     "summary": "据《工商时报》引述供应链人士，台积电正考虑将CoWoS先进封装报价上调10%—20%，需求已从GPU扩展到CPU和ASIC；生效时间未披露，尚未经官方确认。分析师预计台积电CoWoS月产能2026年超过13万片、2027年达到20万片；相关设备交期已从3—6个月拉长到6—8个月。",
-     "comment": "1. CoWoS涨价推高英伟达、AMD和云厂商自研ASIC的成本，海外AI芯片的降价空间变小，昇腾在海外报价上的价格压力相应减轻。",
+     "title": "KLA上财季营收41.4亿美元，指引本季营收47亿美元、环比增约14%",
+     "summary": "KLA于美东10月28日盘后发布2027财年一季度（截至9月30日）业绩：营收41.4亿美元（上年同期32.1亿美元），GAAP净利15.5亿美元；指引12月季营收47亿美元±2亿美元，毛利率约62.5%。CEO称需求来自晶圆代工和逻辑先进设计增加及存储复杂度提升。",
+     "table": {
+      "caption": "KLA 2027财年一季度",
+      "columns": [
+       "指标",
+       "本季",
+       "上年同期"
+      ],
+      "rows": [
+       [
+        "营收",
+        "41.4亿美元",
+        "32.1亿美元"
+       ],
+       [
+        "GAAP净利",
+        "15.5亿美元",
+        "11.2亿美元"
+       ],
+       [
+        "下季营收指引",
+        "47亿±2亿美元",
+        "—"
+       ]
+      ]
+     },
      "sources": [
       {
-       "name": "凤凰网科技（IT之家）",
-       "url": "https://tech.ifeng.com/c/8xYjGeAPjsD"
-      },
-      {
-       "name": "21经济网",
-       "url": "https://www.21jingji.com/article/20261027/herald/320949acec8009ad6d025ffc4c705c1e.html"
+       "name": "StockTitan（KLA新闻稿）",
+       "url": "https://www.stocktitan.net/news/KLAC/kla-corporation-reports-fiscal-2027-first-quarter-c4typye17e88.html"
       }
      ]
     },
     {
      "tag": "关注",
-     "title": "新进展：美光桃园厂劳资第二次协商未达成共识，暂定11月6日再谈",
-     "summary": "10月27日，美光与桃园厂工会第二次协商未达成共识，原因是美光仍未拿出具体的分润制度方案。第三次协商暂定11月6日，罢工可能性没有解除。据报，桃园厂约占美光DRAM产能22%，美光台湾产量约占其全球六成。",
-     "comment": "1. 桃园厂据报约占美光DRAM产能22%，协商破裂若升级为长期罢工，DRAM供给会更紧，我司终端和服务器的内存采购价进一步承压。",
+     "title": "豪威集团三季度净利10.79亿元、同比降8.7%，称存储供需失衡拖累消费和汽车电子需求",
+     "summary": "豪威集团10月28日披露：三季度营收81.24亿元、同比增3.8%，归母净利10.79亿元、同比降8.74%；前三季度净利22.99亿元、同比降28.39%。公司称存储芯片供需失衡、消费及汽车电子需求走弱、分销业务占比上升拉低毛利率。",
      "sources": [
       {
-       "name": "Yahoo奇摩新闻",
-       "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%85%89%E6%A1%83%E5%9C%92%E5%BB%A0%E5%8B%9E%E8%B3%87%E6%9C%AA%E8%A7%A3-%E5%B7%A5%E6%9C%83%E8%88%87%E8%B3%87%E6%96%B911%E6%9C%88%E5%86%8D%E5%8D%94%E5%95%86-110402330.html"
+       "name": "新浪财经半导体热点小时报",
+       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908ssik.html"
       },
       {
-       "name": "BigGo财经",
-       "url": "https://finance.biggo.com.tw/news/7fea4c4c-d0c0-4d7c-b17c-63247d0108a9"
+       "name": "新浪财经半导体热点小时报",
+       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908stao.html"
       }
      ]
     }
@@ -559,16 +880,16 @@
  ],
  "watch": [
   {
-   "when": "10月28日 周三",
-   "text": "我司双十一全场景新品发布会（14:30，Pura 90 Plus定价、畅享100系列）；理想i6改款上市（19:30）；美联储议息结果于北京时间29日凌晨公布"
-  },
-  {
    "when": "10月29日 周四",
-   "text": "三星电子三季报（看HBM4与长协比例）；FCC表决禁止中国实验室为美国市场检测电子产品；五中全会闭幕；欧洲央行议息"
+   "text": "三星电子三季度完整财报（存储、代工、手机分部）；美FCC表决取消“无对等市场准入”国家检测实验室资质（中国实验室承担约82%的FCC认证申请）；二十届五中全会闭幕公报。"
   },
   {
-   "when": "11月6日 周五",
-   "text": "美光桃园厂劳资第三次协商，若破裂可能升级罢工"
+   "when": "10月30日 周五",
+   "text": "亚马逊、英特尔三季报（北京时间凌晨）：AWS增速与全年资本支出能否确认约2200亿美元。"
+  },
+  {
+   "when": "11月13日 周五",
+   "text": "问界新M8上市，全系标配乾崑ADS 5与四颗激光雷达，预售价38.98万元起。"
   }
  ]
 }

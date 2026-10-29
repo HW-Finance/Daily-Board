@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-28",
- "updatedAt": "2026-10-28 14:19",
+ "asOf": "2026-10-29",
+ "updatedAt": "2026-10-29 06:57",
  "config": [
   {
    "domain": "汇率",
@@ -2696,10 +2696,10 @@
   "auto": {
    "id": "auto",
    "name": "智能汽车",
-   "judgment": "国内零售深跌、出口撑起批发，智驾向双强集中",
-   "direction": "持平",
-   "directionNote": "较8月：新能源零售环比+7.8%、渗透率新高，但国内总量同比-28%未改善",
-   "asOf": "2026-10-23",
+   "judgment": "10月零售仍降26%，大众智驾出海选小鹏",
+   "direction": "恶化",
+   "directionNote": "较10月23日：国内零售仍深跌，大众海外智驾锁定小鹏和地平线合资方",
+   "asOf": "2026-10-28",
    "keyNumbers": [
     {
      "label": "9月乘用车零售（乘联会）",
@@ -2735,8 +2735,36 @@
      }
     }
    ],
-   "change": "本期新增：乘联会10月零售预测约160万辆（同比-28.9%），新能源约107万辆、渗透率约66.9%。未核实：特斯拉FSD在华获批、Q3财报会日期。",
+   "change": "本期新增：乘联会10月1—25日零售同比-26%、新能源零售-13%；大众宣布中国研发技术出海，智驾交给小鹏、酷睿程。未找到鸿蒙智行10月周销量的权威数据。",
    "facts": [
+    {
+     "text": "乘联会10月1—25日：乘用车零售114.5万辆、同比-26%，批发138.4万辆、-22%；新能源零售75.3万辆、-13%，批发100.8万辆、+3%；零售渗透率65.7%。",
+     "src": [
+      {
+       "name": "我的钢铁网（转乘联分会）",
+       "url": "https://news.mysteel.com/a/26102817/8F488365DDC5D379.html",
+       "date": "2026-10-28",
+       "repost": true
+      },
+      {
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15256371.html",
+       "date": "2026-10-28",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "大众中国战略转向：10月28日宣布“在中国，为全球”，与小鹏合作的CEA架构2027年用于海外车型，与地平线合资的酷睿程2027年出海；三季度在华销量40.58万辆、-38.5%。",
+     "src": [
+      {
+       "name": "Reuters（经KSL）",
+       "url": "https://www.ksl.com/article/51641888/volkswagen-in-strategy-shift-plans-to-globalise-china-developed-technology",
+       "date": "2026-10-28",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "乘联会10月零售预测：约160万辆，环比-1.1%、同比-28.9%；新能源约107万辆，渗透率约66.9%，略低于9月高点。多数车企前三季度完成年度目标不足60%，但受“反内卷”和利润约束难大幅降价。",
      "src": [
@@ -3036,6 +3064,13 @@
      "confidence": "中"
     },
     {
+     "text": "推断：大众海外车型的智驾交给参股的小鹏和合资的酷睿程，乾崑进入外资海外车型面对股权绑定伙伴。",
+     "biz": "智能汽车解决方案",
+     "direction": "利空",
+     "magnitude": "暂难量化：大众海外车型规划销量未公布",
+     "confidence": "中"
+    },
+    {
      "text": "推断：华为在第三方城区NOA阵营位置稳固，但比亚迪、理想、奇瑞等头部车企加大自研，可争取的大客户池在变小。",
      "biz": "智能汽车解决方案",
      "direction": "不确定",
@@ -3073,6 +3108,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "Reuters（经KSL）",
+     "url": "https://www.ksl.com/article/51641888/volkswagen-in-strategy-shift-plans-to-globalise-china-developed-technology",
+     "date": "2026-10-28",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "我的钢铁网（转乘联分会）",
+     "url": "https://news.mysteel.com/a/26102817/8F488365DDC5D379.html",
+     "date": "2026-10-28",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "搜狐汽车（乘联分会10月预测）",
      "url": "https://www.sohu.com/a/1091824400_115831",
@@ -3191,9 +3240,9 @@
   "ict6g": {
    "id": "ict6g",
    "name": "5G/5G-A 向 6G 代际切换与演进",
-   "judgment": "国内无线投资继续收缩，6G首版规范2029年才完成",
+   "judgment": "电信收入同比降2.5%，国内无线投资难回升",
    "direction": "恶化",
-   "directionNote": "中国移动前三季度资本开支降11.8%，比全年计划降幅9.5%更深",
+   "directionNote": "较10月28日：新增全行业收入下滑数据，佐证运营商投资收缩",
    "asOf": "2026-10-28",
    "keyNumbers": [
     {
@@ -3233,8 +3282,30 @@
      }
     }
    ],
-   "change": "本期新增：中兴三季报，算力占营收38%，未单列运营商网络收入；我司发布UBBPi基带与U6GHz VitaAAU。仍未查到：中国电信、中国联通三季度资本开支分项。",
+   "change": "本期新增：工信部前三季度电信业务收入同比-2.5%、流量+17%；T-Mobile三季度资本开支-14%。中国电信、联通三季度资本开支执行数未检索到。",
    "facts": [
+    {
+     "text": "工信部前三季度通信业：电信业务收入1.3万亿元、同比-2.5%，不变价业务总量+7.3%，移动互联网流量+17%；10G PON端口3340万个，较上年末+177.9万个。",
+     "src": [
+      {
+       "name": "每日经济新闻（工信部数据）",
+       "url": "https://www.nbd.com.cn/articles/2026-10-28/4623789.html",
+       "date": "2026-10-28",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "T-Mobile资本开支：三季度22.7亿美元、同比-14%，全年约100亿美元指引不变。",
+     "src": [
+      {
+       "name": "T-Mobile投资者关系",
+       "url": "https://investor.t-mobile.com/news-releases/news-release-details/t-mobile-delivers-strong-account-and-arpa-growth-translating",
+       "date": "2026-10-28",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "我司UBBPi基带发布：称平均体验提升1.3倍、能耗降40%；10月27日与OSCAR信道处理方案一同发布，首次将“韬定律”用于基站；VitaAAU将RetinaMIMO引入U6GHz，256TRx、峰值10Gbps，已在阿联酋、香港、澳门商用。",
      "src": [
@@ -3404,6 +3475,11 @@
     }
    ],
    "inferences": [
+    {
+     "text": "推断：国内运营商流量增17%而收入降2.5%，收入端无力支撑无线投资回升。",
+     "confidence": "中",
+     "basis": "工信部前三季度数据；中国移动前三季度资本开支约-11.8%"
+    },
     {
      "text": "推断：2027–2028年国内无线主设备投资难回升，6G规模投资最早在2029年首版规范完成后。",
      "confidence": "中",
@@ -3575,6 +3651,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "T-Mobile投资者关系",
+     "url": "https://investor.t-mobile.com/news-releases/news-release-details/t-mobile-delivers-strong-account-and-arpa-growth-translating",
+     "date": "2026-10-28",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "每日经济新闻（工信部数据）",
+     "url": "https://www.nbd.com.cn/articles/2026-10-28/4623789.html",
+     "date": "2026-10-28",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "21世纪经济报道（UBBPi基带）",
      "url": "https://www.21jingji.com/article/20261028/herald/3df61ecbf94698ebe02f786b5d580cd1.html",
@@ -4690,9 +4780,9 @@
   "cloudcapex": {
    "id": "cloudcapex",
    "name": "云厂商资本开支与 AI 回报",
-   "judgment": "资本开支增速远超云收入，AI回报待三季报验证",
-   "direction": "改善",
-   "directionNote": "与2025年同期比，阿里、腾讯单季资本开支分别增75%、176%，国内算力采购盘子扩大",
+   "judgment": "谷歌云收入翻倍追上投入，微软新签订单转降",
+   "direction": "持平",
+   "directionNote": "与10月28日相比：海外云投入继续加码、收入追上，国内无新数据",
    "asOf": "2026-10-28",
    "keyNumbers": [
     {
@@ -4708,14 +4798,13 @@
     },
     {
      "label": "Alphabet 2026全年资本开支指引",
-     "value": "最高2,050亿美元",
-     "compare": "原指引1,800亿—1,900亿美元",
+     "value": "1,950亿—2,050亿美元",
+     "compare": "三季报维持7月指引；2027年将显著增加",
      "source": {
-      "name": "The Next Web",
-      "url": "https://thenextweb.com/news/alphabet-q2-2026-capex-205bn-cloud-82",
-      "date": "2026-07-23",
-      "repost": true,
-      "stale": true
+      "name": "Alphabet三季度财报新闻稿",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+      "date": "2026-10-28",
+      "repost": false
      }
     },
     {
@@ -4742,8 +4831,53 @@
      }
     }
    ],
-   "change": "本期新增：Anthropic招股书披露5420亿—5670亿美元算力承诺，获630亿美元博通芯片融资；Meta三季度资本开支349.1亿美元、拟发股募资最多950亿美元；甲骨文OCI将上架谷歌TPU。微软、Alphabet、亚马逊三季报未出。",
+   "change": "本期新增：Alphabet三季报（谷歌云+103%、资本开支514亿美元、2027年显著增加）；微软Azure+48%但新签订单-12%；甲骨文称资本支出2029财年回落。微软电话会指引未检索到，亚马逊三季报未出。",
    "facts": [
+    {
+     "text": "谷歌三季度业绩：谷歌云收入307亿美元、+103%，经营利润111亿（上年36亿），TPU系统销售为重要贡献；云积压订单5610亿；单季资本开支514亿（上年240亿），2027年将显著增加。",
+     "src": [
+      {
+       "name": "Alphabet三季度财报新闻稿",
+       "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+       "date": "2026-10-28",
+       "repost": false
+      },
+      {
+       "name": "Investing.com（Alphabet电话会实录）",
+       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037",
+       "date": "2026-10-28",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "微软FY27 Q1业绩：营收923亿美元、+19%，Azure+48%；资本支出含融资租赁452亿、+30%，现金口径394亿；商业剩余履约义务6770亿、同比+73%但环比持平，商业新签订单同比-12%。",
+     "src": [
+      {
+       "name": "微软新闻中心",
+       "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+       "date": "2026-10-28",
+       "repost": false
+      },
+      {
+       "name": "新浪财经（财联社）",
+       "url": "https://finance.sina.cn/2026-10-29/detail-iniwvmzh6291104.d.html",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "甲骨文资本支出展望：10月28日称资本支出2029财年开始回落，当年自由现金流约300亿美元；2030年5月前新增股债融资不超过200亿美元。",
+     "src": [
+      {
+       "name": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/article/oracle-stock-soars-as-it-promises-the-ai-spending-will-start-paying-for-itself-201056802.html",
+       "date": "2026-10-28",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "甲骨文OCI上架TPU：10月27日宣布2027年起提供谷歌第八代TPU，成首家对外出租TPU的大型云厂商；同时部署OpenAI与博通合研的Jalapeño芯片、Cerebras CS-4、SambaNova SN50，英伟达Vera Rubin扩至多吉瓦级。",
      "src": [
@@ -4935,9 +5069,9 @@
      "basis": "Anthropic多芯片路线与5420亿—5670亿美元承诺；630亿美元博通芯片融资获博通残值支持"
     },
     {
-     "text": "推断：二季度美国四家资本开支合计约1,660亿美元，三家云收入约1,063亿美元，投入明显快于云收入兑现。",
+     "text": "推断：谷歌云增103%接近其资本开支增速114%，Azure增48%快于微软资本支出增30%，投入开始被收入追上。",
      "confidence": "中",
-     "basis": "各公司二季度财报；资本开支含非云用途，比值只代表投入强度"
+     "basis": "Alphabet、微软三季报；资本开支含非云用途"
     },
     {
      "text": "推断：大模型长期合同为云厂商锁定部分收入，但集中度高：Anthropic对谷歌云、AWS合同各约1,100亿美元，且仍大额亏损。",
@@ -4973,50 +5107,50 @@
    "charts": [
     {
      "type": "hbar",
-     "title": "最近一季资本开支（实际数，非三季报）",
+     "title": "最近一季资本开支（实际数）",
      "unit": "亿美元",
      "rows": [
       {
        "name": "亚马逊",
        "value": 542,
-       "sub": "4—6月，同比+68%；全年约2,200亿（媒体）"
+       "sub": "4—6月，同比+68%"
       },
       {
        "name": "Alphabet",
-       "value": 449,
-       "sub": "4—6月，同比+100%；全年最高2,050亿"
+       "value": 514,
+       "sub": "7—9月，同比+114%"
       },
       {
        "name": "微软",
-       "value": 358,
-       "sub": "4—6月，同比+110%；FY26全年1,159亿"
+       "value": 394,
+       "sub": "7—9月，现金口径"
       },
       {
        "name": "Meta",
-       "value": 311,
-       "sub": "4—6月；全年1,300亿—1,450亿"
+       "value": 349.1,
+       "sub": "7—9月，上年约194亿"
       },
       {
        "name": "甲骨文",
        "value": 280,
-       "sub": "6—8月；全年指引暂无可靠数据"
+       "sub": "6—8月"
       },
       {
        "name": "阿里巴巴",
        "value": 99.8,
-       "sub": "4—6月，同比+75%；无全年指引"
+       "sub": "4—6月，同比+75%"
       },
       {
        "name": "腾讯",
        "value": 77.8,
-       "sub": "4—6月，同比+176%；无全年指引"
+       "sub": "4—6月，同比+176%"
       }
      ],
-     "note": "均为最近已披露季度实际数：美国厂商为2026年二季度，甲骨文为FY27 Q1。亚马逊、Alphabet为毛额，微软不含融资租赁，Meta含融资租赁本金；腾讯按汇率约6.785估算折美元。",
+     "note": "Alphabet、微软、Meta为7—9月，亚马逊、阿里、腾讯为4—6月，甲骨文为6—8月；微软为现金口径（含租赁452亿），腾讯按约6.785折美元。",
      "source": {
-      "name": "各公司财报新闻稿（微软8-K、Alphabet 8-K、亚马逊IR、Meta IR、甲骨文幻灯片、阿里6-K、腾讯公告）",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results",
-      "date": "2026-07-30"
+      "name": "各公司财报新闻稿",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+      "date": "2026-10-28"
      }
     },
     {
@@ -5031,8 +5165,13 @@
       },
       {
        "name": "谷歌云",
-       "value": 82,
-       "sub": "4—6月，248亿美元"
+       "value": 103,
+       "sub": "7—9月，307亿美元"
+      },
+      {
+       "name": "Azure及其他云服务",
+       "value": 48,
+       "sub": "7—9月，332亿美元"
       },
       {
        "name": "阿里AI云与算力服务",
@@ -5040,21 +5179,16 @@
        "sub": "4—6月，484亿元"
       },
       {
-       "name": "Azure及其他云服务",
-       "value": 43,
-       "sub": "4—6月，收入额未单独披露"
-      },
-      {
        "name": "AWS",
        "value": 37,
        "sub": "4—6月，422亿美元"
       }
      ],
-     "note": "口径不完全可比：谷歌云含Workspace，阿里含平头哥，甲骨文仅IaaS；腾讯未披露云收入增速。",
+     "note": "谷歌云、Azure为7—9月，其余为上一季；口径不完全可比：谷歌云含Workspace，阿里含平头哥，甲骨文仅IaaS。",
      "source": {
-      "name": "各公司财报新闻稿（微软8-K、Alphabet 8-K、亚马逊IR、阿里6-K、甲骨文幻灯片）",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000066/googexhibit991q22026.htm",
-      "date": "2026-07-22"
+      "name": "Alphabet、微软三季度财报及各公司前期财报",
+      "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+      "date": "2026-10-28"
      }
     },
     {
@@ -5069,18 +5203,18 @@
       },
       {
        "name": "Alphabet",
-       "value": 1.81,
-       "sub": "449亿/谷歌云248亿"
+       "value": 1.67,
+       "sub": "514亿/谷歌云307亿"
       },
       {
        "name": "阿里巴巴",
        "value": 1.4,
-       "sub": "677亿元/AI云484亿元"
+       "sub": "677亿/484亿元"
       },
       {
        "name": "亚马逊",
        "value": 1.28,
-       "sub": "542亿/AWS 422亿"
+       "sub": "542亿/422亿"
       },
       {
        "name": "微软",
@@ -5088,7 +5222,7 @@
        "sub": "358亿/智能云393亿"
       }
      ],
-     "note": "计算值：全公司资本开支（含非云用途）/云分部收入；微软若用微软云（593亿）则为0.60。仅反映投入强度。Meta、腾讯无可比云收入，未列入。",
+     "note": "计算值：全公司资本开支/云分部收入。Alphabet为7—9月，其余为上一季；微软智能云三季度收入未获取，仍为4—6月。仅反映投入强度。",
      "source": {
       "name": "各公司财报新闻稿（见第一张图）",
       "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323632/msft-ex99_1.htm",
@@ -5097,11 +5231,18 @@
     }
    ],
    "drivers": [
-    "云需求超供给：AWS增速37%为18个季度新高，谷歌云积压订单5,140亿美元",
+    "云需求超供给：谷歌云三季度+103%，积压订单5610亿美元",
     "大模型锁定算力：Anthropic约4,500亿美元十年期不可撤销合同",
     "芯片元器件涨价：阿里财报列为资本开支增长原因之一"
    ],
    "impact": [
+    {
+     "text": "推断：谷歌把TPU整柜卖给近100家客户，海外非英伟达算力市场上昇腾的主要对手是谷歌。",
+     "biz": "昇腾鲲鹏",
+     "direction": "利空",
+     "magnitude": "暂难量化：TPU外销收入未单独披露",
+     "confidence": "中"
+    },
     {
      "text": "推断：阿里、腾讯单季资本开支合计约1,200亿元且在加速，昇腾订单机会增多，但同批客户也大量采购英伟达RTX PRO 5500。",
      "biz": "昇腾鲲鹏",
@@ -5126,11 +5267,6 @@
    ],
    "signals": [
     {
-     "what": "微软FY27 Q1、Alphabet三季报（云增速与资本开支）",
-     "when": "2026-10-28（美东时间盘后）",
-     "why": "验证云收入增速能否跟上资本开支增速"
-    },
-    {
      "what": "亚马逊三季报（AWS增速、全年资本开支）",
      "when": "2026-10-29（电话会太平洋时间14:00）",
      "why": "看AWS加速能否持续、全年约2,200亿美元是否确认"
@@ -5142,6 +5278,41 @@
     }
    ],
    "sources": [
+    {
+     "name": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/article/oracle-stock-soars-as-it-promises-the-ai-spending-will-start-paying-for-itself-201056802.html",
+     "date": "2026-10-28",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "新浪财经（财联社）",
+     "url": "https://finance.sina.cn/2026-10-29/detail-iniwvmzh6291104.d.html",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "微软新闻中心",
+     "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/",
+     "date": "2026-10-28",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "Investing.com（Alphabet电话会实录）",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037",
+     "date": "2026-10-28",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "Alphabet三季度财报新闻稿",
+     "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+     "date": "2026-10-28",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "The Star（路透，630亿美元融资）",
      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/27/wall-street-banks-blackstone-line-up-63-billion-to-finance-broadcom-chips-for-anthropic",
@@ -5692,10 +5863,10 @@
   "dcenergy": {
    "id": "dcenergy",
    "name": "数据中心能源",
-   "judgment": "AI数据中心电力需求继续上修，电网接入成主要瓶颈",
+   "judgment": "维谛订单翻倍，AI数据中心电力需求仍在加速",
    "direction": "改善",
-   "directionNote": "较二季度：施耐德年内二次上调目标，Q3数据中心需求三位数增长，亚洲领涨",
-   "asOf": "2026-10-18",
+   "directionNote": "较10月18日：维谛有机增速55%，高于此前34%—36%指引",
+   "asOf": "2026-10-28",
    "keyNumbers": [
     {
      "label": "施耐德电气Q3营收",
@@ -5732,8 +5903,30 @@
      }
     }
    ],
-   "change": "本期新增：施耐德Q3数据中心需求三位数增长，再次上调全年目标；FT统计2026年超47个美国大型数据中心项目延迟、撤回或受阻。维谛Q3未发布，仍用Q2数据和Q3指引。",
+   "change": "本期新增：维谛三季报营收+61%、有机订单翻倍、全年指引上调，800V直流2027年验证、2028年部署。未检索到能源局1—9月数据中心用电数据。",
    "facts": [
+    {
+     "text": "维谛三季度业绩：营收43.13亿美元、+61%（有机+55%），有机订单翻倍以上，客户预付款41.2亿；美洲+75%、亚太+50%、欧洲中东非洲+23%；全年营收指引上调至144.5亿—148.5亿。",
+     "src": [
+      {
+       "name": "StockTitan（维谛财报新闻稿）",
+       "url": "https://www.stocktitan.net/news/VRT/vertiv-reports-strong-third-quarter-2026-with-net-sales-growth-of-61-m3nhlt378p4h.html",
+       "date": "2026-10-28",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "维谛800V直流节奏：电话会称原生800V直流2027年进入客户验证、2028年部署；中国市场初现回暖；今后不再披露订单数据。",
+     "src": [
+      {
+       "name": "Investing.com（维谛电话会纪要）",
+       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-vertiv-tops-q3-2026-estimates-and-raises-outlook-93CH-4980196",
+       "date": "2026-10-28",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "FT美国项目受阻统计：RegLayer称2026年超47个美国大型数据中心项目因地方反对（用电、用水、税收优惠）延迟、撤回或受阻；Bernstein称约35%规划管线可信，制约来自并网周期、变压器短缺和液冷瓶颈。",
      "src": [
@@ -5838,6 +6031,11 @@
     }
    ],
    "inferences": [
+    {
+     "text": "推断：海外AI数据中心电力设备需求仍在加速，维谛有机增速55%远高于此前34%—36%指引。",
+     "confidence": "高",
+     "basis": "维谛三季报有机增速及上调后的全年指引"
+    },
     {
      "text": "推断：数据中心是施耐德本季增长主引擎，中国及东亚增速最高，国内AIDC供配电投资处于放量期。",
      "confidence": "中",
@@ -5958,11 +6156,19 @@
     }
    ],
    "drivers": [
+    "订单加速：维谛有机订单翻倍，客户预付款41.2亿美元",
     "预测上修：加速服务器用电年增约30%，BNEF美国2035年预测由106GW调至194GW",
     "并网受阻：美国单年并网纪录仅7.1GW，叠加变压器短缺、地方反对，超47个项目受阻",
     "液冷普及：液冷服务器渗透率2025年20%，预计2026年37%（单一机构）"
    ],
    "impact": [
+    {
+     "text": "推断：维谛美洲增75%最快但我司难进入，亚太增50%是数字能源可竞争的增量。",
+     "biz": "数字能源",
+     "direction": "不确定",
+     "magnitude": "暂难量化：缺少亚太数据中心电源市场份额数据",
+     "confidence": "中"
+    },
     {
      "text": "推断：中国及东亚数据中心需求领涨，利好我司数据中心能源（供配电、温控）国内订单。",
      "biz": "数字能源",
@@ -5987,11 +6193,6 @@
    ],
    "signals": [
     {
-     "what": "维谛Q3财报（订单、backlog、有机增速）",
-     "when": "10月下旬（未官宣）",
-     "why": "有机增速若低于34%—36%指引，说明交付受瓶颈制约"
-    },
-    {
      "what": "能源局1—9月信息技术服务业用电增速",
      "when": "10月下旬（未官宣）",
      "why": "验证国内数据中心用电是否维持高增"
@@ -6003,6 +6204,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "Investing.com（维谛电话会纪要）",
+     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-vertiv-tops-q3-2026-estimates-and-raises-outlook-93CH-4980196",
+     "date": "2026-10-28",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "StockTitan（维谛财报新闻稿）",
+     "url": "https://www.stocktitan.net/news/VRT/vertiv-reports-strong-third-quarter-2026-with-net-sales-growth-of-61-m3nhlt378p4h.html",
+     "date": "2026-10-28",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "IEA Energy and AI",
      "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
@@ -7065,7 +7280,7 @@
     "name": "AI 是否存在泡沫",
     "desc": "资本开支增速能否被收入兑现",
     "claim": "AI存在泡沫：资本开支增速难以被收入兑现",
-    "summary": "推断：芯片供应链CEO（黄仁勋、魏哲家、富凯）一致称需求未见放缓，明确的质疑只来自陈福阳对投资者预期的批评；反方声音少且多来自供给方，需用10月底美国云厂商三季报的云收入增速来检验。",
+    "summary": "推断：需求方开始用收入回应：皮查伊称TPU系统需求强劲，谷歌云增103%接近其资本开支增速114%；纳德拉称帮客户“构建并拥有自己的智能”。质疑仍只来自陈福阳；是否泡沫取决于2027年加码的开支能否继续被云收入覆盖。",
     "confidence": "中"
    },
    {
@@ -7073,7 +7288,7 @@
     "name": "AI 算力需求的持续性",
     "desc": "训练转推理后需求是增是减",
     "claim": "训练转向推理后，算力需求继续增长",
-    "summary": "推断：供给方（英伟达、台积电、ASML、AMD）和需求方（阿里）都称需求超过供给，分歧不在需求本身，而在封装、电力、内存等供给瓶颈何时缓解。",
+    "summary": "推断：供给方（英伟达、台积电、ASML、AMD）和需求方（阿里、谷歌）都称需求超过供给；皮查伊称算力分配需提前规划、正加紧上线产能。分歧不在需求，而在封装、电力、内存等瓶颈何时缓解。",
     "confidence": "中"
    },
    {
@@ -7595,6 +7810,49 @@
     },
     "point": "称机器人内存需求将超过其他所有用途。",
     "question": "人形机器人量产规模和单机内存用量何时能被出货数据验证？",
+    "suggest": null
+   },
+   "nadella|2026-10-28|我们在整个技术栈上为客户": {
+    "hyps": [
+     "H1"
+    ],
+    "main": "H1",
+    "stance": "中性",
+    "stances": {
+     "H1": "中性"
+    },
+    "point": "称在整个技术栈为客户提供能力、选择、掌控和成本效率，帮助客户构建自有智能。",
+    "question": "微软商业新签订单同比降12%是短期波动还是需求放缓？",
+    "suggest": null
+   },
+   "pichai|2026-10-28|由于需要提前规划，算力分": {
+    "hyps": [
+     "H2",
+     "H7"
+    ],
+    "main": "H2",
+    "stance": "支持",
+    "stances": {
+     "H2": "支持",
+     "H7": "中性"
+    },
+    "point": "称算力分配需提前规划，正加紧上线产能以满足长期需求。",
+    "question": "谷歌2027年资本开支具体增加多少？产能瓶颈在芯片、电力还是数据中心建设？",
+    "suggest": null
+   },
+   "pichai|2026-10-28|TPU系统在广泛的客户中": {
+    "hyps": [
+     "H1",
+     "H2"
+    ],
+    "main": "H2",
+    "stance": "支持",
+    "stances": {
+     "H1": "反对",
+     "H2": "支持"
+    },
+    "point": "称TPU系统在广泛客户中需求强劲，是谷歌正在打造的重要平台。",
+    "question": "TPU外销收入何时单独披露？2027年TPU系统收入能否超过谷歌云其他业务增量？",
     "suggest": null
    }
   },

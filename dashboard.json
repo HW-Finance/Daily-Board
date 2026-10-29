@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-28",
- "updatedAt": "2026-10-28 14:19",
+ "asOf": "2026-10-29",
+ "updatedAt": "2026-10-29 06:56",
  "leaders": [
   {
    "id": "jensen",
@@ -396,6 +396,18 @@
    "biz": "计算与云",
    "statements": [
     {
+     "date": "2026-10-28",
+     "quote": "我们在整个技术栈上为客户提供更强能力、更多选择、更强掌控和更高成本效率，帮助组织构建并拥有自己的智能。",
+     "topic": "战略",
+     "context": "微软FY27 Q1财报新闻稿（美东10月28日盘后）；当季营收923亿美元、同比增19%，Azure增48%，商业剩余履约义务6770亿美元、同比增73%",
+     "direct": true,
+     "original": "We are delivering greater capability, choice, control, and cost efficiency for customers across our entire stack, by helping organizations build and own their own intelligence",
+     "source": {
+      "name": "微软新闻中心",
+      "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/"
+     }
+    },
+    {
      "date": "2026-10-22",
      "quote": "行业要清醒，不要追逐新奇和FOMO；在这个行业里，早期的成功说明不了什么。",
      "topic": "竞争",
@@ -442,6 +454,32 @@
    "company": "谷歌",
    "biz": "计算与云",
    "statements": [
+    {
+     "date": "2026-10-28",
+     "quote": "TPU系统在广泛的客户中需求强劲；我们把TPU系统视为正在打造的一个重要平台。",
+     "topic": "芯片与供应",
+     "context": "Alphabet三季报电话会（美东10月28日盘后，北京10月29日凌晨）；当季谷歌云营收307亿美元、同比增103%，财报称TPU系统销售是营收增长的重要贡献项",
+     "direct": true,
+     "original": "seeing strong demand for our TPU systems across a wide range of customers ... we view our TPU systems as an important platform we are building.",
+     "source": {
+      "name": "Investing.com（电话会实录）",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037"
+     },
+     "ai": "1. 谷歌云增速103%是微软Azure同期48%的两倍多，且财报点名TPU系统销售是增长来源，说明“自研AI芯片加整机系统对外卖”在海外已能带来大额收入，昇腾在海外市场面对的已不只是英伟达一家的成熟替代方案。"
+    },
+    {
+     "date": "2026-10-28",
+     "quote": "由于需要提前规划，算力分配是我们花大量时间的事；正努力上线更多产能以满足长期需求。",
+     "topic": "需求与增长",
+     "context": "Alphabet三季报电话会；称即使产能受限开发者用量仍在增长，一方模型API每分钟处理近320亿token，Gemini应用用户达10亿；CFO称2026年资本开支1950亿—2050亿美元不变，2027年将显著增加",
+     "direct": true,
+     "original": "compute allocation is an area where we are spending a lot of our time on because of the forward planning that's needed ... working hard to bring more capacity online to meet this long-term demand.",
+     "source": {
+      "name": "Investing.com（电话会实录）",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037"
+     },
+     "ai": "1. 谷歌三季度资本开支514亿美元仍不够用、并预告2027年开支显著增加，海外云厂商对HBM、DRAM和光模块的抢购2027年不会退潮，我司昇腾服务器和终端的存储采购成本压力应按至少持续到2027年来估计。"
+    },
     {
      "date": "2026-09-30",
      "quote": "推出Gemini 4 Argon，在复杂工作流、网络防御和软件工程上达到前沿水平。",
@@ -691,6 +729,43 @@
   }
  ],
  "earnings": [
+  {
+   "company": "维谛技术",
+   "en": "Vertiv",
+   "biz": "能源",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-28",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "43.13亿美元",
+     "yoy": "+61%（有机+55%）"
+    },
+    {
+     "label": "有机订单",
+     "value": "翻倍以上",
+     "yoy": "有机增速超100%"
+    },
+    {
+     "label": "调整后营业利润率",
+     "value": "25.2%",
+     "yoy": "+2.9个百分点"
+    },
+    {
+     "label": "调整后每股收益",
+     "value": "2.21美元",
+     "yoy": "+78%"
+    }
+   ],
+   "highlight": "CEO称“我们正处在规模最大的基础设施建设之中，而且在加速”；全年各项指引全面上调。",
+   "guidance": "2026年营收144.5亿—148.5亿美元（中值上调6.5亿美元），四季度有机增长49%—51%",
+   "nextReport": "",
+   "source": {
+    "name": "StockTitan（公司新闻稿）",
+    "url": "https://www.stocktitan.net/news/VRT/vertiv-reports-strong-third-quarter-2026-with-net-sales-growth-of-61-m3nhlt378p4h.html"
+   },
+   "updatedOn": "2026-10-29"
+  },
   {
    "company": "中科曙光",
    "en": "Sugon",
@@ -2309,436 +2384,75 @@
    "company": "微软",
    "en": "Microsoft",
    "biz": "计算与云",
-   "period": "FY26 Q4（截至6月）",
-   "reportDate": "2026-07-29",
+   "period": "FY27 Q1（截至9月）",
+   "reportDate": "2026-10-28",
    "metrics": [
     {
      "label": "营收",
-     "value": "900亿美元",
-     "yoy": "+18%"
+     "value": "923亿美元",
+     "yoy": "+19%"
     },
     {
-     "label": "智能云收入",
-     "value": "393亿美元",
-     "yoy": "+32%"
+     "label": "Azure收入",
+     "value": "331.65亿美元",
+     "yoy": "+48%"
+    },
+    {
+     "label": "微软云收入",
+     "value": "639亿美元",
+     "yoy": "+30%"
     },
     {
      "label": "净利润",
-     "value": "358亿美元",
-     "yoy": "+31%"
+     "value": "366亿美元",
+     "yoy": "+32%"
     }
    ],
-   "highlight": "Azure及其他云服务收入同比+43%",
-   "guidance": "",
+   "highlight": "商业剩余履约义务6770亿美元、同比增73%；Windows OEM及设备收入同比降22%。",
+   "guidance": "本次未检索到电话会指引",
    "nextReport": "",
    "source": {
-    "name": "微软8-K",
-    "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323632/msft-ex99_1.htm"
+    "name": "微软新闻中心",
+    "url": "https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/"
    },
-   "updatedOn": "2026-07-29",
-   "statements": {
-    "period": "FY26 Q4（截至2026-06-30）",
-    "unit": "百万美元",
-    "sources": [
-     {
-      "name": "Microsoft FY26 Q4财报新闻稿（SEC 8-K）",
-      "url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526323632/msft-ex99_1.htm"
-     }
-    ],
-    "income": {
-     "columns": [
-      "项目",
-      "FY26 Q4",
-      "FY25 Q4"
-     ],
-     "rows": [
-      [
-       "营业收入",
-       "90,007",
-       "76,441"
-      ],
-      [
-       "营业成本",
-       "29,525",
-       "24,014"
-      ],
-      [
-       "毛利",
-       "60,482",
-       "52,427"
-      ],
-      [
-       "研发费用",
-       "9,997",
-       "8,829"
-      ],
-      [
-       "销售及市场费用",
-       "7,595",
-       "7,285"
-      ],
-      [
-       "一般及管理费用",
-       "2,287",
-       "1,990"
-      ],
-      [
-       "营业利润",
-       "40,603",
-       "34,323"
-      ],
-      [
-       "税前利润",
-       "44,047",
-       "32,616"
-      ],
-      [
-       "净利润",
-       "35,766",
-       "27,233"
-      ],
-      [
-       "稀释每股收益（美元）",
-       "4.81",
-       "3.65"
-      ]
-     ]
-    },
-    "cashflow": {
-     "columns": [
-      "项目",
-      "FY26 Q4",
-      "FY25 Q4"
-     ],
-     "rows": [
-      [
-       "经营活动现金流净额",
-       "55,441",
-       "42,647"
-      ],
-      [
-       "资本开支（物业及设备）",
-       "-35,802",
-       "-17,079"
-      ],
-      [
-       "自由现金流（计算值）",
-       "19,639",
-       "25,568"
-      ],
-      [
-       "投资活动现金流净额",
-       "-54,831",
-       "-30,572"
-      ],
-      [
-       "筹资活动现金流净额",
-       "-11,779",
-       "-10,844"
-      ],
-      [
-       "分红",
-       "-6,758",
-       "-6,169"
-      ],
-      [
-       "股份回购",
-       "-4,579",
-       "-4,546"
-      ],
-      [
-       "期末现金及等价物",
-       "20,935",
-       "30,242"
-      ]
-     ]
-    },
-    "balance": {
-     "columns": [
-      "项目",
-      "2026-06-30",
-      "2025-06-30"
-     ],
-     "rows": [
-      [
-       "现金及等价物",
-       "20,935",
-       "30,242"
-      ],
-      [
-       "短期投资",
-       "55,908",
-       "64,323"
-      ],
-      [
-       "应收账款",
-       "80,876",
-       "69,905"
-      ],
-      [
-       "存货",
-       "1,397",
-       "938"
-      ],
-      [
-       "流动资产合计",
-       "207,710",
-       "191,131"
-      ],
-      [
-       "固定资产净额",
-       "313,076",
-       "204,966"
-      ],
-      [
-       "总资产",
-       "758,376",
-       "619,003"
-      ],
-      [
-       "流动负债合计",
-       "168,825",
-       "141,218"
-      ],
-      [
-       "一年内到期长期债务",
-       "9,227",
-       "2,999"
-      ],
-      [
-       "长期债务",
-       "31,067",
-       "40,152"
-      ],
-      [
-       "总负债",
-       "315,989",
-       "275,524"
-      ],
-      [
-       "股东权益合计",
-       "442,387",
-       "343,479"
-      ]
-     ]
-    },
-    "note": "US GAAP，未经审计，单季口径。FY26全年经营现金流182,935，资本开支-115,948。"
-   }
+   "updatedOn": "2026-10-29"
   },
   {
    "company": "Alphabet",
    "en": "Alphabet",
    "biz": "计算与云",
-   "period": "2026年Q2",
-   "reportDate": "2026-07-22",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-28",
    "metrics": [
     {
      "label": "营收",
-     "value": "1,198亿美元",
-     "yoy": "+24%"
+     "value": "1,276亿美元",
+     "yoy": "+25%"
     },
     {
      "label": "谷歌云收入",
-     "value": "248亿美元",
-     "yoy": "+82%"
+     "value": "307亿美元",
+     "yoy": "+103%"
+    },
+    {
+     "label": "谷歌云经营利润",
+     "value": "111亿美元",
+     "yoy": "上年同期36亿"
     },
     {
      "label": "单季资本开支",
-     "value": "449亿美元",
-     "yoy": "约翻倍"
+     "value": "514亿美元",
+     "yoy": "前三季度1,320亿"
     }
    ],
-   "highlight": "净利润1,121亿美元中约980亿为SpaceX持股账面收益；云积压订单5,140亿美元",
-   "guidance": "全年资本开支上调至最高2,050亿美元",
+   "highlight": "TPU系统销售是营收增长的重要贡献项；云积压订单5,610亿美元（Q2为5,140亿）；Gemini应用用户达10亿。",
+   "guidance": "2026年资本开支1,950—2,050亿美元不变；2027年将显著增加，细节待Q4电话会",
    "nextReport": "",
    "source": {
-    "name": "The Next Web",
-    "url": "https://thenextweb.com/news/alphabet-q2-2026-capex-205bn-cloud-82"
+    "name": "Alphabet投资者关系",
+    "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf"
    },
-   "updatedOn": "2026-07-22",
-   "statements": {
-    "period": "2026年Q2",
-    "unit": "百万美元",
-    "sources": [
-     {
-      "name": "Alphabet 2026年Q2财报新闻稿（SEC 8-K）",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000066/googexhibit991q22026.htm"
-     }
-    ],
-    "income": {
-     "columns": [
-      "项目",
-      "2026年Q2",
-      "2025年Q2"
-     ],
-     "rows": [
-      [
-       "营业收入",
-       "119,796",
-       "96,428"
-      ],
-      [
-       "营业成本",
-       "45,943",
-       "39,039"
-      ],
-      [
-       "毛利（计算值）",
-       "73,853",
-       "57,389"
-      ],
-      [
-       "研发费用",
-       "18,219",
-       "13,808"
-      ],
-      [
-       "销售及市场费用",
-       "8,403",
-       "7,101"
-      ],
-      [
-       "一般及管理费用",
-       "6,461",
-       "5,209"
-      ],
-      [
-       "营业利润",
-       "40,770",
-       "31,271"
-      ],
-      [
-       "税前利润",
-       "138,753",
-       "33,933"
-      ],
-      [
-       "净利润",
-       "112,193",
-       "28,196"
-      ],
-      [
-       "稀释每股收益（美元）",
-       "9.11",
-       "2.31"
-      ]
-     ]
-    },
-    "cashflow": {
-     "columns": [
-      "项目",
-      "2026年Q2",
-      "2025年Q2"
-     ],
-     "rows": [
-      [
-       "经营活动现金流净额",
-       "39,069",
-       "27,747"
-      ],
-      [
-       "资本开支",
-       "-44,924",
-       "-22,446"
-      ],
-      [
-       "自由现金流",
-       "-5,855",
-       "5,301"
-      ],
-      [
-       "投资活动现金流净额",
-       "-82,433",
-       "-24,544"
-      ],
-      [
-       "筹资活动现金流净额",
-       "61,243",
-       "-5,832"
-      ],
-      [
-       "分红",
-       "-2,689",
-       "-2,543"
-      ],
-      [
-       "股份回购",
-       "0",
-       "-13,238"
-      ],
-      [
-       "期末现金及等价物",
-       "55,911",
-       "21,036"
-      ]
-     ]
-    },
-    "balance": {
-     "columns": [
-      "项目",
-      "2026-06-30",
-      "2025-12-31"
-     ],
-     "rows": [
-      [
-       "现金及等价物",
-       "55,911",
-       "30,708"
-      ],
-      [
-       "短期投资",
-       "186,563",
-       "96,135"
-      ],
-      [
-       "应收账款",
-       "69,175",
-       "62,886"
-      ],
-      [
-       "存货",
-       "9,991",
-       "2,439"
-      ],
-      [
-       "流动资产合计",
-       "343,524",
-       "206,038"
-      ],
-      [
-       "固定资产净额",
-       "321,212",
-       "246,597"
-      ],
-      [
-       "总资产",
-       "921,983",
-       "595,281"
-      ],
-      [
-       "流动负债合计",
-       "126,111",
-       "102,745"
-      ],
-      [
-       "长期债务",
-       "98,165",
-       "46,547"
-      ],
-      [
-       "总负债",
-       "281,503",
-       "180,016"
-      ],
-      [
-       "股东权益合计",
-       "640,480",
-       "415,265"
-      ]
-     ]
-    },
-    "note": "US GAAP，未经审计，单季口径。税前利润大增主要来自其他收入净额97,983（含证券投资收益）。本季发行普通股募资30,499、强制可转换优先股19,063。"
-   }
+   "updatedOn": "2026-10-29"
   },
   {
    "company": "阿里巴巴",
@@ -4924,11 +4638,11 @@
        "tone": "pos"
       },
       {
-       "label": "10月1—18日新能源零售（乘联会）",
-       "value": "52万辆",
-       "delta": "-13%，渗透率65.9%",
+       "label": "10月1—25日新能源零售（乘联会）",
+       "value": "75.3万辆",
+       "delta": "-13%，渗透率65.7%",
        "tone": "neg",
-       "updatedOn": "2026-10-22"
+       "updatedOn": "2026-10-29"
       },
       {
        "label": "9月汽车类零售额（统计局）",
@@ -5724,53 +5438,6 @@
  ],
  "calendar": [
   {
-   "date": "2026-10-28",
-   "title": "SK海力士三季报（首尔时间开盘前）",
-   "type": "财报",
-   "biz": "芯片半导体",
-   "confirmed": true,
-   "updatedOn": "2026-10-23"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "微软FY27Q1财报",
-   "type": "财报",
-   "biz": "计算与云",
-   "confirmed": false
-  },
-  {
-   "date": "2026-10-28",
-   "title": "Alphabet三季报",
-   "type": "财报",
-   "biz": "计算与云",
-   "confirmed": false,
-   "updatedOn": "2026-10-19"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "苹果洛杉矶“Pro and Tell”活动（预计触屏OLED MacBook Pro等）",
-   "type": "发布",
-   "biz": "终端",
-   "confirmed": true,
-   "updatedOn": "2026-10-21"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "维谛（Vertiv）三季报、理想2026款i6上市",
-   "type": "财报",
-   "biz": "数字能源、汽车",
-   "confirmed": true,
-   "updatedOn": "2026-10-21"
-  },
-  {
-   "date": "2026-10-28",
-   "title": "我司双十一全场景新品发布会（14:30）",
-   "type": "发布",
-   "biz": "终端",
-   "confirmed": true,
-   "updatedOn": "2026-10-23"
-  },
-  {
    "date": "2026-10-29",
    "title": "三星电子三季度完整财报",
    "type": "财报",
@@ -5811,7 +5478,7 @@
   },
   {
    "date": "2026-10-29",
-   "title": "美联储、欧洲央行议息结果（美联储为北京时间10/29凌晨）",
+   "title": "二十届五中全会闭幕，发布公报",
    "type": "政策",
    "biz": "全业务",
    "confirmed": true,
@@ -5819,11 +5486,19 @@
   },
   {
    "date": "2026-10-29",
-   "title": "二十届五中全会闭幕，发布公报",
+   "title": "欧洲央行议息结果",
    "type": "政策",
    "biz": "全业务",
    "confirmed": true,
-   "updatedOn": "2026-10-28"
+   "updatedOn": "2026-10-29"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "我司Pura 90 Plus、畅享100系列开售（10:08）",
+   "type": "发布",
+   "biz": "终端",
+   "confirmed": true,
+   "updatedOn": "2026-10-29"
   },
   {
    "date": "2026-11-01",
@@ -5885,11 +5560,27 @@
    "updatedOn": "2026-10-28"
   },
   {
+   "date": "2026-11-06",
+   "title": "苹果触屏OLED MacBook Pro发售",
+   "type": "发布",
+   "biz": "终端",
+   "confirmed": true,
+   "updatedOn": "2026-10-29"
+  },
+  {
    "date": "2026-11-10",
    "title": "双11巅峰期开启（20:00）",
    "type": "行业",
    "biz": "终端",
    "confirmed": true
+  },
+  {
+   "date": "2026-11-13",
+   "title": "问界新M8上市（乾崑ADS 5）",
+   "type": "发布",
+   "biz": "汽车",
+   "confirmed": true,
+   "updatedOn": "2026-10-29"
   },
   {
    "date": "2026-11-15",
