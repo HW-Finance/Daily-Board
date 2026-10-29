@@ -1,6 +1,6 @@
 {
  "asOf": "2026-10-29",
- "updatedAt": "2026-10-29 06:57",
+ "updatedAt": "2026-10-29 10:52",
  "config": [
   {
    "domain": "汇率",
@@ -49,11 +49,11 @@
    "id": "fx",
    "name": "汇率走势",
    "domain": "横向",
-   "judgment": "人民币对美元基本持平，对欧元一周升值近1%",
+   "judgment": "欧元跌至年内低位，人民币对美元小幅走强",
    "direction": "持平",
-   "directionNote": "较10月21日：EUR/CNY降约0.9%，欧元收入折算偏少、欧元采购偏省，净影响取决于我司币种敞口",
-   "asOf": "2026-10-28",
-   "change": "本期新增：补入10月22日—28日中间价；欧元走弱使EUR/CNY一周降0.93%，USD/CNY基本持平（人民币升约0.04%）。10月27日EUR/CNY为按28日“下调305基点”倒推。",
+   "directionNote": "较10月28日：EUR/CNY回升0.10%，USD/CNY降0.03%，变化均很小",
+   "asOf": "2026-10-29",
+   "change": "本期新增：10月29日中间价USD/CNY 6.7147、EUR/CNY 7.4570；ECB 10月28日EUR/USD参考价1.1133。未检索到ECB 10月27日参考价和欧央行29日决议。",
    "pairs": [
     {
      "pair": "USD/CNY",
@@ -294,39 +294,43 @@
       {
        "d": "2026-10-28",
        "v": 6.7165
+      },
+      {
+       "d": "2026-10-29",
+       "v": 6.7147
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
       "name": "国家外汇管理局（转载中国外汇交易中心受权公布的人民币汇率中间价）",
       "url": "https://www.safe.gov.cn/safe/rmbhlzjj/index.html",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
      },
      "compare": null,
      "compareNote": "在岸即期收盘价：暂无可靠数据（未取得可核实的日度序列），故不显示对照线。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-10-29",
+       "v": 6.7147
+      },
+      "prev": {
        "d": "2026-10-28",
        "v": 6.7165
       },
-      "prev": {
-       "d": "2026-10-27",
-       "v": 6.7171
-      },
-      "dayPct": -0.01,
+      "dayPct": -0.03,
       "base30": {
-       "d": "2026-09-28",
-       "v": 6.7399
+       "d": "2026-09-29",
+       "v": 6.7411
       },
-      "d30Pct": -0.35,
+      "d30Pct": -0.39,
       "hi": {
        "d": "2026-08-04",
        "v": 6.7917
       },
       "lo": {
-       "d": "2026-10-26",
-       "v": 6.7162
+       "d": "2026-10-29",
+       "v": 6.7147
       }
      },
      "forecast": [
@@ -678,13 +682,17 @@
       {
        "d": "2026-10-28",
        "v": 7.4499
+      },
+      {
+       "d": "2026-10-29",
+       "v": 7.457
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
       "name": "国家外汇管理局（转载中国外汇交易中心受权公布的人民币汇率中间价）",
       "url": "https://www.safe.gov.cn/safe/rmbhlzjj/index.html",
-      "date": "2026-10-28"
+      "date": "2026-10-29"
      },
      "compare": {
       "name": "ECB参考汇率（对照）",
@@ -780,19 +788,19 @@
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-10-29",
+       "v": 7.457
+      },
+      "prev": {
        "d": "2026-10-28",
        "v": 7.4499
       },
-      "prev": {
-       "d": "2026-10-27",
-       "v": 7.4804
-      },
-      "dayPct": -0.41,
+      "dayPct": 0.1,
       "base30": {
-       "d": "2026-09-28",
-       "v": 7.6564
+       "d": "2026-09-29",
+       "v": 7.6494
       },
-      "d30Pct": -2.7,
+      "d30Pct": -2.52,
       "hi": {
        "d": "2026-08-21",
        "v": 7.8906
@@ -1059,39 +1067,43 @@
       {
        "d": "2026-10-26",
        "v": 1.1188
+      },
+      {
+       "d": "2026-10-28",
+       "v": 1.1133
       }
      ],
      "seriesName": "ECB欧元参考汇率",
      "source": {
       "name": "欧洲央行（ECB）欧元参考汇率·USD",
-      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-      "date": "2026-10-26"
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "date": "2026-10-28"
      },
      "compare": null,
-     "compareNote": "ECB参考汇率每日一个值（欧洲中部时间14:15），最新为10月26日1.1188；10月27日欧洲早盘约1.1165（Tradingpedia），未计入序列。",
+     "compareNote": "ECB参考汇率每日一个值（欧洲中部时间14:15），最新为10月28日1.1133；10月27日参考价本次未检索到，序列留空。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-10-28",
+       "v": 1.1133
+      },
+      "prev": {
        "d": "2026-10-26",
        "v": 1.1188
       },
-      "prev": {
-       "d": "2026-10-23",
-       "v": 1.1193
-      },
-      "dayPct": -0.04,
+      "dayPct": -0.49,
       "base30": {
-       "d": "2026-09-25",
-       "v": 1.1403
+       "d": "2026-09-28",
+       "v": 1.1378
       },
-      "d30Pct": -1.89,
+      "d30Pct": -2.15,
       "hi": {
        "d": "2026-08-21",
        "v": 1.1699
       },
       "lo": {
-       "d": "2026-10-07",
-       "v": 1.1177
+       "d": "2026-10-28",
+       "v": 1.1133
       }
      },
      "forecast": [
@@ -1221,36 +1233,41 @@
     "EUR/USD": null
    },
    "dayMove": {
-    "headline": "欧元走弱是主因：EUR/CNY中间价两天降0.73%，USD/CNY基本不动",
-    "detail": "EUR/CNY：10月27日、28日中间价连续下调243和305基点，至7.4499。；USD/CNY：10月28日中间价6.7165，较前日调升6基点，一周累计调升30基点。；EUR/USD：10月27日欧洲早盘约1.1165，逼近10月低点。；市场在等10月28日美联储、10月29日欧央行的议息结果。",
+    "headline": "欧元跌至年内低位，人民币对美元小幅走强",
+    "points": [
+     "EUR/USD：10月28日ECB参考价1.1133，较26日跌0.49%",
+     "盘中曾跌至1.1113，为2025年5月以来最低",
+     "美联储维持3.75%—4.00%，欧元盘后小幅反弹",
+     "10月29日USD/CNY中间价6.7147，较前日调升18基点"
+    ],
     "src": [
      {
-      "name": "FXStreet – PBOC fix 6.7165",
-      "url": "https://www.fxstreet.com/news/pboc-sets-usd-cny-reference-rate-at-67165-vs-67171-previous-202610280115",
-      "date": "2026-10-28"
+      "name": "金十数据 – 2026年10月29日银行间外汇市场人民币汇率中间价",
+      "url": "https://shishixinwen.news/news/jin10/20261029091526489800",
+      "date": "2026-10-29"
      },
      {
-      "name": "金十数据 – 10月28日人民币中间价",
-      "url": "https://shishixinwen.news/news/jin10/20261028091526958800",
-      "date": "2026-10-28"
-     },
-     {
-      "name": "Tradingpedia – EUR/USD约1.1165",
-      "url": "https://www.tradingpedia.com/2026/10/27/eur-usd-drops-toward-1-1150-as-bearish-bias-persists/",
-      "date": "2026-10-27"
+      "name": "中新网 – 10月29日人民币对美元中间价报6.7147",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-29/10722541.shtml",
+      "date": "2026-10-29"
      },
      {
       "name": "欧洲央行 EUR/USD参考汇率",
-      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-      "date": "2026-10-26"
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "date": "2026-10-28"
+     },
+     {
+      "name": "FXStreet – Euro edges up as the Fed holds a day before the ECB",
+      "url": "https://www.fxstreet.com/news/euro-edges-up-as-the-fed-holds-a-day-before-the-ecb-202610281809",
+      "date": "2026-10-28"
+     },
+     {
+      "name": "FXStreet – Euro seems vulnerable near yearly low, Fed-ECB policy is under spotlight",
+      "url": "https://fxstreet.com/news/euro-seems-vulnerable-near-yearly-low-fed-ecb-policy-is-under-spotlight-202610280913",
+      "date": "2026-10-28"
      }
     ],
-    "points": [
-     "EUR/CNY：10月27日、28日中间价连续下调243和305基点，至7.4499。",
-     "USD/CNY：10月28日中间价6.7165，较前日调升6基点，一周累计调升30基点。",
-     "EUR/USD：10月27日欧洲早盘约1.1165，逼近10月低点。",
-     "市场在等10月28日美联储、10月29日欧央行的议息结果。"
-    ]
+    "detail": "EUR/USD：10月28日ECB参考价1.1133，较26日跌0.49%；盘中曾跌至1.1113，为2025年5月以来最低；美联储维持3.75%—4.00%，欧元盘后小幅反弹；10月29日USD/CNY中间价6.7147，较前日调升18基点"
    },
    "background": [
     {
@@ -1276,29 +1293,19 @@
      ]
     },
     {
-     "title": "美元：高通胀撑住高利率",
-     "text": "美国9月CPI同比3.7%、高于预期，10年期美债一度升至约5.3%，10月21日回到约5.12%；市场定价美联储10月28日维持3.75%—4.00%不变的概率约89.5%。",
-     "inference": "推断：美元利差优势仍在；若美联储28日表态偏鹰，美元可能再度走强。",
+     "title": "美元：美联储按兵不动",
+     "text": "美联储10月28日维持3.75%—4.00%不变，投票10比2；美国9月CPI同比3.7%、高于预期，联邦基金利率仍比欧央行2.50%存款利率高1.25—1.50个百分点。",
+     "inference": "推断：美欧利差未收窄，美元对欧元的利率优势仍在。",
      "src": [
       {
-       "name": "Trading Economics – US 10Y yield (Oct 20–21 notes)",
-       "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-       "date": "2026-10-21"
+       "name": "FXStreet – Euro edges up as the Fed holds a day before the ECB",
+       "url": "https://www.fxstreet.com/news/euro-edges-up-as-the-fed-holds-a-day-before-the-ecb-202610281809",
+       "date": "2026-10-28"
       },
       {
        "name": "Trading Economics – Treasury Yields Jump After Hot CPI Report",
        "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950",
        "date": "2026-10-14"
-      },
-      {
-       "name": "Ground News – 10-Year Treasury Yield Briefly Tops 5.32% After Hotter CPI",
-       "url": "https://ground.news/daily-briefing/1d17e18b-f14e-4183-b479-2358af17ce87",
-       "date": "2026-10-14"
-      },
-      {
-       "name": "Tradingpedia",
-       "url": "https://www.tradingpedia.com/2026/10/27/eur-usd-drops-toward-1-1150-as-bearish-bias-persists/",
-       "date": "2026-10-27"
       }
      ]
     },
@@ -1344,48 +1351,8 @@
    ],
    "calendar": [
     {
-     "date": "2026-10-28",
-     "event": "美联储FOMC议息会议（10月27–28日），决议美东10月28日14:00，即北京10月29日02:00；无SEP",
-     "region": "US",
-     "why": "市场定价约83%按兵不动、12月加息概率高；措辞影响三个货币对",
-     "src": {
-      "name": "Federal Reserve FOMC 日历（官方）",
-      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-     }
-    },
-    {
-     "date": "2026-10-28",
-     "event": "欧央行议息会议首日（10月28–29日），决议及发布会10月29日",
-     "region": "EA",
-     "why": "市场已定价12月加息、10月加息可能性低；措辞影响EUR/USD、EUR/CNY（决议落在窗口外一天）",
-     "src": {
-      "name": "ECB Governing Council 会议日历（官方）",
-      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
-     }
-    },
-    {
-     "date": "2026-10-28",
-     "event": "美国9月商品贸易差额初值、零售及批发库存初值",
-     "region": "US",
-     "why": "影响三季度GDP预期→美元",
-     "src": {
-      "name": "Trading Economics 经济日历",
-      "url": "https://tradingeconomics.com/calendar"
-     }
-    },
-    {
-     "date": "2026-10-28",
-     "event": "美联储FOMC利率决议（北京时间10月29日凌晨公布）",
-     "region": "US",
-     "why": "美元利率路径→USD/CNY、EUR/USD",
-     "src": {
-      "name": "Tradingpedia",
-      "url": "https://www.tradingpedia.com/2026/10/27/eur-usd-drops-toward-1-1150-as-bearish-bias-persists/"
-     }
-    },
-    {
      "date": "2026-10-29",
-     "event": "（窗口外一天）美国三季度GDP初值、9月个人收入与支出（PCE）（美东08:30）",
+     "event": "美国三季度GDP初值、9月个人收入与支出（PCE）（美东08:30）",
      "region": "US",
      "why": "增长与通胀核心数据→美元、全部三个货币对",
      "src": {
@@ -1402,10 +1369,40 @@
       "name": "Tradingpedia",
       "url": "https://www.tradingpedia.com/2026/10/27/eur-usd-drops-toward-1-1150-as-bearish-bias-persists/"
      }
+    },
+    {
+     "date": "2026-10-30",
+     "event": "日本央行利率决议（预期维持1.25%）",
+     "region": "JP",
+     "why": "日元走势影响美元指数→USD/CNY",
+     "src": {
+      "name": "Newsquawk – Week in Focus 26-30th October 2026",
+      "url": "https://www.newsquawk.com/headlines/week-in-focus-26-30th-october-2026-fomc-boc-rbnz-ecb-boj-policy-decisions-us-pce"
+     }
+    },
+    {
+     "date": "2026-10-31",
+     "event": "国家统计局10月官方制造业PMI（北京时间09:30）",
+     "region": "CN",
+     "why": "国内景气→人民币预期",
+     "src": {
+      "name": "financecalendar – China Official PMI October 2026",
+      "url": "https://www.financecalendar.com/event/china-official-pmi-october-2026/"
+     }
+    },
+    {
+     "date": "2026-11-06",
+     "event": "美国10月非农就业报告（美东08:30）",
+     "region": "US",
+     "why": "就业强弱→美联储12月决策→美元",
+     "src": {
+      "name": "fedratecalc – 2026 U.S. Economic Calendar",
+      "url": "https://fedratecalc.com/us-economic-calendar/"
+     }
     }
    ],
    "forecastNote": "预测只收录有出处的机构公开目标价。EUR/USD收录近60天内发布的预测（ING、德商银行、瑞银）。USD/CNY的机构预测均发布于60天前（5—8月），已标“较旧”，仅供参考；近60天未找到带数值的USD/CNY机构目标价。EUR/CNY暂无可靠预测。未找到彭博汇总中位数。",
-   "notFound": "1. USD/CNY：近60天内未找到带数值的机构年末或季度末目标价（德商银行、法兴10月仅给出“渐进升值”的定性判断），表中USD/CNY预测均发布于5—8月，已标“较旧”。2. EUR/CNY：未找到任何机构预测。3. 未找到彭博等机构汇总的预测中位数；摩根士丹利、摩根大通、花旗、渣打、野村、中金等近期数值预测未找到。4. 在岸人民币即期收盘价的日度序列未取得可靠来源，图中未画对照线。5. ECB参考汇率：USD最新为10月20日，CNY最新为10月16日。"
+   "notFound": "1. USD/CNY：近60天内未找到带数值的机构年末或季度末目标价（德商银行、法兴10月仅给出“渐进升值”的定性判断），表中USD/CNY预测均发布于5—8月，已标“较旧”。2. EUR/CNY：未找到任何机构预测。3. 未找到彭博等机构汇总的预测中位数；摩根士丹利、摩根大通、花旗、渣打、野村、中金等近期数值预测未找到。4. 在岸人民币即期收盘价的日度序列未取得可靠来源，图中未画对照线。5. ECB参考汇率：USD最新为10月28日（10月27日缺），CNY最新为10月16日。"
   },
   "phone": {
    "id": "phone",
@@ -1966,10 +1963,10 @@
   "memory": {
    "id": "memory",
    "name": "介质（存储）供需与价值走势",
-   "judgment": "SK海力士称紧缺到2030年，过半产能已签长协",
+   "judgment": "三星称2027年更缺、HBM已售罄，涨价延续",
    "direction": "恶化",
-   "directionNote": "较10月20日：SK海力士确认2027—2028年过半产能已签长协，长协外买家拿货更难",
-   "asOf": "2026-10-28",
+   "directionNote": "较10月28日：三星加入表态，两大原厂都称2027年供给更紧",
+   "asOf": "2026-10-29",
    "keyNumbers": [
     {
      "label": "SK海力士2027—2028年产能长协覆盖",
@@ -1980,6 +1977,17 @@
       "url": "https://www.stocktitan.net/news/SKHY/sk-hynix-announces-3q26-financial-fcr2bh8ikc0x.html",
       "date": "2026-10-28",
       "repost": true
+     }
+    },
+    {
+     "label": "三星2027年HBM供应",
+     "value": "已售罄",
+     "compare": "按目标价谈妥；10月8日初步业绩时未披露",
+     "source": {
+      "name": "韩国金融新闻（HBM售罄）",
+      "url": "https://www.fnnews.com/news/202610291059267678",
+      "date": "2026-10-29",
+      "repost": false
      }
     },
     {
@@ -2017,8 +2025,42 @@
      }
     }
    ],
-   "change": "本期新增：SK海力士三季报（利润率80%，2027—2028年过半产能签长协、紧缺至2030年）；路透援引知情人士称长鑫将产HBM3E、良率约20%—30%；黄仁勋称2029年前不过剩；美光桃园罢工未见明显减产，11月6日再谈。",
+   "change": "本期新增：三星三季度完整财报（存储收入+427%，手机仍亏约0.6万亿韩元）与电话会表态（2027年短缺更重、HBM已售罄）。未找到三星长协覆盖率和代工亏损数字。",
    "facts": [
+    {
+     "text": "三星电话会表态：新厂建设到出片需3年半以上，2027年存储短缺比今年更严重、2028年仍持续；2027年HBM已按目标价售罄，大客户仍在追加。",
+     "src": [
+      {
+       "name": "韩国金融新闻",
+       "url": "https://www.fnnews.com/news/202610291050016563",
+       "date": "2026-10-29",
+       "repost": false
+      },
+      {
+       "name": "韩国金融新闻（HBM售罄）",
+       "url": "https://www.fnnews.com/news/202610291059267678",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "三星三季度业绩：营业利润107.4万亿韩元，半导体部门106.5万亿、利润率约72%；存储收入140.7万亿韩元（+427%），HBM4为主力；手机与网络亏约0.6万亿。",
+     "src": [
+      {
+       "name": "韩国经济日报",
+       "url": "https://www.hankyung.com/article/202610292686g",
+       "date": "2026-10-29",
+       "repost": false
+      },
+      {
+       "name": "韩国金融新闻",
+       "url": "https://www.fnnews.com/news/202610291050016563",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "SK海力士三季度业绩：营收104.6万亿韩元（+328%），营业利润83.3万亿韩元，利润率80%（二季度76%）。2027—2028年过半产能已与14家大客户签长协，多为5年，预计紧缺至2030年。HBM4四季度出货将超HBM3E。",
      "src": [
@@ -2454,11 +2496,6 @@
    ],
    "signals": [
     {
-     "what": "三星三季度完整财报：长协覆盖率、HBM4出货、2027年产能",
-     "when": "2026-10-29",
-     "why": "对照SK海力士“过半产能签长协”，判断2027年长协外现货是否更紧"
-    },
-    {
      "what": "美光桃园厂劳资第三次协商",
      "when": "2026-11-06",
      "why": "桃园厂据报占美光DRAM产能约22%，若升级为长期罢工将加剧DRAM紧张"
@@ -2480,6 +2517,27 @@
     }
    ],
    "sources": [
+    {
+     "name": "韩国金融新闻（HBM售罄）",
+     "url": "https://www.fnnews.com/news/202610291059267678",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "韩国金融新闻",
+     "url": "https://www.fnnews.com/news/202610291050016563",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "韩国经济日报",
+     "url": "https://www.hankyung.com/article/202610292686g",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "FX168（转TradingKey）",
      "url": "https://www.fx168news.com/article/1107144",
@@ -4335,9 +4393,9 @@
   "aicompute": {
    "id": "aicompute",
    "name": "AI 算力供需与国产替代",
-   "judgment": "华为份额升至28%，国产卡三季度普遍高增",
-   "direction": "改善",
-   "directionNote": "华为出货由略超30万增至57.2万，英伟达新卡或仅满足5%—10%，寒武纪海光Q3营收增104%、45%",
+   "judgment": "国产卡三季度普遍高增，摩尔线程首次盈利",
+   "direction": "持平",
+   "directionNote": "较10月28日：国内对手又多一家放量，但华为28%份额数据未变",
    "asOf": "2026-10-28",
    "keyNumbers": [
     {
@@ -4374,8 +4432,25 @@
      }
     }
    ],
-   "change": "本期新增：寒武纪三季度营收增104%、存货较年初增136%；海光三季度营收增45%并称战略备货；曙光三季度净利增217%。",
+   "change": "本期新增：摩尔线程三季报（营收+1773.9%、首次扣非盈利、存货加预付约60亿元）。未检索到昇腾新的出货或份额数据。",
    "facts": [
+    {
+     "text": "摩尔线程三季报：三季度营收15.5亿元（+1773.9%，环比+55.4%），首次单季扣非盈利2007万元；9月末存货33.63亿元、预付款25.99亿元，超过前三季度营收。",
+     "src": [
+      {
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34352944",
+       "date": "2026-10-28",
+       "repost": false
+      },
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/019/100.htm",
+       "date": "2026-10-28",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "海光三季报：三季度营收58.56亿元（+45.46%）、归母净利10.48亿元（+37.90%）；9月末存货89.21亿元（较年初+39.26%），称为应对存储涨价战略备货、锁定上游产能。此前预告前三季度营收142.8亿—155.8亿元。",
      "src": [
@@ -4662,6 +4737,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "IT之家",
+     "url": "https://www.ithome.com/1/019/100.htm",
+     "date": "2026-10-28",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "澎湃新闻",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34352944",
+     "date": "2026-10-28",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "同花顺（中科曙光三季报）",
      "url": "http://stock.10jqka.com.cn/20261027/c681155948.shtml",
@@ -5863,9 +5952,9 @@
   "dcenergy": {
    "id": "dcenergy",
    "name": "数据中心能源",
-   "judgment": "维谛订单翻倍，AI数据中心电力需求仍在加速",
+   "judgment": "维谛、GE Vernova订单齐升，供电需求加速",
    "direction": "改善",
-   "directionNote": "较10月18日：维谛有机增速55%，高于此前34%—36%指引",
+   "directionNote": "较10月28日：GE Vernova订单有机增96%，印证维谛的加速",
    "asOf": "2026-10-28",
    "keyNumbers": [
     {
@@ -5903,8 +5992,25 @@
      }
     }
    ],
-   "change": "本期新增：维谛三季报营收+61%、有机订单翻倍、全年指引上调，800V直流2027年验证、2028年部署。未检索到能源局1—9月数据中心用电数据。",
+   "change": "本期新增：GE Vernova三季报（订单有机+96%、数据中心订单年内超60亿美元）及收购Trench。仍未检索到能源局1—9月数据中心用电数据。",
    "facts": [
+    {
+     "text": "GE Vernova三季度业绩：订单293亿美元（有机+96%），积压1970亿美元，上调全年指引；数据中心订单年内超60亿美元；拟约80亿欧元收购高压部件商Trench。",
+     "src": [
+      {
+       "name": "GE Vernova三季度新闻稿（SEC 8-K）",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
+       "date": "2026-10-28",
+       "repost": false
+      },
+      {
+       "name": "Investing.com",
+       "url": "https://www.investing.com/news/company-news/ge-vernova-q3-2026-slides-9b-trench-buy-backlog-nears-200b-93CH-4979286",
+       "date": "2026-10-28",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "维谛三季度业绩：营收43.13亿美元、+61%（有机+55%），有机订单翻倍以上，客户预付款41.2亿；美洲+75%、亚太+50%、欧洲中东非洲+23%；全年营收指引上调至144.5亿—148.5亿。",
      "src": [
@@ -6204,6 +6310,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/ge-vernova-q3-2026-slides-9b-trench-buy-backlog-nears-200b-93CH-4979286",
+     "date": "2026-10-28",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "GE Vernova三季度新闻稿（SEC 8-K）",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
+     "date": "2026-10-28",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "Investing.com（维谛电话会纪要）",
      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-vertiv-tops-q3-2026-estimates-and-raises-outlook-93CH-4980196",
@@ -7288,7 +7408,7 @@
     "name": "AI 算力需求的持续性",
     "desc": "训练转推理后需求是增是减",
     "claim": "训练转向推理后，算力需求继续增长",
-    "summary": "推断：供给方（英伟达、台积电、ASML、AMD）和需求方（阿里、谷歌）都称需求超过供给；皮查伊称算力分配需提前规划、正加紧上线产能。分歧不在需求，而在封装、电力、内存等瓶颈何时缓解。",
+    "summary": "推断：供给方（英伟达、台积电、ASML、AMD）和需求方（阿里、谷歌、微软）都称需求超过供给；微软CFO胡德称资本开支低于预期是第三方机房交付延迟，纳德拉称算力在内部按需调配。分歧不在需求，而在封装、电力、机房、内存等瓶颈何时缓解。",
     "confidence": "中"
    },
    {
@@ -7304,8 +7424,8 @@
     "name": "存储涨价周期能持续多久",
     "desc": "",
     "claim": "存储涨价周期将延续到2027年",
-    "summary": "推断：买方（雷军、马斯克）抱怨价格，供应链方（陈福阳、黄仁勋）确认短缺；黄仁勋预计2029年前不会过剩，马斯克称机器人将成为最大的内存需求来源，各方都预期短缺延续到2027年以后；差异在不同原厂的定价策略（马斯克称美光更合理）。",
-    "confidence": "中"
+    "summary": "推断：供应链方确认短缺并延长期限：三星称2027年比今年更缺、2028年仍持续，HBM明年已售罄；黄仁勋称2029年前不过剩；买方（雷军、马斯克）抱怨价格。各方都预期短缺延续到2027年以后。",
+    "confidence": "高"
    },
    {
     "id": "H5",
@@ -7853,6 +7973,62 @@
     },
     "point": "称TPU系统在广泛客户中需求强劲，是谷歌正在打造的重要平台。",
     "question": "TPU外销收入何时单独披露？2027年TPU系统收入能否超过谷歌云其他业务增量？",
+    "suggest": null
+   },
+   "samsung_mgmt|2026-10-29|扩产增加供给需要相当长时": {
+    "hyps": [
+     "H4"
+    ],
+    "main": "H4",
+    "stance": "支持",
+    "stances": {
+     "H4": "支持"
+    },
+    "point": "称新厂建设到出片需3年半以上，2027年存储短缺比今年更严重，2028年仍持续。",
+    "question": "2027年新增产能有多少能在2028年释放？长协外的现货价会不会继续高于合约价？",
+    "suggest": null
+   },
+   "samsung_mgmt|2026-10-29|2027年HBM供应量已": {
+    "hyps": [
+     "H4",
+     "H2"
+    ],
+    "main": "H4",
+    "stance": "支持",
+    "stances": {
+     "H4": "支持",
+     "H2": "支持"
+    },
+    "point": "称2027年HBM已按目标价售罄，大客户仍在追加。",
+    "question": "海外HBM售罄后，国产HBM能否在2027年补上昇腾的需求缺口？",
+    "suggest": null
+   },
+   "nadella|2026-10-28|我们只有一个算力池，目标": {
+    "hyps": [
+     "H2"
+    ],
+    "main": "H2",
+    "stance": "支持",
+    "stances": {
+     "H2": "支持"
+    },
+    "point": "称微软只有一个算力池，按需求信号在各业务间调配，当季新上线24个数据中心。",
+    "question": "算力在内部调配是否意味着短期仍不够用？下季资本开支会否补回延迟的交付？",
+    "suggest": null
+   },
+   "amyhood|2026-10-28|我们的需求仍然超过供给。": {
+    "hyps": [
+     "H2",
+     "H7"
+    ],
+    "main": "H2",
+    "stance": "支持",
+    "stances": {
+     "H2": "支持",
+     "H7": "支持"
+    },
+    "point": "称需求仍超过供给，资本开支低于预期是因第三方机房交付延迟。",
+    "question": "第三方机房延迟是电力、设备还是施工问题？延迟何时能补回？",
     "suggest": null
    }
   },

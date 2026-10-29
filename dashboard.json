@@ -1,6 +1,6 @@
 {
  "asOf": "2026-10-29",
- "updatedAt": "2026-10-29 06:56",
+ "updatedAt": "2026-10-29 10:52",
  "leaders": [
   {
    "id": "jensen",
@@ -397,6 +397,18 @@
    "statements": [
     {
      "date": "2026-10-28",
+     "quote": "我们只有一个算力池，目标是让它尽可能高效、可灵活调配。",
+     "topic": "AI与算力",
+     "context": "微软FY27Q1财报电话会（美东10月28日盘后，北京10月29日凌晨）；称算力在通用计算、数据、Foundry和Copilot之间按需求信号分配给价值最高的用途，当季在五大洲新上线24个数据中心；Azure增长48%",
+     "direct": true,
+     "original": "we have one pool, and we want to get the pool to be as efficient and fungible",
+     "source": {
+      "name": "FourWeekMBA（电话会摘要）",
+      "url": "https://fourweekmba.com/ai-microsofts-margin-hits-49-8-as-foundry-revenue-triples/"
+     }
+    },
+    {
+     "date": "2026-10-28",
      "quote": "我们在整个技术栈上为客户提供更强能力、更多选择、更强掌控和更高成本效率，帮助组织构建并拥有自己的智能。",
      "topic": "战略",
      "context": "微软FY27 Q1财报新闻稿（美东10月28日盘后）；当季营收923亿美元、同比增19%，Azure增48%，商业剩余履约义务6770亿美元、同比增73%",
@@ -724,6 +736,63 @@
       "url": "https://finance.biggo.com/news/US_NOK_2026-10-22"
      },
      "ai": "1. 诺基亚称需求大于供给、成本结构性上涨，海外数据中心的光和IP设备正处于卖方市场，设备商有提价空间，可观察诺基亚四季度可比毛利率能否高于三季度的44.6%。"
+    }
+   ]
+  },
+  {
+   "id": "samsung_mgmt",
+   "name": "三星电子管理层",
+   "nameEn": "Samsung Electronics management",
+   "title": "三星电子三季报电话会发言（存储业务）",
+   "company": "三星电子",
+   "biz": "芯片半导体",
+   "statements": [
+    {
+     "date": "2026-10-29",
+     "quote": "2027年HBM供应量已按目标价格谈妥，已经售罄，主要客户仍在持续要求追加。",
+     "topic": "价格与成本",
+     "context": "三星电子三季报电话会；三季度HBM4营收环比增长3倍以上，HBM4在HBM营收中占比约60%",
+     "direct": false,
+     "source": {
+      "name": "韩国金融新闻（파이낸셜뉴스）",
+      "url": "https://www.fnnews.com/news/202610291059267678"
+     },
+     "ai": "1. 三星2027年HBM已按目标价售罄，SK海力士也称2027—2028年过半产能签了长协，国产AI芯片明年的HBM只能靠长鑫爬坡，昇腾2027年出货受HBM约束的可能性大于受芯片制造约束。"
+    },
+    {
+     "date": "2026-10-29",
+     "quote": "扩产增加供给需要相当长时间，2027年存储供应短缺将比今年更严重，2028年仍将持续。",
+     "topic": "芯片与供应",
+     "context": "三星电子三季报电话会（10月29日上午）；公司称新厂从建设到晶圆产出需3年半以上，今年未满足的需求会顺延到明年；当季存储营收140.7万亿韩元、同比增427%",
+     "direct": false,
+     "source": {
+      "name": "韩国金融新闻（파이낸셜뉴스）",
+      "url": "https://www.fnnews.com/news/202610291050016563"
+     },
+     "ai": "1. 三星给出的理由是新厂从建设到出片要3年半以上，2027年的存储供给基本已被现有产能锁死，我司手机、PC和昇腾服务器2027年的DRAM、NAND成本应按继续上涨而非回落来测算。"
+    }
+   ]
+  },
+  {
+   "id": "amyhood",
+   "name": "艾米·胡德",
+   "nameEn": "Amy Hood",
+   "title": "微软执行副总裁兼CFO",
+   "company": "微软",
+   "biz": "计算与云",
+   "statements": [
+    {
+     "date": "2026-10-28",
+     "quote": "我们的需求仍然超过供给。",
+     "topic": "需求与增长",
+     "context": "微软FY27Q1财报电话会；当季Azure增长48%，CFO称本季部分预期中的第三方产能交付延迟，资本开支因此低于预期",
+     "direct": true,
+     "original": "We still have demand that exceeds supply.",
+     "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html"
+     },
+     "ai": "1. 微软一边说需求超过供给、一边因第三方机房交付延迟而少花了资本开支，说明海外算力扩张卡在机房建成上而不只是芯片，维谛三季度有机订单翻倍也指向同一方向，我司数字能源的数据中心供电和温控产品在海外的需求不会随GPU供给改善而降温。"
     }
    ]
   }
@@ -1303,33 +1372,38 @@
    "company": "三星电子",
    "en": "Samsung",
    "biz": "芯片半导体",
-   "period": "2026年Q3（初步）",
-   "reportDate": "2026-10-08",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-29",
    "metrics": [
     {
      "label": "营收",
-     "value": "约195万亿韩元",
-     "yoy": "+127%"
+     "value": "195.3万亿韩元",
+     "yoy": "+126.6%"
     },
     {
      "label": "营业利润",
-     "value": "约107.4万亿韩元",
+     "value": "107.4万亿韩元",
      "yoy": "+783%"
     },
     {
-     "label": "营业利润率",
-     "value": "约55%",
-     "yoy": ""
+     "label": "存储业务营收",
+     "value": "140.7万亿韩元",
+     "yoy": "+427%"
+    },
+    {
+     "label": "手机与网络营业利润",
+     "value": "约-0.6万亿韩元",
+     "yoy": "去年同期盈利"
     }
    ],
-   "highlight": "季度营业利润首破100万亿韩元，存储涨价是主因；据报手机部门持续承压",
-   "guidance": "",
-   "nextReport": "2026-10-29",
+   "highlight": "DS（半导体）部门营收147.1万亿韩元、营业利润106.5万亿韩元，占全公司利润99%以上；HBM4营收环比增3倍以上、占HBM营收约60%；整机DX部门营收52.1万亿韩元、亏损0.8万亿韩元，手机继续受元器件涨价拖累。",
+   "guidance": "2027年HBM已按目标价格售罄；预计2027年存储短缺比今年更严重，2028年仍将持续；称对四季度和明年增长乐观（未给具体数字）",
+   "nextReport": "",
    "source": {
-    "name": "三星新闻中心",
-    "url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026"
+    "name": "韩国Etoday（이투데이）",
+    "url": "https://www.etoday.co.kr/news/view/2641586"
    },
-   "updatedOn": "2026-10-08",
+   "updatedOn": "2026-10-29",
    "statements": {
     "period": "2026年Q2",
     "unit": "百万韩元",
