@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-30",
- "updatedAt": "2026-10-30 06:57",
+ "asOf": "2026-10-31",
+ "updatedAt": "2026-10-31 07:40",
  "leaders": [
   {
    "id": "jensen",
@@ -516,6 +516,19 @@
    "biz": "计算与云",
    "statements": [
     {
+     "date": "2026-10-30",
+     "quote": "每个人电脑里存着全球有限的DRAM，却只有5%的时间在用，这相当糟糕。",
+     "topic": "价格与成本",
+     "context": "Stripe播客Cheeky Pint访谈（据多家媒体10月29至30日报道，具体发布日未能从原始来源核实）。他称家用电脑内存利用率远低于数据中心，并认为此前内存行业长期算不上好生意",
+     "direct": true,
+     "original": "quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer and being used 5% of the time",
+     "source": {
+      "name": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization"
+     },
+     "ai": "1. OpenAI是内存紧缺中的大买家，其CEO公开主张内存应优先给数据中心，我司手机和PC的端侧AI若以大内存为卖点，要面对这一云端优先的说法；5%利用率为其个人说法、无数据支撑。"
+    },
+    {
      "date": "2026-10-05",
      "quote": "鉴于安全方面的种种情况，现在上市不明智；我们尚未解决对齐问题。",
      "topic": "战略",
@@ -856,6 +869,80 @@
   }
  ],
  "earnings": [
+  {
+   "company": "长城汽车",
+   "en": "Great Wall Motor",
+   "biz": "汽车",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-30",
+   "metrics": [
+    {
+     "label": "Q3营收",
+     "value": "577.67亿元",
+     "yoy": "-5.68%（环比+1.36%）"
+    },
+    {
+     "label": "Q3归母净利润",
+     "value": "13.62亿元",
+     "yoy": "-40.75%"
+    },
+    {
+     "label": "前三季度营收",
+     "value": "1598.69亿元",
+     "yoy": "+4.09%"
+    },
+    {
+     "label": "前三季度归母净利润",
+     "value": "38.26亿元",
+     "yoy": "-55.69%"
+    }
+   ],
+   "highlight": "公司称利润下滑源于国内竞争压力、海外税收补贴收益收回延期及汇率波动；前三季度海外销量47.60万辆，占总销量超一半；1—9月累计销量92.03万辆，同比-0.33%。",
+   "guidance": "",
+   "nextReport": "",
+   "source": {
+    "name": "东方财富",
+    "url": "https://finance.eastmoney.com/a/202610303916972061.html"
+   },
+   "updatedOn": "2026-10-31"
+  },
+  {
+   "company": "隆基绿能",
+   "en": "LONGi Green Energy",
+   "biz": "能源",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-30",
+   "metrics": [
+    {
+     "label": "Q3营收",
+     "value": "168.19亿元",
+     "yoy": "-7.08%"
+    },
+    {
+     "label": "Q3归母净亏损",
+     "value": "10.29亿元",
+     "yoy": "环比收窄41.66%"
+    },
+    {
+     "label": "前三季度营收",
+     "value": "438.64亿元",
+     "yoy": "-13.85%"
+    },
+    {
+     "label": "前三季度归母净亏损",
+     "value": "47.13亿元",
+     "yoy": "亏损扩大38.48%"
+    }
+   ],
+   "highlight": "单季减亏、毛利率同比环比均改善、单季经营现金流转正；前三季度组件出货48.61GW，其中BC组件31.64GW，同比增118.58%；前三季度亏损扩大主因汇兑由盈转亏及联营企业亏损。",
+   "guidance": "",
+   "nextReport": "",
+   "source": {
+    "name": "澎湃新闻",
+    "url": "https://www.thepaper.cn/newsDetail_forward_34369811"
+   },
+   "updatedOn": "2026-10-31"
+  },
   {
    "company": "卡特彼勒",
    "en": "Caterpillar",
@@ -4307,131 +4394,38 @@
    "company": "阳光电源",
    "en": "Sungrow",
    "biz": "能源",
-   "period": "2026年Q2",
-   "reportDate": "2026-08-28",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-30",
    "metrics": [
     {
-     "label": "营收",
-     "value": "153.5亿元",
-     "yoy": "-37.3%"
+     "label": "Q3营收",
+     "value": "179.50亿元",
+     "yoy": "-21.51%"
     },
     {
-     "label": "归母净利润",
-     "value": "29.7亿元",
-     "yoy": "-24.1%"
+     "label": "Q3归母净利润",
+     "value": "13.41亿元",
+     "yoy": "-67.67%（环比约-54%）"
     },
     {
-     "label": "毛利率",
-     "value": "38.62%",
-     "yoy": "+4.9pct"
+     "label": "前三季度营收",
+     "value": "488.63亿元",
+     "yoy": "-26.41%"
+    },
+    {
+     "label": "前三季度归母净利润",
+     "value": "65.99亿元",
+     "yoy": "-44.46%"
     }
    ],
-   "highlight": "中东储能收入同比减少52亿元；AIDC配储在手订单约2GWh",
+   "highlight": "单季营收净利双降，公司称汇兑损失增加致财务费用上升；前三季度经营现金流36.48亿元，同比降63.21%；检索结果中未见三季度储能收入的单独数据。",
    "guidance": "",
    "nextReport": "",
    "source": {
-    "name": "格隆汇",
-    "url": "https://m.gelonghui.com/news/5305889"
+    "name": "每日经济新闻",
+    "url": "https://www.nbd.com.cn/articles/2026-10-30/4631204.html"
    },
-   "updatedOn": "2026-08-28",
-   "statements": {
-    "period": "2026年上半年",
-    "unit": "百万元人民币",
-    "sources": [
-     {
-      "name": "阳光电源2026年半年度报告（巨潮资讯）",
-      "url": "http://static.cninfo.com.cn/finalpage/2026-08-29/1225526948.PDF"
-     }
-    ],
-    "income": {
-     "columns": [
-      "项目",
-      "2026年上半年",
-      "2025年上半年"
-     ],
-     "rows": [
-      [
-       "营业收入",
-       "30,912",
-       "43,533"
-      ],
-      [
-       "营业成本",
-       "19,808",
-       "未获取"
-      ],
-      [
-       "毛利（计算值，毛利率35.92%）",
-       "11,104",
-       "未获取"
-      ],
-      [
-       "研发费用",
-       "2,095",
-       "未获取"
-      ],
-      [
-       "销售费用",
-       "2,130",
-       "未获取"
-      ],
-      [
-       "财务费用",
-       "368",
-       "未获取"
-      ],
-      [
-       "归母净利润",
-       "5,259",
-       "7,735"
-      ],
-      [
-       "扣非归母净利润",
-       "4,275",
-       "7,495"
-      ],
-      [
-       "稀释每股收益（元）",
-       "2.56",
-       "3.73"
-      ]
-     ]
-    },
-    "cashflow": {
-     "columns": [
-      "项目",
-      "2026年上半年",
-      "2025年上半年"
-     ],
-     "rows": [
-      [
-       "经营活动现金流净额",
-       "3,735",
-       "3,434"
-      ]
-     ]
-    },
-    "balance": {
-     "columns": [
-      "项目",
-      "2026-06-30",
-      "2025-12-31"
-     ],
-     "rows": [
-      [
-       "总资产",
-       "127,091",
-       "118,679"
-      ],
-      [
-       "归母净资产",
-       "50,141",
-       "46,611"
-      ]
-     ]
-    },
-    "note": "半年报合并三表未能完整抓取，只列已核实的项目；营业成本和费用来自经营情况文字（精度约±0.5百万元），上年同期未获取。"
-   }
+   "updatedOn": "2026-10-31"
   },
   {
    "company": "中国电信",
@@ -5356,6 +5350,26 @@
  },
  "policy": [
   {
+   "title": "美FCC拟禁止中国运营商直接获取美国电话号码",
+   "region": "美国",
+   "biz": "联接、ICT基础设施",
+   "status": "提案待表决：FCC定于11月19日表决",
+   "latest": {
+    "date": "2026-10-30",
+    "text": "提案禁止三大中国运营商直接接入美国电话号码，并拟限制使用被列为国安风险企业（含华为、中兴）设备的IP通信服务商；外交部称坚决反对、将采取必要措施"
+   },
+   "next": {
+    "date": "2026-11-19",
+    "text": "FCC表决"
+   },
+   "level": "中",
+   "source": {
+    "name": "VOA中文（引路透等）",
+    "url": "https://www.voachinese.com/a/us-plans-to-ban-chinese-telecom-firms-from-direct-access-to-us-phone-numbers-20261030/8216871.html"
+   },
+   "updatedOn": "2026-10-31"
+  },
+  {
    "title": "美FCC禁止在华实验室做输美设备认证检测",
    "region": "美国",
    "biz": "终端、数字能源、联接",
@@ -5879,6 +5893,14 @@
    "biz": "终端、联接",
    "confirmed": true,
    "updatedOn": "2026-10-21"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "FCC表决：禁止中国运营商直接获取美国电话号码并限制使用华为、中兴设备的IP服务商",
+   "type": "政策",
+   "biz": "联接",
+   "confirmed": true,
+   "updatedOn": "2026-10-31"
   },
   {
    "date": "2026-11-24",

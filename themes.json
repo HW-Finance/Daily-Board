@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-30",
- "updatedAt": "2026-10-30 06:59",
+ "asOf": "2026-10-31",
+ "updatedAt": "2026-10-31 07:40",
  "config": [
   {
    "domain": "汇率",
@@ -49,11 +49,11 @@
    "id": "fx",
    "name": "汇率走势",
    "domain": "横向",
-   "judgment": "欧元跌至年内低位，人民币对美元小幅走强",
+   "judgment": "人民币对美元续升，欧元数据待补",
    "direction": "持平",
-   "directionNote": "较10月28日：EUR/CNY回升0.10%，USD/CNY降0.03%，变化均很小",
-   "asOf": "2026-10-29",
-   "change": "本期新增：10月29日中间价USD/CNY 6.7147、EUR/CNY 7.4570；ECB 10月28日EUR/USD参考价1.1133。未检索到ECB 10月27日参考价和欧央行29日决议。",
+   "directionNote": "较10月29日：USD/CNY中间价降0.01%，变化很小",
+   "asOf": "2026-10-30",
+   "change": "本期新增：10月30日USD/CNY中间价6.7138。未检索到10月30日EUR/CNY中间价和ECB EUR/USD参考价，两条序列仍到10月29日、10月28日。",
    "pairs": [
     {
      "pair": "USD/CNY",
@@ -298,39 +298,43 @@
       {
        "d": "2026-10-29",
        "v": 6.7147
+      },
+      {
+       "d": "2026-10-30",
+       "v": 6.7138
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
       "name": "国家外汇管理局（转载中国外汇交易中心受权公布的人民币汇率中间价）",
       "url": "https://www.safe.gov.cn/safe/rmbhlzjj/index.html",
-      "date": "2026-10-29"
+      "date": "2026-10-30"
      },
      "compare": null,
      "compareNote": "在岸即期收盘价：暂无可靠数据（未取得可核实的日度序列），故不显示对照线。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-10-30",
+       "v": 6.7138
+      },
+      "prev": {
        "d": "2026-10-29",
        "v": 6.7147
       },
-      "prev": {
-       "d": "2026-10-28",
-       "v": 6.7165
-      },
-      "dayPct": -0.03,
+      "dayPct": -0.01,
       "base30": {
-       "d": "2026-09-29",
-       "v": 6.7411
+       "d": "2026-09-30",
+       "v": 6.7351
       },
-      "d30Pct": -0.39,
+      "d30Pct": -0.32,
       "hi": {
        "d": "2026-08-04",
        "v": 6.7917
       },
       "lo": {
-       "d": "2026-10-29",
-       "v": 6.7147
+       "d": "2026-10-30",
+       "v": 6.7138
       }
      },
      "forecast": [
@@ -1273,41 +1277,26 @@
     "EUR/USD": null
    },
    "dayMove": {
-    "headline": "欧元跌至年内低位，人民币对美元小幅走强",
+    "headline": "人民币中间价续升，在岸盘中升至6.66上方",
     "points": [
-     "EUR/USD：10月28日ECB参考价1.1133，较27日跌0.15%",
-     "盘中曾跌至1.1113，为2025年5月以来最低",
-     "美联储维持3.75%—4.00%，欧元盘后小幅反弹",
-     "10月29日USD/CNY中间价6.7147，较前日调升18基点"
+     "10月30日USD/CNY中间价6.7138，较前日调升9基点",
+     "在岸16:30收盘6.6621，夜盘6.6612",
+     "据新浪报道，在岸价为2022年6月以来最强",
+     "未取得10月30日EUR/CNY中间价与ECB参考价"
     ],
+    "detail": "10月30日USD/CNY中间价6.7138，较前日调升9基点；在岸16:30收盘6.6621，夜盘6.6612；据新浪报道，在岸价为2022年6月以来最强；未取得10月30日EUR/CNY中间价与ECB参考价",
     "src": [
      {
-      "name": "金十数据 – 2026年10月29日银行间外汇市场人民币汇率中间价",
-      "url": "https://shishixinwen.news/news/jin10/20261029091526489800",
-      "date": "2026-10-29"
+      "name": "中新网 – 10月30日人民币对美元中间价报6.7138",
+      "url": "https://www.chinanews.com.cn/cj/2026/10-30/10723119.shtml",
+      "date": "2026-10-30"
      },
      {
-      "name": "中新网 – 10月29日人民币对美元中间价报6.7147",
-      "url": "https://www.chinanews.com.cn/cj/2026/10-29/10722541.shtml",
-      "date": "2026-10-29"
-     },
-     {
-      "name": "欧洲央行 EUR/USD参考汇率",
-      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-      "date": "2026-10-28"
-     },
-     {
-      "name": "FXStreet – Euro edges up as the Fed holds a day before the ECB",
-      "url": "https://www.fxstreet.com/news/euro-edges-up-as-the-fed-holds-a-day-before-the-ecb-202610281809",
-      "date": "2026-10-28"
-     },
-     {
-      "name": "FXStreet – Euro seems vulnerable near yearly low, Fed-ECB policy is under spotlight",
-      "url": "https://fxstreet.com/news/euro-seems-vulnerable-near-yearly-low-fed-ecb-policy-is-under-spotlight-202610280913",
-      "date": "2026-10-28"
+      "name": "21财经 – 10月30日中间价与在岸收盘",
+      "url": "https://m.21jingji.com/article/20261030/herald/20518ef351c77d5c249da708aacb7b05.html",
+      "date": "2026-10-30"
      }
-    ],
-    "detail": "EUR/USD：10月28日ECB参考价1.1133，较27日跌0.15%；盘中曾跌至1.1113，为2025年5月以来最低；美联储维持3.75%—4.00%，欧元盘后小幅反弹；10月29日USD/CNY中间价6.7147，较前日调升18基点"
+    ]
    },
    "background": [
     {
@@ -5927,10 +5916,10 @@
   "pvess": {
    "id": "pvess",
    "name": "光储供需与价格",
-   "judgment": "国内光伏前三季度降54%，储能靠出海撑景气",
-   "direction": "持平",
-   "directionNote": "较1—7月：累计降幅由61%收窄至54%，9月同比+41%，但全年大概率在预测下沿或更低",
-   "asOf": "2026-10-26",
+   "judgment": "光伏制造全线亏损，逆变器龙头利润腰斩",
+   "direction": "恶化",
+   "directionNote": "较10月26日：阳光电源三季度净利环比降54%",
+   "asOf": "2026-10-30",
    "keyNumbers": [
     {
      "label": "1—9月中国光伏新增装机",
@@ -5966,8 +5955,25 @@
      }
     }
    ],
-   "change": "本期新增：国家能源局1—9月数据，9月光伏新增13.64GW（+41.2%），1—9月110.83GW（-53.87%）。CNESA前三季度储能数据、逆变器价格与出口仍未核实到。",
+   "change": "本期新增：阳光电源、隆基等三季报；其中“八家合计亏损约277亿元”为媒体汇总。CNESA前三季度储能数据仍未核实到。",
    "facts": [
+    {
+     "text": "光伏三季报：阳光电源三季度净利13.41亿元、降67.7%；据报八家光伏公司前三季度合计亏损约277亿元；隆基BC组件出货31.64GW、增118.6%。",
+     "src": [
+      {
+       "name": "每日经济新闻",
+       "url": "https://www.nbd.com.cn/articles/2026-10-30/4631204.html",
+       "date": "2026-10-30",
+       "repost": false
+      },
+      {
+       "name": "同花顺（财经）",
+       "url": "http://stock.10jqka.com.cn/20261030/c681315776.shtml",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "能源局光伏新增装机：1—9月110.83GW，同比-53.87%（上年同期240.27GW）；9月13.64GW，同比+41.2%、环比+23.6%。此前1—6月72.07GW，1—7月86.15GW、-61%，7月14.08GW、+28%；分析人士称大降因2025年5月抢装抬高基数。",
      "src": [
@@ -6796,10 +6802,10 @@
    "id": "geo",
    "name": "中美、中欧地缘政策跟踪",
    "domain": "横向",
-   "judgment": "FCC按地点排除中国实验室，限制再扩",
+   "judgment": "FCC再提限制，涉及使用华为设备的服务商",
    "direction": "恶化",
-   "directionNote": "较10月26日：美国新增检测实验室禁令和涉疆清单",
-   "asOf": "2026-10-29",
+   "directionNote": "较10月29日：由实验室检测扩展到电话号码与设备使用",
+   "asOf": "2026-10-30",
    "keyNumbers": [
     {
      "label": "中美休战到期日",
@@ -6835,7 +6841,7 @@
      }
     }
    ],
-   "change": "本期新增：FCC表决禁止在华实验室做认证检测；华大三家入UFLPA清单；商务部回应欧盟扩大限量。表决票数未能核实。",
+   "change": "本期新增：FCC定于11月19日表决禁止中国运营商直接获取美国电话号码的提案。稀土暂停期无新进展，未核实到变化。",
    "facts": [
     {
      "text": "FCC检测实验室禁令：10月29日表决通过，与美无互认安排国家（含中国）的实验室不得做FCC认证检测，2028年12月生效；2025年82%的设备在中国检测。",
@@ -7124,6 +7130,27 @@
     }
    ],
    "timeline": [
+    {
+     "date": "2026-10-30",
+     "region": "美国",
+     "title": "FCC拟禁中国运营商获取美国电话号码",
+     "status": "征求意见",
+     "text": "提案禁止三大中国运营商直接接入美国电话号码，并拟限制使用华为、中兴设备的IP服务商；外交部称将采取必要措施。",
+     "next": {
+      "date": "2026-11-19",
+      "text": "FCC表决"
+     },
+     "biz": "联接、ICT基础设施",
+     "level": "中",
+     "src": [
+      {
+       "name": "VOA中文（引路透等）",
+       "url": "https://www.voachinese.com/a/us-plans-to-ban-chinese-telecom-firms-from-direct-access-to-us-phone-numbers-20261030/8216871.html",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
     {
      "date": "2026-10-29",
      "region": "美国",
@@ -8555,6 +8582,19 @@
     },
     "point": "称没能满足客户需求，内存高价延续到2027年。",
     "question": "PC市场两年下滑的预测是否已计入内存涨价？",
+    "suggest": null
+   },
+   "altman|2026-10-30|每个人电脑里存着全球有限的DR": {
+    "hyps": [
+     "H4"
+    ],
+    "main": "H4",
+    "stance": "支持",
+    "stances": {
+     "H4": "支持"
+    },
+    "point": "称家用电脑内存利用率低，主张有限DRAM优先用于数据中心。",
+    "question": "数据中心优先的内存分配是否会持续挤压消费电子供给？",
     "suggest": null
    }
   },
