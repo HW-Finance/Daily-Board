@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-29",
- "updatedAt": "2026-10-29 10:52",
+ "asOf": "2026-10-30",
+ "updatedAt": "2026-10-30 06:59",
  "config": [
   {
    "domain": "汇率",
@@ -776,12 +776,48 @@
        {
         "d": "2026-10-16",
         "v": 7.524
+       },
+       {
+        "d": "2026-10-19",
+        "v": 7.4991
+       },
+       {
+        "d": "2026-10-20",
+        "v": 7.4894
+       },
+       {
+        "d": "2026-10-21",
+        "v": 7.4999
+       },
+       {
+        "d": "2026-10-22",
+        "v": 7.4786
+       },
+       {
+        "d": "2026-10-23",
+        "v": 7.466
+       },
+       {
+        "d": "2026-10-26",
+        "v": 7.4603
+       },
+       {
+        "d": "2026-10-27",
+        "v": 7.4343
+       },
+       {
+        "d": "2026-10-28",
+        "v": 7.4217
+       },
+       {
+        "d": "2026-10-29",
+        "v": 7.4144
        }
       ],
       "source": {
        "name": "欧洲央行（ECB）欧元参考汇率·CNY",
        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-cny.en.html",
-       "date": "2026-10-16"
+       "date": "2026-10-29"
       }
      },
      "compareNote": "对照线为欧洲央行每日参考汇率（欧洲中部时间14:15定盘），与CFETS中间价（北京时间9:15公布）定价时点不同，二者存在差异属正常。ECB CNY页面最新数据为10月16日。",
@@ -1069,6 +1105,10 @@
        "v": 1.1188
       },
       {
+       "d": "2026-10-27",
+       "v": 1.115
+      },
+      {
        "d": "2026-10-28",
        "v": 1.1133
       }
@@ -1088,10 +1128,10 @@
        "v": 1.1133
       },
       "prev": {
-       "d": "2026-10-26",
-       "v": 1.1188
+       "d": "2026-10-27",
+       "v": 1.115
       },
-      "dayPct": -0.49,
+      "dayPct": -0.15,
       "base30": {
        "d": "2026-09-28",
        "v": 1.1378
@@ -1235,7 +1275,7 @@
    "dayMove": {
     "headline": "欧元跌至年内低位，人民币对美元小幅走强",
     "points": [
-     "EUR/USD：10月28日ECB参考价1.1133，较26日跌0.49%",
+     "EUR/USD：10月28日ECB参考价1.1133，较27日跌0.15%",
      "盘中曾跌至1.1113，为2025年5月以来最低",
      "美联储维持3.75%—4.00%，欧元盘后小幅反弹",
      "10月29日USD/CNY中间价6.7147，较前日调升18基点"
@@ -1267,7 +1307,7 @@
       "date": "2026-10-28"
      }
     ],
-    "detail": "EUR/USD：10月28日ECB参考价1.1133，较26日跌0.49%；盘中曾跌至1.1113，为2025年5月以来最低；美联储维持3.75%—4.00%，欧元盘后小幅反弹；10月29日USD/CNY中间价6.7147，较前日调升18基点"
+    "detail": "EUR/USD：10月28日ECB参考价1.1133，较27日跌0.15%；盘中曾跌至1.1113，为2025年5月以来最低；美联储维持3.75%—4.00%，欧元盘后小幅反弹；10月29日USD/CNY中间价6.7147，较前日调升18基点"
    },
    "background": [
     {
@@ -1963,9 +2003,9 @@
   "memory": {
    "id": "memory",
    "name": "介质（存储）供需与价值走势",
-   "judgment": "三星称2027年更缺、HBM已售罄，涨价延续",
+   "judgment": "闪迪称明年需求增40%供应跟不上，涨价延续",
    "direction": "恶化",
-   "directionNote": "较10月28日：三星加入表态，两大原厂都称2027年供给更紧",
+   "directionNote": "较10月29日：NAND原厂也称2027年缺口扩大，服务器MLCC同步缺货",
    "asOf": "2026-10-29",
    "keyNumbers": [
     {
@@ -1976,6 +2016,17 @@
       "name": "StockTitan（SK海力士新闻稿）",
       "url": "https://www.stocktitan.net/news/SKHY/sk-hynix-announces-3q26-financial-fcr2bh8ikc0x.html",
       "date": "2026-10-28",
+      "repost": true
+     }
+    },
+    {
+     "label": "闪迪FY27产能长约覆盖",
+     "value": "约50%",
+     "compare": "FY28约三分之二；2027年NAND需求预计+40%（公司判断）",
+     "source": {
+      "name": "Sandisk电话会纪要（gloom.sh）",
+      "url": "https://gloom.sh/stocks/sndk/transcripts/q1-2027",
+      "date": "2026-10-29",
       "repost": true
      }
     },
@@ -2011,22 +2062,60 @@
       "date": "2026-09-30",
       "repost": false
      }
-    },
-    {
-     "label": "中端手机存储占BOM（2Q26拆机估算）",
-     "value": "约40%",
-     "compare": "中端机BOM同比+52%",
-     "source": {
-      "name": "Counterpoint（EE Times Asia刊发）",
-      "url": "https://www.eetasia.com/counterpoint-component-cost-dynamics-amid-memory-price-spikes/",
-      "date": "2026-08-06",
-      "repost": true,
-      "stale": true
-     }
     }
    ],
-   "change": "本期新增：三星三季度完整财报（存储收入+427%，手机仍亏约0.6万亿韩元）与电话会表态（2027年短缺更重、HBM已售罄）。未找到三星长协覆盖率和代工亏损数字。",
+   "change": "本期新增：闪迪FY27Q1业绩与长约覆盖率、国产存储厂三季报、TrendForce高容MLCC缺货判断。未找到TrendForce 1Q27合约价新预测。",
    "facts": [
+    {
+     "text": "闪迪FY27Q1业绩：营收110.3亿美元（同比+378%，环比+23%），毛利率85.0%；数据中心环比+61%，消费类-29%；本季指引122亿—126亿美元。",
+     "src": [
+      {
+       "name": "Sandisk投资者关系",
+       "url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "闪迪长协与需求判断：约50%的FY27、三分之二的FY28产能已签长约；预计2027年NAND需求增约40%，自身供应仅增十几个百分点。",
+     "src": [
+      {
+       "name": "Sandisk电话会纪要（gloom.sh）",
+       "url": "https://gloom.sh/stocks/sndk/transcripts/q1-2027",
+       "date": "2026-10-29",
+       "repost": true
+      },
+      {
+       "name": "Sandisk投资者关系",
+       "url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "国产存储厂三季报：兆易创新净利42.1亿元（+729%，净利率48%），江波龙37.5亿元（+437%），澜起12.4亿元（+162%）。",
+     "src": [
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-10-29/doc-iniwxekr8689564.shtml",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "高容MLCC缺货：TrendForce称CPU与DDR5周边高容MLCC用量约翻倍，缺货持续到2027年上半年，11月起谈1Q27价格；消费级中低容现货10月初降约5%。",
+     "src": [
+      {
+       "name": "TechNews科技新报（TrendForce）",
+       "url": "https://technews.tw/2026/10/29/ai-inference-drives-cpu-ddr5-demand-high-capacity-mlcc-shortage-extends-h1-2027/",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "三星电话会表态：新厂建设到出片需3年半以上，2027年存储短缺比今年更严重、2028年仍持续；2027年HBM已按目标价售罄，大客户仍在追加。",
      "src": [
@@ -2323,6 +2412,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：2027年NAND缺口靠扩产补不上，闪存价格2027年仍难回落。",
+     "confidence": "中",
+     "basis": "闪迪称2027年需求增约40%、自身供应仅增十几个百分点，且过半产能已签长约"
+    },
+    {
      "text": "推断：2027—2028年存储供给大部分已被云厂商和AI芯片厂长协锁定，即使涨幅续收窄，2028年前价格也难回落。",
      "confidence": "中",
      "basis": "SK海力士过半产能签5年期长协、紧缺至2030年；黄仁勋称2029年前不过剩；TrendForce仍预测4Q26环比上涨"
@@ -2496,6 +2590,11 @@
    ],
    "signals": [
     {
+     "what": "TrendForce高容MLCC 1Q27议价结果",
+     "when": "11月起（未官宣）",
+     "why": "服务器用料继内存后再涨价的幅度"
+    },
+    {
      "what": "美光桃园厂劳资第三次协商",
      "when": "2026-11-06",
      "why": "桃园厂据报占美光DRAM产能约22%，若升级为长期罢工将加剧DRAM紧张"
@@ -2517,6 +2616,34 @@
     }
    ],
    "sources": [
+    {
+     "name": "TechNews科技新报（TrendForce）",
+     "url": "https://technews.tw/2026/10/29/ai-inference-drives-cpu-ddr5-demand-high-capacity-mlcc-shortage-extends-h1-2027/",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "新浪科技",
+     "url": "https://finance.sina.com.cn/tech/roll/2026-10-29/doc-iniwxekr8689564.shtml",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "Sandisk电话会纪要（gloom.sh）",
+     "url": "https://gloom.sh/stocks/sndk/transcripts/q1-2027",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "Sandisk投资者关系",
+     "url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "韩国金融新闻（HBM售罄）",
      "url": "https://www.fnnews.com/news/202610291059267678",
@@ -2754,10 +2881,10 @@
   "auto": {
    "id": "auto",
    "name": "智能汽车",
-   "judgment": "10月零售仍降26%，大众智驾出海选小鹏",
+   "judgment": "合资利润塌陷，车企靠出海补内销",
    "direction": "恶化",
-   "directionNote": "较10月23日：国内零售仍深跌，大众海外智驾锁定小鹏和地平线合资方",
-   "asOf": "2026-10-28",
+   "directionNote": "较10月28日：比亚迪、上汽、大众三季报显示内销利润继续收缩",
+   "asOf": "2026-10-29",
    "keyNumbers": [
     {
      "label": "9月乘用车零售（乘联会）",
@@ -2793,8 +2920,52 @@
      }
     }
    ],
-   "change": "本期新增：乘联会10月1—25日零售同比-26%、新能源零售-13%；大众宣布中国研发技术出海，智驾交给小鹏、酷睿程。未找到鸿蒙智行10月周销量的权威数据。",
+   "change": "本期新增：比亚迪、大众、上汽三季报，小鹏MONA L05以13.98万元起搭载自研芯片智驾。乘联会本期无新周度数据。",
    "facts": [
+    {
+     "text": "比亚迪三季报：营收2214.9亿元（+13.6%），净利100.2亿元（+28.1%）；前三季度净利223.5亿元（-4.2%），海外销量134万辆（+91%）。",
+     "src": [
+      {
+       "name": "21世纪经济报道",
+       "url": "https://m.21jingji.com/article/20261029/herald/d89c5b91e62382573c46c29de56d1012.html",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "大众三季报：经营亏损58.6亿欧元，三季度在华销量降近40%；在华合资前三季度经营亏损1.13亿欧元，上年同期盈利7.44亿欧元。",
+     "src": [
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/10/29/volkswagen-posts-58-billion-loss-as-chinese-competition-bites",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "上汽三季报：归母净利4.86亿元（-76.7%），扣非0.7亿元；合营联营投资收益12.6亿元，上年同期44.1亿元；前三季度海外销量116.6万辆（+52.4%）。",
+     "src": [
+      {
+       "name": "21世纪经济报道",
+       "url": "https://www.21jingji.com/article/20261029/herald/97a7dc7c137a307907dbc8bebb6d44fa.html",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "小鹏MONA L05上市：限时13.98万—17.18万元，Max版1颗自研图灵芯片+VLA Lite，纯视觉无激光雷达。",
+     "src": [
+      {
+       "name": "网易/IT之家",
+       "url": "https://www.163.com/dy/article/LAEG8VA20511B8LM.html",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "乘联会10月1—25日：乘用车零售114.5万辆、同比-26%，批发138.4万辆、-22%；新能源零售75.3万辆、-13%，批发100.8万辆、+3%；零售渗透率65.7%。",
      "src": [
@@ -2972,6 +3143,11 @@
     }
    ],
    "inferences": [
+    {
+     "text": "推断：国内车企利润靠出口补，内销价格战不会缓和；合资利润塌陷使外资更看重低价智驾。",
+     "confidence": "中",
+     "basis": "比亚迪海外+91%、上汽海外+52%；上汽合资投资收益降71%，大众在华合资转亏"
+    },
     {
      "text": "推断：批发增长主要靠出口，国内新能源需求实际收缩：9月新能源批发比零售多58.2万辆，出口55.8万辆可解释约96%。",
      "confidence": "高",
@@ -3167,6 +3343,34 @@
    ],
    "sources": [
     {
+     "name": "网易/IT之家",
+     "url": "https://www.163.com/dy/article/LAEG8VA20511B8LM.html",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "21世纪经济报道",
+     "url": "https://www.21jingji.com/article/20261029/herald/97a7dc7c137a307907dbc8bebb6d44fa.html",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "Euronews",
+     "url": "https://www.euronews.com/2026/10/29/volkswagen-posts-58-billion-loss-as-chinese-competition-bites",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "21世纪经济报道",
+     "url": "https://m.21jingji.com/article/20261029/herald/d89c5b91e62382573c46c29de56d1012.html",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
+    {
      "name": "Reuters（经KSL）",
      "url": "https://www.ksl.com/article/51641888/volkswagen-in-strategy-shift-plans-to-globalise-china-developed-technology",
      "date": "2026-10-28",
@@ -3298,10 +3502,10 @@
   "ict6g": {
    "id": "ict6g",
    "name": "5G/5G-A 向 6G 代际切换与演进",
-   "judgment": "电信收入同比降2.5%，国内无线投资难回升",
-   "direction": "恶化",
-   "directionNote": "较10月28日：新增全行业收入下滑数据，佐证运营商投资收缩",
-   "asOf": "2026-10-28",
+   "judgment": "运营商利润下滑，八部门研究稳投资",
+   "direction": "持平",
+   "directionNote": "较10月28日：联通利润降三成，但政策开始研究支持投资",
+   "asOf": "2026-10-29",
    "keyNumbers": [
     {
      "label": "全国5G基站（9月末）",
@@ -3340,8 +3544,30 @@
      }
     }
    ],
-   "change": "本期新增：工信部前三季度电信业务收入同比-2.5%、流量+17%；T-Mobile三季度资本开支-14%。中国电信、联通三季度资本开支执行数未检索到。",
+   "change": "本期新增：工信部牵头八部门座谈新一代通信网建设；中国联通三季报利润降31.3%。未找到联通三季度资本开支数字。",
    "facts": [
+    {
+     "text": "工信部新一代通信网座谈会：10月29日余晓晖主持，发改委、财政部、人民银行等八部门参会，研究用地、用电、频谱及财政金融支持，激励企业投资；未公布量化目标。",
+     "src": [
+      {
+       "name": "21世纪经济报道（工信微报）",
+       "url": "https://www.21jingji.com/article/20261029/herald/8d396b16785956e1387528485502789d.html",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "中国联通三季报：三季度营收932.8亿元（+0.5%），归母净利16.6亿元（-31.3%）；前三季度算力收入+12.2%。",
+     "src": [
+      {
+       "name": "C114通信网",
+       "url": "https://www.c114.com.cn/video/5917/a1320095.html",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "工信部前三季度通信业：电信业务收入1.3万亿元、同比-2.5%，不变价业务总量+7.3%，移动互联网流量+17%；10G PON端口3340万个，较上年末+177.9万个。",
      "src": [
@@ -3534,6 +3760,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：政策开始针对运营商投资意愿，若出台财政金融支持，国内网络投资下行可能放缓。",
+     "confidence": "低",
+     "basis": "财政部、人民银行参会讨论激励投资；尚无政策文件和金额"
+    },
+    {
      "text": "推断：国内运营商流量增17%而收入降2.5%，收入端无力支撑无线投资回升。",
      "confidence": "中",
      "basis": "工信部前三季度数据；中国移动前三季度资本开支约-11.8%"
@@ -3688,9 +3919,9 @@
    ],
    "signals": [
     {
-     "what": "中国电信、中国联通三季度资本开支执行情况",
-     "when": "10月下旬（未官宣具体日期）",
-     "why": "若降幅同样深于计划，验证国内无线投资继续收缩"
+     "what": "新一代通信网建设支持政策文件",
+     "when": "未官宣",
+     "why": "有无财政贴息或专项债决定投资降幅能否收窄"
     },
     {
      "what": "工信部10月数据中的5G基站月净增",
@@ -3709,6 +3940,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "C114通信网",
+     "url": "https://www.c114.com.cn/video/5917/a1320095.html",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "21世纪经济报道（工信微报）",
+     "url": "https://www.21jingji.com/article/20261029/herald/8d396b16785956e1387528485502789d.html",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "T-Mobile投资者关系",
      "url": "https://investor.t-mobile.com/news-releases/news-release-details/t-mobile-delivers-strong-account-and-arpa-growth-translating",
@@ -3876,10 +4121,10 @@
   "optics": {
    "id": "optics",
    "name": "光互联与光模块",
-   "judgment": "光互联全链缺货，光纤现货价将达2025年的2.8–5倍",
+   "judgment": "1.6T放量，光模块头部与二线分化",
    "direction": "恶化",
-   "directionNote": "较4月，需求预测上调至+120%，但光纤和激光器缺口扩大，我司采购成本上升",
-   "asOf": "2026-10-19",
+   "directionNote": "较10月19日：需求更强，上游激光器和光纤仍缺，采购成本难降",
+   "asOf": "2026-10-29",
    "keyNumbers": [
     {
      "label": "LightCounting以太网光模块2026年增速",
@@ -3906,20 +4151,30 @@
      }
     },
     {
-     "label": "中际旭创2026年Q2营收",
-     "value": "222.82亿元",
-     "compare": "同比+174%；上半年417.78亿元、+182.49%",
+     "label": "中际旭创2026年Q3营收",
+     "value": "277.69亿元",
+     "compare": "Q2为222.82亿元；同比+172%",
      "source": {
-      "name": "第一财经（中际旭创半年报）",
-      "url": "https://www.yicai.com/news/103329037.html",
-      "date": "2026-08-21",
-      "repost": true,
-      "stale": true
+      "name": "每日经济新闻",
+      "url": "https://www.nbd.com.cn/articles/2026-10-29/4628442.html",
+      "date": "2026-10-29",
+      "repost": false
      }
     }
    ],
-   "change": "本期新增：TrendForce 10月19日光纤短缺与涨价预测；LightCounting 10月把2026年增速由65%上调至120%；Lumentum称部分产能售罄至2029年初。",
+   "change": "本期新增：中际旭创三季报（1.6T放量，营收+172%）及同行净利环比下滑。未核实Marvell收购Lumentum传闻（首发早于本期窗口）。",
    "facts": [
+    {
+     "text": "中际旭创三季报：营收277.7亿元（+172%），归母净利85.9亿元（+174%），1.6T硅光模块放量；同期新易盛净利环比-19%、华工科技-12%。",
+     "src": [
+      {
+       "name": "每日经济新闻",
+       "url": "https://www.nbd.com.cn/articles/2026-10-29/4628442.html",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "TrendForce光纤预测：2026年现货价为2025年的2.8–5倍；需求5.77亿芯公里、缺口1.8亿芯公里，产能利用率92%，库存由2024年4个月降至约1个月，短缺至少到2028年；Verizon与康宁签1.29亿芯公里长协。",
      "src": [
@@ -4089,6 +4344,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：光模块需求向1.6T集中，头部厂商与二线利润分化。",
+     "confidence": "中",
+     "basis": "中际旭创净利环比约+8%，新易盛-19%、华工科技-12%"
+    },
+    {
      "text": "推断：瓶颈已从模块组装转到上游激光器芯片和光纤，2027年前供给偏紧、价格难下行。",
      "confidence": "中",
      "basis": "需求超供给约30%，Lumentum产能售罄至2029年初，光纤短缺至少到2028年，光棒扩产需18–24个月。"
@@ -4247,11 +4507,6 @@
    ],
    "signals": [
     {
-     "what": "中际旭创、新易盛三季报（增速、毛利率、存货）",
-     "when": "10月31日前（A股三季报法定披露截止）",
-     "why": "若Q3增速仍超100%且毛利率不降，验证供给偏紧、价格稳定"
-    },
-    {
      "what": "Coherent、Lumentum下一季财报",
      "when": "11月上旬（未官宣）",
      "why": "检验激光器与光器件缺货是否延续及CPO激光器需求"
@@ -4268,6 +4523,13 @@
     }
    ],
    "sources": [
+    {
+     "name": "每日经济新闻",
+     "url": "https://www.nbd.com.cn/articles/2026-10-29/4628442.html",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "TrendForce新闻稿（光纤短缺）",
      "url": "https://www.trendforce.com/presscenter/news/20261019-13275.html",
@@ -4393,10 +4655,10 @@
   "aicompute": {
    "id": "aicompute",
    "name": "AI 算力供需与国产替代",
-   "judgment": "国产卡三季度普遍高增，摩尔线程首次盈利",
+   "judgment": "昇腾950DT千卡集群落地，大云转向自研ASIC",
    "direction": "持平",
-   "directionNote": "较10月28日：国内对手又多一家放量，但华为28%份额数据未变",
-   "asOf": "2026-10-28",
+   "directionNote": "较10月29日：昇腾新品交付落地，但海外ASIC分流趋势更明显",
+   "asOf": "2026-10-29",
    "keyNumbers": [
     {
      "label": "华为2026上半年数据中心AI加速卡出货",
@@ -4432,8 +4694,30 @@
      }
     }
    ],
-   "change": "本期新增：摩尔线程三季报（营收+1773.9%、首次扣非盈利、存货加预付约60亿元）。未检索到昇腾新的出货或份额数据。",
+   "change": "本期新增：昇腾950DT首个千卡超节点集群上线；工业富联三季度ASIC服务器出货环比+80%、快于GPU机柜。未找到昆仑芯、平头哥新出货数据。",
    "facts": [
+    {
+     "text": "昇腾950DT千卡集群：10月28日武汉上线，单个液冷超节点1024卡，FP8算力1EFLOPS、统一内存256TB，湖北科投出资，建设约一个月。",
+     "src": [
+      {
+       "name": "凤凰网科技",
+       "url": "https://tech.ifeng.com/c/8xcH17B4HeD",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "工业富联出货结构：三季度AI-ASIC服务器出货同比+150%、环比+80%，AI-GPU机柜同比+70%、环比+15%。",
+     "src": [
+      {
+       "name": "新浪财经",
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtus5976237.shtml",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "摩尔线程三季报：三季度营收15.5亿元（+1773.9%，环比+55.4%），首次单季扣非盈利2007万元；9月末存货33.63亿元、预付款25.99亿元，超过前三季度营收。",
      "src": [
@@ -4606,6 +4890,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：海外大云增量算力正转向自研ASIC，国内大厂若跟进，昇腾在互联网客户的增量会被分流。",
+     "confidence": "低",
+     "basis": "工业富联ASIC出货环比增速是GPU机柜5倍多；国内平头哥、昆仑芯产能和良率未披露"
+    },
+    {
      "text": "推断：国产卡需求三季度继续加速，寒武纪、海光大量备货锁产能，2027年竞争将转向先进制程和HBM产能。",
      "confidence": "中",
      "basis": "寒武纪存货较年初增136%、预付款增至30.44亿元；海光称战略备货；长鑫HBM3E良率约20%—30%（路透）"
@@ -4738,6 +5027,20 @@
    ],
    "sources": [
     {
+     "name": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtus5976237.shtml",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "凤凰网科技",
+     "url": "https://tech.ifeng.com/c/8xcH17B4HeD",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
      "name": "IT之家",
      "url": "https://www.ithome.com/1/019/100.htm",
      "date": "2026-10-28",
@@ -4869,10 +5172,10 @@
   "cloudcapex": {
    "id": "cloudcapex",
    "name": "云厂商资本开支与 AI 回报",
-   "judgment": "谷歌云收入翻倍追上投入，微软新签订单转降",
+   "judgment": "三大云增速齐升，AWS预期两年增超40%",
    "direction": "持平",
-   "directionNote": "与10月28日相比：海外云投入继续加码、收入追上，国内无新数据",
-   "asOf": "2026-10-28",
+   "directionNote": "与10月29日相比：AWS加入加速行列，海外投入延续，国内无新数据",
+   "asOf": "2026-10-29",
    "keyNumbers": [
     {
      "label": "Anthropic算力与基础设施承诺",
@@ -4897,15 +5200,14 @@
      }
     },
     {
-     "label": "AWS二季度收入增速",
-     "value": "+37%（422亿美元）",
-     "compare": "18个季度以来最快",
+     "label": "AWS三季度收入增速",
+     "value": "+39%（460亿美元）",
+     "compare": "二季度+37%（422亿美元）",
      "source": {
-      "name": "亚马逊二季度财报新闻稿",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results",
-      "date": "2026-07-30",
-      "repost": false,
-      "stale": true
+      "name": "亚马逊投资者关系",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "date": "2026-10-29",
+      "repost": false
      }
     },
     {
@@ -4920,8 +5222,36 @@
      }
     }
    ],
-   "change": "本期新增：Alphabet三季报（谷歌云+103%、资本开支514亿美元、2027年显著增加）；微软Azure+48%但新签订单-12%；甲骨文称资本支出2029财年回落。微软电话会指引未检索到，亚马逊三季报未出。",
+   "change": "本期新增：亚马逊三季报（AWS+39%、全年资本开支约2200亿美元、预期2027—2028年增速超40%）；工业富联ASIC服务器出货快于GPU机柜。未能读取AWS电话会细节。",
    "facts": [
+    {
+     "text": "亚马逊三季度业绩：AWS收入460亿美元、+39%（二季度+37%），经营利润178亿美元；三季度购置固定资产773亿美元，全年资本开支约2200亿美元；贾西预计2027、2028年AWS增速均超40%。",
+     "src": [
+      {
+       "name": "亚马逊投资者关系",
+       "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+       "date": "2026-10-29",
+       "repost": false
+      },
+      {
+       "name": "Constellation Research",
+       "url": "https://www.constellationr.com/insights/news/aws-q3-revenue-growth-surges-39-capex-stings-amazons-cash-flow",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "工业富联三季报：营收3835.5亿元、+57.7%；AI-ASIC服务器出货环比+80%，AI-GPU机柜环比+15%；800G及以上交换机出货同比+80%。",
+     "src": [
+      {
+       "name": "新浪财经",
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtus5976237.shtml",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "谷歌三季度业绩：谷歌云收入307亿美元、+103%，经营利润111亿（上年36亿），TPU系统销售为重要贡献；云积压订单5610亿；单季资本开支514亿（上年240亿），2027年将显著增加。",
      "src": [
@@ -5153,6 +5483,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：美国三大云三季度增速同时加快，海外AI云投入至少到2027年不会收缩。",
+     "confidence": "中",
+     "basis": "谷歌云+103%、Azure+48%、AWS+39%；亚马逊预期2027—2028年AWS增速超40%"
+    },
+    {
      "text": "推断：大模型算力采购正从英伟达转向TPU、Trainium和定制ASIC，并借融资锁定2027年后供给，非英伟达加速器已有千亿美元级买家。",
      "confidence": "中",
      "basis": "Anthropic多芯片路线与5420亿—5670亿美元承诺；630亿美元博通芯片融资获博通残值支持"
@@ -5356,17 +5691,33 @@
    ],
    "signals": [
     {
-     "what": "亚马逊三季报（AWS增速、全年资本开支）",
-     "when": "2026-10-29（电话会太平洋时间14:00）",
-     "why": "看AWS加速能否持续、全年约2,200亿美元是否确认"
-    },
-    {
      "what": "Anthropic上市进程；阿里、腾讯三季报",
      "when": "11月（未官宣）",
      "why": "看投资者是否接受其亏损与算力承诺，国内资本开支是否继续加速"
     }
    ],
    "sources": [
+    {
+     "name": "新浪财经",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtus5976237.shtml",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "Constellation Research",
+     "url": "https://www.constellationr.com/insights/news/aws-q3-revenue-growth-surges-39-capex-stings-amazons-cash-flow",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "亚马逊投资者关系",
+     "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "Yahoo Finance",
      "url": "https://finance.yahoo.com/markets/article/oracle-stock-soars-as-it-promises-the-ai-spending-will-start-paying-for-itself-201056802.html",
@@ -5952,10 +6303,10 @@
   "dcenergy": {
    "id": "dcenergy",
    "name": "数据中心能源",
-   "judgment": "维谛、GE Vernova订单齐升，供电需求加速",
+   "judgment": "卡特彼勒订单排至2029年，供电持续紧缺",
    "direction": "改善",
-   "directionNote": "较10月28日：GE Vernova订单有机增96%，印证维谛的加速",
-   "asOf": "2026-10-28",
+   "directionNote": "较10月29日：发电设备商订单也翻倍，需求加速得到第三方印证",
+   "asOf": "2026-10-29",
    "keyNumbers": [
     {
      "label": "施耐德电气Q3营收",
@@ -5992,8 +6343,19 @@
      }
     }
    ],
-   "change": "本期新增：GE Vernova三季报（订单有机+96%、数据中心订单年内超60亿美元）及收购Trench。仍未检索到能源局1—9月数据中心用电数据。",
+   "change": "本期新增：卡特彼勒三季度积压订单+96%、发电业务+75%。伊顿三季报11月3日发布，尚无新数据。",
    "facts": [
+    {
+     "text": "卡特彼勒三季度业绩：营收207亿美元（+17%），积压订单约780亿美元（+96%）；发电业务销售+75%，大型发动机订单排至2029年、燃气轮机排至2030年。",
+     "src": [
+      {
+       "name": "Investing.com（财报演示材料）",
+       "url": "https://www.investing.com/news/company-news/caterpillar-q3-2026-slides-record-sales-96-backlog-surge-93CH-4984662",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "GE Vernova三季度业绩：订单293亿美元（有机+96%），积压1970亿美元，上调全年指引；数据中心订单年内超60亿美元；拟约80亿欧元收购高压部件商Trench。",
      "src": [
@@ -6137,6 +6499,11 @@
     }
    ],
    "inferences": [
+    {
+     "text": "推断：数据中心自备发电设备交期已排到2029年以后，供电仍是海外AI建设的硬瓶颈。",
+     "confidence": "中",
+     "basis": "卡特彼勒积压+96%、发动机订单至2029年；GE Vernova订单有机+96%"
+    },
     {
      "text": "推断：海外AI数据中心电力设备需求仍在加速，维谛有机增速55%远高于此前34%—36%指引。",
      "confidence": "高",
@@ -6311,6 +6678,13 @@
    ],
    "sources": [
     {
+     "name": "Investing.com（财报演示材料）",
+     "url": "https://www.investing.com/news/company-news/caterpillar-q3-2026-slides-record-sales-96-backlog-surge-93CH-4984662",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
      "name": "Investing.com",
      "url": "https://www.investing.com/news/company-news/ge-vernova-q3-2026-slides-9b-trench-buy-backlog-nears-200b-93CH-4979286",
      "date": "2026-10-28",
@@ -6422,10 +6796,10 @@
    "id": "geo",
    "name": "中美、中欧地缘政策跟踪",
    "domain": "横向",
-   "judgment": "美欧对华技术限制加码，关税休战延至明年1月",
+   "judgment": "FCC按地点排除中国实验室，限制再扩",
    "direction": "恶化",
-   "directionNote": "较9月：FCC芯片认证禁令生效，欧盟逆变器限制将执行，休战仅延两个月",
-   "asOf": "2026-10-26",
+   "directionNote": "较10月26日：美国新增检测实验室禁令和涉疆清单",
+   "asOf": "2026-10-29",
    "keyNumbers": [
     {
      "label": "中美休战到期日",
@@ -6461,8 +6835,47 @@
      }
     }
    ],
-   "change": "本期新增：美财政部10月22日发布对外投资限制扩大草案（10月26日刊登联邦公报，12月7日意见截止），商务部10月24日反对；FCC定于10月29日表决禁止中国实验室检测。未核实：深圳APEC会晤具体日期。",
+   "change": "本期新增：FCC表决禁止在华实验室做认证检测；华大三家入UFLPA清单；商务部回应欧盟扩大限量。表决票数未能核实。",
    "facts": [
+    {
+     "text": "FCC检测实验室禁令：10月29日表决通过，与美无互认安排国家（含中国）的实验室不得做FCC认证检测，2028年12月生效；2025年82%的设备在中国检测。",
+     "src": [
+      {
+       "name": "SRN News（路透）",
+       "url": "https://srnnews.com/fcc-votes-to-ban-all-chinese-labs-from-testing-us-electronics/",
+       "date": "2026-10-29",
+       "repost": true
+      },
+      {
+       "name": "观察者网（网易）",
+       "url": "https://www.163.com/dy/article/LAE2R009051481US.html",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "华大入涉疆清单：国土安全部10月28日将华大基因等3家列入UFLPA实体清单，10月29日起产品默认禁入；商务部称将采取必要措施。",
+     "src": [
+      {
+       "name": "美国国土安全部",
+       "url": "https://www.dhs.gov/news/2026/10/28/under-president-trump-dhs-blocks-chinese-genomics-companies-linked-forced-labor",
+       "date": "2026-10-28",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "欧盟限量模式扩围：欧盟考虑把混动车限量扩至化工、机械；商务部10月29日称若采取歧视性限制将采取一切必要措施。",
+     "src": [
+      {
+       "name": "商务部例行新闻发布会",
+       "url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n10y29r/index.html",
+       "date": "2026-10-29",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "美对华AI实体措施：10月19日国土安全部发布排除令，联邦文职机构须停购并移除深度求索及关联方IT产品；国务院同日依PAIPA制裁上海智算科技及奇绩创坛旗下4家主体，OFAC列入非SDN菜单式清单。",
      "src": [
@@ -6660,6 +7073,13 @@
    ],
    "impact": [
     {
+     "text": "推断：仍对美出货的国内手机、PC、储能厂商须在2028年底前把认证转出中国，我司已被禁新授权，直接影响小。",
+     "biz": "终端BG",
+     "direction": "不确定",
+     "magnitude": "暂难量化：缺少转移检测的单机型成本数据",
+     "confidence": "中"
+    },
+    {
      "text": "推断：FCC 26-50生效后，用海思芯片或模组的第三方新机型无法在美获认证（存量型号不受影响），海思进入美国的新增渠道被切断。",
      "biz": "海思与供应链",
      "direction": "利空",
@@ -6683,11 +7103,6 @@
    ],
    "signals": [
     {
-     "what": "FCC表决是否禁止中国实验室为美国市场检测电子产品",
-     "when": "2026-10-29",
-     "why": "若通过，含我司芯片或模组的第三方设备在美认证成本和周期上升"
-    },
-    {
      "what": "欧盟资助能源项目逆变器限制执行，是否有个案豁免",
      "when": "2026-11-01",
      "why": "验证欧委会是否真正“零延期”，决定数字能源欧洲项目受损范围"
@@ -6709,6 +7124,33 @@
     }
    ],
    "timeline": [
+    {
+     "date": "2026-10-29",
+     "region": "美国",
+     "title": "FCC禁止在华实验室做认证检测",
+     "status": "已表决通过",
+     "text": "与美无检测互认安排国家（含中国）的实验室和认证机构不得做FCC认证检测，2028年12月生效；82%的输美设备原在中国检测。",
+     "next": {
+      "date": "2028-12",
+      "text": "禁令生效，具体日期待联邦公报"
+     },
+     "biz": "终端、数字能源",
+     "level": "高",
+     "src": [
+      {
+       "name": "SRN News（路透）",
+       "url": "https://srnnews.com/fcc-votes-to-ban-all-chinese-labs-from-testing-us-electronics/",
+       "date": "2026-10-29",
+       "repost": true
+      },
+      {
+       "name": "观察者网（网易）",
+       "url": "https://www.163.com/dy/article/LAE2R009051481US.html",
+       "date": "2026-10-29",
+       "repost": true
+      }
+     ]
+    },
     {
      "date": "2026-10-26",
      "region": "美国",
@@ -7173,6 +7615,34 @@
    ],
    "sources": [
     {
+     "name": "商务部例行新闻发布会",
+     "url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n10y29r/index.html",
+     "date": "2026-10-29",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "美国国土安全部",
+     "url": "https://www.dhs.gov/news/2026/10/28/under-president-trump-dhs-blocks-chinese-genomics-companies-linked-forced-labor",
+     "date": "2026-10-28",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "观察者网（网易）",
+     "url": "https://www.163.com/dy/article/LAE2R009051481US.html",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "SRN News（路透）",
+     "url": "https://srnnews.com/fcc-votes-to-ban-all-chinese-labs-from-testing-us-electronics/",
+     "date": "2026-10-29",
+     "repost": true,
+     "stale": false
+    },
+    {
      "name": "中新网（商务部答记者问）",
      "url": "https://www.chinanews.com.cn/cj/2026/10-24/10720450.shtml",
      "date": "2026-10-24",
@@ -7400,7 +7870,7 @@
     "name": "AI 是否存在泡沫",
     "desc": "资本开支增速能否被收入兑现",
     "claim": "AI存在泡沫：资本开支增速难以被收入兑现",
-    "summary": "推断：需求方开始用收入回应：皮查伊称TPU系统需求强劲，谷歌云增103%接近其资本开支增速114%；纳德拉称帮客户“构建并拥有自己的智能”。质疑仍只来自陈福阳；是否泡沫取决于2027年加码的开支能否继续被云收入覆盖。",
+    "summary": "推断：需求方继续用收入回应：谷歌云增103%接近其资本开支增速，贾西称AWS投入“正在见效”、增速39%；质疑仍只来自陈福阳；是否泡沫取决于2027年加码的开支能否继续被云收入覆盖。",
     "confidence": "中"
    },
    {
@@ -7408,7 +7878,7 @@
     "name": "AI 算力需求的持续性",
     "desc": "训练转推理后需求是增是减",
     "claim": "训练转向推理后，算力需求继续增长",
-    "summary": "推断：供给方（英伟达、台积电、ASML、AMD）和需求方（阿里、谷歌、微软）都称需求超过供给；微软CFO胡德称资本开支低于预期是第三方机房交付延迟，纳德拉称算力在内部按需调配。分歧不在需求，而在封装、电力、机房、内存等瓶颈何时缓解。",
+    "summary": "推断：供需双方仍称需求超过供给：贾西预期AWS 2027—2028年增速均超40%，陈立武称至强需求“超常”、产能跟不上，胡德称需求超过供给；分歧在封装、电力、内存等瓶颈何时缓解。",
     "confidence": "中"
    },
    {
@@ -7424,7 +7894,7 @@
     "name": "存储涨价周期能持续多久",
     "desc": "",
     "claim": "存储涨价周期将延续到2027年",
-    "summary": "推断：供应链方确认短缺并延长期限：三星称2027年比今年更缺、2028年仍持续，HBM明年已售罄；黄仁勋称2029年前不过剩；买方（雷军、马斯克）抱怨价格。各方都预期短缺延续到2027年以后。",
+    "summary": "推断：原厂与买方都预期短缺延续到2027年以后：三星称2027年更缺、HBM已售罄，陈立武称内存高价延续到2027年，黄仁勋称2029年前不过剩；雷军、马斯克抱怨价格。",
     "confidence": "高"
    },
    {
@@ -7432,7 +7902,7 @@
     "name": "中美科技脱钩的深度与节奏",
     "desc": "",
     "claim": "中美科技脱钩会继续加深",
-    "summary": "推断：美国企业CEO（黄仁勋、库克）公开主张合作并加码在华制造，黄仁勋还称对与长鑫存储合作持开放态度，与华盛顿近期的禁令、对外投资限制草案方向相反；企业表态不能代表政策走向，判断仍应以政策动作（见地缘政策卡片）为准。",
+    "summary": "推断：美国企业CEO仍主张合作，黄仁勋还就新加坡Megaspeed间谍报道称已清点每张GPU，显示美方审查已延伸到东南亚云商；企业表态不代表政策走向，判断以政策动作为准。",
     "confidence": "中"
    },
    {
@@ -8029,6 +8499,62 @@
     },
     "point": "称需求仍超过供给，资本开支低于预期是因第三方机房交付延迟。",
     "question": "第三方机房延迟是电力、设备还是施工问题？延迟何时能补回？",
+    "suggest": null
+   },
+   "jensen|2026-10-29|我们研究了他们部署的所有": {
+    "hyps": [
+     "H5"
+    ],
+    "main": "H5",
+    "stance": "中性",
+    "stances": {
+     "H5": "中性"
+    },
+    "point": "称已清点Megaspeed部署的每张英伟达GPU，回应间谍报道。",
+    "question": "美方会否把东南亚云服务商纳入GPU出口许可审查？",
+    "suggest": null
+   },
+   "jassy|2026-10-29|AWS在功能和基础设施上": {
+    "hyps": [
+     "H2",
+     "H1"
+    ],
+    "main": "H2",
+    "stance": "支持",
+    "stances": {
+     "H2": "支持",
+     "H1": "反对"
+    },
+    "point": "称AWS投入见效，预期2027—2028年增速均超40%。",
+    "question": "超40%增速的前提是供给到位还是需求本身？Trainium占比多少？",
+    "suggest": null
+   },
+   "liputan|2026-10-29|我们当前的首要任务是释放": {
+    "hyps": [
+     "H2"
+    ],
+    "main": "H2",
+    "stance": "支持",
+    "stances": {
+     "H2": "支持"
+    },
+    "point": "称至强需求超常，首要任务是扩产。",
+    "question": "至强缺货何时缓解？对服务器CPU价格有何影响？",
+    "suggest": null
+   },
+   "liputan|2026-10-29|我有点失望，我们没能满足": {
+    "hyps": [
+     "H4",
+     "H3"
+    ],
+    "main": "H4",
+    "stance": "支持",
+    "stances": {
+     "H4": "支持",
+     "H3": "反对"
+    },
+    "point": "称没能满足客户需求，内存高价延续到2027年。",
+    "question": "PC市场两年下滑的预测是否已计入内存涨价？",
     "suggest": null
    }
   },

@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-29",
- "updatedAt": "2026-10-29 10:52",
+ "asOf": "2026-10-30",
+ "updatedAt": "2026-10-30 06:57",
  "leaders": [
   {
    "id": "jensen",
@@ -10,6 +10,19 @@
    "company": "英伟达",
    "biz": "计算与云",
    "statements": [
+    {
+     "date": "2026-10-29",
+     "quote": "我们研究了他们部署的所有英伟达GPU，并且每一张都清点过。",
+     "topic": "监管与地缘",
+     "context": "接受彭博采访，回应《纽约时报》关于新加坡云服务商Megaspeed前高管被美国情报机构认定为中国情报人员的报道；黄仁勋称与该公司的往来“正常、并不罕见”，英伟达已核查其未将芯片非法运往中国",
+     "direct": true,
+     "original": "We've studied all their deployments of our GPUs and counted every one.",
+     "source": {
+      "name": "Stocktwits（援引彭博）",
+      "url": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-says-nvidia-counted-all-gp-us-at-firm-under-probe-for-spying-for-china/cZUXbd3R9Rg"
+     },
+     "ai": "1. 美方对英伟达GPU流向的审查已从“是否进入中国”延伸到东南亚区域云服务商本身，当地AI客户获取高端GPU的合规不确定性上升；华为云东南亚节点和昇腾能否接住这部分需求，取决于当地客户对美方次级制裁风险的顾虑程度。"
+    },
     {
      "date": "2026-10-22",
      "quote": "对与长鑫存储合作持开放态度；没有哪个国家在制造业上比中国更强；预计2029年前内存不会过剩。",
@@ -72,19 +85,6 @@
       "url": "https://247wallst.com/investing/2026/10/17/nvidias-ceo-says-all-of-this-is-going-to-pass-after-tech-lost-1-trillion-in-a-day/"
      },
      "ai": "1. 只对市场下跌表态，没有给出新订单或新指引；同期Anthropic需以10%利率发债买TPU，市场担心的是下游客户的融资能力，可观察11月18日英伟达财报中的应收账款和大客户集中度。"
-    },
-    {
-     "date": "2026-10-15",
-     "quote": "我们不断增加供给，订单却还在增加；分给客户的量远低于其实际需求，几乎每天都有新订单。",
-     "topic": "需求与增长",
-     "context": "BG2播客（美国时间10月15日上线，国内10月16日报道）；称供给受电力、数据中心建设和元器件短缺限制，前沿AI实验室只占英伟达算力需求约25%—30%",
-     "direct": false,
-     "original": "We keep increasing more supply and the order books keeps going up.",
-     "source": {
-      "name": "新浪科技",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-10-16/doc-inivkncw1515447.shtml"
-     },
-     "ai": "1. 前沿实验室只占英伟达算力需求约25%—30%，大部分需求来自云厂商、企业和各国政府，与昇腾在国内以运营商、政企、互联网为主的客户结构相近，算力需求并非押注少数大模型公司。\n2. 他把供给瓶颈归于电力、机房建设和元器件，这也是我司数字能源数据中心供电与储能产品的需求来源。"
     }
    ]
   },
@@ -795,9 +795,215 @@
      "ai": "1. 微软一边说需求超过供给、一边因第三方机房交付延迟而少花了资本开支，说明海外算力扩张卡在机房建成上而不只是芯片，维谛三季度有机订单翻倍也指向同一方向，我司数字能源的数据中心供电和温控产品在海外的需求不会随GPU供给改善而降温。"
     }
    ]
+  },
+  {
+   "id": "jassy",
+   "name": "安迪·贾西",
+   "nameEn": "Andy Jassy",
+   "title": "亚马逊总裁兼CEO",
+   "company": "亚马逊",
+   "biz": "计算与云",
+   "statements": [
+    {
+     "date": "2026-10-29",
+     "quote": "AWS在功能和基础设施上的投入正在见效，Q3收入同比增长超39%；预计2027和2028年增速都将超过40%。",
+     "topic": "需求与增长",
+     "context": "亚马逊2026年Q3财报新闻稿；AWS收入460亿美元、同比增长39%，为近五年最快；2026年资本开支维持约2200亿美元",
+     "direct": true,
+     "original": "Our AWS investment in functionality and infrastructure is working, with over 39% year-over-year revenue growth in Q3 ... projected revenue growth rates of over 40% both in 2027 and in 2028",
+     "source": {
+      "name": "亚马逊投资者关系（财报新闻稿）",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+     },
+     "ai": "1. AWS预期2027、2028年增速均超40%，谷歌云、Azure三季度增速也同时加快，海外云厂商扩张至少延续到2028年，HBM和高速光器件的紧缺不会很快缓解，我司昇腾服务器和数据中心网络产品的上游物料成本2027年难回落。"
+    }
+   ]
+  },
+  {
+   "id": "liputan",
+   "name": "陈立武",
+   "nameEn": "Lip-Bu Tan",
+   "title": "英特尔CEO",
+   "company": "英特尔",
+   "biz": "芯片半导体",
+   "statements": [
+    {
+     "date": "2026-10-29",
+     "quote": "我有点失望，我们没能满足客户的需求。",
+     "topic": "芯片与供应",
+     "context": "财报后接受彭博采访；称原材料短缺拖累数据中心交付，预计内存高价延续到2027年；据Stocktwits转述，英特尔预计PC市场2026年下滑约12%、2027年下滑约10%",
+     "direct": true,
+     "original": "I am a bit disappointed in terms of how we cannot fulfill the customer requirements",
+     "source": {
+      "name": "TradingView/Stocktwits（援引彭博）",
+      "url": "https://www.tradingview.com/news/stocktwits:f20a5c392094b:0-intc-stock-tumbles-after-hours-after-q3-pc-slump-and-supply-bottlenecks-cloud-fourth-quarter-guidance/"
+     },
+     "ai": "1. 英特尔预计PC市场2026、2027年分别下滑约12%和10%（据Stocktwits转述），我司MateBook明年面对的是连续两年收缩的市场，出货增长只能靠抢份额。"
+    },
+    {
+     "date": "2026-10-29",
+     "quote": "我们当前的首要任务是释放更多产能，满足客户对至强系列的超常需求。",
+     "topic": "芯片与供应",
+     "context": "英特尔2026年Q3财报；数据中心与AI业务收入73亿美元、同比增长78%，CFO称为15年来最强数据中心增长，但四季度收入指引环比下降",
+     "direct": true,
+     "original": "Our immediate priority is to unlock additional supply to meet extraordinary demand for our Xeon family",
+     "source": {
+      "name": "Investing News Network（公司新闻稿）",
+      "url": "https://investingnews.com/intel-reports-third-quarter-2026-financial-results/"
+     }
+    }
+   ]
   }
  ],
  "earnings": [
+  {
+   "company": "卡特彼勒",
+   "en": "Caterpillar",
+   "biz": "能源",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-29",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "207亿美元",
+     "yoy": "+17%"
+    },
+    {
+     "label": "能源与动力业务收入",
+     "value": "87.8亿美元",
+     "yoy": "+18%"
+    },
+    {
+     "label": "在手订单",
+     "value": "约780亿美元（创纪录）",
+     "yoy": "+96%"
+    },
+    {
+     "label": "调整后每股收益",
+     "value": "7.20美元",
+     "yoy": "+45%"
+    }
+   ],
+   "highlight": "数据中心带动发电业务销售大增（公司演示材料称同比+75%）；产能是主要约束，大型往复式发动机订单排至2029年、燃气轮机订单排至2030年，正扩建北卡州发动机产能。",
+   "guidance": "维持2026年销售同比增长中高双位数；四季度销售温和增长、调整后营业利润率同比提升",
+   "nextReport": "",
+   "source": {
+    "name": "Investing.com（财报演示材料）",
+    "url": "https://www.investing.com/news/company-news/caterpillar-q3-2026-slides-record-sales-96-backlog-surge-93CH-4984662"
+   },
+   "updatedOn": "2026-10-30"
+  },
+  {
+   "company": "中际旭创",
+   "en": "Innolight",
+   "biz": "联接",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-29",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "277.69亿元",
+     "yoy": "+171.83%"
+    },
+    {
+     "label": "归母净利润",
+     "value": "85.87亿元",
+     "yoy": "+173.74%"
+    },
+    {
+     "label": "前三季度营收",
+     "value": "695.47亿元",
+     "yoy": "+178.13%"
+    },
+    {
+     "label": "前三季度归母净利润",
+     "value": "222.38亿元",
+     "yoy": "+211.81%"
+    }
+   ],
+   "highlight": "1.6T硅光模块进入规模放量，出货量逐季攀升，是增长核心；单季净利环比约+8%，而同行新易盛净利环比-19%、华工科技-12%。",
+   "guidance": "",
+   "nextReport": "",
+   "source": {
+    "name": "每日经济新闻",
+    "url": "https://www.nbd.com.cn/articles/2026-10-29/4628442.html"
+   },
+   "updatedOn": "2026-10-30"
+  },
+  {
+   "company": "英特尔",
+   "en": "Intel",
+   "biz": "芯片半导体",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-29",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "165亿美元",
+     "yoy": "+21%"
+    },
+    {
+     "label": "数据中心与AI收入",
+     "value": "73亿美元",
+     "yoy": "+78%"
+    },
+    {
+     "label": "客户端（CCPG）收入",
+     "value": "81亿美元",
+     "yoy": "-5%"
+    },
+    {
+     "label": "非GAAP毛利率",
+     "value": "44.1%",
+     "yoy": "+4.1个百分点"
+    }
+   ],
+   "highlight": "数据中心收入几乎追平PC业务，CEO称首要任务是释放至强产能；代工收入67亿美元（含内部，+58%），仍亏损18.5亿美元；内存短缺压制PC需求，四季度指引疲弱，盘后股价大跌约20%。",
+   "guidance": "四季度营收150亿—160亿美元，非GAAP毛利率约38%，非GAAP每股收益0.25美元；预计PC放缓至少持续到2027年上半年",
+   "nextReport": "",
+   "source": {
+    "name": "Investing News Network（公司新闻稿）",
+    "url": "https://investingnews.com/intel-reports-third-quarter-2026-financial-results/"
+   },
+   "updatedOn": "2026-10-30"
+  },
+  {
+   "company": "亚马逊",
+   "en": "Amazon",
+   "biz": "计算与云",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-29",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "2019亿美元",
+     "yoy": "+12%（剔除汇率+13%）"
+    },
+    {
+     "label": "AWS收入",
+     "value": "460亿美元",
+     "yoy": "+39%"
+    },
+    {
+     "label": "营业利润",
+     "value": "281亿美元",
+     "yoy": "+61%"
+    },
+    {
+     "label": "每股收益",
+     "value": "1.89美元",
+     "yoy": "-3%（上年同期含Anthropic投资收益95亿美元）"
+    }
+   ],
+   "highlight": "AWS增速升至39%，为近五年最快，营业利润178亿美元；CEO贾西预计AWS 2027、2028年增速均超40%；2026年资本开支维持约2200亿美元，自由现金流转为净流出。",
+   "guidance": "四季度营收2400亿—2470亿美元（同比+12%至16%），营业利润285亿—335亿美元",
+   "nextReport": "",
+   "source": {
+    "name": "亚马逊投资者关系（财报新闻稿）",
+    "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+   },
+   "updatedOn": "2026-10-30"
+  },
   {
    "company": "维谛技术",
    "en": "Vertiv",
@@ -3601,41 +3807,41 @@
    }
   },
   {
-   "company": "诺基亚",
-   "en": "Nokia",
-   "biz": "联接",
+   "company": "比亚迪",
+   "en": "BYD",
+   "biz": "汽车",
    "period": "2026年Q3",
-   "reportDate": "2026-10-22",
+   "reportDate": "2026-10-29",
    "metrics": [
     {
-     "label": "净销售额",
-     "value": "51.54亿欧元",
-     "yoy": "+10%"
+     "label": "营收",
+     "value": "2214.88亿元",
+     "yoy": "+13.59%"
     },
     {
-     "label": "可比营业利润",
-     "value": "6.05亿欧元",
-     "yoy": "+35%"
+     "label": "归母净利润",
+     "value": "100.2亿元",
+     "yoy": "+28.08%"
     },
     {
-     "label": "网络基础设施",
-     "value": "21.58亿欧元",
-     "yoy": "+17%"
+     "label": "前三季度归母净利润",
+     "value": "223.45亿元",
+     "yoy": "-4.24%"
     },
     {
-     "label": "移动基础设施",
-     "value": "29.02亿欧元",
-     "yoy": "+5%"
+     "label": "前三季度经营现金流",
+     "value": "544.7亿元",
+     "yoy": "+33.36%"
     }
    ],
-   "highlight": "AI与云客户销售+123%、订单+118%（新签15亿欧元）；IP网络+43%，光网络+18%；CEO称芯片、存储、PCB成本结构性上涨。",
-   "guidance": "全年可比营业利润21亿—26亿欧元不变（预计高于中值）；网络基础设施增速上调至12%—14%；Q4营收环比+20%—24%；自由现金流转化率下调至35%—55%",
-   "nextReport": "2027-01-28",
+   "highlight": "单季净利润重回百亿元并恢复同比增长，前三季度营收5663亿元与上年基本持平。",
+   "guidance": "",
+   "nextReport": "",
    "source": {
-    "name": "诺基亚新闻稿",
-    "url": "https://www.nokia.com/newsroom/nokia-corporation-interim-report-for-q3-2026/"
+    "name": "21财经",
+    "url": "https://m.21jingji.com/article/20261029/herald/d89c5b91e62382573c46c29de56d1012.html"
    },
-   "updatedOn": "2026-10-23"
+   "updatedOn": "2026-10-30"
   },
   {
    "company": "思科",
@@ -5150,6 +5356,26 @@
  },
  "policy": [
   {
+   "title": "美FCC禁止在华实验室做输美设备认证检测",
+   "region": "美国",
+   "biz": "终端、数字能源、联接",
+   "status": "已表决通过：与美国无检测互认安排国家（含中国）的实验室和认证机构不得再做FCC认证检测",
+   "latest": {
+    "date": "2026-10-29",
+    "text": "FCC 10月29日（美东）表决通过，2028年12月生效；主席卡尔称2025年82%的设备在中国检测、美国本土不足4%；同时简化美国及非风险国实验室审批"
+   },
+   "next": {
+    "date": "2028-12-01",
+    "text": "禁令生效；具体生效日以联邦公报为准"
+   },
+   "level": "高",
+   "source": {
+    "name": "SRN News（路透）",
+    "url": "https://srnnews.com/fcc-votes-to-ban-all-chinese-labs-from-testing-us-electronics/"
+   },
+   "updatedOn": "2026-10-30"
+  },
+  {
    "title": "美扩大对华投资限制（COINS法案实施细则）",
    "region": "美国",
    "biz": "海思与供应链、昇腾",
@@ -5355,8 +5581,8 @@
    "biz": "汽车、能源",
    "status": "欧委会拟推可“立即”限制进入单一市场的新贸易防御工具；化工、机械保障措施推进中；混动车配额35万辆/年",
    "latest": {
-    "date": "2026-10-26",
-    "text": "据彭博，欧盟拟于2027年初对中国化工、家具、机械进口出台按品类设配额或关税的保障措施；欧洲议会贸易委员会12名议员10月27—29日访华，议题含市场准入与稀土"
+    "date": "2026-10-29",
+    "text": "商务部例行发布会回应欧盟拟把混动车限量模式扩至化工、机械：对正常贸易人为设限涉嫌违反世贸规则，若欧方采取歧视性限制将采取一切必要措施"
    },
    "next": {
     "date": "",
@@ -5364,10 +5590,10 @@
    },
    "level": "中",
    "source": {
-    "name": "The Copenhagen Post",
-    "url": "https://cphpost.dk/2026-10-21/global/von-der-leyen-signals-new-eu-trade-measures-against-china/"
+    "name": "商务部例行新闻发布会",
+    "url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n10y29r/index.html"
    },
-   "updatedOn": "2026-10-28"
+   "updatedOn": "2026-10-30"
   },
   {
    "title": "美对华AI芯片出口管制",
@@ -5512,67 +5738,20 @@
  ],
  "calendar": [
   {
-   "date": "2026-10-29",
-   "title": "三星电子三季度完整财报",
-   "type": "财报",
-   "biz": "终端、芯片",
-   "confirmed": true
-  },
-  {
-   "date": "2026-10-29",
-   "title": "亚马逊、英特尔三季报（美东盘后，北京时间10/30晨）",
-   "type": "财报",
-   "biz": "计算与云、芯片",
-   "confirmed": false,
-   "updatedOn": "2026-10-23"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "FCC表决禁止中国实验室为美国市场做电子产品检测",
-   "type": "政策",
-   "biz": "终端、联接",
-   "confirmed": true,
-   "updatedOn": "2026-10-16"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "小鹏MONA L05上市",
-   "type": "发布",
-   "biz": "汽车",
-   "confirmed": true,
-   "updatedOn": "2026-10-16"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "意法半导体三季报",
-   "type": "财报",
-   "biz": "芯片半导体、汽车",
-   "confirmed": true,
-   "updatedOn": "2026-10-23"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "二十届五中全会闭幕，发布公报",
-   "type": "政策",
-   "biz": "全业务",
-   "confirmed": true,
-   "updatedOn": "2026-10-28"
-  },
-  {
-   "date": "2026-10-29",
-   "title": "欧洲央行议息结果",
-   "type": "政策",
-   "biz": "全业务",
-   "confirmed": true,
-   "updatedOn": "2026-10-29"
-  },
-  {
    "date": "2026-10-31",
    "title": "我司Pura 90 Plus、畅享100系列开售（10:08）",
    "type": "发布",
    "biz": "终端",
    "confirmed": true,
    "updatedOn": "2026-10-29"
+  },
+  {
+   "date": "2026-10-31",
+   "title": "国家统计局10月PMI；A股三季报披露截止（隆基、通威、天合、晶科等）",
+   "type": "行业",
+   "biz": "全业务、能源",
+   "confirmed": true,
+   "updatedOn": "2026-10-30"
   },
   {
    "date": "2026-11-01",
@@ -5602,6 +5781,14 @@
    "type": "财报",
    "biz": "计算与云",
    "confirmed": false
+  },
+  {
+   "date": "2026-11-03",
+   "title": "伊顿三季报（数据中心供电订单风向）",
+   "type": "财报",
+   "biz": "数字能源",
+   "confirmed": false,
+   "updatedOn": "2026-10-30"
   },
   {
    "date": "2026-11-04",
@@ -5722,6 +5909,14 @@
    "biz": "芯片半导体",
    "confirmed": true,
    "updatedOn": "2026-10-28"
+  },
+  {
+   "date": "2028-12-01",
+   "title": "FCC禁止在华实验室做输美设备认证检测生效（具体日期待公报）",
+   "type": "政策",
+   "biz": "终端、数字能源",
+   "confirmed": false,
+   "updatedOn": "2026-10-30"
   }
  ]
 }
