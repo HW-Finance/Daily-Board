@@ -1,0 +1,7012 @@
+{
+ "asOf": "2026-10-31",
+ "updatedAt": "2026-10-31 12:00",
+ "card": {
+  "name": "AI 芯片自研追踪",
+  "judgment": "国产第二梯队单家份额不超7%，自研ASIC开始外售",
+  "keyNumbers": [
+   {
+    "label": "国内加速卡份额 昇腾",
+    "value": "28%",
+    "compare": "英伟达34%；IDC 2026上半年"
+   },
+   {
+    "label": "谷歌TPU最新一代",
+    "value": "TPU 8t/8i",
+    "compare": "2026-04发布；2026Q2起外售TPU系统"
+   },
+   {
+    "label": "寒武纪前三季营收",
+    "value": "95.26亿元",
+    "compare": "同比+106.8%"
+   }
+  ]
+ },
+ "summary": {
+  "changes": [
+   {
+    "text": "IDC：2026年上半年中国数据中心AI加速器出货200.8万颗，英伟达67.8万颗（同比-44%，份额34%），华为57.2万颗（28%），平头哥7%、寒武纪5%、昆仑芯4%、海光3%。",
+    "grade": "B",
+    "srcs": [
+     {
+      "name": "IDC（经199IT转引）",
+      "url": "http://www.199it.com/archives/1856636.html",
+      "date": "2026-10-13"
+     },
+     {
+      "name": "观察者网（引IDC）",
+      "url": "https://www.guancha.cn/CaiJing/2026_10_13_904182.shtml",
+      "date": "2026-10-13"
+     }
+    ]
+   },
+   {
+    "text": "国产四家三季报：寒武纪前三季度营收95.26亿元（+106.8%）、海光149.55亿元（+57.6%）、摩尔线程32.89亿元（+319%）、沐曦28.24亿元（+128%）。",
+    "grade": "A",
+    "srcs": [
+     {
+      "name": "新浪科技 寒武纪披露2026三季报",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwpmtz2393270.shtml",
+      "date": "2026-10-26"
+     },
+     {
+      "name": "新浪财经 海光信息前三季度营收",
+      "url": "https://finance.sina.cn/2026-10-20/detail-inivuvry0886785.d.html?vt=4",
+      "date": "2026-10-20"
+     },
+     {
+      "name": "澎湃新闻 摩尔线程三季度营收15.5亿元",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34352944",
+      "date": "2026-10-29"
+     },
+     {
+      "name": "新浪科技 沐曦股份前三季同比扭亏",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-30/doc-iniwziit4547018.shtml",
+      "date": "2026-10-30"
+     }
+    ]
+   },
+   {
+    "text": "燧原科技10月30日披露上市后首份季报：前三季度营收23.32亿元（+331.7%）、归母净亏损7.54亿元；2025年对腾讯销售占收入83.8%。",
+    "grade": "A",
+    "srcs": [
+     {
+      "name": "同花顺/上海证券报",
+      "url": "http://stock.10jqka.com.cn/20261030/c681314928.shtml",
+      "date": "2026-10-30"
+     },
+     {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260903A04IFT00",
+      "date": "2026-09-03"
+     }
+    ]
+   },
+   {
+    "text": "壁仞10月9日公告新一代BR20X点亮、进入流片后验证；10月8日拟配售1.3亿股新H股，净筹约40.2亿港元。",
+    "grade": "A",
+    "srcs": [
+     {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-09/doc-iniurmnf6837813.shtml",
+      "date": "2026-10-09"
+     },
+     {
+      "name": "智通财经/英为财情",
+      "url": "https://cn.investing.com/news/stock-market-news/article-3598704",
+      "date": "2026-10-08"
+     }
+    ]
+   },
+   {
+    "text": "Alphabet三季度：2026Q2起首次确认直接销售TPU系统的收入，管理层称2027年TPU系统收入将明显增加；库存133亿美元，部分为TPU系统备货。",
+    "grade": "B",
+    "srcs": [
+     {
+      "name": "Alphabet 2026Q3 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000084/goog-20260930.htm",
+      "date": "2026-10-28"
+     },
+     {
+      "name": "Yahoo Finance Alphabet Q3电话会要点",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-inc-goog-q3-2026-050953011.html",
+      "date": "2026-10-29"
+     }
+    ]
+   }
+  ],
+  "judgments": [
+   {
+    "text": "推断：国内加速卡仍是昇腾一家领先，第二梯队各家份额都不超过昇腾的四分之一。",
+    "confidence": "中",
+    "basis": "IDC 2026上半年出货口径：华为28%，平头哥7%、寒武纪5%、昆仑芯4%、海光3%；仅一家机构一个半年度数据"
+   },
+   {
+    "text": "推断：自研ASIC对通用GPU的替代已在云厂商内部落地，外售刚起步，规模仍远小于英伟达。",
+    "confidence": "中",
+    "basis": "谷歌2026Q2起确认外售TPU系统、Anthropic承诺最多100万颗TPU；AWS Trainium3已全面可用；英伟达数据中心收入单季约890亿美元（FY27 Q2）"
+   },
+   {
+    "text": "推断：国产GPU厂商收入高增主要靠少数大客户，同时仍亏损或依赖投资收益。",
+    "confidence": "中",
+    "basis": "燧原2025年83.8%收入来自腾讯，寒武纪2025年前五大客户占88.66%，壁仞2026上半年收入12.36亿元、亏损3.77亿元"
+   },
+   {
+    "text": "推断：国内外最新一代的代际差距暂不宜下结论，现有数字多为厂商宣称，精度和稠密/稀疏口径不一。",
+    "confidence": "低",
+    "basis": "例：曦云C600 FP8约1000 TFLOPS（口径未注明）、TPU 8t 12.6 PFLOPS FP4、Trainium3 2.52 PFLOPS FP8，不同精度不可比；取决于第三方实测（如MLPerf）是否覆盖国产卡"
+   }
+  ],
+  "ai": "1. 国内加速卡的主要变量是英伟达合规卡的供给：英伟达上半年在华出货同比降44%、份额34%，2026年2月才获许可向特定客户出货少量H200，许可量放开多少对昇腾国内份额的影响，大于任何一家国产厂商。\n2. 国产第二梯队靠头部互联网客户放量：燧原对腾讯的销售占比2025年达83.8%、寒武纪前五大客户占88.66%，这些客户也是我司昇腾和华为云争取的对象，其采购节奏会直接分流昇腾订单。\n3. 谷歌已开始直接销售TPU系统，云厂商自研ASIC从自用走向外售，我司昇腾在海外争取AI训练客户时，对手除了英伟达，还会多出可租用的TPU和Trainium算力。",
+  "signals": [
+   {
+    "what": "AMD三季度业绩：Instinct收入与MI450/Helios出货节奏",
+    "when": "2026-11-03",
+    "why": "验证第二家GPU供应商能否按期把OpenAI、Anthropic大单转为出货"
+   },
+   {
+    "what": "英伟达FY27三季度业绩：指引1080亿美元，且不含中国数据中心算力收入",
+    "when": "2026-11-18",
+    "why": "看H200对华出货是否进入收入，影响国内份额判断"
+   },
+   {
+    "what": "阿里巴巴9月季度财报：平头哥外部客户占比与累计交付量更新",
+    "when": "2026-11-24",
+    "why": "此前披露累计交付47万片（截至2026年2月）、外部客户占比超六成，可检验增速"
+   }
+  ]
+ },
+ "charts": [
+  {
+   "type": "hbar",
+   "title": "中国数据中心AI加速器出货份额",
+   "unit": "%",
+   "source": {
+    "name": "IDC（经199IT转引）",
+    "url": "http://www.199it.com/archives/1856636.html",
+    "date": "2026-10-13"
+   },
+   "asOf": "2026-10-13",
+   "note": "IDC口径：2026年上半年，按出货颗数，共200.8万颗；英伟达含合规卡；其余厂商合计约19%；经媒体转引，原报告未取得。",
+   "rows": [
+    {
+     "name": "英伟达",
+     "value": 34
+    },
+    {
+     "name": "华为",
+     "value": 28,
+     "hl": true
+    },
+    {
+     "name": "平头哥",
+     "value": 7
+    },
+    {
+     "name": "寒武纪",
+     "value": 5
+    },
+    {
+     "name": "昆仑芯",
+     "value": 4
+    },
+    {
+     "name": "海光",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "type": "hbar",
+   "title": "2025年度研发费用（亿元人民币）",
+   "unit": "亿元",
+   "source": {
+    "name": "新浪财经",
+    "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-04-08/doc-inhtuyvy1499039.shtml",
+    "date": "2026-04-08"
+   },
+   "asOf": "2026-04-08",
+   "note": "仅列公开年报口径均为2025年度的四家；各家来源见厂商档案，海光研发投入含CPU。",
+   "rows": [
+    {
+     "name": "海光",
+     "value": 45.69
+    },
+    {
+     "name": "摩尔线程",
+     "value": 13.04
+    },
+    {
+     "name": "寒武纪",
+     "value": 11.69
+    },
+    {
+     "name": "沐曦",
+     "value": 10.27
+    }
+   ]
+  },
+  {
+   "type": "col",
+   "title": "壁仞科技年度研发费用",
+   "unit": "亿元",
+   "source": {
+    "name": "央广网转述招股书",
+    "url": "https://finance.cnr.cn/cjgs/20251217/t20251217_527463106.shtml",
+    "date": "2025-12-17"
+   },
+   "asOf": "2025-12-17",
+   "hlLast": true,
+   "points": [
+    {
+     "x": "2022",
+     "y": 10.18
+    },
+    {
+     "x": "2023",
+     "y": 8.86
+    },
+    {
+     "x": "2024",
+     "y": 8.27
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "所有数值带来源、发布日期、等级和核实日期（2026-10-31）；财报数字来自媒体对公告的转载，未逐一回溯公告原文，建议人工核对后再用于对外材料。",
+  "C 级传闻只出现在厂商档案备注中，不进入对比矩阵。",
+  "同一字段有冲突说法时并列展示（如昆仑芯百度持股57.67%与59.45%、燧原S60出货16万与7万、MI455X带宽23.3与19.6TB/s），不作裁定。",
+  "IDC 份额数据取自媒体转引，未取得IDC原报告；研发人员趋势图因多数厂商公开数据不足两个年度口径，暂未绘制。"
+ ],
+ "vendors": [
+  {
+   "id": "cambricon",
+   "name": "寒武纪",
+   "nameEn": "Cambricon Technologies",
+   "region": "国内",
+   "group": "商用GPU/加速卡厂商",
+   "route": "NPU",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "代工:据媒体称为中芯国际N+2 7nm(C级,未获官方确认);HBM供应商未披露",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "2026Q3利润",
+     "v": "Q3归母净利14.04亿元(+147.74%),扣非13.58亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "同花顺/10jqka 转述寒武纪三季报",
+      "url": "https://m.10jqka.com.cn/20261023/c681037312.shtml&gsessionid=7mdyvJHtkImVdb5N84CmsV39ANtRY4OwVsKzRjKShV3NnWI5rS7cPA",
+      "date": "2026-10-23"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "2026H1",
+     "v": "营收59.96亿元(+108.13%);归母净利23.11亿元(+122.61%)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "IT之家 寒武纪2026上半年",
+      "url": "https://www.ithome.com/0/987/181.htm",
+      "date": "2026-08-07"
+     },
+     "verified": "2026-10-31",
+     "note": "2026年1-6月"
+    },
+    {
+     "dim": "invest",
+     "k": "2026Q3研发",
+     "v": "前三季研发投入12.25亿元(+45.35%),占营收12.86%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技 寒武纪披露2026三季报",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwpmtz2393270.shtml",
+      "date": "2026-10-26"
+     },
+     "verified": "2026-10-31",
+     "cell": "rd",
+     "note": "2026Q1-Q3"
+    },
+    {
+     "dim": "invest",
+     "k": "2025研发",
+     "v": "2025年度研发投入11.69亿元(+9.03%),占营收17.99%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察 寒武纪2025年报",
+      "url": "https://www.dramx.com/News/AI/20260313-40078.html",
+      "date": "2026-03-13"
+     },
+     "verified": "2026-10-31",
+     "note": "2025全年"
+    },
+    {
+     "dim": "invest",
+     "k": "2025业绩",
+     "v": "2025年营收64.97亿元(+453.21%);归母净利20.59亿元,首次全年盈利",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察 寒武纪2025年报",
+      "url": "https://www.dramx.com/News/AI/20260313-40078.html",
+      "date": "2026-03-13"
+     },
+     "verified": "2026-10-31",
+     "note": "2025全年"
+    },
+    {
+     "dim": "invest",
+     "k": "存货",
+     "v": "2026H1末存货82.48亿元;Q3末存货116.65亿元;Q3经营现金流净额-0.84亿元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "同花顺 寒武纪前三季度存货激增",
+      "url": "http://stock.10jqka.com.cn/20261024/c681050560.shtml",
+      "date": "2026-10-24"
+     },
+     "verified": "2026-10-31",
+     "note": "存货为备货信号,媒体转述"
+    },
+    {
+     "dim": "invest",
+     "k": "定增",
+     "v": "2025年定增发行价1195.02元/股,募资39.85亿元(原预案49.8亿元)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "中国基金报 定增获审核通过",
+      "url": "https://www.chnfund.com/article/ARa6f6dc51-c9e5-24eb-9d8b-3a1bc47a762f",
+      "date": "2025-06-01"
+     },
+     "verified": "2026-10-31",
+     "note": "发行情况引自二手报道"
+    },
+    {
+     "dim": "people",
+     "k": "研发人员",
+     "v": "2025-12-31研发人员887人,占员工80.13%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察 寒武纪2025年报",
+      "url": "https://www.dramx.com/News/AI/20260313-40078.html",
+      "date": "2026-03-13"
+     },
+     "verified": "2026-10-31",
+     "cell": "headcount"
+    },
+    {
+     "dim": "people",
+     "k": "研发人员H1",
+     "v": "2026-06-30研发人员约1007人,占总人数80.62%,82.03%硕士及以上",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "IT之家 寒武纪2026上半年",
+      "url": "https://www.ithome.com/0/987/181.htm",
+      "date": "2026-08-07"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "思元690",
+     "v": "思元690于2026年初量产(券商称双die,FP16>700TFLOPS,196GB HBM3,精度口径未注明)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "中财网/券商 单季营收创新高思元690量产",
+      "url": "https://quotewh.cfi.cn/ybdata.aspx?id=20260503000106",
+      "date": "2026-05-03"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest",
+     "note": "规格为券商转述,各来源不一"
+    },
+    {
+     "dim": "product",
+     "k": "690算力HBM",
+     "v": "FP16>700 TFLOPS(稠密/稀疏未注明);196GB HBM3;多来源规格相互矛盾",
+     "kind": "厂商宣称",
+     "grade": "C",
+     "src": {
+      "name": "同上券商研报摘要",
+      "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/831133396021/index.phtml",
+      "date": "2026-05-03"
+     },
+     "verified": "2026-10-31",
+     "note": "不上矩阵"
+    },
+    {
+     "dim": "milestone",
+     "k": "状态",
+     "v": "思元690 2026年初量产,H1出货爬坡(券商转述)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经 寒武纪2026半年报点评",
+      "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/lastest/rptid/839683661980/index.phtml",
+      "date": "2026-08-10"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "shipment",
+     "k": "2026前三季",
+     "v": "营收95.26亿元(+106.76%);归母净利37.15亿元(+131.49%);Q3营收35.31亿元(+104.47%)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技 寒武纪披露2026三季报",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwpmtz2393270.shtml",
+      "date": "2026-10-26"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship",
+     "note": "2026Q1-Q3,未经审计"
+    },
+    {
+     "dim": "shipment",
+     "k": "2025出货",
+     "v": "2025年约出货近12万张卡(媒体标题口径)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "时代周报 去年卖近12万张卡",
+      "url": "https://time-weekly.com/post/327986",
+      "date": "2026-03-13"
+     },
+     "verified": "2026-10-31",
+     "note": "数量引自媒体,非年报原文"
+    },
+    {
+     "dim": "shipment",
+     "k": "客户集中",
+     "v": "2025年前五大客户占营收88.66%,第一大客户17.03亿元;前五大中4家为2025新增",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察 寒武纪2025年报",
+      "url": "https://www.dramx.com/News/AI/20260313-40078.html",
+      "date": "2026-03-13"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "shipment",
+     "k": "字节",
+     "v": "据报道字节跳动为主要客户,累计部署超10万张思元590/690",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "新浪新闻 寒武纪成字节供应商",
+      "url": "https://www.sina.cn/news/detail/5311178444374245.html",
+      "date": "2025-12-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "制程",
+     "v": "据媒体引彭博称主要用中芯国际N+2 7nm,590/690良率约20%",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "OFweek 寒武纪辟谣",
+      "url": "https://znyj.ofweek.com/news/2025-12/ART-12300-8110-30675606.html",
+      "date": "2025-12-15"
+     },
+     "verified": "2026-10-31",
+     "note": "公司2025-12曾辟谣产量传闻"
+    },
+    {
+     "dim": "supply",
+     "k": "实体清单",
+     "v": "2022年12月被列入美国商务部实体清单,限制获取美国制造技术与软件",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Rest of World 中国芯片初创企业",
+      "url": "https://restofworld.org/2025/china-chip-startups-nvidia-us-export/",
+      "date": "2025-01-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "control",
+     "note": "来源为二次报道,2026年无新变化"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2026-01",
+     "type": "量产",
+     "text": "思元690量产(券商称)",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "中财网/券商",
+      "url": "https://quotewh.cfi.cn/ybdata.aspx?id=20260503000106",
+      "date": "2026-05-03"
+     }
+    },
+    {
+     "date": "2025-09",
+     "type": "交付",
+     "text": "完成约39.85亿元定增发行",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "中国基金报",
+      "url": "https://www.chnfund.com/article/ARa6f6dc51-c9e5-24eb-9d8b-3a1bc47a762f",
+      "date": "2025-06-01"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "发布",
+     "text": "MLU790(5nm)传闻;MLU890(3nm)2028",
+     "planned": true,
+     "grade": "C",
+     "src": {
+      "name": "知乎 国内外AI芯片调研",
+      "url": "https://zhuanlan.zhihu.com/p/2035819335441236955",
+      "date": "2026-01-01"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-23",
+     "text": "Q3营收35.31亿元(+104.47%),归母净利14.04亿元(+147.74%);前三季营收95.26亿元",
+     "grade": "A",
+     "src": {
+      "name": "同花顺/10jqka 转述寒武纪三季报",
+      "url": "https://m.10jqka.com.cn/20261023/c681037312.shtml&gsessionid=7mdyvJHtkImVdb5N84CmsV39ANtRY4OwVsKzRjKShV3NnWI5rS7cPA",
+      "date": "2026-10-23"
+     }
+    },
+    {
+     "date": "2026-10-24",
+     "text": "前三季度存货116.65亿元、Q3经营现金流为负,北向资金减持",
+     "grade": "B",
+     "src": {
+      "name": "同花顺",
+      "url": "http://stock.10jqka.com.cn/20261024/c681050560.shtml",
+      "date": "2026-10-24"
+     }
+    },
+    {
+     "date": "2026-08-07",
+     "text": "2026H1营收59.96亿元(+108.13%),净利23.11亿元;研发人员约1007人",
+     "grade": "A",
+     "src": {
+      "name": "IT之家 寒武纪2026上半年",
+      "url": "https://www.ithome.com/0/987/181.htm",
+      "date": "2026-08-07"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "2025年度",
+     "value": 11.69,
+     "unit": "亿元",
+     "ratio": "17.99%",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察 寒武纪2025年报",
+      "url": "https://www.dramx.com/News/AI/20260313-40078.html",
+      "date": "2026-03-13"
+     }
+    },
+    {
+     "period": "2026H1",
+     "value": 7.02,
+     "unit": "亿元",
+     "ratio": "11.72%",
+     "grade": "A",
+     "src": {
+      "name": "IT之家 寒武纪2026上半年",
+      "url": "https://www.ithome.com/0/987/181.htm",
+      "date": "2026-08-07"
+     }
+    },
+    {
+     "period": "2026Q1-Q3",
+     "value": 12.25,
+     "unit": "亿元",
+     "ratio": "12.86%",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技 寒武纪披露2026三季报",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwpmtz2393270.shtml",
+      "date": "2026-10-26"
+     }
+    }
+   ],
+   "headcount": [
+    {
+     "period": "2025-12-31",
+     "total": null,
+     "rd": 887,
+     "rdRatio": "80.13%",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察 寒武纪2025年报",
+      "url": "https://www.dramx.com/News/AI/20260313-40078.html",
+      "date": "2026-03-13"
+     }
+    },
+    {
+     "period": "2026-06-30",
+     "total": null,
+     "rd": 1007,
+     "rdRatio": "80.62%",
+     "grade": "A",
+     "src": {
+      "name": "IT之家 寒武纪2026上半年",
+      "url": "https://www.ithome.com/0/987/181.htm",
+      "date": "2026-08-07"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hygon",
+   "name": "海光信息 DCU",
+   "nameEn": "Hygon Information Technology (DCU)",
+   "region": "国内",
+   "group": "商用GPU/加速卡厂商",
+   "route": "GPU",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "代工/HBM/设计服务均未披露;中科曙光为主要客户及关联方(A/B)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "Q3利润",
+     "v": "Q3归母净利10.48亿元(+37.9%);前三季经营现金流-24.43亿元(备货)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经 海光信息前三季度营收",
+      "url": "https://finance.sina.cn/2026-10-20/detail-inivuvry0886785.d.html?vt=4",
+      "date": "2026-10-20"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "2026H1",
+     "v": "营收90.99亿元(+66.52%);归母净利17.98亿元(+49.69%)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技 海光信息2026上半年",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-08-17/doc-ininruyf6769682.shtml",
+      "date": "2026-08-17"
+     },
+     "verified": "2026-10-31",
+     "note": "2026年1-6月"
+    },
+    {
+     "dim": "invest",
+     "k": "前三季研发",
+     "v": "研发投入44.72亿元(+52.39%);Q3研发约18.2亿元,占营收31.08%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经 海光信息前三季度营收",
+      "url": "https://finance.sina.cn/2026-10-20/detail-inivuvry0886785.d.html?vt=4",
+      "date": "2026-10-20"
+     },
+     "verified": "2026-10-31",
+     "cell": "rd",
+     "note": "2026Q1-Q3,含资本化"
+    },
+    {
+     "dim": "invest",
+     "k": "2025研发",
+     "v": "2025年度研发投入45.69亿元(+32.58%),费用化41.45亿元,占营收31.78%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经 海光信息2025年报",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-04-08/doc-inhtuyvy1499039.shtml",
+      "date": "2026-04-08"
+     },
+     "verified": "2026-10-31",
+     "note": "2025全年"
+    },
+    {
+     "dim": "invest",
+     "k": "2025业绩",
+     "v": "2025年营业收入143.77亿元(+56.92%)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "海光信息2025年年度报告",
+      "url": "http://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-4/2026-04-08/12066610.PDF",
+      "date": "2026-04-08"
+     },
+     "verified": "2026-10-31",
+     "note": "2025全年;DCU分项未检索到"
+    },
+    {
+     "dim": "invest",
+     "k": "H1研发",
+     "v": "2026H1研发投入26.52亿元(+55.05%),占营收29.15%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "每经网 海光信息上半年",
+      "url": "https://www.nbd.com.cn/articles/2026-08-13/4541458.html",
+      "date": "2026-08-13"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "重组终止",
+     "v": "2025年6月拟1160亿元换股吸收合并中科曙光,12月终止(估值分歧)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "虎嗅 海光信息终止并购中科曙光",
+      "url": "https://www.huxiu.com/article/4853808.html",
+      "date": "2025-12-10"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "people",
+     "k": "研发人员",
+     "v": "2026-06-30研发技术人员3007人,占员工80.83%,78.65%硕士及以上",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "每经网 海光信息上半年",
+      "url": "https://www.nbd.com.cn/articles/2026-08-13/4541458.html",
+      "date": "2026-08-13"
+     },
+     "verified": "2026-10-31",
+     "cell": "headcount"
+    },
+    {
+     "dim": "product",
+     "k": "DCU生态",
+     "v": "DCU已适配DeepSeek、Qwen3等400余款主流大模型(机构转述半年报);2025年末口径为300余款",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "每经网 海光信息上半年",
+      "url": "https://www.nbd.com.cn/articles/2026-08-13/4541458.html",
+      "date": "2026-08-13"
+     },
+     "verified": "2026-10-31",
+     "note": "口径随时间增长"
+    },
+    {
+     "dim": "product",
+     "k": "软件栈",
+     "v": "2026-04-02春季技术沟通会首发DCU软件栈年度版本",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "搜狐 海光信息首发DCU年度软件栈",
+      "url": "https://www.sohu.com/a/1005012619_350699",
+      "date": "2026-04-02"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "深算三号",
+     "v": "2026-03推出新一代DCU深算三号(DCU-3);HBM规格各来源矛盾(HBM2e/HBM3 64GB)",
+     "kind": "厂商宣称",
+     "grade": "C",
+     "src": {
+      "name": "东方财富财富号 深算三号",
+      "url": "https://caifuhao.eastmoney.com/news/20260309190147139863250",
+      "date": "2026-03-09"
+     },
+     "verified": "2026-10-31",
+     "note": "自媒体,不上矩阵"
+    },
+    {
+     "dim": "product",
+     "k": "深算四号",
+     "v": "传2026年量产/H2推出,7nm+ Chiplet;性能口径各异",
+     "kind": "厂商宣称",
+     "grade": "C",
+     "src": {
+      "name": "知乎 海光DCU深度解析",
+      "url": "https://zhuanlan.zhihu.com/p/2055076465763431962",
+      "date": "2026-06-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "状态",
+     "v": "深算系列DCU销售中,二号已量产;三号/四号状态无官方确认",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "海光信息/曙光重组报道",
+      "url": "https://www.tmtpost.com/7577660.html",
+      "date": "2025-06-10"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "shipment",
+     "k": "2026前三季",
+     "v": "营收149.55亿元(+57.58%);归母净利28.47亿元(+45.12%);Q3营收58.56亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "同花顺 海光信息前三季营收149.55亿元",
+      "url": "http://stock.10jqka.com.cn/20261021/c680947259.shtml",
+      "date": "2026-10-21"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship",
+     "note": "2026Q1-Q3;整体含CPU+DCU,未单列DCU"
+    },
+    {
+     "dim": "shipment",
+     "k": "出货预测",
+     "v": "有文章称2026年DCU乐观出货50万颗(作者估算)",
+     "kind": "估算",
+     "grade": "C",
+     "src": {
+      "name": "东方财富财富号",
+      "url": "https://caifuhao.eastmoney.com/news/20260612001849842529840",
+      "date": "2026-06-12"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "应用规模",
+     "v": "DCU落地20+关键行业、300+应用场景(2025年末)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经 海光信息2025年报",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-04-08/doc-inhtuyvy1499039.shtml",
+      "date": "2026-04-08"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer",
+     "note": "客户名单未披露;中科曙光为主要渠道"
+    },
+    {
+     "dim": "supply",
+     "k": "实体清单",
+     "v": "2019年被列入美国商务部实体清单",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Wikipedia Hygon Information Technology",
+      "url": "https://en.wikipedia.org/wiki/Hygon_Information_Technology",
+      "date": "2026-01-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "control",
+     "note": "二次来源"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-12",
+     "type": "交付",
+     "text": "终止吸收合并中科曙光",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "虎嗅",
+      "url": "https://www.huxiu.com/article/4853808.html",
+      "date": "2025-12-10"
+     }
+    },
+    {
+     "date": "2026-04",
+     "type": "发布",
+     "text": "DCU软件栈年度版本首发",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "搜狐",
+      "url": "https://www.sohu.com/a/1005012619_350699",
+      "date": "2026-04-02"
+     }
+    },
+    {
+     "date": "2026-07",
+     "type": "发布",
+     "text": "深算DCU Day0适配腾讯混元Hy3",
+     "planned": false,
+     "grade": "C",
+     "src": {
+      "name": "CSDN鲲鹏昇腾社区",
+      "url": "https://hwcomputing.csdn.net/6a4ceb7910ee7a33f288d25c.html",
+      "date": "2026-07-06"
+     }
+    },
+    {
+     "date": "2026",
+     "type": "量产",
+     "text": "深算四号(传7nm+ Chiplet)",
+     "planned": true,
+     "grade": "C",
+     "src": {
+      "name": "知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2055076465763431962",
+      "date": "2026-06-01"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "发布",
+     "text": "3nm DCU传闻(算力2000TFLOPS口径未注明精度)",
+     "planned": true,
+     "grade": "C",
+     "src": {
+      "name": "知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2055076465763431962",
+      "date": "2026-06-01"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-19",
+     "text": "三季报:Q3营收58.56亿元(+45.46%),前三季营收149.55亿元,研发44.72亿元",
+     "grade": "A",
+     "src": {
+      "name": "同花顺 海光信息前三季营收149.55亿元",
+      "url": "http://stock.10jqka.com.cn/20261021/c680947259.shtml",
+      "date": "2026-10-21"
+     }
+    },
+    {
+     "date": "2026-08-13",
+     "text": "半年报:营收90.99亿元(+66.52%),净利17.98亿元;经营现金流为负",
+     "grade": "A",
+     "src": {
+      "name": "每经网 海光信息上半年",
+      "url": "https://www.nbd.com.cn/articles/2026-08-13/4541458.html",
+      "date": "2026-08-13"
+     }
+    },
+    {
+     "date": "2026-07-06",
+     "text": "官宣深算DCU Day0适配腾讯混元Hy3(第三方转载,窗口外边界)",
+     "grade": "C",
+     "src": {
+      "name": "CSDN",
+      "url": "https://hwcomputing.csdn.net/6a4ceb7910ee7a33f288d25c.html",
+      "date": "2026-07-06"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "2025年度",
+     "value": 45.69,
+     "unit": "亿元",
+     "ratio": "31.78%",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-04-08/doc-inhtuyvy1499039.shtml",
+      "date": "2026-04-08"
+     }
+    },
+    {
+     "period": "2026H1",
+     "value": 26.52,
+     "unit": "亿元",
+     "ratio": "29.15%",
+     "grade": "A",
+     "src": {
+      "name": "每经网 海光信息上半年",
+      "url": "https://www.nbd.com.cn/articles/2026-08-13/4541458.html",
+      "date": "2026-08-13"
+     }
+    },
+    {
+     "period": "2026Q1-Q3",
+     "value": 44.72,
+     "unit": "亿元",
+     "ratio": "29.9%",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经 海光信息前三季度营收",
+      "url": "https://finance.sina.cn/2026-10-20/detail-inivuvry0886785.d.html?vt=4",
+      "date": "2026-10-20"
+     }
+    }
+   ],
+   "headcount": [
+    {
+     "period": "2026-06-30",
+     "total": null,
+     "rd": 3007,
+     "rdRatio": "80.83%",
+     "grade": "A",
+     "src": {
+      "name": "每经网 海光信息上半年",
+      "url": "https://www.nbd.com.cn/articles/2026-08-13/4541458.html",
+      "date": "2026-08-13"
+     }
+    }
+   ]
+  },
+  {
+   "id": "moore",
+   "name": "摩尔线程",
+   "nameEn": "Moore Threads",
+   "region": "国内",
+   "group": "商用GPU/加速卡厂商",
+   "route": "GPU",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "代工/HBM/设计服务未检索到官方披露;招股书细节需查原文",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "Q3盈利",
+     "v": "Q3归母净利4926万元,扣非2007万元,首次单季扣非转正;前三季扣非仍亏1.31亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "澎湃号 摩尔线程三季度扣非2007万",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34367232",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "前三季研发",
+     "v": "研发投入13.40亿元(+55.72%),超2025全年13.04亿元;Q3研发5.71亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "澎湃新闻 摩尔线程三季度营收15.5亿元",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34352944",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31",
+     "cell": "rd",
+     "note": "2026Q1-Q3"
+    },
+    {
+     "dim": "invest",
+     "k": "2025业绩",
+     "v": "2025年营收15.06亿元(+243.37%);归母净亏10.01亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "摩尔线程2025年年度报告摘要",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-27/1225197443.PDF",
+      "date": "2026-04-27"
+     },
+     "verified": "2026-10-31",
+     "note": "2025全年"
+    },
+    {
+     "dim": "invest",
+     "k": "2025研发",
+     "v": "2025年研发投入约13.04亿元,占营收86.68%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经 摩尔线程2025年报解读",
+      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-26/doc-inhvvkka9803573.shtml",
+      "date": "2026-04-26"
+     },
+     "verified": "2026-10-31",
+     "note": "2025全年"
+    },
+    {
+     "dim": "invest",
+     "k": "H1",
+     "v": "2026H1营收17.36亿元(+147.42%);研发7.69亿元(+38.16%)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "财联社 摩尔线程上半年营收+147.42%",
+      "url": "https://www.cls.cn/detail/2449287",
+      "date": "2026-08-09"
+     },
+     "verified": "2026-10-31",
+     "note": "2026年1-6月"
+    },
+    {
+     "dim": "invest",
+     "k": "IPO",
+     "v": "2025-12-05科创板上市(688795),发行7000万股,发行价114.28元,募资79.996亿元(净额75.76亿)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "摩尔线程招股说明书提示性公告",
+      "url": "https://act.ql18.com.cn/ipo/topic/1_17153342.html",
+      "date": "2025-11-24"
+     },
+     "verified": "2026-10-31",
+     "note": "募资净额见21财经/报道"
+    },
+    {
+     "dim": "invest",
+     "k": "上市首日",
+     "v": "首日开盘650元,较发行价高开468.78%;收盘涨425.46%",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "21财经 摩尔线程上市首日大涨",
+      "url": "https://m.21jingji.com/article/20251206/bd8bc39c74de2381df8a171f0cb371de.html",
+      "date": "2025-12-06"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "累计研发",
+     "v": "2022年以来累计研发投入近59亿元(至2026H1)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "财联社 摩尔线程上半年营收+147.42%",
+      "url": "https://www.cls.cn/detail/2449287",
+      "date": "2026-08-09"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "存货",
+     "v": "Q3末存货33.63亿元(+258.53%)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪新闻 摩尔线程三季度扣非",
+      "url": "https://k.sina.cn/article_1698921891_65437da3001021qr2.html",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "MTT S5000",
+     "v": "80GB显存,带宽1.6TB/s,单卡FP8最高1000TFLOPS(稠密/稀疏未注明),卡间互联784GB/s",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 MTT S5000参数首次公开",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-02-12/doc-inhmpkar4117688.shtml",
+      "date": "2026-02-12"
+     },
+     "verified": "2026-10-31",
+     "cell": "compute"
+    },
+    {
+     "dim": "product",
+     "k": "显存",
+     "v": "MTT S5000配80GB显存,带宽1.6TB/s(HBM类型未检索到)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 MTT S5000参数首次公开",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-02-12/doc-inhmpkar4117688.shtml",
+      "date": "2026-02-12"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm"
+    },
+    {
+     "dim": "product",
+     "k": "花港架构",
+     "v": "2025-12 MUSA开发者大会公布“花港”架构:算力密度+50%、FP4~FP64、支持十万卡集群",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "财联社 摩尔线程开发者大会",
+      "url": "https://www.cls.cn/detail/2235510",
+      "date": "2025-12-20"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest"
+    },
+    {
+     "dim": "product",
+     "k": "后续芯片",
+     "v": "基于花港:训推一体“华山”、图形“庐山”",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "搜狐 摩尔线程新架构新芯片",
+      "url": "https://www.sohu.com/a/969706030_163726",
+      "date": "2025-12-20"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "生态",
+     "v": "MUSA软件栈开发者超80万人",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "财联社 摩尔线程上半年营收+147.42%",
+      "url": "https://www.cls.cn/detail/2449287",
+      "date": "2026-08-09"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "状态",
+     "v": "MTT S5000已规模化销售,首批通过国家《安全可靠测评》;存货33.63亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "财联社 摩尔线程上半年营收+147.42%",
+      "url": "https://www.cls.cn/detail/2449287",
+      "date": "2026-08-09"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "shipment",
+     "k": "2026前三季",
+     "v": "前三季营收32.89亿元(+319%);Q3营收15.52亿元(+1773.9%,环比+55.4%)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技 摩尔线程Q3营收15.52亿元",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-29/doc-iniwwiey2814542.shtml",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship",
+     "note": "2026Q1-Q3"
+    },
+    {
+     "dim": "shipment",
+     "k": "万卡集群",
+     "v": "基于S5000的夸娥万卡集群已落地,宣称FP未注明10EFLOPS级,稠密训练MFU约60%",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "新浪新闻 摩尔线程扭亏",
+      "url": "https://www.sina.cn/weibo/detail/5359081851197861.html",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "客户",
+     "v": "H1导入互联网头部及电信运营商;与京东云拟建十万卡集群;S5000集群落地北京/无锡/杭州",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "摩尔线程投资者关系活动记录表",
+      "url": "http://dataclouds.cninfo.com.cn/shgonggao/investor/2026/20260907/0f4859c8bc5a56ff3e39a54ac9cd22ec.pdf",
+      "date": "2026-09-07"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "supply",
+     "k": "实体清单",
+     "v": "2023年10月被列入美国实体清单,无法与TSMC等代工合作",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Rest of World",
+      "url": "https://restofworld.org/2025/china-chip-startups-nvidia-us-export/",
+      "date": "2025-01-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "control",
+     "note": "二次来源"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-12",
+     "type": "发布",
+     "text": "花港架构及华山/庐山路线图",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "财联社",
+      "url": "https://www.cls.cn/detail/2235510",
+      "date": "2025-12-20"
+     }
+    },
+    {
+     "date": "2025-12",
+     "type": "交付",
+     "text": "科创板上市",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "21财经 摩尔线程上市首日大涨",
+      "url": "https://m.21jingji.com/article/20251206/bd8bc39c74de2381df8a171f0cb371de.html",
+      "date": "2025-12-06"
+     }
+    },
+    {
+     "date": "2026-02",
+     "type": "发布",
+     "text": "MTT S5000参数首次公开",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 MTT S5000参数首次公开",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-02-12/doc-inhmpkar4117688.shtml",
+      "date": "2026-02-12"
+     }
+    },
+    {
+     "date": "2026",
+     "type": "发布",
+     "text": "庐山GPU有望年内上市(以正式发布为准)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "摩尔线程投资者关系活动记录表",
+      "url": "http://dataclouds.cninfo.com.cn/shgonggao/investor/2026/20260907/0f4859c8bc5a56ff3e39a54ac9cd22ec.pdf",
+      "date": "2026-09-07"
+     }
+    },
+    {
+     "date": "2026",
+     "type": "交付",
+     "text": "与京东云十万卡全功能GPU集群(拟建)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "新浪新闻",
+      "url": "https://www.sina.cn/weibo/detail/5359081851197861.html",
+      "date": "2026-10-29"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-28",
+     "text": "三季报:Q3营收15.52亿元(+1773.9%),单季扣非转正;前三季研发13.40亿元",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技 摩尔线程Q3营收15.52亿元",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-29/doc-iniwwiey2814542.shtml",
+      "date": "2026-10-29"
+     }
+    },
+    {
+     "date": "2026-09-07",
+     "text": "投资者关系记录:花港产品系列投入,庐山GPU有望年内上市",
+     "grade": "A",
+     "src": {
+      "name": "巨潮资讯",
+      "url": "http://dataclouds.cninfo.com.cn/shgonggao/investor/2026/20260907/0f4859c8bc5a56ff3e39a54ac9cd22ec.pdf",
+      "date": "2026-09-07"
+     }
+    },
+    {
+     "date": "2026-08-09",
+     "text": "半年报:营收17.36亿元(+147.42%),研发7.69亿元,S5000集群规模化销售",
+     "grade": "A",
+     "src": {
+      "name": "财联社 摩尔线程上半年营收+147.42%",
+      "url": "https://www.cls.cn/detail/2449287",
+      "date": "2026-08-09"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "2025年度",
+     "value": 13.04,
+     "unit": "亿元",
+     "ratio": "86.68%",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/aigc/stockfs/2026-04-26/doc-inhvvkka9803573.shtml",
+      "date": "2026-04-26"
+     }
+    },
+    {
+     "period": "2026H1",
+     "value": 7.69,
+     "unit": "亿元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "财联社 摩尔线程上半年营收+147.42%",
+      "url": "https://www.cls.cn/detail/2449287",
+      "date": "2026-08-09"
+     }
+    },
+    {
+     "period": "2026Q1-Q3",
+     "value": 13.4,
+     "unit": "亿元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "澎湃新闻 摩尔线程三季度营收15.5亿元",
+      "url": "https://www.thepaper.cn/newsDetail_forward_34352944",
+      "date": "2026-10-29"
+     }
+    }
+   ],
+   "headcount": []
+  },
+  {
+   "id": "metax",
+   "name": "沐曦",
+   "nameEn": "MetaX Integrated Circuits",
+   "region": "国内",
+   "group": "商用GPU/加速卡厂商",
+   "route": "GPU",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "工艺称“全国产7nm”,代工厂未获官方点名(中芯国际为第三方页面说法,C级);HBM称依赖进口,招股书称HBM/EDA/IP存在外部依赖(B)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "Q3",
+     "v": "Q3营收15.00亿元(+367.12%),归母净利2652.71万元,扣非3.08亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "同花顺 沐曦股份Q3营收同比增长367.12%",
+      "url": "http://stock.10jqka.com.cn/20261030/c681313922.shtml",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "经营现金流",
+     "v": "前三季经营现金流-13.38亿元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 沐曦股份前三季同比扭亏",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-30/doc-iniwziit4547018.shtml",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "2025业绩",
+     "v": "2025年营收16.44亿元(+121.26%);归母净亏7.89亿元;毛利率56.51%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "同花顺 营收翻倍减亏四成沐曦年报",
+      "url": "https://stock.10jqka.com.cn/20260327/c675602914.shtml",
+      "date": "2026-03-27"
+     },
+     "verified": "2026-10-31",
+     "note": "2025全年"
+    },
+    {
+     "dim": "invest",
+     "k": "2025研发",
+     "v": "2025年研发费用10.27亿元(+14.04%),占营收62.49%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经 沐曦股份2025年营收翻倍",
+      "url": "https://finance.sina.com.cn/wm/2026-03-28/doc-inhspmsw1301220.shtml",
+      "date": "2026-03-28"
+     },
+     "verified": "2026-10-31",
+     "cell": "rd",
+     "note": "2025全年;三季报研发额未检索到"
+    },
+    {
+     "dim": "invest",
+     "k": "IPO",
+     "v": "科创板上市(688802),发行4010万股,占发行后10.02%,拟募资约39亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "沐曦股份上市公告书",
+      "url": "https://file.finance.qq.com/finance/hs/pdf/2025/12/16/1224879165.PDF",
+      "date": "2025-12-16"
+     },
+     "verified": "2026-10-31",
+     "note": "募资额以招股书口径,媒体有39/40亿之分"
+    },
+    {
+     "dim": "people",
+     "k": "研发人员",
+     "v": "2025年末研发人员675人,占员工73%,70%+硕士及以上",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经 沐曦股份2025年营收翻倍",
+      "url": "https://finance.sina.com.cn/wm/2026-03-28/doc-inhspmsw1301220.shtml",
+      "date": "2026-03-28"
+     },
+     "verified": "2026-10-31",
+     "cell": "headcount",
+     "note": "年末时点按年报"
+    },
+    {
+     "dim": "people",
+     "k": "研发波动",
+     "v": "报告期末研发人员591/605/706/652人;2025-08-31回升至670人",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "沐曦问询回复(上交所)",
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202509/002078_20250921_RT49.pdf",
+      "date": "2025-09-21"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "曦云C600",
+     "v": "2026年5月量产;144GB HBM3e;FP8约1000TFLOPS(稠密/稀疏未注明);国产7nm",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 沐曦前三季度扭亏C600量产",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-19/doc-inivtpwt6195526.shtml",
+      "date": "2026-10-19"
+     },
+     "verified": "2026-10-31",
+     "cell": "compute"
+    },
+    {
+     "dim": "product",
+     "k": "HBM",
+     "v": "曦云C600配144GB HBM3e(带宽3.35~3.6TB/s,各来源不一)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "中财网 沐曦股份C600量产在即",
+      "url": "https://www.cfi.net.cn/p20261009000368.html",
+      "date": "2026-10-09"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm"
+    },
+    {
+     "dim": "product",
+     "k": "工艺",
+     "v": "基于国内7nm制程(代工厂未获官方点名)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 沐曦前三季度扭亏C600量产",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-19/doc-inivtpwt6195526.shtml",
+      "date": "2026-10-19"
+     },
+     "verified": "2026-10-31",
+     "cell": "process"
+    },
+    {
+     "dim": "product",
+     "k": "软件栈",
+     "v": "MXMACA 3.9.0发布,增强超节点、多卡通信",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 沐曦股份前三季同比扭亏",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-30/doc-iniwziit4547018.shtml",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "曦云C700",
+     "v": "对标H100,新增FP4;2025-04立项;功能验证接近完成,进入收尾阶段(2026-09说明会)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "快科技 曦云C700功能验证接近完成",
+      "url": "https://news.mydrivers.com/1/1150/1150911.htm",
+      "date": "2026-09-14"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest"
+    },
+    {
+     "dim": "milestone",
+     "k": "C600量产",
+     "v": "曦云C600于2026年5月量产上市",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 沐曦前三季度扭亏C600量产",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-19/doc-inivtpwt6195526.shtml",
+      "date": "2026-10-19"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "shipment",
+     "k": "2026前三季",
+     "v": "前三季营收28.24亿元(+128.45%);归母净利6.39亿元,同比扭亏;扣非2.59亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技 沐曦股份前三季同比扭亏",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-30/doc-iniwziit4547018.shtml",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship",
+     "note": "2026Q1-Q3"
+    },
+    {
+     "dim": "shipment",
+     "k": "客户",
+     "v": "覆盖国家智算中心、三大运营商、互联网智算平台;与上海联通战略合作",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "凤凰网 沐曦股份GPU产品矩阵完善",
+      "url": "https://original.ifeng.com/c/8x59gRPHnZD",
+      "date": "2026-10-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "shipment",
+     "k": "客户集中",
+     "v": "招股书期间前五大客户占比100%/91.58%/71.09%/88.35%(2022/2023/2024/2025Q1),缺主流互联网厂商",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "知乎 沐曦科创板IPO分析",
+      "url": "https://zhuanlan.zhihu.com/p/1961388460473554139",
+      "date": "2025-10-01"
+     },
+     "verified": "2026-10-31",
+     "note": "二手分析引招股书"
+    },
+    {
+     "dim": "supply",
+     "k": "实体清单",
+     "v": "未见被列入美国实体清单的公开记录(2026年中口径),HBM/EDA/IP存在进口依赖",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "AI Chip Map MetaX",
+      "url": "https://www.aichipmap.com/en/company/metax/",
+      "date": "2026-06-01"
+     },
+     "verified": "2026-10-31",
+     "note": "第三方站点,待核查BIS名单"
+    },
+    {
+     "dim": "supply",
+     "k": "订单辟谣",
+     "v": "2026-07公司辟谣“GPU订单排到明年”不属实",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 沐曦紧急辟谣",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-07-09/doc-inihewsy7621475.shtml",
+      "date": "2026-07-09"
+     },
+     "verified": "2026-10-31"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-12",
+     "type": "交付",
+     "text": "科创板上市",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "上市公告书",
+      "url": "https://file.finance.qq.com/finance/hs/pdf/2025/12/16/1224879165.PDF",
+      "date": "2025-12-16"
+     }
+    },
+    {
+     "date": "2026-05",
+     "type": "量产",
+     "text": "曦云C600量产",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 沐曦前三季度扭亏C600量产",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-19/doc-inivtpwt6195526.shtml",
+      "date": "2026-10-19"
+     }
+    },
+    {
+     "date": "2026-Q2",
+     "type": "流片",
+     "text": "C700流片测试(招股书规划;说明会称仍在收尾)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "科创招股书梳理之沐曦篇",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202507071704423677_1.pdf?1751882546000.pdf=",
+      "date": "2025-07-07"
+     }
+    },
+    {
+     "date": "2027-Q3",
+     "type": "量产",
+     "text": "C700小批量生产(招股书规划)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "科创招股书梳理之沐曦篇",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202507071704423677_1.pdf?1751882546000.pdf=",
+      "date": "2025-07-07"
+     }
+    },
+    {
+     "date": "2027-H2",
+     "type": "量产",
+     "text": "C700大规模量产(机构预测口径)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "快科技 曦云C700功能验证接近完成",
+      "url": "https://news.mydrivers.com/1/1150/1150911.htm",
+      "date": "2026-09-14"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-29",
+     "text": "三季报:Q3营收15.00亿元(+367%),前三季营收28.24亿元,归母净利6.39亿元",
+     "grade": "A",
+     "src": {
+      "name": "同花顺 沐曦股份Q3营收同比增长367.12%",
+      "url": "http://stock.10jqka.com.cn/20261030/c681313922.shtml",
+      "date": "2026-10-30"
+     }
+    },
+    {
+     "date": "2026-10-19",
+     "text": "业绩预告/报道:前三季扭亏,C600量产贡献",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技 沐曦前三季度扭亏C600量产",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-19/doc-inivtpwt6195526.shtml",
+      "date": "2026-10-19"
+     }
+    },
+    {
+     "date": "2026-09-07",
+     "text": "半年度业绩说明会:C700研发进入收尾阶段",
+     "grade": "B",
+     "src": {
+      "name": "快科技 曦云C700功能验证接近完成",
+      "url": "https://news.mydrivers.com/1/1150/1150911.htm",
+      "date": "2026-09-14"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "2025年度",
+     "value": 10.27,
+     "unit": "亿元",
+     "ratio": "62.49%",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经 沐曦股份2025年营收翻倍",
+      "url": "https://finance.sina.com.cn/wm/2026-03-28/doc-inhspmsw1301220.shtml",
+      "date": "2026-03-28"
+     }
+    }
+   ],
+   "headcount": [
+    {
+     "period": "2025-12-31",
+     "total": null,
+     "rd": 675,
+     "rdRatio": "73%",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经 沐曦股份2025年营收翻倍",
+      "url": "https://finance.sina.com.cn/wm/2026-03-28/doc-inhspmsw1301220.shtml",
+      "date": "2026-03-28"
+     }
+    }
+   ]
+  },
+  {
+   "id": "biren",
+   "name": "壁仞科技",
+   "nameEn": "Biren Technology",
+   "region": "国内",
+   "group": "商用GPU/加速卡厂商",
+   "route": "GPU",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "代工/HBM伙伴在检索结果中未见明确披露(未披露);BR166据报道采用DRAM而非HBM(B)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "港股上市",
+     "v": "2026-01-02 于港交所上市(06082.HK),发行价19.6港元,首日开盘涨82%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "每日经济新闻",
+      "url": "https://www.nbd.com.cn/articles/2026-01-02/4204971.html",
+      "date": "2026-01-02"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "H1研发",
+     "v": "2026年上半年研发开支8.04亿元,同比+40.7%",
+     "cell": "rd",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载壁仞2026中期业绩",
+      "url": "https://news.qq.com/rain/a/20260828A09TK200",
+      "date": "2026-08-28"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "历年研发",
+     "v": "研发开支:2022年10.18亿、2023年8.86亿、2024年8.27亿、2025上半年5.72亿元(人民币)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "央广网转述招股书",
+      "url": "https://finance.cnr.cn/cjgs/20251217/t20251217_527463106.shtml",
+      "date": "2025-12-17"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "H1亏损",
+     "v": "2026上半年期内亏损3.77亿元,同比收窄76.4%;经调整亏损3.37亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载壁仞2026中期业绩",
+      "url": "https://news.qq.com/rain/a/20260828A09TK200",
+      "date": "2026-08-28"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "7月配售",
+     "v": "2026-07-08 完成H股配售,净额约70.4亿港元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/wm/2026-07-06/doc-inifwscr8606843.shtml",
+      "date": "2026-07-06"
+     },
+     "verified": "2026-10-31",
+     "note": "配售启动报道日期为7月6日"
+    },
+    {
+     "dim": "invest",
+     "k": "10月配售",
+     "v": "2026-10-08 拟配售1.3亿股新H股,31.08港元/股,净额约40.2亿港元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "智通财经/英为财情",
+      "url": "https://cn.investing.com/news/stock-market-news/article-3598704",
+      "date": "2026-10-08"
+     },
+     "verified": "2026-10-31",
+     "note": "约70%用于新一代产品供应链"
+    },
+    {
+     "dim": "invest",
+     "k": "前期估值",
+     "v": "2025年3月报道:上海国投母基金领投,公司估值超155亿元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经/钛媒体",
+      "url": "https://finance.sina.com.cn/cj/2025-03-11/doc-inephwwc8520444.shtml",
+      "date": "2025-03-11"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "people",
+     "k": "研发占比传闻",
+     "v": "投资方称研发人员占比超80%(转述,非招股书口径)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://t.cj.sina.com.cn/articles/view/6447970018/1805436e200101mrn8",
+      "date": "2026-01-02"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "BR166",
+     "v": "BR166(2025年量产):2颗BR106裸晶+4颗DRAM,D2D带宽896GB/s",
+     "cell": "latest",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "21经济网",
+      "url": "https://www.21jingji.com/article/20251221/herald/e1f68a105cda1f146a25bdb0a29bbbdc.html",
+      "date": "2025-12-21"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "内存配置",
+     "v": "BR166含4颗DRAM(非HBM),招股书阶段披露",
+     "cell": "hbm",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "21经济网",
+      "url": "https://www.21jingji.com/article/20251221/herald/e1f68a105cda1f146a25bdb0a29bbbdc.html",
+      "date": "2025-12-21"
+     },
+     "verified": "2026-10-31",
+     "note": "媒体解读,HBM型号未见披露"
+    },
+    {
+     "dim": "product",
+     "k": "BR20X",
+     "v": "第二代自研架构旗舰训推芯片,原生支持FP8/FP4,更大内存与互联",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "港交所披露易 壁仞全球发售文件",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1222/2025122200020_c.pdf",
+      "date": "2025-12-22"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "BR20X点亮",
+     "v": "2026-10 公告BR20X已成功点亮,进入流片后验证,快于预期",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "21经济网",
+      "url": "https://www.21jingji.com/article/20261008/herald/087330602e3599d41456a15c5574741a.html",
+      "date": "2026-10-08"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "传性能",
+     "v": "传BR20X性能有望超H200(消息人士,无精度口径)",
+     "kind": "厂商宣称",
+     "grade": "C",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-10-03/doc-initxnhc4025376.shtml",
+      "date": "2026-10-03"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "评价",
+     "v": "分析称BR166为BR100架构双芯改款,大内存/强互联方面较薄弱",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "钛媒体",
+      "url": "https://www.tmtpost.com/8033720.html",
+      "date": "2026-01-01"
+     },
+     "verified": "2026-10-31",
+     "note": "钛媒体分析观点,日期为估计"
+    },
+    {
+     "dim": "milestone",
+     "k": "BR20X节奏",
+     "v": "券商预计2026Q4回片验证/送测,2027年规模部署",
+     "kind": "估算",
+     "grade": "B",
+     "src": {
+      "name": "国金证券研报(微博转载)",
+      "url": "https://weibo.com/ttarticle/x/m/geoshow/id/2309405344191206522893?domain=digital",
+      "date": "2026-09-30"
+     },
+     "verified": "2026-10-31",
+     "note": "研报日期约为2026年9月"
+    },
+    {
+     "dim": "milestone",
+     "k": "量产状态",
+     "v": "BR106/BR166已全形态量产与规模交付;BR166于2026-05通过国测I级",
+     "cell": "status",
+     "kind": "估算",
+     "grade": "B",
+     "src": {
+      "name": "国金证券研报(微博转载)",
+      "url": "https://weibo.com/ttarticle/x/m/geoshow/id/2309405344191206522893?domain=digital",
+      "date": "2026-09-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "H1收入",
+     "v": "2026上半年收入12.36亿元,同比+1997.6%;毛利率42.7%",
+     "cell": "ship",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载壁仞2026中期业绩",
+      "url": "https://news.qq.com/rain/a/20260828A0A6N200",
+      "date": "2026-08-28"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "历年收入",
+     "v": "收入:2023年6203万、2024年3.37亿、2025上半年5890万元;在手订单12.41亿(截至2025-12-15)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "瑞财经转述招股书",
+      "url": "https://m.rccaijing.com/news-7407373001811490019.html",
+      "date": "2025-12-22"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "2025收入",
+     "v": "2025全年收入超10亿元,存货9.49亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "东方财富财富号",
+      "url": "https://caifuhao.eastmoney.com/news/20260331164141569061120",
+      "date": "2026-03-31"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "客户",
+     "v": "客户覆盖头部互联网、AI大模型开发商、电信运营商、国家级AI算力平台;已完成互联网大客户认证并批量交付",
+     "cell": "customer",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载",
+      "url": "https://news.qq.com/rain/a/20260828A0A6N200",
+      "date": "2026-08-28"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "昆仑领奕",
+     "v": "2026-09-23 以1.74亿元唯一中标昆仑领奕智算中心一期包一,45日内供货",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "搜狐",
+      "url": "https://www.sohu.com/a/1081178602_128469",
+      "date": "2026-09-24"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "实体清单",
+     "v": "2023-10-17 北京壁仞等壁仞集团实体被美国商务部BIS列入实体清单",
+     "cell": "control",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "财联社",
+      "url": "https://www.cls.cn/detail/1487951",
+      "date": "2023-10-17"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "产能",
+     "v": "中期报告称已锁定充足关键产业链产能;2026-06-30存货12.15亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载",
+      "url": "https://news.qq.com/rain/a/20260828A09BFC00",
+      "date": "2026-08-28"
+     },
+     "verified": "2026-10-31"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2023-12",
+     "type": "量产",
+     "text": "BR106量产",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "21经济网",
+      "url": "https://www.21jingji.com/article/20251221/herald/e1f68a105cda1f146a25bdb0a29bbbdc.html",
+      "date": "2025-12-21"
+     }
+    },
+    {
+     "date": "2025-12",
+     "type": "量产",
+     "text": "BR166量产",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "21经济网",
+      "url": "https://www.21jingji.com/article/20251221/herald/e1f68a105cda1f146a25bdb0a29bbbdc.html",
+      "date": "2025-12-21"
+     }
+    },
+    {
+     "date": "2026-10-08",
+     "type": "流片",
+     "text": "BR20X成功点亮,进入流片后验证",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "21经济网",
+      "url": "https://www.21jingji.com/article/20261008/herald/087330602e3599d41456a15c5574741a.html",
+      "date": "2026-10-08"
+     }
+    },
+    {
+     "date": "2026-12",
+     "type": "交付",
+     "text": "BR20X送样(券商预计Q4)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "国金证券研报(微博转载)",
+      "url": "https://weibo.com/ttarticle/x/m/geoshow/id/2309405344191206522893?domain=digital",
+      "date": "2026-09-30"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "量产",
+     "text": "BR20X规模化部署",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "国金证券研报(微博转载)",
+      "url": "https://weibo.com/ttarticle/x/m/geoshow/id/2309405344191206522893?domain=digital",
+      "date": "2026-09-30"
+     }
+    },
+    {
+     "date": "2028",
+     "type": "发布",
+     "text": "BR30X/BR31X商业化(约2028年)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "21经济网",
+      "url": "https://www.21jingji.com/article/20251221/herald/e1f68a105cda1f146a25bdb0a29bbbdc.html",
+      "date": "2025-12-21"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-09",
+     "text": "公告新一代产品BR20X成功点亮,进入流片后验证,预计数季度内送样及量产",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-09/doc-iniurmnf6837813.shtml",
+      "date": "2026-10-09"
+     }
+    },
+    {
+     "date": "2026-10-08",
+     "text": "拟配售1.3亿股新H股,净筹约40.2亿港元",
+     "grade": "A",
+     "src": {
+      "name": "智通财经/英为财情",
+      "url": "https://cn.investing.com/news/stock-market-news/article-3598704",
+      "date": "2026-10-08"
+     }
+    },
+    {
+     "date": "2026-10-03",
+     "text": "传BR20X点亮且性能超H200(消息人士)",
+     "grade": "C",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-10-03/doc-initxnhc4025376.shtml",
+      "date": "2026-10-03"
+     }
+    },
+    {
+     "date": "2026-09-23",
+     "text": "1.74亿元唯一中标昆仑领奕智算中心一期",
+     "grade": "A",
+     "src": {
+      "name": "搜狐",
+      "url": "https://www.sohu.com/a/1081178602_128469",
+      "date": "2026-09-24"
+     }
+    },
+    {
+     "date": "2026-08-28",
+     "text": "发布中期业绩:营收12.36亿元(+1997.6%),亏损3.77亿元",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载壁仞2026中期业绩",
+      "url": "https://news.qq.com/rain/a/20260828A0A6N200",
+      "date": "2026-08-28"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "2022年度",
+     "value": 10.18,
+     "unit": "亿元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "央广网转述招股书",
+      "url": "https://finance.cnr.cn/cjgs/20251217/t20251217_527463106.shtml",
+      "date": "2025-12-17"
+     }
+    },
+    {
+     "period": "2023年度",
+     "value": 8.86,
+     "unit": "亿元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "央广网转述招股书",
+      "url": "https://finance.cnr.cn/cjgs/20251217/t20251217_527463106.shtml",
+      "date": "2025-12-17"
+     }
+    },
+    {
+     "period": "2024年度",
+     "value": 8.27,
+     "unit": "亿元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "央广网转述招股书",
+      "url": "https://finance.cnr.cn/cjgs/20251217/t20251217_527463106.shtml",
+      "date": "2025-12-17"
+     }
+    },
+    {
+     "period": "2025上半年",
+     "value": 5.72,
+     "unit": "亿元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "央广网转述招股书",
+      "url": "https://finance.cnr.cn/cjgs/20251217/t20251217_527463106.shtml",
+      "date": "2025-12-17"
+     }
+    },
+    {
+     "period": "2026上半年",
+     "value": 8.04,
+     "unit": "亿元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载壁仞2026中期业绩",
+      "url": "https://news.qq.com/rain/a/20260828A09TK200",
+      "date": "2026-08-28"
+     }
+    }
+   ],
+   "headcount": []
+  },
+  {
+   "id": "enflame",
+   "name": "燧原科技",
+   "nameEn": "Enflame Technology",
+   "region": "国内",
+   "group": "商用GPU/加速卡厂商",
+   "route": "ASIC",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "据一份第三方报告:L600采用中芯国际7nm+长电科技CoWoS+HBM3e(C,未获官方确认)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "科创板上市",
+     "v": "2026-09-11 登陆科创板(688801),发行价142.18元,发行4303.5万股,募资约61.19亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "金界/手机金融界",
+      "url": "https://m.jrj.com.cn/madapter/finance/2026/09/11080158408936.shtml",
+      "date": "2026-09-11"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "IPO进度",
+     "v": "2026-01-22受理;06-15过会;07-09证监会注册批复",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "21财经",
+      "url": "https://m.21jingji.com/article/20260615/herald/5ca460dc07f2147a3a1979e001e38c36.html",
+      "date": "2026-06-15"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "上市首日",
+     "v": "首日开盘410元(+188%),总市值约1700亿元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "21财经",
+      "url": "https://m.21jingji.com/article/20260911/herald/5c0a9ce37277791465eda647260dde4d.html",
+      "date": "2026-09-11"
+     },
+     "verified": "2026-10-31",
+     "note": "各媒体市值1700-1764亿略有差异"
+    },
+    {
+     "dim": "invest",
+     "k": "前次估值",
+     "v": "截至2025年8月股权转让估值182亿元(招股书披露)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-02-24/doc-inhnxhnq3087395.shtml",
+      "date": "2026-02-24"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "腾讯持股",
+     "v": "腾讯及关联方合计持股约20.26%,为最大外部股东",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "凤凰网",
+      "url": "https://finance.ifeng.com/c/8w2PqqvQedR",
+      "date": "2026-06-16"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "募资用途",
+     "v": "募资60亿元:第五代芯片15亿元、第六代11.97亿元,余用于软硬件协同",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260914A05JLL00",
+      "date": "2026-09-14"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "研发投入",
+     "v": "2023-2025年研发投入合计36.76亿元,全部费用化;占收入408%/182%/115%",
+     "cell": "rd",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "凤凰网",
+      "url": "https://finance.ifeng.com/c/8w2PqqvQedR",
+      "date": "2026-06-16"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "盈利预期",
+     "v": "公司预计2026或2027年实现合并报表盈利",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "凤凰网",
+      "url": "https://finance.ifeng.com/c/8w2PqqvQedR",
+      "date": "2026-06-16"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "L600",
+     "v": "L600(2025-07-27发布)训推一体,原生FP8,互联800GB/s",
+     "cell": "latest",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "搜狐",
+      "url": "https://www.sohu.com/a/918172096_122454042",
+      "date": "2025-07-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "L600内存",
+     "v": "L600:144GB存储,3.6TB/s带宽(类型官方未明说)",
+     "cell": "hbm",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "搜狐",
+      "url": "https://www.sohu.com/a/918172096_122454042",
+      "date": "2025-07-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "L600制程",
+     "v": "传中芯国际7nm+长电CoWoS+HBM3e 144GB(来自第三方报告)",
+     "kind": "估算",
+     "grade": "C",
+     "src": {
+      "name": "知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2035819335441236955",
+      "date": "2026-05-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "技术路线",
+     "v": "产品属DSA/ASIC专用架构,非通用GPU(媒体指出)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "智东西",
+      "url": "https://zhidx.com/p/522707.html",
+      "date": "2026-01-08"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "S60量产",
+     "v": "S60推理芯片2024年6月量产",
+     "cell": "status",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "搜狐",
+      "url": "https://www.sohu.com/a/918140001_121811879",
+      "date": "2025-07-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "历年收入",
+     "v": "营收:2023年3.01亿、2024年7.22亿、2025年9.90亿元;归母净亏损16.65/15.10/11.64亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "21财经",
+      "url": "https://m.21jingji.com/article/20260615/herald/5ca460dc07f2147a3a1979e001e38c36.html",
+      "date": "2026-06-15"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "前三季度",
+     "v": "2026前三季度营收23.32亿元(+331.7%),归母净亏损7.54亿元;Q3营收约12.1亿",
+     "cell": "ship",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "同花顺/上海证券报",
+      "url": "http://stock.10jqka.com.cn/20261030/c681314928.shtml",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "H1业绩",
+     "v": "2026上半年营收11.20亿元(+279%),归母净亏损6.32亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-09-02/doc-iniqkzme3051539.shtml",
+      "date": "2026-09-02"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "合同负债",
+     "v": "三季度末合同负债较上年末增1745%;前三季度经营现金流-20.17亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "同花顺/上海证券报",
+      "url": "http://stock.10jqka.com.cn/20261030/c681314928.shtml",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "腾讯依赖",
+     "v": "对腾讯直接+AVAP销售占收入:2023年33.3%、2024年37.8%、2025年83.8%",
+     "cell": "customer",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260903A04IFT00",
+      "date": "2026-09-03"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "S60出货",
+     "v": "S60(2024年6月量产)累计出货约16万片(厂商口径)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "搜狐",
+      "url": "https://www.sohu.com/a/918140001_121811879",
+      "date": "2025-07-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "S60出货2",
+     "v": "某行业调研称第三代S60已出货7万颗,与上述口径不一致",
+     "kind": "估算",
+     "grade": "C",
+     "src": {
+      "name": "知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2035819335441236955",
+      "date": "2026-05-01"
+     },
+     "verified": "2026-10-31",
+     "note": "知乎调研,日期为估计"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2024-06",
+     "type": "量产",
+     "text": "S60推理芯片量产",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "搜狐",
+      "url": "https://www.sohu.com/a/918140001_121811879",
+      "date": "2025-07-27"
+     }
+    },
+    {
+     "date": "2025-07-27",
+     "type": "发布",
+     "text": "L600训推一体芯片发布",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "搜狐",
+      "url": "https://www.sohu.com/a/918172096_122454042",
+      "date": "2025-07-27"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "type": "发布",
+     "text": "登陆科创板(688801)",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "手机金融界",
+      "url": "https://m.jrj.com.cn/madapter/finance/2026/09/11080158408936.shtml",
+      "date": "2026-09-11"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "发布",
+     "text": "第五代芯片研发及产业化(募投,时间未披露)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260914A05JLL00",
+      "date": "2026-09-14"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-30",
+     "text": "披露三季报:前三季度营收23.32亿元,亏损7.54亿元",
+     "grade": "A",
+     "src": {
+      "name": "同花顺/上海证券报",
+      "url": "http://stock.10jqka.com.cn/20261030/c681314928.shtml",
+      "date": "2026-10-30"
+     }
+    },
+    {
+     "date": "2026-09-14",
+     "text": "上市后首份业绩披露,83%收入依赖腾讯",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260914A05JLL00",
+      "date": "2026-09-14"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "text": "科创板上市首日开盘+188%",
+     "grade": "A",
+     "src": {
+      "name": "21财经",
+      "url": "https://m.21jingji.com/article/20260911/herald/5c0a9ce37277791465eda647260dde4d.html",
+      "date": "2026-09-11"
+     }
+    },
+    {
+     "date": "2026-08-31",
+     "text": "确定发行价142.18元/股",
+     "grade": "A",
+     "src": {
+      "name": "21财经",
+      "url": "https://m.21jingji.com/article/20260831/herald/783533a1593a76832e202c81e7bc900c.html",
+      "date": "2026-08-31"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "2023-2025年累计",
+     "value": 36.76,
+     "unit": "亿元",
+     "ratio": "占收入408.01%/181.66%/114.63%(2023/24/25)",
+     "grade": "A",
+     "src": {
+      "name": "凤凰网",
+      "url": "https://finance.ifeng.com/c/8w2PqqvQedR",
+      "date": "2026-06-16"
+     }
+    }
+   ],
+   "headcount": []
+  },
+  {
+   "id": "iluvatar",
+   "name": "天数智芯",
+   "nameEn": "Iluvatar CoreX",
+   "region": "国内",
+   "group": "商用GPU/加速卡厂商",
+   "route": "GPU",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "代工厂未披露;7nm工艺(招股书引弗若斯特沙利文)(A);持有盛合晶微股权(A)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "港股上市",
+     "v": "2026-01-08 港交所上市(09903.HK),发行价144.60港元,募资约36.77亿港元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "观察者网",
+      "url": "https://www.guancha.cn/economy/2026_01_08_803160.shtml",
+      "date": "2026-01-08"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "7月配售",
+     "v": "2026年7月配售募资约70亿港元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://k.sina.cn/article_5953466437_162dab0450670bf5ra.html",
+      "date": "2026-10-15"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "H1研发",
+     "v": "2026上半年研发投入5.59亿元,同比+23.8%",
+     "cell": "rd",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "2025H1研发",
+     "v": "2025上半年研发费用约4.51亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯云开发者社区",
+      "url": "https://cloud.tencent.com/developer/article/2642840",
+      "date": "2026-01-10"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "H1利润",
+     "v": "2026上半年利润约1.06亿元,含盛合晶微7.56亿元公允价值浮盈,主业仍亏",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "21财经",
+      "url": "https://m.21jingji.com/article/20260831/herald/268a2a9beff926dd174a8e56c8341cf1.html",
+      "date": "2026-08-31"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "历史亏损",
+     "v": "亏损:2022年5.54亿、2023年8.17亿、2024年8.92亿、2025上半年6.09亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯云开发者社区",
+      "url": "https://cloud.tencent.com/developer/article/2642840",
+      "date": "2026-01-10"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "股权激励",
+     "v": "2026-10-15 向273名员工授出222.41万份奖励",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "财闻网",
+      "url": "https://www.caiwennews.com/article/1660666.shtml",
+      "date": "2026-10-16"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "people",
+     "k": "人员",
+     "v": "2025-06-30员工685人,研发484人(70.6%)",
+     "cell": "headcount",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "超节点首发",
+     "v": "2026-10-14 工博会首发超节点天垓300IXL144,单柜144颗GPU",
+     "cell": "latest",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "财闻网",
+      "url": "https://www.caiwennews.com/article/1650738.shtml",
+      "date": "2026-10-14"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "制程",
+     "v": "首家采用先进7nm工艺量产训练通用GPU(招股书引弗若斯特沙利文)",
+     "cell": "process",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "天垓150",
+     "v": "天垓150配64GB HBM,350W(第三方产品页,非官方)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "MirrorFrog",
+      "url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "date": "2026-01-01"
+     },
+     "verified": "2026-10-31",
+     "note": "发布日期为估计"
+    },
+    {
+     "dim": "product",
+     "k": "架构路线",
+     "v": "天枢(2025)/天璇(2026)/天玑(2026)/天权(2027),对标Hopper至Rubin",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "财新",
+      "url": "https://m.caixin.com/m/2026-01-27/102408377.html",
+      "date": "2026-01-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "量产状态",
+     "v": "训练与推理通用GPU均已量产",
+     "cell": "status",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "H1收入",
+     "v": "2026上半年营收9.46亿元(+191.6%);毛利率17.2%(上年同期50%)",
+     "cell": "ship",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "产品结构",
+     "v": "H1推理(智铠)6.54亿元+651.8%,训练(天垓)2.62亿元+38%",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "历年收入",
+     "v": "营收:2022年1.89亿、2023年2.89亿、2024年5.40亿元;2025年10.34亿元(训练5.84亿/推理3.39亿)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经/国金研报",
+      "url": "https://finance.sina.com.cn/wm/2026-07-23/doc-iniivihw4556444.shtml",
+      "date": "2026-07-23"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "累计出货",
+     "v": "招股书:累计出货超5.2万片",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯云开发者社区",
+      "url": "https://cloud.tencent.com/developer/article/2642840",
+      "date": "2026-01-10"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "库存现金流",
+     "v": "2026-06-30存货19.68亿元;H1经营现金净流出27.86亿元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "字节传闻",
+     "v": "传字节洽购天数智芯推理芯片,年内至少5万块,未获证实",
+     "kind": "估算",
+     "grade": "C",
+     "src": {
+      "name": "知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2049981231006328326",
+      "date": "2026-06-18"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "供应链风险",
+     "v": "招股书提示依赖少数第三方制造商及美系EDA/IP",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "界面新闻",
+      "url": "https://www.jiemian.com/article/13853314.html",
+      "date": "2026-01-08"
+     },
+     "verified": "2026-10-31"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025",
+     "type": "发布",
+     "text": "天枢架构(对标超越Hopper)",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "财新",
+      "url": "https://m.caixin.com/m/2026-01-27/102408377.html",
+      "date": "2026-01-27"
+     }
+    },
+    {
+     "date": "2026",
+     "type": "发布",
+     "text": "天璇(对标Blackwell)/天玑(超越Blackwell)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "财新",
+      "url": "https://m.caixin.com/m/2026-01-27/102408377.html",
+      "date": "2026-01-27"
+     }
+    },
+    {
+     "date": "2026-10-14",
+     "type": "发布",
+     "text": "天垓300IXL144超节点首发",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "财闻网",
+      "url": "https://www.caiwennews.com/article/1650738.shtml",
+      "date": "2026-10-14"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "发布",
+     "text": "天权架构(目标超越Rubin)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "财新",
+      "url": "https://m.caixin.com/m/2026-01-27/102408377.html",
+      "date": "2026-01-27"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-28",
+     "text": "联动科技称与天数智芯达成GPU测试战略合作",
+     "grade": "B",
+     "src": {
+      "name": "富途牛牛",
+      "url": "https://news.futunn.com/post/1002608656/lianchuang-technology-301369-sz-has-reached-a-strategic-cooperation-agreement",
+      "date": "2026-10-28"
+     }
+    },
+    {
+     "date": "2026-10-16",
+     "text": "提交备案,拟将2765万股未上市股份转H股",
+     "grade": "A",
+     "src": {
+      "name": "财闻网",
+      "url": "https://www.caiwennews.com/article/1660666.shtml",
+      "date": "2026-10-16"
+     }
+    },
+    {
+     "date": "2026-10-15",
+     "text": "授出222.41万份股权激励;股价单日跌13.64%",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://k.sina.cn/article_5953466437_162dab0450670bf5ra.html",
+      "date": "2026-10-15"
+     }
+    },
+    {
+     "date": "2026-10-14",
+     "text": "工博会首发超节点天垓300IXL144",
+     "grade": "A",
+     "src": {
+      "name": "财闻网",
+      "url": "https://www.caiwennews.com/article/1650738.shtml",
+      "date": "2026-10-14"
+     }
+    },
+    {
+     "date": "2026-08-29",
+     "text": "中期业绩:营收9.46亿元,扭亏,毛利率降至17.2%",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "2025上半年",
+     "value": 4.51,
+     "unit": "亿元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "腾讯云开发者社区",
+      "url": "https://cloud.tencent.com/developer/article/2642840",
+      "date": "2026-01-10"
+     }
+    },
+    {
+     "period": "2026上半年",
+     "value": 5.59,
+     "unit": "亿元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻转载",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     }
+    }
+   ],
+   "headcount": [
+    {
+     "period": "2025-06-30",
+     "total": 685,
+     "rd": 484,
+     "rdRatio": "70.6%",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260829A0615200",
+      "date": "2026-08-29"
+     }
+    }
+   ]
+  },
+  {
+   "id": "kunlunxin",
+   "name": "昆仑芯",
+   "nameEn": "Kunlunxin",
+   "region": "国内",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "ASIC",
+   "role": "训练+推理",
+   "model": "两者",
+   "partners": "未披露(代工/HBM伙伴未见官方披露)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "港股递表",
+     "v": "2026-01-01 以保密形式向港交所提交A1上市申请;百度1-02公告确认分拆",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-01-04/doc-inhfawkx3059356.shtml",
+      "date": "2026-01-04"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "科创板辅导",
+     "v": "2026-05-07 启动科创板上市辅导,辅导机构中金公司,A+H并行",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "电子工程专辑",
+      "url": "https://www.eet-china.com/news/202605082585.html",
+      "date": "2026-05-08"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "上市进展",
+     "v": "2026-08 百度财报会称正推进上市,尚未正式申报招股书",
+     "cell": "status",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-08-20/doc-ininxkrv6763802.shtml",
+      "date": "2026-08-20"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "历史估值",
+     "v": "2021年4月独立首轮估值130亿元;2025年7月D轮投后约210亿元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "华创/中国创业投资网",
+      "url": "https://www.chinaventure.com.cn/news/114-20260509-391281.html",
+      "date": "2026-05-09"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "目标估值",
+     "v": "IPO目标估值约500亿美元(约3398亿元),媒体援引知情人士,未获公司确认",
+     "kind": "估算",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-06-29/doc-inifayqk5232477.shtml",
+      "date": "2026-06-29"
+     },
+     "verified": "2026-10-31",
+     "note": "另有报道称至少1000亿元(5月)"
+    },
+    {
+     "dim": "invest",
+     "k": "券商估值",
+     "v": "摩根大通400-490亿美元;野村440亿美元;富瑞100%股权160-230亿美元",
+     "kind": "估算",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-06-29/doc-inifayqk5232477.shtml",
+      "date": "2026-06-29"
+     },
+     "verified": "2026-10-31",
+     "note": "机构口径来自同一媒体汇总"
+    },
+    {
+     "dim": "invest",
+     "k": "百度持股",
+     "v": "百度持股57.67%(2026年5月,57名股东)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "电子工程专辑",
+      "url": "https://www.eet-china.com/news/202605082585.html",
+      "date": "2026-05-08"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "持股冲突",
+     "v": "另有报道称百度持股约59.45%",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "智源社区",
+      "url": "https://hub.baai.ac.cn/view/51643",
+      "date": "2026-08-01"
+     },
+     "verified": "2026-10-31",
+     "note": "发布时间为估计"
+    },
+    {
+     "dim": "invest",
+     "k": "D轮融资",
+     "v": "D轮约2.83亿美元,投资方含中国移动相关基金、比亚迪等(报道)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "中国工业新闻网",
+      "url": "https://www.cinn.cn/yc/2026/07-17/xDLeB2mk.html",
+      "date": "2026-07-17"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "订单换认购",
+     "v": "报道称认购者需购买数倍于认购额的芯片",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/wm/2026-07-01/doc-inifhrqy6361246.shtml",
+      "date": "2026-07-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "M100/M300",
+     "v": "2025-11-13 发布M100(推理,2026年初上市)与M300(训推,2027年初上市),参数未公布",
+     "cell": "latest",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "P800",
+     "v": "P800为第三代,XPU-P架构,支持万卡集群并已点亮",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "智源社区",
+      "url": "https://hub.baai.ac.cn/view/51643",
+      "date": "2026-08-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "集群",
+     "v": "百度已点亮昆仑芯三万卡集群,目标百万卡",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "天池超节点",
+     "v": "天池256超节点2026H1、512超节点2026H2上市;千卡级2028年",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "IDC出货",
+     "v": "IDC:2024年出货6.9万片(国产第二);2025年11.6万片,与寒武纪并列国产第三(昇腾81.2万、平头哥26.5万)",
+     "cell": "ship",
+     "kind": "估算",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2026-05-09/doc-inhximsv1211970.shtml",
+      "date": "2026-05-09"
+     },
+     "verified": "2026-10-31",
+     "note": "IDC;片数口径未明"
+    },
+    {
+     "dim": "shipment",
+     "k": "大单",
+     "v": "2025-03 中标招商银行AI芯片项目;2025-08 中标中国移动集采(十亿级)",
+     "cell": "customer",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "东方财富财富号",
+      "url": "https://caifuhao.eastmoney.com/news/20260515204730718541220",
+      "date": "2026-05-15"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "腾讯传闻",
+     "v": "报道称腾讯成为昆仑芯客户(The Information援引)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "观察者网",
+      "url": "https://www.guancha.cn/economy/2026_06_29_821967.shtml",
+      "date": "2026-06-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "营收估算",
+     "v": "市场估算:2024年营收约20亿元、亏约2亿;2025年35亿+(口径不一)",
+     "kind": "估算",
+     "grade": "C",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2026-05-09/doc-inhximsv1211970.shtml",
+      "date": "2026-05-09"
+     },
+     "verified": "2026-10-31",
+     "note": "非公司披露,无机构名"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-11-13",
+     "type": "发布",
+     "text": "发布M100/M300及天池超节点路线图",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     }
+    },
+    {
+     "date": "2026-03",
+     "type": "量产",
+     "text": "M100上市(计划2026年初)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     }
+    },
+    {
+     "date": "2026-12",
+     "type": "发布",
+     "text": "天池512超节点(计划2026H2)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     }
+    },
+    {
+     "date": "2027-03",
+     "type": "发布",
+     "text": "M300上市(计划2027年初)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     }
+    },
+    {
+     "date": "2028",
+     "type": "发布",
+     "text": "天池千卡级超节点",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     }
+    },
+    {
+     "date": "2029",
+     "type": "发布",
+     "text": "昆仑芯N系列",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     }
+    },
+    {
+     "date": "2030",
+     "type": "交付",
+     "text": "百舸百万卡昆仑芯单集群点亮",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/897/106.htm",
+      "date": "2025-11-13"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-08-20",
+     "text": "百度财报会:承认正推进昆仑芯上市,尚未申报招股书",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-08-20/doc-ininxkrv6763802.shtml",
+      "date": "2026-08-20"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  },
+  {
+   "id": "alibaba-thead",
+   "name": "阿里巴巴平头哥",
+   "nameEn": "Alibaba T-Head",
+   "region": "国内",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "GPU+ASIC",
+   "role": "训练+推理",
+   "model": "两者",
+   "partners": "未披露(代工/HBM合作方公开信息未见)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "分拆上市",
+     "v": "2026-01彭博等报道:拟先改制为员工持股实体,再探索IPO,时间未定",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Caixin Global",
+      "url": "https://www.caixinglobal.com/2026-01-23/alibaba-plans-spinoff-of-chip-arm-t-head-amid-ai-boom-102406970.html",
+      "date": "2026-01-23"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "IPO表态",
+     "v": "2026-03吴泳铭:不排除未来IPO,目前无明确时间表",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "财新",
+      "url": "https://m.caixin.com/m/2026-03-20/102424893.html",
+      "date": "2026-03-20"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "注册资本",
+     "v": "平头哥(上海)半导体注册资本由3亿元增至10亿元(6月19日工商变更)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "集邦咨询",
+      "url": "https://www.trendforce.cn/industry-news/semiconductors/20260623-5743.html",
+      "date": "2026-06-23"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "集团资本开支",
+     "v": "阿里2026年6月季度(FY27Q1)资本开支同比增长75%",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.cn/stock/jdts/2026-08-21/detail-inipaent8146682.d.html?vt=4&cid=76993&node_id=76993",
+      "date": "2026-08-21"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "最新产品",
+     "v": "真武V900:216GB显存,片间互联1200GB/s,原生支持FP8/FP4;单芯片性能约为M890的3倍(厂商宣称);2027Q1量产售卖",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/gncj/2026-09-22/doc-inissiti8969958.shtml",
+      "date": "2026-09-22"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest"
+    },
+    {
+     "dim": "product",
+     "k": "V900算力",
+     "v": "官方称单芯片性能约为真武M890的3倍;未公布含精度的峰值算力数值",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-09-22/doc-inisspzc6965173.shtml",
+      "date": "2026-09-22"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "M890",
+     "v": "真武M890超节点实例已登陆阿里云规模化售卖,下半年扩大供给(2026Q2财报电话会披露)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-08-20/doc-ininynci6675556.shtml",
+      "date": "2026-08-20"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "M890规格",
+     "v": "144GB HBM,片间互联800GB/s,性能约为810E的3倍;5月阿里云峰会发布(自媒体转述)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2040455907130226258",
+      "date": "2026-05-20"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "真武810E",
+     "v": "96GB HBM2e,片间互联700GB/s;2026-01-29官网上线;多个万卡集群",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "第一财经",
+      "url": "https://www.yicai.com/news/103029621.html",
+      "date": "2026-01-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "PPU规格",
+     "v": "央视披露PPU:96GB HBM2e显存,与H20持平(高于A800的80GB)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "国际电子商情",
+      "url": "https://www.esmchina.com/news/13497.html",
+      "date": "2025-09-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm"
+    },
+    {
+     "dim": "product",
+     "k": "超节点",
+     "v": "V900超节点服务器内置ICN Switch,单集群可扩展至50万卡规模(厂商宣称)",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/gncj/2026-09-22/doc-inissiti8969958.shtml",
+      "date": "2026-09-22"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "软件栈",
+     "v": "真武PPU采用自研并行计算架构、片间互联与全栈自研软件栈",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "第一财经",
+      "url": "https://www.yicai.com/news/103029621.html",
+      "date": "2026-01-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "倚天CPU",
+     "v": "首次披露服务器CPU路线图:2027年推出倚天720、倚天730",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-09-22/doc-inisspzc6965173.shtml",
+      "date": "2026-09-22"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "量产状态",
+     "v": "自研GPU已规模化量产,通过阿里云服务外部企业客户;V900计划2027Q1量产",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/wm/2026-05-13/doc-inhxtzph9324146.shtml",
+      "date": "2026-05-13"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "milestone",
+     "k": "二代流片",
+     "v": "吴泳铭称平头哥第二代芯片预计2026下半年流片、产出",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "全球半导体观察",
+      "url": "https://www.dramx.com/News/AI/20260821-41013.html",
+      "date": "2026-08-21"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "累计交付",
+     "v": "截至2026年2月累计交付47万片,年化营收规模超百亿元(吴泳铭财报会)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "财新",
+      "url": "https://m.caixin.com/m/2026-03-20/102424893.html",
+      "date": "2026-03-20"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship"
+    },
+    {
+     "dim": "shipment",
+     "k": "客户数",
+     "v": "真武系列已落地超650家企业客户,覆盖20+行业(截至2026年8月初)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-08-20/doc-ininynci6675556.shtml",
+      "date": "2026-08-20"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "shipment",
+     "k": "外部占比",
+     "v": "60%以上平头哥芯片服务于外部商业化客户(FY26Q4财报,截至2026-03)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/wm/2026-05-13/doc-inhxtzph9324146.shtml",
+      "date": "2026-05-13"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "出货传闻",
+     "v": "接近阿里人士称真武PPU总出货数十万片、超寒武纪(匿名消息)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260130A04MIN00",
+      "date": "2026-01-30"
+     },
+     "verified": "2026-10-31"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-09",
+     "type": "发布",
+     "text": "央视披露PPU:96GB HBM2e",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "国际电子商情",
+      "url": "https://www.esmchina.com/news/13497.html",
+      "date": "2025-09-01"
+     }
+    },
+    {
+     "date": "2026-01-29",
+     "type": "发布",
+     "text": "真武810E官网上线",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "第一财经",
+      "url": "https://www.yicai.com/news/103029621.html",
+      "date": "2026-01-29"
+     }
+    },
+    {
+     "date": "2026-05",
+     "type": "发布",
+     "text": "真武M890发布(自媒体转述)",
+     "planned": false,
+     "grade": "C",
+     "src": {
+      "name": "知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2040455907130226258",
+      "date": "2026-05-20"
+     }
+    },
+    {
+     "date": "2026-08",
+     "type": "交付",
+     "text": "M890超节点登陆阿里云售卖",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-08-20/doc-ininynci6675556.shtml",
+      "date": "2026-08-20"
+     }
+    },
+    {
+     "date": "2026-12",
+     "type": "流片",
+     "text": "二代芯片下半年流片(管理层表述)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "全球半导体观察",
+      "url": "https://www.dramx.com/News/AI/20260821-41013.html",
+      "date": "2026-08-21"
+     }
+    },
+    {
+     "date": "2026-09-22",
+     "type": "发布",
+     "text": "真武V900、倚天CPU路线图发布",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/gncj/2026-09-22/doc-inissiti8969958.shtml",
+      "date": "2026-09-22"
+     }
+    },
+    {
+     "date": "2027-03",
+     "type": "量产",
+     "text": "真武V900量产售卖(2027Q1)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/gncj/2026-09-22/doc-inissiti8969958.shtml",
+      "date": "2026-09-22"
+     }
+    },
+    {
+     "date": "2027-12",
+     "type": "发布",
+     "text": "倚天720/730两代CPU(2027年)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-09-22/doc-inisspzc6965173.shtml",
+      "date": "2026-09-22"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-09-22",
+     "text": "云栖大会发布真武V900(216GB,1200GB/s,FP8/FP4),2027Q1量产;同期披露倚天CPU路线图",
+     "grade": "A",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/gncj/2026-09-22/doc-inissiti8969958.shtml",
+      "date": "2026-09-22"
+     }
+    },
+    {
+     "date": "2026-08-21",
+     "text": "管理层称平头哥二代芯片预计下半年流片、产出",
+     "grade": "B",
+     "src": {
+      "name": "全球半导体观察",
+      "url": "https://www.dramx.com/News/AI/20260821-41013.html",
+      "date": "2026-08-21"
+     }
+    },
+    {
+     "date": "2026-08-21",
+     "text": "阿里6月季度资本开支同比增75%,管理层称AI算力投资回报确定性高",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.cn/stock/jdts/2026-08-21/detail-inipaent8146682.d.html?vt=4&cid=76993&node_id=76993",
+      "date": "2026-08-21"
+     }
+    },
+    {
+     "date": "2026-08-20",
+     "text": "财报会披露真武系列已落地超650家企业客户,M890超节点实例上线阿里云",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-08-20/doc-ininynci6675556.shtml",
+      "date": "2026-08-20"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  },
+  {
+   "id": "bytedance",
+   "name": "字节跳动自研芯片",
+   "nameEn": "ByteDance (SeedChip)",
+   "region": "国内",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "ASIC",
+   "role": "推理",
+   "model": "自用",
+   "partners": "据报道:Broadcom(设计,B)、台积电/三星(代工洽谈,B)、联发科(谈判,B);均未获官方确认",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "AI资本开支",
+     "v": "传2026年AI基建预算由1600亿升至2000亿元,芯片采购850-1000亿元(自媒体)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "今日头条",
+      "url": "https://www.toutiao.com/article/7638436322507506222/",
+      "date": ""
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "英伟达采购",
+     "v": "SCMP:2026年计划约1000亿元人民币采购英伟达AI芯片,取决于H200获批",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "南华早报",
+      "url": "https://www.scmp.com/tech/big-tech/article/3338191/bytedance-pour-us14-billion-nvidia-chips-2026-computing-demand-surges",
+      "date": ""
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "people",
+     "k": "团队规模",
+     "v": "自研芯片团队超千人,AI芯片超500人、CPU约200人(《智能涌现》转述)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/0/921/556.htm",
+      "date": ""
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "SeedChip",
+     "v": "代号SeedChip的AI推理芯片(Seed团队),路透称拟与三星洽谈代工,含存储供应谈判",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "联合新闻网(路透)",
+      "url": "https://udn.com/news/story/7333/9324506",
+      "date": "2026-02-11"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest",
+     "note": "字节发言人称'不准确'"
+    },
+    {
+     "dim": "product",
+     "k": "公司回应",
+     "v": "字节发言人称相关报道'不准确',未作进一步说明;三星拒绝置评",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "动点科技",
+      "url": "https://cn.technode.com/post/2026-02-11/bytedance-samsung-ai-chip-rumor-inaccurate/",
+      "date": "2026-02-11"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "制程/代工",
+     "v": "路透称洽谈三星代工;2024年报道称TSMC 5nm、Broadcom合作(均未获确认)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "联合新闻网(路透)",
+      "url": "https://udn.com/news/story/7333/9324506",
+      "date": "2026-02-11"
+     },
+     "verified": "2026-10-31",
+     "cell": "process"
+    },
+    {
+     "dim": "product",
+     "k": "2024年报道",
+     "v": "路透2024:与Broadcom合作开发符合出口管制的5nm ASIC,台积电代工",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Yahoo Finance(路透)",
+      "url": "https://finance.yahoo.com/news/exclusive-chinas-bytedance-working-broadcom-031153598.html",
+      "date": ""
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "2024年否认",
+     "v": "字节2024年称芯片项目处于早期,聚焦推荐/广告成本优化",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/bytedance-denies-reported-plan-self-093000246.html",
+      "date": ""
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "TSMC计划",
+     "v": "TrendForce 2024-09转述:两款自研AI芯片拟2026年用台积电量产",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "TrendForce",
+      "url": "https://www.trendforce.com/news/2024/09/18/news-bytedance-reportedly-turns-to-tsmc-on-self-developed-ai-chips-to-reduce-purchase-cost-on-nvidia/",
+      "date": "2024-09-18"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "下代CPU",
+     "v": "TrendForce:拟2027年初定稿自研CPU,2H27量产,或与高通合作(据报道)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "TrendForce",
+      "url": "https://www.trendforce.com/news/2026/06/30/news-bytedance-reportedly-eyes-early-2027-in-house-cpu-design-for-2h27-mass-production-may-partner-with-qualcomm/",
+      "date": "2026-06-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "外购ASIC",
+     "v": "彭博:字节与联发科就数据中心定制ASIC供应进入后期谈判",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/bytedance-in-talks-to-secure-mediatek-ai-chips-for-data-centers",
+      "date": "2026-10-15"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "样片/量产",
+     "v": "路透:目标3月底前获样片,2026年产至少10万颗,后续提至35万颗(据报道)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "联合新闻网(路透)",
+      "url": "https://udn.com/news/story/7333/9324506",
+      "date": "2026-02-11"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "milestone",
+     "k": "量产传闻",
+     "v": "自媒体称首次流片成功、部分芯片已进入量产部署(内部人士)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/t/2026-02-15/doc-inhmwfpq4093350.shtml",
+      "date": "2026-02-15"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "流片进展",
+     "v": "SCMP:内部芯片部门某处理器流片取得进展,性能对标H20",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "南华早报",
+      "url": "https://www.scmp.com/tech/big-tech/article/3338191/bytedance-pour-us14-billion-nvidia-chips-2026-computing-demand-surges",
+      "date": ""
+     },
+     "verified": "2026-10-31"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2024-09",
+     "type": "流片",
+     "text": "据报道拟与台积电开发两款自研芯片",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "TrendForce",
+      "url": "https://www.trendforce.com/news/2024/09/18/news-bytedance-reportedly-turns-to-tsmc-on-self-developed-ai-chips-to-reduce-purchase-cost-on-nvidia/",
+      "date": "2024-09-18"
+     }
+    },
+    {
+     "date": "2026-03",
+     "type": "交付",
+     "text": "路透:目标3月底获得样片",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "联合新闻网(路透)",
+      "url": "https://udn.com/news/story/7333/9324506",
+      "date": "2026-02-11"
+     }
+    },
+    {
+     "date": "2026-12",
+     "type": "量产",
+     "text": "路透:2026年至少量产10万颗推理芯片",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "联合新闻网(路透)",
+      "url": "https://udn.com/news/story/7333/9324506",
+      "date": "2026-02-11"
+     }
+    },
+    {
+     "date": "2027-09",
+     "type": "量产",
+     "text": "下代自研CPU拟2H27量产(据报道)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "TrendForce",
+      "url": "https://www.trendforce.com/news/2026/06/30/news-bytedance-reportedly-eyes-early-2027-in-house-cpu-design-for-2h27-mass-production-may-partner-with-qualcomm/",
+      "date": "2026-06-30"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-15",
+     "text": "彭博:字节与联发科就数据中心定制AI芯片供应进入后期谈判,未获确认",
+     "grade": "B",
+     "src": {
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-15/bytedance-in-talks-to-secure-mediatek-ai-chips-for-data-centers",
+      "date": "2026-10-15"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  },
+  {
+   "id": "tencent",
+   "name": "腾讯自研芯片",
+   "nameEn": "Tencent (Zixiao)",
+   "region": "国内",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "ASIC",
+   "role": "推理",
+   "model": "自用",
+   "partners": "未披露",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "2025年资本开支",
+     "v": "约792亿元,因先进AI芯片获取受限低于预期",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Yahoo Finance(路透)",
+      "url": "https://finance.yahoo.com/news/tencent-books-13-rise-quarterly-084051132.html",
+      "date": "2026-03-18"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "2026Q2资本开支",
+     "v": "527.84亿元,同比增176%;上半年累计847.2亿元,主要用于算力采购",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260813A06LWC00",
+      "date": "2026-08-13"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "投资燧原",
+     "v": "据报道腾讯持股超20%的燧原科技科创板IPO申请获受理",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/t/2026-01-23/doc-inhihniv6500368.shtml",
+      "date": "2026-01-23"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "紫霄",
+     "v": "AI推理芯片,2021-11公布,已流片并点亮;2.5D封装合封HBM2e,内置CV与视频编解码加速",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察",
+      "url": "https://www.dramx.com/News/IC/20211104-29852.html",
+      "date": "2021-11-04"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest",
+     "note": "2021年披露,后续代际未公开"
+    },
+    {
+     "dim": "product",
+     "k": "紫霄HBM",
+     "v": "采用2.5D封装合封HBM2e与AI核心",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察",
+      "url": "https://www.dramx.com/News/IC/20211104-29852.html",
+      "date": "2021-11-04"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm"
+    },
+    {
+     "dim": "product",
+     "k": "紫霄性能",
+     "v": "腾讯称紫霄性能较业界提升100%(无精度/峰值算力披露)",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察",
+      "url": "https://www.dramx.com/News/IC/20211104-29852.html",
+      "date": "2021-11-04"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "沧海V2",
+     "v": "视频编解码芯片沧海V2已点亮,进入量产周期;统一架构覆盖H.265/H.266",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-05-27/doc-inhzikrs9320593.shtml",
+      "date": "2026-05-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "沧海V2性能",
+     "v": "H.265压缩率较上代提升超10%,H.266提升超30%(画质不变)",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "搜狐/智通财经",
+      "url": "https://www.sohu.com/a/1028426788_122014422",
+      "date": "2026-05-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "沧海V1",
+     "v": "2019年起研发,2023年量产,腾讯云及自有场景部署超10万片",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "科创板日报(搜狐转载)",
+      "url": "https://www.cls.cn/detail/2382701",
+      "date": "2026-05-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "路线",
+     "v": "Digitimes:自研芯片服务自身业务+深化国产供应商合作的双轨策略",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Digitimes",
+      "url": "https://www.digitimes.com/news/a20260609PD217/tencent-ai-chip-chips-demand.html",
+      "date": "2026-06-09"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "紫霄V1传闻",
+     "v": "报道称紫霄V1拟替代英伟达A10,并计划训练向V2 Pro(未证实)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "TrendForce",
+      "url": "https://www.trendforce.com/news/2024/02/22/news-hurdles-in-acquiring-nvidias-high-end-products-assessing-the-progress-of-eight-chinese-ai-chip-companies-in-self-development/",
+      "date": "2024-02-22"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "紫霄流片",
+     "v": "2021-11宣布紫霄已流片成功并点亮,进入试生产",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察",
+      "url": "https://www.dramx.com/News/IC/20211104-29852.html",
+      "date": "2021-11-04"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "milestone",
+     "k": "沧海V2量产",
+     "v": "2026年5月披露V2进入量产周期,计划2026下半年全面线上提供服务",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-05-27/doc-inhzikrs9320593.shtml",
+      "date": "2026-05-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "自用定位",
+     "v": "紫霄为内部使用,不对外销售(据报道)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "TrendForce",
+      "url": "https://www.trendforce.com/news/2024/02/22/news-hurdles-in-acquiring-nvidias-high-end-products-assessing-the-progress-of-eight-chinese-ai-chip-companies-in-self-development/",
+      "date": "2024-02-22"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "shipment",
+     "k": "沧海外部评测",
+     "v": "沧海系列在MSU硬件视频编码比赛多项指标第一(赛事结果)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "通信世界网",
+      "url": "http://www.cww.net.cn/article?id=610039",
+      "date": "2026-05-27"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "自研表态",
+     "v": "2025-09报道:腾讯称无自行制造AI芯片计划,依赖国产方案与全栈优化",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "TrendForce",
+      "url": "https://www.trendforce.com/news/2025/09/17/news-tencent-reportedly-says-no-plans-for-in-house-ai-chips-pledges-to-use-domestic-options/",
+      "date": "2025-09-17"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "管制影响",
+     "v": "腾讯称2025年资本开支受芯片出口限制影响",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Yahoo Finance(路透)",
+      "url": "https://finance.yahoo.com/news/tencent-books-13-rise-quarterly-084051132.html",
+      "date": "2026-03-18"
+     },
+     "verified": "2026-10-31",
+     "cell": "control"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2021-11",
+     "type": "流片",
+     "text": "紫霄推理芯片流片成功并点亮",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "全球半导体观察",
+      "url": "https://www.dramx.com/News/IC/20211104-29852.html",
+      "date": "2021-11-04"
+     }
+    },
+    {
+     "date": "2023-12",
+     "type": "量产",
+     "text": "沧海V1视频编解码芯片量产(2023年)",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "科创板日报(搜狐转载)",
+      "url": "https://www.cls.cn/detail/2382701",
+      "date": "2026-05-27"
+     }
+    },
+    {
+     "date": "2026-05",
+     "type": "量产",
+     "text": "沧海V2点亮并进入量产周期",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-05-27/doc-inhzikrs9320593.shtml",
+      "date": "2026-05-27"
+     }
+    },
+    {
+     "date": "2026-12",
+     "type": "交付",
+     "text": "沧海V2下半年全面线上服务",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "新浪科技",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-05-27/doc-inhzikrs9320593.shtml",
+      "date": "2026-05-27"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-08-12",
+     "text": "腾讯Q2资本开支527.84亿元(+176%),主要用于算力采购",
+     "grade": "A",
+     "src": {
+      "name": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260813A06LWC00",
+      "date": "2026-08-13"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  },
+  {
+   "id": "nvidia",
+   "name": "英伟达",
+   "nameEn": "NVIDIA",
+   "region": "海外",
+   "group": "商用GPU/加速卡厂商",
+   "route": "GPU",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "代工/先进封装:台积电(未在本次检索中获得一手来源);HBM供应商:未披露(本次检索未取得一手来源)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "研发费用",
+     "v": "FY2026(截至2026-01-25)研发费用184.97亿美元,同比+43%(FY2025为129.14亿美元)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "NVIDIA 10-K FY2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "date": "2026-02-25"
+     },
+     "verified": "2026-10-31",
+     "cell": "rd"
+    },
+    {
+     "dim": "people",
+     "k": "员工规模",
+     "v": "FY2026末约4.2万名员工,其中约3.1万在研发(二手来源转引10-K)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "SQ Magazine: NVIDIA Employee Count",
+      "url": "https://sqmagazine.co.uk/nvidia-employee-count-statistics/",
+      "date": "2026-03-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "headcount",
+     "note": "二手转引,建议核对10-K"
+    },
+    {
+     "dim": "product",
+     "k": "Blackwell/Rubin",
+     "v": "公司称单GW收入机会:Hopper 180亿、Grace Blackwell 250亿、Vera Rubin 400亿美元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Yahoo Finance: Nvidia tops Q2 expectations",
+      "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-tops-q2-expectations-offers-strong-q3-outlook-revenue-96-billion-112502189.html",
+      "date": "2026-08-26"
+     },
+     "verified": "2026-10-31",
+     "note": "转述业绩会表述"
+    },
+    {
+     "dim": "product",
+     "k": "Rubin Ultra",
+     "v": "多数来源称Rubin Ultra(Kyber机架)2027年,Feynman 2028年",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "VRLA Tech: NVIDIA GPU Roadmap 2026-2030",
+      "url": "https://vrlatech.com/nvidia-gpu-roadmap-2026-2030/",
+      "date": "2026-06-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest",
+     "note": "路线图,非已发布"
+    },
+    {
+     "dim": "milestone",
+     "k": "Vera Rubin量产",
+     "v": "据报道:Vera Rubin于2026-06 GTC台北确认全面量产,2026下半年起出货",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "VRLA Tech: NVIDIA GPU Roadmap 2026-2030",
+      "url": "https://vrlatech.com/nvidia-gpu-roadmap-2026-2030/",
+      "date": "2026-06-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "milestone",
+     "k": "Rubin云部署",
+     "v": "InTechnologies称2026年8月底英伟达称Rubin已全面量产并在多家云厂商运行",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "InTechnologies: GTC 2026 Vera Rubin",
+      "url": "https://www.intechnologies.co/insights/nvidia-gtc-2026-vera-rubin-roadmap-buying-blackwell-now",
+      "date": "2026-08-31"
+     },
+     "verified": "2026-10-31",
+     "note": "单一二手来源"
+    },
+    {
+     "dim": "shipment",
+     "k": "数据中心收入",
+     "v": "Q2 FY2027(截至2026年7月)数据中心收入约890亿美元,同比+117%,环比+18%;总收入962.2亿美元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "StockTitan(NVIDIA Q2 FY2027 新闻稿转载)",
+      "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-second-quarter-fiscal-98x41cxh35vk.html",
+      "date": "2026-08-26"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship"
+    },
+    {
+     "dim": "shipment",
+     "k": "Q3指引",
+     "v": "Q3 FY2027收入指引1080亿美元±2%,毛利率约74.0%±50bp;指引不含中国数据中心算力收入",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Yahoo Finance: Nvidia tops Q2 expectations",
+      "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-tops-q2-expectations-offers-strong-q3-outlook-revenue-96-billion-112502189.html",
+      "date": "2026-08-26"
+     },
+     "verified": "2026-10-31",
+     "note": "指引,非实际"
+    },
+    {
+     "dim": "supply",
+     "k": "H200对华许可",
+     "v": "2026年2月获美国许可向特定中国客户出货少量H200,须先在美国检验",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "NVIDIA 10-K FY2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "date": "2026-02-25"
+     },
+     "verified": "2026-10-31",
+     "cell": "control",
+     "note": "10-K披露"
+    },
+    {
+     "dim": "supply",
+     "k": "H200许可(媒体)",
+     "v": "彭博:英伟达获美方许可出口少量H200至中国,附25%关税条件",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Bloomberg: Nvidia gets US license for small amount of H200 exports to China",
+      "url": "https://www.bloomberg.com/news/articles/2026-02-26/nvidia-gets-us-license-for-small-amount-of-h200-exports-to-china",
+      "date": "2026-02-26"
+     },
+     "verified": "2026-10-31",
+     "note": "与10-K相互印证"
+    },
+    {
+     "dim": "supply",
+     "k": "H200买家获批",
+     "v": "CNBC引述消息人士:美商务部批准约10家中国公司(含阿里/腾讯/字节/京东)购H200,尚无交付",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "CNBC: US clears H200 sales to 10 China firms",
+      "url": "https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html",
+      "date": "2026-05-14"
+     },
+     "verified": "2026-10-31",
+     "note": "匿名消息源;商务部未置评"
+    },
+    {
+     "dim": "supply",
+     "k": "BIS规则",
+     "v": "据Introl:BIS于2026-01-15发布终规,H200/MI325X对华由推定拒绝改为逐案审查",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Introl: BIS Export Policy Shift",
+      "url": "https://introl.com/blog/bis-export-policy-h200-mi325x-china-case-by-case-2026",
+      "date": "2026-01-16"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "对华上限分歧",
+     "v": "对华销量上限:Built In称单客户7.5万片;Thomasnet称不超对美销量50%(来源口径不一)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Built In: Trump lifts AI chip ban on China",
+      "url": "https://builtin.com/articles/trump-lifts-ai-chip-ban-china-nvidia",
+      "date": "2026-01-16"
+     },
+     "verified": "2026-10-31",
+     "note": "冲突说法,不裁定"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2026-01",
+     "type": "发布",
+     "text": "BIS放宽H200对华审查",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "Introl: BIS Export Policy Shift",
+      "url": "https://introl.com/blog/bis-export-policy-h200-mi325x-china-case-by-case-2026",
+      "date": "2026-01-16"
+     }
+    },
+    {
+     "date": "2026-02",
+     "type": "交付",
+     "text": "获许可对华出货少量H200",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "NVIDIA 10-K FY2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "date": "2026-02-25"
+     }
+    },
+    {
+     "date": "2026-06",
+     "type": "量产",
+     "text": "Vera Rubin宣布全面量产",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "VRLA Tech: NVIDIA GPU Roadmap 2026-2030",
+      "url": "https://vrlatech.com/nvidia-gpu-roadmap-2026-2030/",
+      "date": "2026-06-01"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "发布",
+     "text": "Rubin Ultra(Kyber机架)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "VRLA Tech: NVIDIA GPU Roadmap 2026-2030",
+      "url": "https://vrlatech.com/nvidia-gpu-roadmap-2026-2030/",
+      "date": "2026-06-01"
+     }
+    },
+    {
+     "date": "2028",
+     "type": "发布",
+     "text": "Feynman架构",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "VRLA Tech: NVIDIA GPU Roadmap 2026-2030",
+      "url": "https://vrlatech.com/nvidia-gpu-roadmap-2026-2030/",
+      "date": "2026-06-01"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-08-26",
+     "text": "Q2 FY2027数据中心收入约890亿美元(+117%);Q3指引1080亿美元,不含中国数据中心算力",
+     "grade": "B",
+     "src": {
+      "name": "Yahoo Finance: Nvidia tops Q2 expectations",
+      "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-tops-q2-expectations-offers-strong-q3-outlook-revenue-96-billion-112502189.html",
+      "date": "2026-08-26"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "FY2026(截至2026-01-25)",
+     "value": 184.97,
+     "unit": "亿美元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "NVIDIA 10-K FY2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "date": "2026-02-25"
+     }
+    }
+   ],
+   "headcount": [
+    {
+     "period": "FY2026末(2026-01-25)",
+     "total": 42000,
+     "rd": 31000,
+     "rdRatio": "约74%(据二手转引计算)",
+     "grade": "B",
+     "src": {
+      "name": "SQ Magazine: NVIDIA Employee Count",
+      "url": "https://sqmagazine.co.uk/nvidia-employee-count-statistics/",
+      "date": "2026-03-01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "amd",
+   "name": "AMD Instinct",
+   "nameEn": "AMD Instinct",
+   "region": "海外",
+   "group": "商用GPU/加速卡厂商",
+   "route": "GPU",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "OpenAI(A:6GW协议);Oracle、Anthropic(B:MI450/Helios部署);代工/HBM:未披露(本次未取得一手来源)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "OpenAI认股权",
+     "v": "OpenAI持有至多1.6亿股AMD认股权(名义价),与部署里程碑及股价挂钩,顶档需股价$600",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Investing.com: AMD AI deals",
+      "url": "https://www.investing.com/analysis/amds-ai-deals-provide-visibility-on-future-revenue-through-2027-200678987",
+      "date": "2026-10-01"
+     },
+     "verified": "2026-10-31",
+     "note": "二手转述,待核8-K"
+    },
+    {
+     "dim": "product",
+     "k": "MI455X算力",
+     "v": "MI455X(MI400系列):FP4峰值40 PFLOPS、FP8峰值20 PFLOPS/GPU(厂商宣称,稠密未单列稀疏)",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "AMD Instinct MI400 Series 产品页",
+      "url": "https://www.amd.com/en/products/accelerators/instinct/mi400.html",
+      "date": "2026-01-06"
+     },
+     "verified": "2026-10-31",
+     "cell": "compute"
+    },
+    {
+     "dim": "product",
+     "k": "MI455X显存",
+     "v": "432GB HBM4/GPU;带宽官方页称最高23.3TB/s,另一二手来源称19.6TB/s",
+     "kind": "厂商宣称",
+     "grade": "A",
+     "src": {
+      "name": "AMD Instinct MI400 Series 产品页",
+      "url": "https://www.amd.com/en/products/accelerators/instinct/mi400.html",
+      "date": "2026-01-06"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm",
+     "note": "带宽存在冲突说法"
+    },
+    {
+     "dim": "product",
+     "k": "MI455X带宽(二手)",
+     "v": "Tech Insider称单GPU带宽19.6TB/s(与官方页23.3TB/s不一致)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "Tech Insider: AMD Advancing AI 2026",
+      "url": "https://tech-insider.org/amd-advancing-ai-2026/",
+      "date": "2026-06-01"
+     },
+     "verified": "2026-10-31",
+     "note": "不裁定"
+    },
+    {
+     "dim": "product",
+     "k": "Helios机架",
+     "v": "Helios机架72颗MI455X,约2.9 EFLOPS FP4、1.4 EFLOPS FP8、31TB HBM4(厂商宣称)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Wccftech: AMD Helios MI455X",
+      "url": "https://wccftech.com/amd-helios-ai-rack-mi455x-6th-gen-epyc-challenging-nvidia/",
+      "date": "2026-01-06"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "MI400发布",
+     "v": "MI400系列/Helios于2026年1月公布完整产品线,MI500宣称AI性能大幅提升",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "DCD: AMD unveils full MI400 product lineup",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance/",
+      "date": "2026-01-06"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest",
+     "note": "DCD报道"
+    },
+    {
+     "dim": "milestone",
+     "k": "路线图",
+     "v": "MI500+Helios 500+EPYC Verano 2027年;MI600 2028年(年度节奏)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "AMD: Financial Analyst Day 2025",
+      "url": "https://www.amd.com/en/blogs/2025/amd-cements-data-center-leadership-at-financial-analyst.html",
+      "date": "2025-11-11"
+     },
+     "verified": "2026-10-31",
+     "cell": "status",
+     "note": "公司路线图"
+    },
+    {
+     "dim": "milestone",
+     "k": "Helios量产",
+     "v": "Tech Insider:Helios机架处于量产爬坡;各来源时间不一(9月出货/Q4部署)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "Tech Insider: AMD Advancing AI 2026",
+      "url": "https://tech-insider.org/amd-advancing-ai-2026/",
+      "date": "2026-06-01"
+     },
+     "verified": "2026-10-31",
+     "note": "冲突,待Q3财报核实"
+    },
+    {
+     "dim": "shipment",
+     "k": "数据中心收入",
+     "v": "Q2 2026(截至2026-06-27)数据中心收入67亿美元,同比+107%;占总收入58%,总收入115亿美元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "AMD 8-K Q2 2026 业绩稿 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000121/q22026991.htm",
+      "date": "2026-08-04"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship"
+    },
+    {
+     "dim": "shipment",
+     "k": "增长驱动",
+     "v": "Q2 2026增长由EPYC与Instinct MI350系列驱动,管理层预期下半年数据中心加速",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "AMD 8-K Q2 2026 业绩幻灯片 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000121/amdq22026earningsslidesf.htm",
+      "date": "2026-08-04"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "Q3指引",
+     "v": "Q3 2026收入指引约130亿美元±3亿,毛利率约56%;Q3业绩定于2026-11-03发布,尚未披露",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "AMD 8-K Q2 2026 业绩幻灯片 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000121/amdq22026earningsslidesf.htm",
+      "date": "2026-08-04"
+     },
+     "verified": "2026-10-31",
+     "note": "指引,非实际"
+    },
+    {
+     "dim": "shipment",
+     "k": "OpenAI协议",
+     "v": "与OpenAI签6GW GPU协议,首个1GW MI450于2026下半年部署",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Investing.com: AMD's AI Deals Provide Visibility",
+      "url": "https://www.investing.com/analysis/amds-ai-deals-provide-visibility-on-future-revenue-through-2027-200678987",
+      "date": "2026-10-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "shipment",
+     "k": "Anthropic协议",
+     "v": "Anthropic与AMD协议部署至多2GW MI450系列(Helios机架)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Investing.com: AMD's AI Deals Provide Visibility",
+      "url": "https://www.investing.com/analysis/amds-ai-deals-provide-visibility-on-future-revenue-through-2027-200678987",
+      "date": "2026-10-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "Oracle部署",
+     "v": "Shattered称Helios向Oracle出货5万颗MI450",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "Shattered: Helios ships 50,000 to Oracle",
+      "url": "https://shattered.io/amd-helios-mi450-oracle-50000-gpus-2026/",
+      "date": "2026-09-01"
+     },
+     "verified": "2026-10-31",
+     "note": "自媒体类,未证实"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-11",
+     "type": "发布",
+     "text": "金融分析师日公布MI500/Helios路线图",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "AMD: Financial Analyst Day 2025",
+      "url": "https://www.amd.com/en/blogs/2025/amd-cements-data-center-leadership-at-financial-analyst.html",
+      "date": "2025-11-11"
+     }
+    },
+    {
+     "date": "2026-01",
+     "type": "发布",
+     "text": "公布MI400系列完整产品线",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "DCD: AMD unveils full MI400 product lineup",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance/",
+      "date": "2026-01-06"
+     }
+    },
+    {
+     "date": "2026-H2",
+     "type": "交付",
+     "text": "OpenAI首个1GW MI450部署启动",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "Investing.com: AMD's AI Deals Provide Visibility",
+      "url": "https://www.investing.com/analysis/amds-ai-deals-provide-visibility-on-future-revenue-through-2027-200678987",
+      "date": "2026-10-01"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "发布",
+     "text": "MI500+Helios 500",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "AMD: Financial Analyst Day 2025",
+      "url": "https://www.amd.com/en/blogs/2025/amd-cements-data-center-leadership-at-financial-analyst.html",
+      "date": "2025-11-11"
+     }
+    },
+    {
+     "date": "2028",
+     "type": "发布",
+     "text": "MI600",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "DCD: AMD unveils full MI400 product lineup",
+      "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-full-mi400-product-lineup-claims-mi500-chips-will-deliver-1000x-increase-in-ai-performance/",
+      "date": "2026-01-06"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-08-04",
+     "text": "Q2 2026数据中心收入67亿美元,同比+107%;Q3指引约130亿美元",
+     "grade": "A",
+     "src": {
+      "name": "AMD 8-K Q2 2026 业绩稿 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000121/q22026991.htm",
+      "date": "2026-08-04"
+     }
+    },
+    {
+     "date": "2026-10-01",
+     "text": "分析称AMD与OpenAI/Anthropic/Oracle协议提供至2027年收入可见度",
+     "grade": "B",
+     "src": {
+      "name": "Investing.com: AMD's AI Deals Provide Visibility",
+      "url": "https://www.investing.com/analysis/amds-ai-deals-provide-visibility-on-future-revenue-through-2027-200678987",
+      "date": "2026-10-01"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  },
+  {
+   "id": "intel",
+   "name": "英特尔 Gaudi",
+   "nameEn": "Intel Gaudi",
+   "region": "海外",
+   "group": "商用GPU/加速卡厂商",
+   "route": "GPU+ASIC",
+   "role": "训练+推理",
+   "model": "对外销售",
+   "partners": "未披露(本次检索未取得一手来源)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "研发费用",
+     "v": "Q3 2026研发费用约34.9亿美元(二手表格),上年同期32.3亿;研发+MG&A合计45亿美元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Verdict: Intel Q3 2026",
+      "url": "https://www.verdict.co.uk/intel-q3-2026-results/",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31",
+     "cell": "rd",
+     "note": "二手数据,待核8-K"
+    },
+    {
+     "dim": "product",
+     "k": "Gaudi 3",
+     "v": "Gaudi 3自2024年底起经云合作伙伴提供,仍在出货",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware: Intel roadmaps 2026-2028",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-chip-roadmap-2026-2028",
+      "date": "2026-03-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest",
+     "note": "Tom's Hardware/检索摘要"
+    },
+    {
+     "dim": "product",
+     "k": "Crescent Island",
+     "v": "推理GPU(Xe3P,160GB LPDDR5X参考配置,2025-10官宣),客户送样预计2026下半年",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Intel 官方: 扩展AI加速器产品组合新GPU",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-to-expand-ai-accelerator-portfolio-with-new-gpu.html",
+      "date": "2025-10-14"
+     },
+     "verified": "2026-10-31",
+     "cell": "status",
+     "note": "送样是否已开始说法不一"
+    },
+    {
+     "dim": "product",
+     "k": "GPU D-Series规格",
+     "v": "Crescent Island并入GPU D-Series:1.3 PFLOPS FP8峰值、1.5TB/s带宽(厂商宣称)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware: Crescent Island / GPU D-Series",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/intels-crescent-island-ai-accelerator-officially-powers-new-gpu-d-series-products-chip-delivers-1-3-peak-pflops-of-fp8-compute-and-1-5-tb-s-of-memory-bandwidth",
+      "date": "2026-09-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "compute"
+    },
+    {
+     "dim": "product",
+     "k": "显存配置",
+     "v": "32个Xe3P核,最高480GB LPDDR5X,350W风冷PCIe Gen5 x16(Hot Chips 2026)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware: Crescent Island / GPU D-Series",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/intels-crescent-island-ai-accelerator-officially-powers-new-gpu-d-series-products-chip-delivers-1-3-peak-pflops-of-fp8-compute-and-1-5-tb-s-of-memory-bandwidth",
+      "date": "2026-09-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm"
+    },
+    {
+     "dim": "product",
+     "k": "Jaguar Shores",
+     "v": "年报称继续开发下一代GPU架构Jaguar Shores,面向AI工作负载;时间未官宣",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Intel ARS FY2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000060/intc014890-arsa.pdf",
+      "date": "2026-04-01"
+     },
+     "verified": "2026-10-31",
+     "note": "Tom's称或2027年"
+    },
+    {
+     "dim": "milestone",
+     "k": "Gaudi库存",
+     "v": "2025Q1 Gaudi相关库存费用7.71亿美元,致2026Q1同比毛利改善(低基数)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Intel 10-Q Q1 2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000079/intc-20260328.htm",
+      "date": "2026-05-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "送样状态分歧",
+     "v": "一报道称GPU D-Series已向客户送样;另一报道称Intel尚未宣布送样开始",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "FutureSearch: Crescent Island",
+      "url": "https://futuresearch.ai/blog/intel-crescent-island-no-hyperscaler/",
+      "date": "2026-09-01"
+     },
+     "verified": "2026-10-31",
+     "note": "冲突说法,不裁定"
+    },
+    {
+     "dim": "milestone",
+     "k": "上市时间估计",
+     "v": "FutureSearch分析师预计商用可用中位数约2027年2月中旬,无已公布超算云伙伴",
+     "kind": "估算",
+     "grade": "C",
+     "src": {
+      "name": "FutureSearch: Crescent Island",
+      "url": "https://futuresearch.ai/blog/intel-crescent-island-no-hyperscaler/",
+      "date": "2026-09-01"
+     },
+     "verified": "2026-10-31",
+     "note": "第三方预测"
+    },
+    {
+     "dim": "milestone",
+     "k": "Jaguar Shores时间",
+     "v": "Tom's Hardware将Jaguar Shores列为潜在后继产品,预计2027年",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware: Intel roadmaps 2026-2028",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-chip-roadmap-2026-2028",
+      "date": "2026-03-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "DCAI收入",
+     "v": "Q3 2026数据中心与AI(DCAI)收入73亿美元,同比+78%(业绩稿口径),环比+17%;主要为Xeon驱动",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Intel 官网: Q3 2026 业绩",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship",
+     "note": "未单列Gaudi收入"
+    },
+    {
+     "dim": "shipment",
+     "k": "总收入",
+     "v": "Q3 2026总收入165亿美元,同比+21%;Q4指引150-160亿美元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "StockTitan: Intel Q3 earnings",
+      "url": "https://www.stocktitan.net/news/INTC/intel-reports-third-quarter-2026-financial-45kjlqvhkaar.html",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2024-12",
+     "type": "交付",
+     "text": "Gaudi 3经云伙伴上线",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware: Intel roadmaps 2026-2028",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-chip-roadmap-2026-2028",
+      "date": "2026-03-01"
+     }
+    },
+    {
+     "date": "2025-10",
+     "type": "发布",
+     "text": "官宣Crescent Island推理GPU",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "Intel 官方: 扩展AI加速器产品组合新GPU",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-to-expand-ai-accelerator-portfolio-with-new-gpu.html",
+      "date": "2025-10-14"
+     }
+    },
+    {
+     "date": "2026-H2",
+     "type": "交付",
+     "text": "Crescent Island客户送样(计划)",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "Intel 官方: 扩展AI加速器产品组合新GPU",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-to-expand-ai-accelerator-portfolio-with-new-gpu.html",
+      "date": "2025-10-14"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "发布",
+     "text": "Jaguar Shores(预计)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware: Intel roadmaps 2026-2028",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-chip-roadmap-2026-2028",
+      "date": "2026-03-01"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-29",
+     "text": "Q3 2026收入165亿美元(+21%),DCAI 73亿美元;财报摘要未见Gaudi/Jaguar Shores新增披露",
+     "grade": "A",
+     "src": {
+      "name": "Intel 官网: Q3 2026 业绩",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+      "date": "2026-10-29"
+     }
+    },
+    {
+     "date": "2026-09-01",
+     "text": "报道称Crescent Island更名GPU D-Series,公布1.3 PFLOPS FP8与1.5TB/s带宽",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware: Crescent Island / GPU D-Series",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/intels-crescent-island-ai-accelerator-officially-powers-new-gpu-d-series-products-chip-delivers-1-3-peak-pflops-of-fp8-compute-and-1-5-tb-s-of-memory-bandwidth",
+      "date": "2026-09-01"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "2026Q3",
+     "value": 34.9,
+     "unit": "亿美元",
+     "ratio": "",
+     "grade": "B",
+     "src": {
+      "name": "Verdict: Intel Q3 2026",
+      "url": "https://www.verdict.co.uk/intel-q3-2026-results/",
+      "date": "2026-10-30"
+     }
+    }
+   ],
+   "headcount": []
+  },
+  {
+   "id": "google-tpu",
+   "name": "谷歌 TPU",
+   "nameEn": "Google TPU",
+   "region": "海外",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "TPU",
+   "role": "训练+推理",
+   "model": "两者",
+   "partners": "设计服务:博通(B,据报道长期协议至2031年;另有联发科参与TPU 8的报道,C级未采信);代工:台积电(B,行业报道);HBM:未披露具体供应商",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "资本开支",
+     "v": "2026Q3资本开支514亿美元(约65%用于服务器与网络);2026全年指引1950-2050亿美元,2027年将显著增加",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Yahoo Finance Alphabet Q3电话会要点",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-inc-goog-q3-2026-050953011.html",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "研发费用",
+     "v": "2026Q3研发费用206.4亿美元(去年同期151.5亿);前三季度558.9亿美元",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Alphabet 2026Q3 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000084/goog-20260930.htm",
+      "date": "2026-10-28"
+     },
+     "verified": "2026-10-31",
+     "cell": "rd"
+    },
+    {
+     "dim": "invest",
+     "k": "云业务",
+     "v": "2026Q3收入1276亿美元(+25%),Google Cloud 307亿美元(同比翻倍以上)",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Alphabet 2026Q3 8-K 附件99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
+      "date": "2026-10-28"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "最新一代",
+     "v": "TPU 8t(训练)/TPU 8i(推理),2026-04-22 Cloud Next发布,首次一代拆分两款",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware TPU 8t/8i",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/google-splits-its-tpu-into-two-chips-for-the-first-time-with-training-and-inference-variants",
+      "date": "2026-04-22"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest"
+    },
+    {
+     "dim": "product",
+     "k": "TPU 8t算力",
+     "v": "单芯片12.6 PFLOPS FP4(稠密/稀疏未注明);超节点9600芯片、121 EFLOPS FP4",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware TPU 8t/8i",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/google-splits-its-tpu-into-two-chips-for-the-first-time-with-training-and-inference-variants",
+      "date": "2026-04-22"
+     },
+     "verified": "2026-10-31",
+     "cell": "compute"
+    },
+    {
+     "dim": "product",
+     "k": "TPU 8i算力",
+     "v": "单芯片10.1 PFLOPS FP4(稠密/稀疏未注明);1152芯片pod 11.6 EFLOPS FP8",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Technology.org TPU 8t/8i",
+      "url": "https://www.technology.org/2026/04/23/google-8th-gen-tpu-split/",
+      "date": "2026-04-23"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "HBM配置",
+     "v": "TPU 8t:216GB HBM、6.5TB/s;TPU 8i:288GB HBM、8.6TB/s",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware TPU 8t/8i",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/google-splits-its-tpu-into-two-chips-for-the-first-time-with-training-and-inference-variants",
+      "date": "2026-04-22"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm"
+    },
+    {
+     "dim": "product",
+     "k": "Ironwood(v7)",
+     "v": "TPU v7 Ironwood:192GB HBM3E、7.37TB/s、4614 TFLOPS FP8(厂商宣称,二手转引)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Crypto Briefing: Google-Anthropic-Broadcom TPU",
+      "url": "https://cryptobriefing.com/google-anthropic-broadcom-tpu-deal/",
+      "date": "2026-04-01"
+     },
+     "verified": "2026-10-31",
+     "note": "转引自媒体,非原始发布页"
+    },
+    {
+     "dim": "product",
+     "k": "软件生态",
+     "v": "Google与Meta合作,使PyTorch负载更易部署到TPU(Kurian于Q3电话会提及)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Motley Fool: Anthropic支出",
+      "url": "https://www.fool.com/investing/2026/10/30/5-ai-stocks-set-to-win-big-from-anthropics-spendin/",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "外部销售",
+     "v": "2026Q2起Alphabet首次确认直接销售TPU系统的收入;Google Cloud产品收入主要来自TPU系统销售",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Alphabet 2026Q3 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000084/goog-20260930.htm",
+      "date": "2026-10-28"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship"
+    },
+    {
+     "dim": "shipment",
+     "k": "TPU库存",
+     "v": "2026Q3库存133亿美元,部分因TPU系统销售备货;管理层称2027年TPU系统收入将明显增加",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Yahoo Finance Alphabet Q3电话会要点",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-inc-goog-q3-2026-050953011.html",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "Anthropic",
+     "v": "Anthropic 2025-10承诺最多100万颗TPU;后续报道称自2027年起约3.5GW下一代TPU算力",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Crypto Briefing: Google-Anthropic-Broadcom TPU",
+      "url": "https://cryptobriefing.com/google-anthropic-broadcom-tpu-deal/",
+      "date": "2026-04-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "shipment",
+     "k": "Anthropic合同",
+     "v": "二手报道:Anthropic承诺2026-04至2033-07向Google Cloud支出至少1145亿美元,并采购1250-1500亿美元TPU",
+     "kind": "估算",
+     "grade": "C",
+     "src": {
+      "name": "Motley Fool: Anthropic支出",
+      "url": "https://www.fool.com/investing/2026/10/30/5-ai-stocks-set-to-win-big-from-anthropics-spendin/",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31",
+     "note": "非财报披露,二手"
+    },
+    {
+     "dim": "shipment",
+     "k": "Meta",
+     "v": "据报道Meta于2026-02就数十亿美元级TPU部署展开谈判;未见Alphabet披露金额",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "Crypto Briefing: Google-Anthropic-Broadcom TPU",
+      "url": "https://cryptobriefing.com/google-anthropic-broadcom-tpu-deal/",
+      "date": "2026-04-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "博通合作",
+     "v": "据报道:博通与Google签署开发并供应未来TPU及网络、机架组件的长期协议,至2031年",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Crypto Briefing: Google-Anthropic-Broadcom TPU",
+      "url": "https://cryptobriefing.com/google-anthropic-broadcom-tpu-deal/",
+      "date": "2026-04-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "制程/代工",
+     "v": "TPU由台积电代工(行业报道);具体节点Google未在所见来源中披露",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware 定制ASIC现状(2026年5月)",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/custom-ai-asics-examined-from-broadcom-to-mtia",
+      "date": "2026-05-01"
+     },
+     "verified": "2026-10-31",
+     "cell": "process",
+     "note": "节点未披露"
+    },
+    {
+     "dim": "supply",
+     "k": "出口管制",
+     "v": "未见Google TPU被列入实体清单/出口限制的公开信息",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware 定制ASIC现状(2026年5月)",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/custom-ai-asics-examined-from-broadcom-to-mtia",
+      "date": "2026-05-01"
+     },
+     "verified": "2026-10-31",
+     "note": "公司为美国企业,无针对性限制"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-11",
+     "type": "发布",
+     "text": "Ironwood(TPU v7)全面可用",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "Crypto Briefing: Google-Anthropic-Broadcom TPU",
+      "url": "https://cryptobriefing.com/google-anthropic-broadcom-tpu-deal/",
+      "date": "2026-04-01"
+     }
+    },
+    {
+     "date": "2026-04-22",
+     "type": "发布",
+     "text": "TPU 8t/8i发布",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware TPU 8t/8i",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/google-splits-its-tpu-into-two-chips-for-the-first-time-with-training-and-inference-variants",
+      "date": "2026-04-22"
+     }
+    },
+    {
+     "date": "2026-Q2",
+     "type": "交付",
+     "text": "首次确认TPU系统直接销售收入",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "Alphabet 2026Q3 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000084/goog-20260930.htm",
+      "date": "2026-10-28"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "交付",
+     "text": "TPU系统收入显著放量;Anthropic约3.5GW容量起",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "Crypto Briefing: Google-Anthropic-Broadcom TPU",
+      "url": "https://cryptobriefing.com/google-anthropic-broadcom-tpu-deal/",
+      "date": "2026-04-01"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-29",
+     "text": "Alphabet Q3:TPU系统库存133亿美元,管理层称2027年TPU系统收入将明显增长",
+     "grade": "B",
+     "src": {
+      "name": "Yahoo Finance Alphabet Q3 call highlights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-q3-earnings-call-highlights-050416594.html",
+      "date": "2026-10-29"
+     }
+    },
+    {
+     "date": "2026-10-28",
+     "text": "Alphabet Q3财报:Cloud收入307亿美元,2026资本开支指引1950-2050亿美元不变",
+     "grade": "A",
+     "src": {
+      "name": "Alphabet 2026Q3 8-K 附件99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
+      "date": "2026-10-28"
+     }
+    },
+    {
+     "date": "2026-10-30",
+     "text": "报道:Anthropic向Google Cloud承诺至少1145亿美元云支出并采购大额TPU(二手)",
+     "grade": "C",
+     "src": {
+      "name": "Motley Fool: Anthropic支出",
+      "url": "https://www.fool.com/investing/2026/10/30/5-ai-stocks-set-to-win-big-from-anthropics-spendin/",
+      "date": "2026-10-30"
+     }
+    }
+   ],
+   "rd": [
+    {
+     "period": "2026Q3(季度)",
+     "value": 206.4,
+     "unit": "亿美元",
+     "ratio": "",
+     "grade": "A",
+     "src": {
+      "name": "Alphabet 2026Q3 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000084/goog-20260930.htm",
+      "date": "2026-10-28"
+     }
+    }
+   ],
+   "headcount": []
+  },
+  {
+   "id": "aws-trainium",
+   "name": "亚马逊AWS Trainium/Inferentia",
+   "nameEn": "AWS Trainium / Inferentia",
+   "region": "海外",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "ASIC",
+   "role": "训练+推理",
+   "model": "自用",
+   "partners": "设计:自研Annapurna Labs;设计服务:Alchip(据台湾媒体报道,B/C)、Marvell(与AWS有五年定制芯片协议,但公告未点名Trainium,未证实);代工:台积电3nm(TrendForce报道,B);HBM:未披露",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "资本开支",
+     "v": "2026Q3现金资本开支759亿美元;2026全年指引约2200亿美元,2027年将明显更高",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Amazon 2026Q3业绩公告",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "AWS业绩",
+     "v": "2026Q3 AWS收入同比增长约39%,积压订单约5780亿美元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Converge Digest AWS Q3",
+      "url": "https://convergedigest.com/aws-q3-2026-revenue-ai-infrastructure-capex/",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "最新一代",
+     "v": "Trainium3(3nm),2025-12 re:Invent发布,Trn3 UltraServer可用",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Amazon Trainium3 UltraServer上线",
+      "url": "https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost",
+      "date": "2025-12-02"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest"
+    },
+    {
+     "dim": "product",
+     "k": "Trn3算力",
+     "v": "单芯片2.52 PFLOPS FP8(稠密/稀疏未注明);UltraServer 144芯片、362 MXFP8 PFLOPS",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware Trainium3发布",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-launches-trainium3-ai-accelerator-competing-directly-against-blackwell-ultra-in-fp8-performance-new-trn3-gen2-ultraserver-takes-vertical-scaling-notes-from-nvidias-playbook",
+      "date": "2025-12-02"
+     },
+     "verified": "2026-10-31",
+     "cell": "compute"
+    },
+    {
+     "dim": "product",
+     "k": "Trn3 HBM",
+     "v": "144GB HBM3e、4.9TB/s;UltraServer 20.7TB HBM3e",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Tom's Hardware Trainium3发布",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amazon-launches-trainium3-ai-accelerator-competing-directly-against-blackwell-ultra-in-fp8-performance-new-trn3-gen2-ultraserver-takes-vertical-scaling-notes-from-nvidias-playbook",
+      "date": "2025-12-02"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm"
+    },
+    {
+     "dim": "product",
+     "k": "制程",
+     "v": "3nm;台积电代工归因于TrendForce报道,AWS未确认具体节点",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "NADDOD Trainium3深度解析",
+      "url": "https://www.naddod.com/ai-insights/amazon-3nm-ai-chip-trainium3-deep-dive",
+      "date": "2025-12-05"
+     },
+     "verified": "2026-10-31",
+     "cell": "process",
+     "note": "N3P说法未被AWS确认"
+    },
+    {
+     "dim": "product",
+     "k": "Trainium4",
+     "v": "据报道:支持NVLink Fusion,预计2027年交付;规格未经AWS确认",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "NADDOD Trainium3深度解析",
+      "url": "https://www.naddod.com/ai-insights/amazon-3nm-ai-chip-trainium3-deep-dive",
+      "date": "2025-12-05"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "Trn3上线",
+     "v": "Trainium3 UltraServer已全面可用;Bedrock已在Trn3上运行生产负载",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Amazon Trainium3 UltraServer上线",
+      "url": "https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost",
+      "date": "2025-12-02"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "shipment",
+     "k": "Project Rainier",
+     "v": "约50万颗Trainium2组成Anthropic训练集群,2025-10上线",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Technology Magazine Project Rainier",
+      "url": "https://technologymagazine.com/news/aws-how-500-000-trainium2-chips-power-project-rainier",
+      "date": "2025-10-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "Anthropic",
+     "v": "Anthropic据报道承诺10年内向AWS支出超1000亿美元,预留最多5GW Trainium容量",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Tech-Insider Amazon-Anthropic 5GW",
+      "url": "https://tech-insider.org/amazon-anthropic-5-billion-investment-trainium-2026/",
+      "date": "2026-04-20"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "shipment",
+     "k": "其他客户",
+     "v": "AWS称Trainium客户含Anthropic、Karakuri、Metagenomi、NetoAI、Ricoh、Splash Music",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Amazon Trainium3 UltraServer上线",
+      "url": "https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost",
+      "date": "2025-12-02"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "芯片业务",
+     "v": "据报道:Graviton+Trainium+Nitro芯片年化收入超200亿美元(Q1 2026口径),Q3称芯片业务三位数增长,Trainium/Graviton收入承诺同比超20倍",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "SimpleTechTrend Amazon Q3",
+      "url": "https://www.simpletechtrend.com/en/post/amazon-q3-fy2026-earnings-aws-trainium-backlog-en",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31",
+     "cell": "ship",
+     "note": "二手转述电话会"
+    },
+    {
+     "dim": "shipment",
+     "k": "外售计划",
+     "v": "一份摘要称Trainium将于2027年底对外销售,未见AWS官方确认",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "SimpleTechTrend Amazon Q3",
+      "url": "https://www.simpletechtrend.com/en/post/amazon-q3-fy2026-earnings-aws-trainium-backlog-en",
+      "date": "2026-10-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "出口管制",
+     "v": "未见针对AWS Trainium的出口限制公开信息",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Tech-Insider Amazon-Anthropic 5GW",
+      "url": "https://tech-insider.org/amazon-anthropic-5-billion-investment-trainium-2026/",
+      "date": "2026-04-20"
+     },
+     "verified": "2026-10-31",
+     "cell": "control",
+     "note": "美国企业"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-10",
+     "type": "交付",
+     "text": "Project Rainier(约50万Trainium2)上线",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "Technology Magazine Project Rainier",
+      "url": "https://technologymagazine.com/news/aws-how-500-000-trainium2-chips-power-project-rainier",
+      "date": "2025-10-29"
+     }
+    },
+    {
+     "date": "2025-12",
+     "type": "发布",
+     "text": "Trainium3发布并上线",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "Amazon Trainium3 UltraServer上线",
+      "url": "https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost",
+      "date": "2025-12-02"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "交付",
+     "text": "Trainium4预计交付(据报道)",
+     "planned": true,
+     "grade": "C",
+     "src": {
+      "name": "NADDOD Trainium3深度解析",
+      "url": "https://www.naddod.com/ai-insights/amazon-3nm-ai-chip-trainium3-deep-dive",
+      "date": "2025-12-05"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-29",
+     "text": "Amazon Q3:现金资本开支759亿美元,全年指引约2200亿美元,2027年更高",
+     "grade": "A",
+     "src": {
+      "name": "Amazon 2026Q3业绩公告",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "date": "2026-10-29"
+     }
+    },
+    {
+     "date": "2026-10-30",
+     "text": "Amazon电话会:AWS增速39%,Trainium/Graviton收入承诺同比超20倍(二手转述)",
+     "grade": "B",
+     "src": {
+      "name": "SimpleTechTrend Amazon Q3",
+      "url": "https://www.simpletechtrend.com/en/post/amazon-q3-fy2026-earnings-aws-trainium-backlog-en",
+      "date": "2026-10-30"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  },
+  {
+   "id": "microsoft-maia",
+   "name": "微软 Maia",
+   "nameEn": "Microsoft Maia",
+   "region": "海外",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "ASIC",
+   "role": "推理",
+   "model": "自用",
+   "partners": "代工:台积电3nm(B);设计服务:Global Unichip(分析师猜测,C)、Maia 300的Marvell/博通角色未证实;HBM:SK hynix(TrendForce引述,微软未确认,C);另可访问OpenAI芯片系统IP(B)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "资本开支",
+     "v": "FY27Q1(截至2026-09-30)总资本开支452亿美元(含融资租赁),其中现金397亿;Q2预计超500亿",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "Motley Fool Microsoft Q1 FY2027电话会",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/microsoft-msft-q1-2027-earnings-call-transcript/",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31",
+     "note": "来源为电话会逐字稿"
+    },
+    {
+     "dim": "invest",
+     "k": "日历2026指引",
+     "v": "日历年2026资本开支约1700亿美元(此前约1750亿)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Converge Digest Microsoft Q1 FY27",
+      "url": "https://convergedigest.com/microsoft-ai-infrastructure-capex-45-billion-azure-q1-2027/",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "最新一代",
+     "v": "Maia 300于2026-10-12前后发布,计划2027年起大规模部署;现售为Maia 200(2026-01-26发布)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "The Next Web Maia 300",
+      "url": "https://thenextweb.com/news/microsoft-maia-300-ai-chip-2027",
+      "date": "2026-10-12"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest"
+    },
+    {
+     "dim": "product",
+     "k": "Maia 200算力",
+     "v": "超10 PFLOPS FP4、超5 PFLOPS FP8(稠密/稀疏未注明),750W",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "How2Shout Maia 200发布",
+      "url": "https://www.how2shout.com/news/microsoft-maia-200-ai-inference-chip-tsmc-3nm.html",
+      "date": "2026-01-27"
+     },
+     "verified": "2026-10-31",
+     "cell": "compute",
+     "note": "转引自媒体"
+    },
+    {
+     "dim": "product",
+     "k": "Maia 200制程",
+     "v": "台积电3nm,超1400亿晶体管(N3E/N3P说法不一)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "How2Shout Maia 200发布",
+      "url": "https://www.how2shout.com/news/microsoft-maia-200-ai-inference-chip-tsmc-3nm.html",
+      "date": "2026-01-27"
+     },
+     "verified": "2026-10-31",
+     "cell": "process"
+    },
+    {
+     "dim": "product",
+     "k": "Maia 200 HBM",
+     "v": "216GB HBM3e、约7TB/s,272MB片上SRAM",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "How2Shout Maia 200发布",
+      "url": "https://www.how2shout.com/news/microsoft-maia-200-ai-inference-chip-tsmc-3nm.html",
+      "date": "2026-01-27"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm"
+    },
+    {
+     "dim": "product",
+     "k": "能效",
+     "v": "微软称Maia 200在Teams/Copilot上每瓦token最高提升1.7倍;Maia 300每瓦token比领先GPU系统高40%(宣称)",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "Motley Fool Microsoft Q1 FY2027电话会",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/29/microsoft-msft-q1-2027-earnings-call-transcript/",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "Maia 300形态",
+     "v": "每机架96颗Maia 300(Maia 200的两倍),两层以太网互联",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "The Next Web Maia 300",
+      "url": "https://thenextweb.com/news/microsoft-maia-300-ai-chip-2027",
+      "date": "2026-10-12"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "部署状态",
+     "v": "Maia 200已部署并承载Teams/Copilot负载;Maia 300主力部署2027年",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "CNBC Maia主要用于推理",
+      "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
+      "date": "2026-10-12"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "shipment",
+     "k": "定位",
+     "v": "微软称Maia将主要用于AI推理",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "CNBC Maia主要用于推理",
+      "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
+      "date": "2026-10-12"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer",
+     "note": "自用,服务Copilot等"
+    },
+    {
+     "dim": "supply",
+     "k": "台积电产能",
+     "v": "据报道微软商谈2027年交付超30万颗Maia 300的台积电产能(8月报道)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "The Next Web Maia 300",
+      "url": "https://thenextweb.com/news/microsoft-maia-300-ai-chip-2027",
+      "date": "2026-10-12"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "OpenAI芯片IP",
+     "v": "纳德拉称重组协议后微软可访问OpenAI数据中心硬件/软件相关IP(不含消费硬件)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "DCD 微软可访问OpenAI芯片IP",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-says-it-has-access-to-the-ip-of-openais-custom-ai-chips/",
+      "date": "2026-03-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "合作猜测",
+     "v": "Wedbush认为Marvell与台积电可能受益于Maia 300,仅为分析师观点",
+     "kind": "估算",
+     "grade": "C",
+     "src": {
+      "name": "GuruFocus Maia 300 Marvell/TSMC",
+      "url": "https://www.gurufocus.com/news/9024576/microsofts-maia-300-could-be-a-win-for-marvell-and-tsmc",
+      "date": "2026-10-13"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "出口管制",
+     "v": "未见针对Maia的出口限制公开信息",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "CNBC Maia主要用于推理",
+      "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
+      "date": "2026-10-12"
+     },
+     "verified": "2026-10-31",
+     "cell": "control",
+     "note": "美国企业"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2026-01-26",
+     "type": "发布",
+     "text": "Maia 200发布",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "How2Shout Maia 200发布",
+      "url": "https://www.how2shout.com/news/microsoft-maia-200-ai-inference-chip-tsmc-3nm.html",
+      "date": "2026-01-27"
+     }
+    },
+    {
+     "date": "2026-10-12",
+     "type": "发布",
+     "text": "Maia 300发布",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "The Next Web Maia 300",
+      "url": "https://thenextweb.com/news/microsoft-maia-300-ai-chip-2027",
+      "date": "2026-10-12"
+     }
+    },
+    {
+     "date": "2027",
+     "type": "量产",
+     "text": "Maia 300大规模部署",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "The Next Web Maia 300",
+      "url": "https://thenextweb.com/news/microsoft-maia-300-ai-chip-2027",
+      "date": "2026-10-12"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-29",
+     "text": "微软FY27Q1:总资本开支452亿美元,Q2预计超500亿,日历2026约1700亿",
+     "grade": "B",
+     "src": {
+      "name": "Converge Digest Microsoft Q1 FY27",
+      "url": "https://convergedigest.com/microsoft-ai-infrastructure-capex-45-billion-azure-q1-2027/",
+      "date": "2026-10-29"
+     }
+    },
+    {
+     "date": "2026-10-12",
+     "text": "微软发布Maia 300,称Maia将主要用于推理,2027年起大规模部署",
+     "grade": "B",
+     "src": {
+      "name": "CNBC Maia主要用于推理",
+      "url": "https://www.cnbc.com/2026/10/12/microsoft-will-mainly-use-its-maia-chips-for-ai-inference.html",
+      "date": "2026-10-12"
+     }
+    },
+    {
+     "date": "2026-10-13",
+     "text": "分析师称Maia 300可能利好Marvell与台积电(观点)",
+     "grade": "C",
+     "src": {
+      "name": "GuruFocus Maia 300 Marvell/TSMC",
+      "url": "https://www.gurufocus.com/news/9024576/microsofts-maia-300-could-be-a-win-for-marvell-and-tsmc",
+      "date": "2026-10-13"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  },
+  {
+   "id": "meta-mtia",
+   "name": "Meta MTIA",
+   "nameEn": "Meta MTIA",
+   "region": "海外",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "ASIC",
+   "role": "训练+推理",
+   "model": "自用",
+   "partners": "设计服务:博通(B,合作延长至2029年);代工:台积电(B);收购RISC-V初创公司Rivos(B);HBM:未披露",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "资本开支",
+     "v": "2026Q3资本开支约349亿美元;2026全年指引收窄至1350-1450亿美元,2027年继续加码",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "sec-api Meta 2026Q3财报分析",
+      "url": "https://sec-api.io/insights/financial-analysis-of-meta-platforms-meta-q3-2026-earnings",
+      "date": "2026-10-22"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "invest",
+     "k": "现金流",
+     "v": "2026Q3自由现金流约-21亿美元(二手财报摘要)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "CoinDCX Meta Q3 2026",
+      "url": "https://coindcx.com/blog/us-stock/meta-q3-2026-earnings-results",
+      "date": "2026-10-22"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "路线图",
+     "v": "2026-03公布MTIA 300/400/450/500四代;300已量产用于排序推荐训练,400完成实验室测试",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "The Tech Portal Meta四代MTIA",
+      "url": "https://thetechportal.com/2026/03/12/meta-unveils-four-new-generations-of-mtia-chips-to-power-its-ai-push",
+      "date": "2026-03-12"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest"
+    },
+    {
+     "dim": "product",
+     "k": "模块化",
+     "v": "chiplet模块化设计,据报道约每6个月一代",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "The Tech Portal Meta四代MTIA",
+      "url": "https://thetechportal.com/2026/03/12/meta-unveils-four-new-generations-of-mtia-chips-to-power-its-ai-push",
+      "date": "2026-03-12"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "HBM/算力",
+     "v": "所见来源未披露MTIA 400/450/500的HBM配置及带精度算力",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "The Tech Portal Meta四代MTIA",
+      "url": "https://thetechportal.com/2026/03/12/meta-unveils-four-new-generations-of-mtia-chips-to-power-its-ai-push",
+      "date": "2026-03-12"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "量产节奏",
+     "v": "MTIA 450目标2027年初量产,MTIA 500约晚半年",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "The Tech Portal Meta四代MTIA",
+      "url": "https://thetechportal.com/2026/03/12/meta-unveils-four-new-generations-of-mtia-chips-to-power-its-ai-push",
+      "date": "2026-03-12"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "shipment",
+     "k": "客户",
+     "v": "自用:排序推荐与生成式AI推理/训练负载",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "The Tech Portal Meta四代MTIA",
+      "url": "https://thetechportal.com/2026/03/12/meta-unveils-four-new-generations-of-mtia-chips-to-power-its-ai-push",
+      "date": "2026-03-12"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "supply",
+     "k": "博通合作",
+     "v": "2026-04-14博通宣布与Meta定制AI芯片合作扩展并延长至2029年,初始容量超1GW,首款采用2nm",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "DCD Meta与Broadcom多代MTIA",
+      "url": "https://www.datacenterdynamics.com/en/news/meta-partners-with-broadcom-for-development-of-multiple-generations-of-mtia-chips/",
+      "date": "2026-04-14"
+     },
+     "verified": "2026-10-31",
+     "cell": "process"
+    },
+    {
+     "dim": "supply",
+     "k": "博通多代",
+     "v": "Meta与博通共同开发多代(4代)MTIA",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Resultsense Meta-Broadcom 4代MTIA",
+      "url": "https://www.resultsense.com/news/2026-04-15-meta-broadcom-mtia-custom-silicon-expansion/",
+      "date": "2026-04-15"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "Rivos",
+     "v": "Meta收购RISC-V初创Rivos(2025-10,条款未披露)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "AITimeline MTIA各代",
+      "url": "https://aitimeline.in/meta-ai-chips-mtia-13172/",
+      "date": "2026-04-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "Rivos传闻",
+     "v": "传闻:2026-06一款训练芯片暂停、前Rivos员工被裁(单一来源)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "AITimeline MTIA各代",
+      "url": "https://aitimeline.in/meta-ai-chips-mtia-13172/",
+      "date": "2026-04-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "出口管制",
+     "v": "未见针对Meta MTIA的出口限制公开信息",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "DCD Meta与Broadcom多代MTIA",
+      "url": "https://www.datacenterdynamics.com/en/news/meta-partners-with-broadcom-for-development-of-multiple-generations-of-mtia-chips/",
+      "date": "2026-04-14"
+     },
+     "verified": "2026-10-31",
+     "cell": "control",
+     "note": "美国企业"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2026-03",
+     "type": "发布",
+     "text": "MTIA 300/400/450/500路线图公布",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "The Tech Portal Meta四代MTIA",
+      "url": "https://thetechportal.com/2026/03/12/meta-unveils-four-new-generations-of-mtia-chips-to-power-its-ai-push",
+      "date": "2026-03-12"
+     }
+    },
+    {
+     "date": "2026-04-14",
+     "type": "发布",
+     "text": "与博通合作延长至2029年",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "DCD Meta与Broadcom多代MTIA",
+      "url": "https://www.datacenterdynamics.com/en/news/meta-partners-with-broadcom-for-development-of-multiple-generations-of-mtia-chips/",
+      "date": "2026-04-14"
+     }
+    },
+    {
+     "date": "2027-Q1",
+     "type": "量产",
+     "text": "MTIA 450目标量产",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "The Tech Portal Meta四代MTIA",
+      "url": "https://thetechportal.com/2026/03/12/meta-unveils-four-new-generations-of-mtia-chips-to-power-its-ai-push",
+      "date": "2026-03-12"
+     }
+    },
+    {
+     "date": "2027-H2",
+     "type": "量产",
+     "text": "MTIA 500目标量产",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "The Tech Portal Meta四代MTIA",
+      "url": "https://thetechportal.com/2026/03/12/meta-unveils-four-new-generations-of-mtia-chips-to-power-its-ai-push",
+      "date": "2026-03-12"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-22",
+     "text": "Meta Q3:资本开支约349亿美元,2026指引1350-1450亿美元",
+     "grade": "B",
+     "src": {
+      "name": "sec-api Meta 2026Q3财报分析",
+      "url": "https://sec-api.io/insights/financial-analysis-of-meta-platforms-meta-q3-2026-earnings",
+      "date": "2026-10-22"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  },
+  {
+   "id": "openai-chip",
+   "name": "OpenAI 自研芯片(博通合作)",
+   "nameEn": "OpenAI custom chip (with Broadcom)",
+   "region": "海外",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "ASIC",
+   "role": "推理",
+   "model": "自用",
+   "partners": "设计服务:博通(A,官方公告);代工:台积电(A/B);系统集成:Celestica(B);HBM:三星HBM4(TrendForce报道,未证实,C)",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "融资传闻",
+     "v": "BigGo称博通在为OpenAI定制芯片安排超500亿美元融资,谈判早期;另称ASIC 2027H1流片、2028量产(与Jalapeño关系不明)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "BigGo OpenAI博通融资",
+      "url": "https://finance.biggo.com/news/7ce0d9ad-951c-4fe3-964f-f71ba225b0cb",
+      "date": "2026-10-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "首款芯片",
+     "v": "Jalapeño推理芯片,2026-06-24 OpenAI与博通发布",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "OpenAI Jalapeño官方发布",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "date": "2026-06-24"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest"
+    },
+    {
+     "dim": "product",
+     "k": "制程",
+     "v": "台积电3nm(媒体报道,官方未逐项披露)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "TrendForce OpenAI Jalapeño",
+      "url": "https://www.trendforce.com/news/2026/08/26/news-openai-debuts-jalapeno-ai-inference-chip-with-samsung-reportedly-supplying-hbm4/",
+      "date": "2026-08-26"
+     },
+     "verified": "2026-10-31",
+     "cell": "process"
+    },
+    {
+     "dim": "product",
+     "k": "HBM",
+     "v": "报道称每封装6颗HBM4、216GiB、15.4TB/s;另有来源称8颗,不一致",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "TrendForce OpenAI Jalapeño",
+      "url": "https://www.trendforce.com/news/2026/08/26/news-openai-debuts-jalapeno-ai-inference-chip-with-samsung-reportedly-supplying-hbm4/",
+      "date": "2026-08-26"
+     },
+     "verified": "2026-10-31",
+     "cell": "hbm"
+    },
+    {
+     "dim": "product",
+     "k": "HBM供应",
+     "v": "报道称三星为HBM4供应商,未获确认",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "TrendForce OpenAI Jalapeño",
+      "url": "https://www.trendforce.com/news/2026/08/26/news-openai-debuts-jalapeno-ai-inference-chip-with-samsung-reportedly-supplying-hbm4/",
+      "date": "2026-08-26"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "功耗/能效",
+     "v": "额定700W,测试中低于550W;OpenAI宣称每token推理成本比当前NVIDIA GPU低约50%",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "SemiAnalysis OpenAI Jalapeño",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "date": "2026-06-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "product",
+     "k": "算力",
+     "v": "未在所见来源中找到带精度的官方峰值算力",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "SemiAnalysis OpenAI Jalapeño",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "date": "2026-06-30"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "流片与部署",
+     "v": "OpenAI称从设计到流片9个月,2026年底前开始数据中心部署",
+     "kind": "厂商宣称",
+     "grade": "B",
+     "src": {
+      "name": "OpenAI Jalapeño官方发布",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "date": "2026-06-24"
+     },
+     "verified": "2026-10-31",
+     "cell": "status"
+    },
+    {
+     "dim": "shipment",
+     "k": "客户",
+     "v": "自用,服务OpenAI模型推理;系统由Celestica集成",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "OpenAI Jalapeño官方发布",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "date": "2026-06-24"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer"
+    },
+    {
+     "dim": "supply",
+     "k": "10GW合作",
+     "v": "2025-10-13公告:共同部署10GW OpenAI设计的加速器,2026下半年起部署,2029年底前完成",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "OpenAI与博通10GW合作公告",
+      "url": "https://seekingalpha.com/pr/20263273-openai-and-broadcom-announce-strategic-collaboration-to-deploy-10-gigawatts-of-openai",
+      "date": "2025-10-13"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "微软权益",
+     "v": "微软称可访问OpenAI定制芯片系统级IP",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "DCD 微软可访问OpenAI芯片IP",
+      "url": "https://www.datacenterdynamics.com/en/news/microsoft-says-it-has-access-to-the-ip-of-openais-custom-ai-chips/",
+      "date": "2026-03-01"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "三供应商策略",
+     "v": "TechTimes称OpenAI形成博通/Nvidia/AMD等多供应商硅策略(二手)",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "TechTimes OpenAI三供应商芯片策略",
+      "url": "https://www.techtimes.com/articles/329677/20261029/openai-eyes-google-chip-ownership-three-vendor-silicon-strategy-takes-shape.htm",
+      "date": "2026-10-29"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "出口管制",
+     "v": "未见针对OpenAI自研芯片的出口限制公开信息",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "CNBC OpenAI-博通",
+      "url": "https://www.cnbc.com/2025/10/13/openai-partners-with-broadcom-custom-ai-chips-alongside-nvidia-amd.html",
+      "date": "2025-10-13"
+     },
+     "verified": "2026-10-31",
+     "cell": "control",
+     "note": "美国企业"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-10-13",
+     "type": "发布",
+     "text": "OpenAI-博通10GW合作公告",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "OpenAI与博通10GW合作公告",
+      "url": "https://seekingalpha.com/pr/20263273-openai-and-broadcom-announce-strategic-collaboration-to-deploy-10-gigawatts-of-openai",
+      "date": "2025-10-13"
+     }
+    },
+    {
+     "date": "2026-06-24",
+     "type": "流片",
+     "text": "Jalapeño发布,称已完成流片",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "OpenAI Jalapeño官方发布",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "date": "2026-06-24"
+     }
+    },
+    {
+     "date": "2026-12",
+     "type": "交付",
+     "text": "Jalapeño开始数据中心部署",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "OpenAI Jalapeño官方发布",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "date": "2026-06-24"
+     }
+    },
+    {
+     "date": "2029",
+     "type": "交付",
+     "text": "10GW部署完成",
+     "planned": true,
+     "grade": "A",
+     "src": {
+      "name": "OpenAI与博通10GW合作公告",
+      "url": "https://seekingalpha.com/pr/20263273-openai-and-broadcom-announce-strategic-collaboration-to-deploy-10-gigawatts-of-openai",
+      "date": "2025-10-13"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-08-26",
+     "text": "TrendForce:OpenAI Jalapeño亮相,三星据报道供应HBM4",
+     "grade": "B",
+     "src": {
+      "name": "TrendForce OpenAI Jalapeño",
+      "url": "https://www.trendforce.com/news/2026/08/26/news-openai-debuts-jalapeno-ai-inference-chip-with-samsung-reportedly-supplying-hbm4/",
+      "date": "2026-08-26"
+     }
+    },
+    {
+     "date": "2026-10-29",
+     "text": "TechTimes:OpenAI多供应商芯片策略成形(二手)",
+     "grade": "C",
+     "src": {
+      "name": "TechTimes OpenAI三供应商芯片策略",
+      "url": "https://www.techtimes.com/articles/329677/20261029/openai-eyes-google-chip-ownership-three-vendor-silicon-strategy-takes-shape.htm",
+      "date": "2026-10-29"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  },
+  {
+   "id": "tesla",
+   "name": "特斯拉 AI芯片/Dojo",
+   "nameEn": "Tesla AI5/AI6 (Dojo)",
+   "region": "海外",
+   "group": "云厂商与互联网公司自研ASIC",
+   "route": "ASIC",
+   "role": "训练+推理",
+   "model": "自用",
+   "partners": "代工:三星(AI6,A/B:约165亿美元合同)、台积电(AI5,B);HBM/设计服务:未披露",
+   "facts": [
+    {
+     "dim": "invest",
+     "k": "Terafab",
+     "v": "Q3 2026业绩会:奥斯汀研究型晶圆厂2027H1调试设备,试制芯片约5-6月,量产芯片目标约2028Q3",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Motley Fool: Tesla Q3 2026 earnings call transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-2026-earnings-call-transcript/",
+      "date": "2026-10-22"
+     },
+     "verified": "2026-10-31",
+     "note": "规划;投入'数百亿美元'为口述"
+    },
+    {
+     "dim": "invest",
+     "k": "资本开支",
+     "v": "一分析称2026年资本开支指引调整至约200亿美元",
+     "kind": "估算",
+     "grade": "C",
+     "src": {
+      "name": "Substack: Q3 2026 Earnings Update TSLA",
+      "url": "https://mystockresearch.substack.com/p/q3-2026-earnings-update-is-tsla-a",
+      "date": "2026-10-23"
+     },
+     "verified": "2026-10-31",
+     "note": "单一二手来源"
+    },
+    {
+     "dim": "product",
+     "k": "AI6.5",
+     "v": "报道称AI6.5将用台积电亚利桑那2nm;AI6/AI6.5分属三星德州与台积电亚利桑那",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "Wccftech: Tesla 2nm AI6 / AI6.5",
+      "url": "https://wccftech.com/tesla-pulls-2nm-ai-chip-production-onto-us-soil-splits-ai6-ai6-5-between-samsung-tsmc/",
+      "date": "2026-04-20"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "AI5流片",
+     "v": "马斯克2026-04称AI5设计完成并送代工厂流片,较原计划晚近两年",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Electrek: Tesla taped out AI5",
+      "url": "https://electrek.co/2026/04/15/tesla-ai5-chip-taped-out-musk-ai6-dojo3/",
+      "date": "2026-04-15"
+     },
+     "verified": "2026-10-31",
+     "cell": "latest"
+    },
+    {
+     "dim": "milestone",
+     "k": "AI5量产时间",
+     "v": "Q3 2026业绩会:AI5量产约2027年4月,同期导入Optimus",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Substack: Q3 2026 Earnings Update TSLA",
+      "url": "https://mystockresearch.substack.com/p/q3-2026-earnings-update-is-tsla-a",
+      "date": "2026-10-23"
+     },
+     "verified": "2026-10-31",
+     "cell": "status",
+     "note": "二手转述业绩会"
+    },
+    {
+     "dim": "milestone",
+     "k": "AI5量产(早前)",
+     "v": "2025-11马斯克称AI5量产推迟至2027年,三星存在不确定性",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "TrendForce: Musk signals AI5 mass production delay to 2027",
+      "url": "https://www.trendforce.com/news/2025/11/05/news-musk-signals-tesla-ai5-mass-production-delay-to-2027-casting-uncertainty-over-samsung/",
+      "date": "2025-11-05"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "milestone",
+     "k": "Dojo终止",
+     "v": "2025-08马斯克确认关闭Dojo,称Dojo 3以单板多颗AI6形式延续",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "TechCrunch: Musk confirms Dojo shutdown",
+      "url": "https://techcrunch.com/2025/08/11/elon-musk-confirms-shutdown-of-tesla-dojo-an-evolutionary-dead-end",
+      "date": "2025-08-11"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "shipment",
+     "k": "Q3 2026业绩",
+     "v": "Q3 2026收入约280亿美元,非GAAP EPS 0.48美元,营业利润7.18亿美元",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "Motley Fool: Tesla Q3 2026 earnings call transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-2026-earnings-call-transcript/",
+      "date": "2026-10-22"
+     },
+     "verified": "2026-10-31"
+    },
+    {
+     "dim": "supply",
+     "k": "AI5代工",
+     "v": "报道:AI5由台积电与三星共同制造;各来源对分工说法不一(TSMC N3E/三星,德州/亚利桑那)",
+     "kind": "事实",
+     "grade": "B",
+     "src": {
+      "name": "TechNode: Tesla completes AI5 tape-out",
+      "url": "https://technode.com/2026/04/16/tesla-completes-ai5-chip-tape-out-to-be-manufactured-by-tsmc-and-samsung/",
+      "date": "2026-04-16"
+     },
+     "verified": "2026-10-31",
+     "cell": "process",
+     "note": "分工说法冲突"
+    },
+    {
+     "dim": "supply",
+     "k": "AI6合同",
+     "v": "三星披露约165亿美元供货协议至2033年底,马斯克确认为特斯拉AI6,德州泰勒厂",
+     "kind": "事实",
+     "grade": "A",
+     "src": {
+      "name": "DCD: Samsung signs $16.5bn deal with Tesla",
+      "url": "https://www.datacenterdynamics.com/en/news/samsung-electronics-signs-165bn-deal-with-tesla-to-manufacture-ai6-chips-at-taylor-texas-fab/",
+      "date": "2025-07-28"
+     },
+     "verified": "2026-10-31",
+     "cell": "customer",
+     "note": "三星公告;客户为后续确认"
+    },
+    {
+     "dim": "supply",
+     "k": "AI6进度",
+     "v": "据报:AI6因三星2nm良率问题推迟约半年,最早2027Q4量产",
+     "kind": "事实",
+     "grade": "C",
+     "src": {
+      "name": "Electrek: Tesla taped out AI5",
+      "url": "https://electrek.co/2026/04/15/tesla-ai5-chip-taped-out-musk-ai6-dojo3/",
+      "date": "2026-04-15"
+     },
+     "verified": "2026-10-31",
+     "note": "二手引述,未证实"
+    }
+   ],
+   "roadmap": [
+    {
+     "date": "2025-07",
+     "type": "发布",
+     "text": "三星AI6供货合同公布",
+     "planned": false,
+     "grade": "A",
+     "src": {
+      "name": "DCD: Samsung signs $16.5bn deal with Tesla",
+      "url": "https://www.datacenterdynamics.com/en/news/samsung-electronics-signs-165bn-deal-with-tesla-to-manufacture-ai6-chips-at-taylor-texas-fab/",
+      "date": "2025-07-28"
+     }
+    },
+    {
+     "date": "2025-08",
+     "type": "发布",
+     "text": "Dojo项目终止",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "TechCrunch: Musk confirms Dojo shutdown",
+      "url": "https://techcrunch.com/2025/08/11/elon-musk-confirms-shutdown-of-tesla-dojo-an-evolutionary-dead-end",
+      "date": "2025-08-11"
+     }
+    },
+    {
+     "date": "2026-04",
+     "type": "流片",
+     "text": "AI5流片完成",
+     "planned": false,
+     "grade": "B",
+     "src": {
+      "name": "Electrek: Tesla taped out AI5",
+      "url": "https://electrek.co/2026/04/15/tesla-ai5-chip-taped-out-musk-ai6-dojo3/",
+      "date": "2026-04-15"
+     }
+    },
+    {
+     "date": "2027-04",
+     "type": "量产",
+     "text": "AI5量产并导入Optimus(业绩会表述)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "Substack: Q3 2026 Earnings Update TSLA",
+      "url": "https://mystockresearch.substack.com/p/q3-2026-earnings-update-is-tsla-a",
+      "date": "2026-10-23"
+     }
+    },
+    {
+     "date": "2027-Q4",
+     "type": "量产",
+     "text": "AI6量产(报道称最早)",
+     "planned": true,
+     "grade": "C",
+     "src": {
+      "name": "Electrek: Tesla taped out AI5",
+      "url": "https://electrek.co/2026/04/15/tesla-ai5-chip-taped-out-musk-ai6-dojo3/",
+      "date": "2026-04-15"
+     }
+    },
+    {
+     "date": "2028-Q3",
+     "type": "量产",
+     "text": "Terafab目标量产(马斯克愿景)",
+     "planned": true,
+     "grade": "B",
+     "src": {
+      "name": "Motley Fool: Tesla Q3 2026 earnings call transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-2026-earnings-call-transcript/",
+      "date": "2026-10-22"
+     }
+    }
+   ],
+   "news90": [
+    {
+     "date": "2026-10-22",
+     "text": "Q3业绩会:AI5量产约2027年4月;Terafab 2028Q3目标产出可用芯片",
+     "grade": "B",
+     "src": {
+      "name": "Motley Fool: Tesla Q3 2026 earnings call transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-2026-earnings-call-transcript/",
+      "date": "2026-10-22"
+     }
+    }
+   ],
+   "rd": [],
+   "headcount": []
+  }
+ ]
+}

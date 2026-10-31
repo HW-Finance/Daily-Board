@@ -342,6 +342,46 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(24px, 4vw, 
 .k-foot { font-size: 12px; color: var(--k-faint); line-height: 1.7; border-top: 1px solid var(--k-line); padding-top: 12px; }
 
 
+/* ---------- 经营看板 · AI 芯片自研追踪 ---------- */
+.cp-kn { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px 12px; }
+.cp-chg { font-size: 12px; color: var(--k-muted); }
+.gr { display: inline-block; font-family: var(--mono); font-size: 10.5px; font-weight: 700; line-height: 1.5; padding: 0 6px; border-radius: 8px; border: 1px solid currentColor; vertical-align: 1px; white-space: nowrap; }
+.gr-A { color: var(--k-pos); } .gr-B { color: var(--k-mid); } .gr-C { color: var(--k-hi); border-style: dashed; }
+.rumor { border: 1px dashed var(--k-faint); border-radius: 6px; padding: 4px 8px; opacity: .72; }
+.rumor-tag { font-size: 10.5px; font-weight: 700; color: var(--k-hi); border: 1px dashed var(--k-hi); border-radius: 8px; padding: 0 6px; margin-right: 6px; }
+.kd { font-size: 11px; color: var(--note-label); background: var(--note-bg); border-radius: 4px; padding: 0 6px; margin-left: 6px; }
+.cp-mx-wrap { overflow: auto; max-height: 76vh; border: 1px solid var(--k-line); border-radius: 8px; }
+.cp-mx { border-collapse: separate; border-spacing: 0; font-size: 12.5px; min-width: 1500px; width: 100%; }
+.cp-mx th, .cp-mx td { padding: 7px 10px; border-bottom: 1px solid var(--k-line); text-align: left; vertical-align: top; background: var(--k-panel); min-width: 120px; line-height: 1.55; }
+.cp-mx th { position: sticky; top: 0; z-index: 2; font-size: 12px; color: var(--k-muted); background: var(--k-panel-2); cursor: pointer; white-space: nowrap; user-select: none; }
+.cp-mx th.on::after { content: attr(data-d); margin-left: 4px; color: var(--k-accent); }
+.cp-mx td:first-child, .cp-mx th:first-child { position: sticky; left: 0; z-index: 3; min-width: 104px; font-weight: 700; color: var(--k-fg); border-right: 1px solid var(--k-line); }
+.cp-mx th:first-child { z-index: 4; }
+.cp-mx .nd { color: var(--k-faint); }
+.cp-mx .cv + .cv { margin-top: 4px; padding-top: 4px; border-top: 1px dotted var(--k-line); }
+.cp-filters { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
+.cp-filters .fl { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--k-muted); }
+.cp-tl { overflow-x: auto; border: 1px solid var(--k-line); border-radius: 8px; background: var(--k-panel); }
+.cp-tl svg { display: block; }
+.cp-leg { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 12px; color: var(--k-muted); }
+.cp-prof { border: 1px solid var(--k-line); border-radius: 10px; background: var(--k-panel); }
+.cp-prof + .cp-prof { margin-top: 8px; }
+.cp-prof > summary { cursor: pointer; padding: 12px 16px; list-style: none; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.cp-prof > summary::-webkit-details-marker { display: none; }
+.cp-prof > summary::after { content: "▾"; margin-left: auto; color: var(--k-muted); }
+.cp-prof[open] > summary::after { content: "▴"; }
+.cp-prof .nm { font-weight: 700; font-size: 16px; color: var(--k-fg); }
+.cp-pb { padding: 0 16px 14px; display: flex; flex-direction: column; gap: 12px; }
+.cp-pb h4 { margin: 0; font-size: 13px; letter-spacing: .08em; color: var(--k-muted); }
+.cp-pb ul { margin: 4px 0 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 6px; }
+.cp-pb li { font-size: 13.5px; line-height: 1.65; color: var(--k-fg); }
+.cp-pb li.rumor { list-style: none; margin-left: -1.1em; }
+.cp-pb li .k { font-weight: 700; margin-right: 4px; }
+.cp-pb li .k-src { display: block; margin-top: 1px; }
+.cp-pb .ne { color: var(--k-faint); font-size: 13px; }
+.cp-pb .dt { font-family: var(--mono); font-size: 12px; color: var(--k-accent); margin-right: 6px; }
+@media (max-width: 560px) { .cp-mx { min-width: 1300px; } }
+
 /* ---------- 经营看板 · 主题切片 ---------- */
 .t-group { display: flex; flex-direction: column; gap: 12px; }
 .t-group + .t-group { margin-top: 10px; }
@@ -878,6 +918,7 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(24px, 4vw, 
       arr(g.themes).forEach(function (id) { var c = TH.cards[id]; if (c) grid.appendChild(id === "fx" ? fxCard(c) : themeCard(c)); });
       sec.appendChild(grid); body.appendChild(sec);
     });
+    if (CH && CH.card) { var cs = el("section", "t-group"); cs.appendChild(el("h2", "t-dom", "AI 芯片自研追踪")); var cg = el("div", "t-grid"); cg.appendChild(chipsCard()); cs.appendChild(cg); body.appendChild(cs); }
     if (D) { var hs = el("section", "t-group"); hs.appendChild(el("h2", "t-dom", "关键假设 · 领袖发言")); hs.appendChild(hypStrip()); body.appendChild(hs); }
     var dg = el("section", "t-group"); dg.appendChild(el("h2", "t-dom", "数据底稿"));
     dg.appendChild(el("p", "base-note", "以下内容每天早上随简报自动更新，供核对主题卡片背后的原始数据。"));
@@ -1285,17 +1326,205 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(24px, 4vw, 
     body.appendChild(wrap);
   }
 
+  /* ---- AI 芯片自研追踪 ---- */
+  var CH = null, chF = { reg: "全部", typ: "全部", role: "全部" }, chSort = null;
+  var GRADE = { A: "A 已证实", B: "B 权威报道", C: "C 传闻" };
+  var CP_COLS = [
+    ["route", "路线类型"], ["role", "定位"], ["latest", "最新一代产品"], ["process", "制程/代工"], ["hbm", "HBM/显存"], ["compute", "算力（注明精度）"],
+    ["status", "量产状态"], ["ship", "出货量/收入"], ["customer", "主要客户"], ["rd", "研发投入"], ["headcount", "研发人数"], ["control", "管制状态"]
+  ];
+  function gradeTag(g) { return el("span", "gr gr-" + (g || "C"), GRADE[g] || "C 传闻"); }
+  function chSrc(f) { return f.src ? srcRow([f.src]) : el("span"); }
+  function factTitle(f) { return (f.src ? f.src.name + "（" + (f.src.date || "—") + "）" : "无来源") + " · " + (GRADE[f.grade] || "") + (f.kind ? " · " + f.kind : "") + " · 核实于 " + (f.verified || "—"); }
+  function cpFactLi(f) {
+    var li = el("li", f.grade === "C" ? "rumor" : null);
+    if (f.grade === "C") li.appendChild(el("span", "rumor-tag", "传闻"));
+    li.appendChild(el("span", "k", f.k + "：")); li.appendChild(document.createTextNode(f.v || ""));
+    if (f.kind && f.kind !== "事实") li.appendChild(el("span", "kd", f.kind));
+    li.appendChild(document.createTextNode(" ")); li.appendChild(gradeTag(f.grade));
+    if (f.note) li.appendChild(el("span", "kd", f.note));
+    var sr = chSrc(f); sr.appendChild(el("span", "s-date mono", "核实 " + (f.verified || "—"))); li.appendChild(sr);
+    return li;
+  }
+  function vType(v) { return /GPU/.test(v.route || "") ? "GPU" : "ASIC"; }
+  function vCell(v, key) {
+    if (key === "route") return [{ v: v.route, plain: true }];
+    if (key === "role") return [{ v: v.role + " · " + v.model, plain: true }];
+    return arr(v.facts).filter(function (f) { return f.cell === key && f.grade !== "C"; });
+  }
+  function cpText(v, key) { var c = vCell(v, key); return c.length ? c.map(function (f) { return f.v; }).join(" ") : "￿"; }
+  function cpMatrix() {
+    var vs = arr(CH.vendors).filter(function (v) {
+      return (chF.reg === "全部" || v.region === chF.reg) && (chF.typ === "全部" || vType(v) === chF.typ) && (chF.role === "全部" || (v.role || "").indexOf(chF.role) >= 0);
+    });
+    if (chSort) vs = vs.slice().sort(function (a, b) { var x = cpText(a, chSort.k), y = cpText(b, chSort.k); return (x < y ? -1 : x > y ? 1 : 0) * chSort.d; });
+    var box = el("div");
+    var fl = el("div", "cp-filters");
+    [["地区", "reg", ["全部", "国内", "海外"]], ["路线", "typ", ["全部", "GPU", "ASIC"]], ["定位", "role", ["全部", "训练", "推理"]]].forEach(function (g) {
+      var w = el("div", "fl"); w.appendChild(el("span", null, g[0])); w.appendChild(chipBar(g[2], chF[g[1]], function (x) { chF[g[1]] = x; render(); })); fl.appendChild(w);
+    });
+    box.appendChild(fl);
+    var wrap = el("div", "cp-mx-wrap"), t = el("table", "cp-mx"), hr = el("tr"), th0 = el("th", null, "厂商"); hr.appendChild(th0);
+    CP_COLS.forEach(function (c) {
+      var th = el("th", chSort && chSort.k === c[0] ? "on" : null, c[1]); if (chSort && chSort.k === c[0]) th.setAttribute("data-d", chSort.d > 0 ? "▲" : "▼");
+      th.addEventListener("click", function () { chSort = chSort && chSort.k === c[0] ? { k: c[0], d: -chSort.d } : { k: c[0], d: 1 }; render(); }); hr.appendChild(th);
+    });
+    var hd = el("thead"); hd.appendChild(hr); t.appendChild(hd);
+    var tb = el("tbody");
+    vs.forEach(function (v) {
+      var tr = el("tr"), td0 = el("td", null, v.name); td0.title = v.nameEn + " · " + v.region + " · " + v.group; tr.appendChild(td0);
+      CP_COLS.forEach(function (c) {
+        var td = el("td"), cs = vCell(v, c[0]);
+        if (!cs.length) td.appendChild(el("span", "nd", "未披露"));
+        cs.forEach(function (f) {
+          var d = el("div", "cv"); d.appendChild(document.createTextNode(f.v || ""));
+          if (!f.plain) { if (f.kind && f.kind !== "事实") d.appendChild(el("span", "kd", f.kind)); d.appendChild(document.createTextNode(" ")); d.appendChild(gradeTag(f.grade)); d.title = factTitle(f); }
+          td.appendChild(d);
+        });
+        tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+    t.appendChild(tb); wrap.appendChild(t); box.appendChild(wrap);
+    box.appendChild(el("p", "base-note", "空格显示“未披露”＝公开渠道未检索到；C 级传闻不进入本表。悬停单元格可看来源、等级和核实日期。算力列不同精度、稠密/稀疏口径不可直接比较。"));
+    return box;
+  }
+  function cpDate(d) {
+    var m = /^(\d{4})(?:-(\d{2})(?:-(\d{2}))?|-Q([1-4])|-H([12]))?$/.exec(d || ""); if (!m) return null;
+    var y = +m[1], mo = m[2] ? +m[2] - 1 : m[4] ? (+m[4] - 1) * 3 + 1 : m[5] ? (+m[5] - 1) * 6 + 2 : 6, dy = m[3] ? +m[3] : m[2] ? 15 : 1;
+    return new Date(y, mo, dy).getTime();
+  }
+  function cpTimeline() {
+    var LO = new Date(2024, 0, 1).getTime(), HI = new Date(2029, 0, 1).getTime();
+    var inR = function (e) { var t = cpDate(e.date); return t != null && t >= LO && t < HI; };
+    var vs = arr(CH.vendors).filter(function (v) { return arr(v.roadmap).some(inR); });
+    var all = []; vs.forEach(function (v) { arr(v.roadmap).filter(inR).forEach(function (e) { all.push(cpDate(e.date)); }); });
+    if (!all.length) return el("p", "base-note", "暂无路线图数据。");
+    var t0 = Math.min.apply(null, all), t1 = Math.max.apply(null, all), y0 = new Date(t0).getFullYear(), y1 = new Date(t1).getFullYear();
+    t0 = new Date(y0, 0, 1).getTime(); t1 = new Date(y1 + 1, 0, 1).getTime();
+    var LW = 104, PW = Math.max(760, (y1 - y0 + 1) * 260), LH = 34, T = 26, W = LW + PW + 16, H = T + LH * vs.length + 8;
+    var xs = function (t) { return LW + PW * (t - t0) / (t1 - t0); };
+    var s = svgEl("svg", { viewBox: "0 0 " + W + " " + H, width: W, height: H, role: "img", "aria-label": "产品路线图时间线" });
+    for (var y = y0; y <= y1 + 1; y++) {
+      var gx = xs(new Date(y, 0, 1).getTime()); s.appendChild(svgEl("line", { x1: gx, x2: gx, y1: T - 6, y2: H - 4, class: "g-grid" }));
+      if (y <= y1) s.appendChild(svgEl("text", { x: gx + 6, y: 16, class: "g-axis" }, String(y)));
+    }
+    var nowX = xs(Date.now()); if (nowX > LW && nowX < LW + PW) s.appendChild(svgEl("line", { x1: nowX, x2: nowX, y1: T - 6, y2: H - 4, class: "fx-today" }));
+    var COL = { "发布": "var(--k-accent)", "流片": "var(--k-mid)", "量产": "var(--k-pos)", "交付": "var(--k-hi)" };
+    vs.forEach(function (v, i) {
+      var cy = T + LH * i + LH / 2;
+      s.appendChild(svgEl("line", { x1: LW, x2: LW + PW, y1: cy, y2: cy, class: "g-grid" }));
+      s.appendChild(svgEl("text", { x: 4, y: cy + 4, class: "g-val", style: "font-size:12px" }, v.name));
+      arr(v.roadmap).filter(inR).forEach(function (e, j) {
+        var t = cpDate(e.date);
+        var x = xs(t), c = COL[e.type] || "var(--k-faint)", hollow = !!e.planned || e.grade === "C", dash = e.grade === "C";
+        var dy = (j % 2 ? 7 : -7) * 0.0;
+        var m = svgEl("circle", { cx: x, cy: cy + dy, r: 6, fill: hollow ? "var(--k-panel)" : c, stroke: c, "stroke-width": 2, "stroke-dasharray": dash ? "2 2" : "none", opacity: e.grade === "C" ? .6 : 1 });
+        m.appendChild(svgEl("title", {}, e.date + (/^\d{4}(-[QH]?\d{1,2})?$/.test(e.date) ? "（时间为大致区间）" : "") + " " + e.type + (e.planned ? "（规划/宣称）" : "") + "｜" + e.text + "｜" + (GRADE[e.grade] || "") + (e.src ? "｜" + e.src.name : "")));
+        s.appendChild(m);
+      });
+    });
+    var box = el("div"), leg = el("div", "cp-leg");
+    ["发布", "流片", "量产", "交付"].forEach(function (k) { var sp = el("span", null, "● " + k); sp.style.color = COL[k]; leg.appendChild(sp); });
+    leg.appendChild(el("span", null, "实心＝已发生　空心＝规划/宣称　虚线空心＝C 级传闻　竖虚线＝今天"));
+    box.appendChild(leg);
+    var w = el("div", "cp-tl"); w.appendChild(s); box.appendChild(w);
+    box.appendChild(el("p", "base-note", "图中只画 2024—2028 年；只有年份或季度的节点按区间中点标注；悬停圆点查看事件、等级和来源；全部节点见下方厂商档案“路线图节点”。"));
+    return box;
+  }
+  var DIMS = [["invest", "1 投入"], ["people", "2 人力"], ["product", "3 产品与路线图"], ["milestone", "4 研发与量产里程碑"], ["shipment", "5 出货与商业化"], ["supply", "6 供应链与外部约束"]];
+  function cpProfile(v) {
+    var d = el("details", "cp-prof"), sm = el("summary");
+    sm.appendChild(el("span", "nm", v.name)); sm.appendChild(el("span", "chip", v.region)); sm.appendChild(el("span", "chip", v.route)); sm.appendChild(el("span", "chip", v.role)); sm.appendChild(el("span", "chip", v.model));
+    d.appendChild(sm);
+    var b = el("div", "cp-pb");
+    b.appendChild(el("p", "base-note", v.nameEn + " · " + v.group + " · 合作方（设计服务/代工/HBM）：" + (v.partners || "未披露")));
+    DIMS.forEach(function (dm) {
+      var fs = arr(v.facts).filter(function (f) { return f.dim === dm[0]; });
+      var sec = el("div"); sec.appendChild(el("h4", null, dm[1]));
+      if (!fs.length) sec.appendChild(el("p", "ne", "未披露")); else { var ul = el("ul"); fs.forEach(function (f) { ul.appendChild(cpFactLi(f)); }); sec.appendChild(ul); }
+      b.appendChild(sec);
+    });
+    var sr = el("div"); sr.appendChild(el("h4", null, "路线图节点（实心＝已发生，空心＝规划/宣称）"));
+    if (!arr(v.roadmap).length) sr.appendChild(el("p", "ne", "未披露")); else {
+      var ur = el("ul"); arr(v.roadmap).slice().sort(function (a, b) { return (cpDate(a.date) || 0) - (cpDate(b.date) || 0); }).forEach(function (e) {
+        var li = el("li", e.grade === "C" ? "rumor" : null); if (e.grade === "C") li.appendChild(el("span", "rumor-tag", "传闻"));
+        li.appendChild(el("span", "dt", (e.planned ? "○ " : "● ") + e.date)); li.appendChild(document.createTextNode(e.type + "：" + e.text + " ")); li.appendChild(gradeTag(e.grade)); li.appendChild(chSrc(e)); ur.appendChild(li);
+      }); sr.appendChild(ur);
+    }
+    b.appendChild(sr);
+    var s7 = el("div"); s7.appendChild(el("h4", null, "7 近 90 天动态"));
+    if (!arr(v.news90).length) s7.appendChild(el("p", "ne", "近 90 天未检索到重要公开事件")); else {
+      var u7 = el("ul"); arr(v.news90).forEach(function (n) {
+        var li = el("li", n.grade === "C" ? "rumor" : null); if (n.grade === "C") li.appendChild(el("span", "rumor-tag", "传闻"));
+        li.appendChild(el("span", "dt", n.date)); li.appendChild(document.createTextNode(n.text + " ")); li.appendChild(gradeTag(n.grade)); li.appendChild(chSrc(n)); u7.appendChild(li);
+      }); s7.appendChild(u7);
+    }
+    b.appendChild(s7); d.appendChild(b); return d;
+  }
+  function cpCharts() {
+    var cs = arr(CH.charts);
+    if (!cs.length) return el("p", "base-note", "公开数据暂不足以画出可靠的趋势图。");
+    var g = el("div", "m-body"); cs.forEach(function (c) { g.appendChild(block(c)); }); return g;
+  }
+  function chipsCard() {
+    var c = CH.card, b = el("button", "tile t-card"); b.type = "button";
+    var top = el("div", "tile-top"); top.appendChild(el("span", "tile-name", c.name)); top.appendChild(el("span", "chip new", "本期变化 " + arr(CH.summary.changes).length + " 条")); b.appendChild(top);
+    b.appendChild(el("p", "t-judg", c.judgment || ""));
+    var kn = el("div", "cp-kn"); arr(c.keyNumbers).slice(0, 3).forEach(function (k) { var x = el("div", "t-k"); x.appendChild(el("span", "lb", k.label)); x.appendChild(el("span", "vl", k.value)); if (k.compare) x.appendChild(el("span", "cp", k.compare)); kn.appendChild(x); });
+    b.appendChild(kn);
+    var ft = el("div", "tile-foot"); ft.appendChild(asOfTag(CH.asOf)); b.appendChild(ft);
+    b.addEventListener("click", function () { go("chips"); });
+    return b;
+  }
+  function renderChips(body) {
+    var td = el("div", "td"), S = CH.summary, hd = el("div", "td-head"), l1 = el("div", "td-line");
+    l1.appendChild(asOfTag(CH.asOf)); l1.appendChild(el("span", "chip", "覆盖 " + arr(CH.vendors).length + " 家")); l1.appendChild(el("span", "chip", "仅公开信息")); hd.appendChild(l1);
+    hd.appendChild(el("p", "td-judg", CH.card.judgment || ""));
+    hd.appendChild(el("p", "td-note", "可信度：A 已证实（公告/财报/招股书/官方发布）· B 权威报道（主流媒体/研究机构）· C 传闻（仅放备注，不进对比矩阵主数值）。算力数字均为厂商宣称或另注明，跨精度不可比。"));
+    td.appendChild(hd);
+    var s1 = tsec("本期变化", "自上次更新以来新增的关键事件"), u1 = el("ul", "facts");
+    arr(S.changes).forEach(function (x) { var li = el("li"); li.appendChild(document.createTextNode(x.text + " ")); li.appendChild(gradeTag(x.grade)); li.appendChild(srcRow(x.srcs || (x.src ? [x.src] : []))); u1.appendChild(li); });
+    s1.appendChild(u1); td.appendChild(s1);
+    var s2 = tsec("核心判断", "推断，不由单条消息得出"), u2 = el("ul", "infs");
+    arr(S.judgments).forEach(function (f) {
+      var li = el("li"); li.appendChild(confChip(f.confidence)); li.appendChild(el("span", null, String(f.text || "").replace(/^推断：/, "")));
+      if (f.basis) { var bd = el("details", "basis-d"); bd.appendChild(el("summary", null, "依据")); bd.appendChild(el("span", "basis", f.basis)); li.appendChild(bd); }
+      u2.appendChild(li);
+    });
+    s2.appendChild(u2);
+    if (S.ai) { var ai = el("details", "k-ai"); ai.open = true; ai.appendChild(el("summary", null, "财规Agent点评")); ai.appendChild(fillPoints(el("div", "pts"), S.ai)); s2.appendChild(ai); }
+    td.appendChild(s2);
+    var s3 = tsec("下一步观察信号", "未来 1–3 个月内会验证或推翻判断的事件");
+    arr(S.signals).forEach(function (x) {
+      var r = el("div", "sig"), wh = el("span", "when", x.when || ""), n = daysTo(x.when);
+      if (n != null) wh.appendChild(el("small", null, n === 0 ? "今天" : n < 0 ? "已过" : n + "天后"));
+      r.appendChild(wh); r.appendChild(el("span", "what", x.what)); if (x.why) r.appendChild(el("span", "why", x.why)); s3.appendChild(r);
+    });
+    td.appendChild(s3);
+    var s4 = tsec("对比矩阵", "可筛选、点列头排序；悬停单元格看来源"); s4.appendChild(cpMatrix()); td.appendChild(s4);
+    var s5 = tsec("产品路线图时间线", "每家一条泳道"); s5.appendChild(cpTimeline()); td.appendChild(s5);
+    var s6 = tsec("厂商档案", "点开查看七个维度"), g1 = {};
+    arr(CH.vendors).forEach(function (v) { (g1[v.group] = g1[v.group] || []).push(v); });
+    Object.keys(g1).forEach(function (k) { s6.appendChild(el("div", "k-label", k)); g1[k].forEach(function (v) { s6.appendChild(cpProfile(v)); }); });
+    td.appendChild(s6);
+    var s7 = tsec("数据图表", "数据足够可靠时才绘制"); s7.appendChild(cpCharts()); td.appendChild(s7);
+    if (arr(CH.notes).length) { var s8 = tsec("说明与待核对"); var u8 = el("ul"); arr(CH.notes).forEach(function (n) { u8.appendChild(el("li", null, n)); }); s8.appendChild(u8); td.appendChild(s8); }
+    body.appendChild(td);
+  }
+
   function render() {
     var body = $("ck-body"); body.replaceChildren();
     var parts = zone.split("-"), z = parts[0], sub = parts.slice(1).join("-");
     $("ck-back").hidden = z === "home"; $("ck-float").hidden = z === "home";
-    var needD = z !== "home" && z !== "theme";
-    if ((needD && !D) || (z === "theme" && !TH) || (z === "home" && !TH && !D)) { $("ck-sub").textContent = "正在读取数据…（如长时间没有内容，请刷新页面）"; return; }
-    $("ck-title").textContent = z === "home" ? "经营看板" : z === "theme" ? ((TH.cards[sub] || {}).name || "主题") : z === "leaders" ? "关键假设 · 领袖发言" : ZONES[z] || "经营看板";
-    var st = []; if (TH) st.push("主题切片截至 " + TH.asOf); if (D) st.push("每日数据更新于 " + (D.updatedAt || D.asOf) + " 北京时间");
+    var needD = z !== "home" && z !== "theme" && z !== "chips";
+    if ((needD && !D) || (z === "theme" && !TH) || (z === "chips" && !CH) || (z === "home" && !TH && !D)) { $("ck-sub").textContent = "正在读取数据…（如长时间没有内容，请刷新页面）"; return; }
+    $("ck-title").textContent = z === "home" ? "经营看板" : z === "theme" ? ((TH.cards[sub] || {}).name || "主题") : z === "leaders" ? "关键假设 · 领袖发言" : z === "chips" ? "AI 芯片自研追踪" : ZONES[z] || "经营看板";
+    var st = []; if (TH) st.push("主题切片截至 " + TH.asOf); if (CH && z === "chips") st.push("AI 芯片追踪截至 " + CH.asOf); if (D) st.push("每日数据更新于 " + (D.updatedAt || D.asOf) + " 北京时间");
     $("ck-sub").textContent = st.join(" · ");
     if (z === "home") renderHome(body);
     else if (z === "theme") { var c = TH.cards[sub]; if (!c) { zone = "home"; renderHome(body); return; } if (sub === "fx") renderFx(body, c); else renderTheme(body, c); }
+    else if (z === "chips") renderChips(body);
     else if (z === "leaders") renderLeaders(body);
     else if (z === "earnings") renderEarnings(body);
     else if (z === "markets") { if (sub) mTab = sub; renderMarkets(body); }
@@ -1321,7 +1550,7 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(24px, 4vw, 
   var h = location.hash.slice(1);
   if (/^\d{4}-\d{2}-\d{2}$/.test(h)) { current = h; followLatest = false; showView("news"); }
   else if (h === "board") { zone = "home"; showView("board"); }
-  else if (/^(leaders|earnings|markets|policy|calendar|theme)(-[a-z0-9]+)?$/.test(h)) { zone = h; showView("board"); }
+  else if (/^(leaders|earnings|markets|policy|calendar|theme|chips)(-[a-z0-9]+)?$/.test(h)) { zone = h; showView("board"); }
   else showView("news");
 
   Promise.all([load("latest.json"), load("history.json")]).then(function (r) {
@@ -1330,6 +1559,7 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(24px, 4vw, 
   });
   load("dashboard.json").then(function (d) { D = d; render(); });
   load("themes.json").then(function (t) { TH = t; render(); });
+  load("chips.json").then(function (c) { CH = c; render(); });
 })();
 </script>
 
