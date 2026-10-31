@@ -1,6 +1,6 @@
 {
  "asOf": "2026-10-31",
- "updatedAt": "2026-10-31 07:40",
+ "updatedAt": "2026-10-31 10:30",
  "config": [
   {
    "domain": "汇率",
@@ -53,7 +53,7 @@
    "direction": "持平",
    "directionNote": "较10月29日：USD/CNY中间价降0.01%，变化很小",
    "asOf": "2026-10-30",
-   "change": "本期新增：10月30日USD/CNY中间价6.7138。未检索到10月30日EUR/CNY中间价和ECB EUR/USD参考价，两条序列仍到10月29日、10月28日。",
+   "change": "本期新增：10月30日USD/CNY中间价6.7138。未检索到10月30日EUR/CNY中间价和ECB EUR/USD参考价，两条序列仍止于10月29日、10月28日。",
    "pairs": [
     {
      "pair": "USD/CNY",
@@ -1277,7 +1277,7 @@
     "EUR/USD": null
    },
    "dayMove": {
-    "headline": "人民币中间价续升，在岸盘中升至6.66上方",
+    "headline": "当日无显著驱动因素：中间价小幅调升9基点",
     "points": [
      "10月30日USD/CNY中间价6.7138，较前日调升9基点",
      "在岸16:30收盘6.6621，夜盘6.6612",
@@ -1292,7 +1292,7 @@
       "date": "2026-10-30"
      },
      {
-      "name": "21财经 – 10月30日中间价与在岸收盘",
+      "name": "21财经 – 中间价与在岸收盘",
       "url": "https://m.21jingji.com/article/20261030/herald/20518ef351c77d5c249da708aacb7b05.html",
       "date": "2026-10-30"
      }
@@ -1992,10 +1992,10 @@
   "memory": {
    "id": "memory",
    "name": "介质（存储）供需与价值走势",
-   "judgment": "闪迪称明年需求增40%供应跟不上，涨价延续",
+   "judgment": "国产DRAM毛利近九成，终端厂囤货抗涨价",
    "direction": "恶化",
-   "directionNote": "较10月29日：NAND原厂也称2027年缺口扩大，服务器MLCC同步缺货",
-   "asOf": "2026-10-29",
+   "directionNote": "较10月29日：国产原厂同样涨价，下游开始用现金囤货",
+   "asOf": "2026-10-30",
    "keyNumbers": [
     {
      "label": "SK海力士2027—2028年产能长协覆盖",
@@ -2053,8 +2053,42 @@
      }
     }
    ],
-   "change": "本期新增：闪迪FY27Q1业绩与长约覆盖率、国产存储厂三季报、TrendForce高容MLCC缺货判断。未找到TrendForce 1Q27合约价新预测。",
+   "change": "本期新增：长鑫三季报（毛利率89.53%）、传音为存储涨价备货致存货近翻倍。TrendForce/CFM本期无新合约价数据。",
    "facts": [
+    {
+     "text": "长鑫科技三季报：营收1187.14亿元（环比+19.3%），归母净利544.35亿元（环比+3.0%），毛利率89.53%（环比+1.94pct）；第六代DRAM完成工程样片验证。",
+     "src": [
+      {
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34369832",
+       "date": "2026-10-30",
+       "repost": true
+      },
+      {
+       "name": "21世纪经济报道",
+       "url": "https://m.21jingji.com/article/20261030/herald/d0fc61a39b4797fbcf2a8604ef154a5a.html",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "传音囤存储：前三季度经营现金流-98.73亿元，三季末存货173.19亿元、较年初近翻倍，公司称为应对存储涨价备货；Q3扣非降47.7%。",
+     "src": [
+      {
+       "name": "东方财富网",
+       "url": "https://finance.eastmoney.com/a/202610303916776290.html",
+       "date": "2026-10-30",
+       "repost": true
+      },
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/020/163.htm",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "闪迪FY27Q1业绩：营收110.3亿美元（同比+378%，环比+23%），毛利率85.0%；数据中心环比+61%，消费类-29%；本季指引122亿—126亿美元。",
      "src": [
@@ -2863,6 +2897,13 @@
      "date": "2026-10-20",
      "repost": true,
      "stale": false
+    },
+    {
+     "name": "澎湃新闻 – 长鑫三季报",
+     "url": "https://www.thepaper.cn/newsDetail_forward_34369832",
+     "date": "2026-10-30",
+     "repost": true,
+     "stale": false
     }
    ],
    "domain": "ToC 终端"
@@ -2870,10 +2911,10 @@
   "auto": {
    "id": "auto",
    "name": "智能汽车",
-   "judgment": "合资利润塌陷，车企靠出海补内销",
+   "judgment": "问界销量降两成，合作伙伴普遍亏损",
    "direction": "恶化",
-   "directionNote": "较10月28日：比亚迪、上汽、大众三季报显示内销利润继续收缩",
-   "asOf": "2026-10-29",
+   "directionNote": "较10月29日：鸿蒙智行四家伙伴三季度均亏损或利润下滑",
+   "asOf": "2026-10-30",
    "keyNumbers": [
     {
      "label": "9月乘用车零售（乘联会）",
@@ -2909,8 +2950,42 @@
      }
     }
    ],
-   "change": "本期新增：比亚迪、大众、上汽三季报，小鹏MONA L05以13.98万元起搭载自研芯片智驾。乘联会本期无新周度数据。",
+   "change": "本期新增：赛力斯、江淮、北汽蓝谷、长安、广汽、长城三季报。乘联会本期无新周度数据。",
    "facts": [
+    {
+     "text": "鸿蒙智行伙伴三季报：赛力斯营收280.8亿元（-41.7%）、扣非亏13.65亿元，前三季度问界销量降17.7%；江淮单季亏3.92亿元，北汽蓝谷亏9.22亿元。",
+     "src": [
+      {
+       "name": "新浪财经",
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwziin5442757.shtml",
+       "date": "2026-10-30",
+       "repost": true
+      },
+      {
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15273597.html",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "国企车企三季报：长安单季亏7.58亿元、海外销量+64%；广汽亏25.2亿元，称启境上市投入加大；长城净利13.62亿元（-40.8%）。",
+     "src": [
+      {
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15274226.html",
+       "date": "2026-10-30",
+       "repost": true
+      },
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/020/250.htm",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "比亚迪三季报：营收2214.9亿元（+13.6%），净利100.2亿元（+28.1%）；前三季度净利223.5亿元（-4.2%），海外销量134万辆（+91%）。",
      "src": [
@@ -3484,6 +3559,13 @@
      "date": "2026-07-31",
      "repost": true,
      "stale": true
+    },
+    {
+     "name": "新浪财经 – 赛力斯三季报",
+     "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwziin5442757.shtml",
+     "date": "2026-10-30",
+     "repost": true,
+     "stale": false
     }
    ],
    "domain": "ToC 终端"
@@ -4110,10 +4192,10 @@
   "optics": {
    "id": "optics",
    "name": "光互联与光模块",
-   "judgment": "1.6T放量，光模块头部与二线分化",
+   "judgment": "光纤涨价未见顶，光模块二线供应商在增加",
    "direction": "恶化",
-   "directionNote": "较10月19日：需求更强，上游激光器和光纤仍缺，采购成本难降",
-   "asOf": "2026-10-29",
+   "directionNote": "较10月29日：长飞净利环比再增32%，采购成本仍难降",
+   "asOf": "2026-10-30",
    "keyNumbers": [
     {
      "label": "LightCounting以太网光模块2026年增速",
@@ -4151,8 +4233,36 @@
      }
     }
    ],
-   "change": "本期新增：中际旭创三季报（1.6T放量，营收+172%）及同行净利环比下滑。未核实Marvell收购Lumentum传闻（首发早于本期窗口）。",
+   "change": "本期新增：长飞、东山精密、烽火三季报。运营商光缆集采新中标价未检索到。",
    "facts": [
+    {
+     "text": "长飞光纤三季报：营收93.16亿元（+139.4%），归母净利32.03亿元（+1741.5%、环比+32%），据报前三季度毛利率55.31%；公司称智算中心带动量价齐升。",
+     "src": [
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/020/258.htm",
+       "date": "2026-10-30",
+       "repost": true
+      },
+      {
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15273873.html",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "东山精密三季报：归母净利23.32亿元（+401%），增长主要来自并表索尔思光电，称1.6T模块四季度批量出货。",
+     "src": [
+      {
+       "name": "21经济网",
+       "url": "https://www.21jingji.com/article/20261030/herald/d8aae3260dbc1e436775405277c8f2b2.html",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "中际旭创三季报：营收277.7亿元（+172%），归母净利85.9亿元（+174%），1.6T硅光模块放量；同期新易盛净利环比-19%、华工科技-12%。",
      "src": [
@@ -4635,6 +4745,13 @@
      "name": "Quartz（援引彭博，Lumentum CEO采访）",
      "url": "https://qz.com/lumentum-ai-data-center-optical-parts-sold-out-2029-100926",
      "date": "2026-10-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "IT之家 – 长飞三季报",
+     "url": "https://www.ithome.com/1/020/258.htm",
+     "date": "2026-10-30",
      "repost": true,
      "stale": false
     }
@@ -5916,7 +6033,7 @@
   "pvess": {
    "id": "pvess",
    "name": "光储供需与价格",
-   "judgment": "光伏制造全线亏损，逆变器龙头利润腰斩",
+   "judgment": "逆变器龙头利润腰斩，组件厂亏损收窄",
    "direction": "恶化",
    "directionNote": "较10月26日：阳光电源三季度净利环比降54%",
    "asOf": "2026-10-30",
@@ -5955,20 +6072,48 @@
      }
     }
    ],
-   "change": "本期新增：阳光电源、隆基等三季报；其中“八家合计亏损约277亿元”为媒体汇总。CNESA前三季度储能数据仍未核实到。",
+   "change": "本期新增：阳光电源、隆基、通威、天合、晶科三季报，能源局前三季度数据。CNESA储能数据与逆变器出口仍未核实到。",
    "facts": [
     {
-     "text": "光伏三季报：阳光电源三季度净利13.41亿元、降67.7%；据报八家光伏公司前三季度合计亏损约277亿元；隆基BC组件出货31.64GW、增118.6%。",
+     "text": "阳光电源三季报：营收179.5亿元（-21.5%），归母净利13.41亿元（-67.7%、环比-54%）；按上半年推算单季毛利率约29.5%（Q2 38.62%）。",
      "src": [
       {
-       "name": "每日经济新闻",
-       "url": "https://www.nbd.com.cn/articles/2026-10-30/4631204.html",
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/020/157.htm",
        "date": "2026-10-30",
-       "repost": false
+       "repost": true
       },
       {
-       "name": "同花顺（财经）",
-       "url": "http://stock.10jqka.com.cn/20261030/c681315776.shtml",
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15272878.html",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "光伏龙头三季报：隆基单季亏10.29亿元、通威亏16.39亿元，均环比收窄；天合前三季度亏19.42亿元，晶科亏33.67亿元。",
+     "src": [
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/020/177.htm",
+       "date": "2026-10-30",
+       "repost": true
+      },
+      {
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34369811",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "能源局发布会：前三季度光伏新增约1.1亿千瓦，9月底累计13.1亿千瓦成第一大电源；据报储能装机达167GW/435GWh。",
+     "src": [
+      {
+       "name": "东方财富网",
+       "url": "https://finance.eastmoney.com/a/202610303916395473.html",
        "date": "2026-10-30",
        "repost": true
       }
@@ -6300,6 +6445,13 @@
      "name": "新浪财经（转上市之家）",
      "url": "https://k.sina.cn/article_5953740931_162dee083067042l8w.html",
      "date": "2026-10-20",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "IT之家 – 阳光电源三季报",
+     "url": "https://www.ithome.com/1/020/157.htm",
+     "date": "2026-10-30",
      "repost": true,
      "stale": false
     }
@@ -6802,9 +6954,9 @@
    "id": "geo",
    "name": "中美、中欧地缘政策跟踪",
    "domain": "横向",
-   "judgment": "FCC再提限制，涉及使用华为设备的服务商",
+   "judgment": "FCC限制从检测延伸到号码和设备使用",
    "direction": "恶化",
-   "directionNote": "较10月29日：由实验室检测扩展到电话号码与设备使用",
+   "directionNote": "较10月29日：新增限制使用华为设备的服务商提案",
    "asOf": "2026-10-30",
    "keyNumbers": [
     {
@@ -6841,8 +6993,19 @@
      }
     }
    ],
-   "change": "本期新增：FCC定于11月19日表决禁止中国运营商直接获取美国电话号码的提案。稀土暂停期无新进展，未核实到变化。",
+   "change": "本期新增：FCC定于11月19日表决号码接入禁令；商务部、外交部回应实验室禁令，未公布具体反制。",
    "facts": [
+    {
+     "text": "FCC号码接入提案：拟禁三大中国运营商直接获取美国电话号码，并限制使用华为、中兴设备的IP服务商，11月19日表决。",
+     "src": [
+      {
+       "name": "VOA中文（引路透等）",
+       "url": "https://www.voachinese.com/a/us-plans-to-ban-chinese-telecom-firms-from-direct-access-to-us-phone-numbers-20261030/8216871.html",
+       "date": "2026-10-30",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "FCC检测实验室禁令：10月29日表决通过，与美无互认安排国家（含中国）的实验室不得做FCC认证检测，2028年12月生效；2025年82%的设备在中国检测。",
      "src": [
@@ -7109,6 +7272,11 @@
    ],
    "signals": [
     {
+     "what": "FCC表决号码接入与设备限制提案",
+     "when": "2026-11-19",
+     "why": "若通过，“用华为设备即受限”首次写进美国服务商规则"
+    },
+    {
      "what": "欧盟资助能源项目逆变器限制执行，是否有个案豁免",
      "when": "2026-11-01",
      "why": "验证欧委会是否真正“零延期”，决定数字能源欧洲项目受损范围"
@@ -7133,9 +7301,9 @@
     {
      "date": "2026-10-30",
      "region": "美国",
-     "title": "FCC拟禁中国运营商获取美国电话号码",
+     "title": "FCC拟禁中国运营商获取美国号码",
      "status": "征求意见",
-     "text": "提案禁止三大中国运营商直接接入美国电话号码，并拟限制使用华为、中兴设备的IP服务商；外交部称将采取必要措施。",
+     "text": "提案禁止三大中国运营商直接接入美国电话号码，并拟限制使用华为、中兴设备的IP服务商；外交部称坚决反对。",
      "next": {
       "date": "2026-11-19",
       "text": "FCC表决"
@@ -7156,7 +7324,7 @@
      "region": "美国",
      "title": "FCC禁止在华实验室做认证检测",
      "status": "已表决通过",
-     "text": "与美无检测互认安排国家（含中国）的实验室和认证机构不得做FCC认证检测，2028年12月生效；82%的输美设备原在中国检测。",
+     "text": "与美无检测互认安排国家（含中国）的实验室和认证机构不得做FCC认证检测，2028年12月生效；82%的输美设备原在中国检测；商务部、外交部10月30日称将采取必要措施。",
      "next": {
       "date": "2028-12",
       "text": "禁令生效，具体日期待联邦公报"
@@ -7174,6 +7342,12 @@
        "name": "观察者网（网易）",
        "url": "https://www.163.com/dy/article/LAE2R009051481US.html",
        "date": "2026-10-29",
+       "repost": true
+      },
+      {
+       "name": "澎湃新闻（外交部回应）",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34368375",
+       "date": "2026-10-30",
        "repost": true
       }
      ]
@@ -7885,6 +8059,13 @@
      "date": "2025-12-30",
      "repost": true,
      "stale": true
+    },
+    {
+     "name": "VOA中文（引路透等）",
+     "url": "https://www.voachinese.com/a/us-plans-to-ban-chinese-telecom-firms-from-direct-access-to-us-phone-numbers-20261030/8216871.html",
+     "date": "2026-10-30",
+     "repost": true,
+     "stale": false
     }
    ]
   }
@@ -8582,19 +8763,6 @@
     },
     "point": "称没能满足客户需求，内存高价延续到2027年。",
     "question": "PC市场两年下滑的预测是否已计入内存涨价？",
-    "suggest": null
-   },
-   "altman|2026-10-30|每个人电脑里存着全球有限的DR": {
-    "hyps": [
-     "H4"
-    ],
-    "main": "H4",
-    "stance": "支持",
-    "stances": {
-     "H4": "支持"
-    },
-    "point": "称家用电脑内存利用率低，主张有限DRAM优先用于数据中心。",
-    "question": "数据中心优先的内存分配是否会持续挤压消费电子供给？",
     "suggest": null
    }
   },
