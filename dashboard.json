@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-31",
- "updatedAt": "2026-10-31 10:30",
+ "asOf": "2026-11-01",
+ "updatedAt": "2026-11-01 07:40",
  "leaders": [
   {
    "id": "jensen",
@@ -4256,33 +4256,38 @@
    "company": "比亚迪",
    "en": "BYD",
    "biz": "汽车",
-   "period": "2026年Q2",
-   "reportDate": "2026-08-28",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-29",
    "metrics": [
     {
-     "label": "营收",
-     "value": "1,946亿元",
-     "yoy": "-3%"
+     "label": "Q3营收",
+     "value": "2214.88亿元",
+     "yoy": "+13.59%"
     },
     {
-     "label": "归母净利润",
-     "value": "82亿元",
-     "yoy": "+30%"
+     "label": "Q3归母净利润",
+     "value": "100.20亿元",
+     "yoy": "+28.08%"
     },
     {
-     "label": "海外销量",
-     "value": "47.1万辆",
-     "yoy": "+82.5%"
+     "label": "前三季度归母净利润",
+     "value": "223.45亿元",
+     "yoy": "-4.24%"
+    },
+    {
+     "label": "Q3销量",
+     "value": "约132.3万辆",
+     "yoy": "+18.7%"
     }
    ],
-   "highlight": "国内收缩、海外高增，出口成为增长主引擎",
+   "highlight": "单季营收和利润均两位数增长，销量为年内首次单季同比转正；前三季度营收5663.04亿元基本持平，毛利率18.52%，研发费用362.77亿元。",
    "guidance": "",
    "nextReport": "",
    "source": {
-    "name": "SCMP",
-    "url": "https://www.scmp.com/business/china-evs/article/3365652/byd-posts-us12-billion-profit-second-quarter-surging-global-demand"
+    "name": "新浪财经",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-10-30/doc-iniwyfwf4814810.shtml"
    },
-   "updatedOn": "2026-08-28",
+   "updatedOn": "2026-10-31",
    "statements": {
     "period": "2026年上半年",
     "unit": "百万元人民币",
@@ -4763,6 +4768,43 @@
     "url": "https://newsroom.ibm.com/2026-10-21-IBM-RELEASES-THIRD-QUARTER-RESULTS"
    },
    "updatedOn": "2026-10-23"
+  },
+  {
+   "company": "工业富联",
+   "en": "Foxconn Industrial Internet",
+   "biz": "计算与云",
+   "period": "2026年Q3",
+   "reportDate": "2026-10-29",
+   "metrics": [
+    {
+     "label": "Q3营收",
+     "value": "3835.54亿元",
+     "yoy": "+57.73%"
+    },
+    {
+     "label": "Q3归母净利润",
+     "value": "166.34亿元",
+     "yoy": "+60.35%"
+    },
+    {
+     "label": "前三季度营收",
+     "value": "9414.14亿元",
+     "yoy": "+55.88%"
+    },
+    {
+     "label": "前三季度归母净利润",
+     "value": "403.75亿元",
+     "yoy": "+79.55%"
+    }
+   ],
+   "highlight": "公司称AI算力需求持续爆发、主要客户份额提升；据报道云计算业务营收同比增75%、环比增25%，AI-ASIC服务器出货同比增约1.5倍（单一来源）。",
+   "guidance": "",
+   "nextReport": "",
+   "source": {
+    "name": "新浪财经",
+    "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtus5976237.shtml"
+   },
+   "updatedOn": "2026-10-31"
   }
  ],
  "markets": {
@@ -5943,22 +5985,6 @@
  ],
  "calendar": [
   {
-   "date": "2026-10-31",
-   "title": "我司Pura 90 Plus、畅享100系列开售（10:08）",
-   "type": "发布",
-   "biz": "终端",
-   "confirmed": true,
-   "updatedOn": "2026-10-29"
-  },
-  {
-   "date": "2026-10-31",
-   "title": "国家统计局10月PMI；A股三季报披露截止（隆基、通威、天合、晶科等）",
-   "type": "行业",
-   "biz": "全业务、能源",
-   "confirmed": true,
-   "updatedOn": "2026-10-30"
-  },
-  {
    "date": "2026-11-01",
    "title": "欧盟资助能源项目开始排除高风险逆变器供应商",
    "type": "政策",
@@ -5996,6 +6022,14 @@
    "updatedOn": "2026-10-30"
   },
   {
+   "date": "2026-11-03",
+   "title": "Arista三季报（据报，数据中心网络需求）",
+   "type": "财报",
+   "biz": "联接",
+   "confirmed": false,
+   "updatedOn": "2026-11-01"
+  },
+  {
    "date": "2026-11-04",
    "title": "高通FY26Q4财报",
    "type": "财报",
@@ -6009,6 +6043,14 @@
    "biz": "计算与云",
    "confirmed": true,
    "updatedOn": "2026-10-28"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "iOS 27.3开发者Beta：国行Apple智能（千问）首批功能",
+   "type": "发布",
+   "biz": "终端",
+   "confirmed": true,
+   "updatedOn": "2026-11-01"
   },
   {
    "date": "2026-11-05",

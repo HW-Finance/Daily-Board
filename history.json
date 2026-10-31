@@ -1,5 +1,223 @@
 [
  {
+  "date": "2026-11-01",
+  "weekday": "周日",
+  "updatedAt": "2026-11-01 07:40",
+  "highlights": [
+   {
+    "text": "苹果官宣国行Apple智能接入阿里千问、12月上线，我司小艺在iPhone生态内拿不到入口，终端AI差异化窗口缩短。",
+    "item": "苹果官宣国行Apple智能接入阿里千问：11月4日开发者Beta，12月随iOS 27.3全量推送"
+   },
+   {
+    "text": "据报新兴AI云厂商发债受阻、OpenAI融资目标下调约三分之一，海外GPU增量订单可能阶段性放缓。",
+    "item": "据报CoreWeave、Nebius、Nscale近几周基本被债券市场拒之门外，OpenAI融资目标据报由300亿美元降至约200亿美元"
+   },
+   {
+    "text": "国产设备厂北方华创三季度营收仅增1.31%、称物料紧张拖累交付，国产产能爬坡要按设备交付节奏看。",
+    "item": "北方华创三季度营收仅增1.31%，称物料紧张拖累交付；拓荆、盛美单季增速也放缓"
+   },
+   {
+    "text": "10月制造业PMI降至49.3%，新出口订单据报回落至48.7%，海外收入预测需留余量。",
+    "item": "10月官方制造业PMI降至49.3%，新出口订单回落至收缩区间，计算机通信电子设备行业产需仍在53%以上"
+   }
+  ],
+  "sections": [
+   {
+    "key": "compute",
+    "name": "计算与云",
+    "items": [
+     {
+      "tag": "关注",
+      "title": "据报CoreWeave、Nebius、Nscale近几周基本被债券市场拒之门外，OpenAI融资目标据报由300亿美元降至约200亿美元",
+      "summary": "据华尔街日报，新兴AI云厂商CoreWeave、Nebius、Nscale近几周实际上无法发债，贷款人要求更苛刻条款；报道称CoreWeave 2031年到期债券收益率升至约15.8%的纪录。另据英国金融时报，OpenAI将本轮融资目标从约300亿美元削减至约200亿美元，估值从1.4万亿美元降至1.25万亿美元，华尔街日报称已落实承诺约110亿美元。",
+      "comment": "1. GPU租赁和AI数据中心的下游资金正在收紧：新兴云厂商融资受阻、头部模型公司募资缩水，会先压制海外对英伟达等GPU的增量订单，我司昇腾和华为云面对的海外竞品供需可能阶段性放松，但这一判断取决于缩水是否传导到实际下单。",
+      "sources": [
+       {
+        "name": "Techmeme(转引华尔街日报)",
+        "url": "https://www.techmeme.com/261031/p4"
+       },
+       {
+        "name": "Newscord(7家媒体对比)",
+        "url": "https://newscord.org/article/openai-slashes-funding-target-to-20-billion-cuts-valuation-to-125-trillion--Story_20261031_OpenAIreportedlylowe45229ca6"
+       },
+       {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "devices",
+    "name": "终端",
+    "items": [
+     {
+      "tag": "竞争",
+      "title": "苹果官宣国行Apple智能接入阿里千问：11月4日开发者Beta，12月随iOS 27.3全量推送",
+      "summary": "苹果10月31日在中国新闻中心宣布，Apple智能首批功能11月4日面向开发者开放Beta，12月随iOS 27.3向用户推送；千问接入Siri、写作工具和视觉智能，用户可自选是否开启，阿里称请求数据不用于模型训练。首批含实时翻译、写作工具、视觉智能、清除工具，WWDC 2026的升级版Siri不在其中。",
+      "comment": "1. 苹果国行端侧AI入口选了阿里千问而非盘古等其他模型，我司小艺及鸿蒙端侧AI在国内要直接与iPhone上的千问争用户使用时长。\n2. 国行iPhone 12月补齐Siri、写作、视觉三类AI能力，正赶上年末旺季，我司高端机型相对国行苹果的AI差异化窗口缩短；但首批不含升级版Siri，短期仍有差距可守。",
+      "sources": [
+       {
+        "name": "The Apple Post",
+        "url": "https://www.theapplepost.com/2026/10/31/73758/apple-confirms-qwen-support-in-china-as-ios-27-3-beta-arrives-november-4/"
+       },
+       {
+        "name": "新华社英文网",
+        "url": "https://english.news.cn/20261031/0642ddf499b643b1b8babd0b43adee85/c.html"
+       },
+       {
+        "name": "The Next Web",
+        "url": "https://thenextweb.com/news/apple-intelligence-china-ios-27-3-alibaba-qwen"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "network",
+    "name": "联接",
+    "items": []
+   },
+   {
+    "key": "auto",
+    "name": "汽车",
+    "items": []
+   },
+   {
+    "key": "energy",
+    "name": "能源",
+    "items": []
+   },
+   {
+    "key": "policy",
+    "name": "政策与地缘",
+    "items": [
+     {
+      "tag": "关注",
+      "title": "10月官方制造业PMI降至49.3%，新出口订单回落至收缩区间，计算机通信电子设备行业产需仍在53%以上",
+      "summary": "国家统计局10月31日公布：10月制造业PMI 49.3%，较9月降0.8个百分点；生产指数49.8%、新订单指数49.4%；高技术制造业PMI 51.3%；计算机通信电子设备等行业生产和新订单指数均在53.0%及以上。据媒体报道，新出口订单指数从50.0降至48.7。官方称主因国庆前需求提前释放及外部环境变化。",
+      "table": {
+       "caption": "2026年10月官方PMI",
+       "columns": [
+        "指标",
+        "10月",
+        "较9月"
+       ],
+       "rows": [
+        [
+         "制造业PMI",
+         "49.3%",
+         "-0.8pt"
+        ],
+        [
+         "生产指数",
+         "49.8%",
+         "-1.9pt"
+        ],
+        [
+         "新订单指数",
+         "49.4%",
+         "-1.1pt"
+        ],
+        [
+         "高技术制造业PMI",
+         "51.3%",
+         "仍在扩张区间"
+        ],
+        [
+         "新出口订单(据媒体)",
+         "48.7%",
+         "9月50.0%"
+        ]
+       ]
+      },
+      "comment": "1. 新出口订单从9月50.0%降至48.7%（据媒体）、回到收缩区间，我司海外收入预测需要对出口链需求偏弱留出余量；国内计算机通信电子设备产需仍在53%以上，国内ICT与终端上游配套需求暂未受影响。",
+      "sources": [
+       {
+        "name": "东方财富网：国家统计局10月官方制造业PMI为49.3%",
+        "url": "https://finance.eastmoney.com/a/202610313917521468.html"
+       },
+       {
+        "name": "21财经：10月高技术制造业PMI为51.3%",
+        "url": "https://m.21jingji.com/article/20261031/herald/580c43420891b2c594603c6a14331739.html"
+       },
+       {
+        "name": "FX168转国家统计局解读",
+        "url": "https://www.fx168news.com/express/fastnews/1459804"
+       },
+       {
+        "name": "U.S. News/AP：China's factory activity slips as new export orders weaken",
+        "url": "https://www.usnews.com/news/business/articles/2026-10-31/chinas-factory-activity-slips-as-new-export-orders-weaken"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "supply",
+    "name": "芯片半导体",
+    "items": [
+     {
+      "tag": "关注",
+      "title": "北方华创三季度营收仅增1.31%，称物料紧张拖累交付；拓荆、盛美单季增速也放缓",
+      "summary": "据第一财经统计，北方华创前三季度营收314.67亿元、增15.26%，归母净利润53.92亿元、增5.10%；三季度营收113.06亿元、仅增1.31%，前三季度毛利率由41.41%降至39.44%，公司称个别品类物料供应紧张使部分订单交付承压。拓荆科技三季度营收增1.84%；盛美上海在手订单170.73亿元、增88.2%。",
+      "table": {
+       "caption": "国产设备厂三季报",
+       "columns": [
+        "公司",
+        "三季度营收同比",
+        "备注"
+       ],
+       "rows": [
+        [
+         "北方华创",
+         "+1.31%",
+         "毛利率降至39.44%"
+        ],
+        [
+         "拓荆科技",
+         "+1.84%",
+         "前三季度净利增336.79%"
+        ],
+        [
+         "盛美上海",
+         "未披露",
+         "在手订单170.73亿，+88.2%"
+        ]
+       ]
+      },
+      "comment": "1. 国产设备交付受零部件物料限制而非订单不足，盛美在手订单增88%而营收增速放缓，说明国产晶圆厂扩产的设备到位节奏慢于订单，我司海思相关国产产能的爬坡时点要按设备交付而非资本开支来判断。",
+      "sources": [
+       {
+        "name": "第一财经(新浪转载)",
+        "url": "https://finance.sina.com.cn/tech/roll/2026-10-31/doc-inixaray1752390.shtml"
+       },
+       {
+        "name": "第一财经",
+        "url": "https://www.yicai.com/news/103419463.html"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "11月2日 周一",
+    "text": "苹果发布FY26Q4财报，看大中华区收入与国行iPhone 17/折叠机备货信号。"
+   },
+   {
+    "when": "11月3日 周二",
+    "text": "Arista（据报）与AMD披露三季报，检验数据中心网络与AI GPU需求。"
+   },
+   {
+    "when": "11月4日 周三",
+    "text": "iOS 27.3开发者Beta开放国行Apple智能（千问）首批功能。"
+   }
+  ]
+ },
+ {
   "date": "2026-10-31",
   "weekday": "周六",
   "updatedAt": "2026-10-31 10:30",
