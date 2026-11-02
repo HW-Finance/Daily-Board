@@ -1,27 +1,39 @@
 {
- "date": "2026-11-02",
- "weekday": "周一",
- "updatedAt": "2026-11-02 09:49",
+ "date": "2026-11-03",
+ "weekday": "周二",
+ "updatedAt": "2026-11-03 07:01",
  "highlights": [
   {
-   "text": "鸿蒙智行10月交付3.35万台、同比降50.8%，连续两个月回落，乾崑相关出货同比承压。",
-   "item": "鸿蒙智行10月交付33537台同比降50.8%，赛力斯销量同比腰斩，连续两个月回落"
+   "text": "Marvell拟以约1150亿美元全股票收购Lumentum，光DSP与激光器、光模块合为一家，海外AI光互联对手更集中，国内光模块激光器来源存变数。",
+   "item": "Marvell以约1150亿美元全股票收购Lumentum，DSP与激光器/光模块/OCS合并成AI光互联全栈供应商"
   },
   {
-   "text": "阿维塔、岚图10月同比降49.6%、24.3%，而未用华为方案的昊铂埃安增56.8%，搭载乾崑未能让合作品牌跑赢大盘。",
-   "item": "乾崑合作品牌10月普遍同比下滑：阿维塔7056辆降49.6%，岚图13030辆降24.3%，深蓝32602辆降11.4%"
+   "text": "苹果12月季度毛利率指引降至45%–46%并已涨价应对内存成本，内存涨价已传导到最强厂商，国产旗舰跟涨不会单独失去价格优势。",
+   "item": "苹果FY26 Q4营收1144.8亿美元增12%，大中华区175.4亿美元增21%但低于预期，12月季度毛利率指引降至45%–46%"
   },
   {
-   "text": "欧盟资助能源项目11月1日起排除华为等高风险逆变器，每年约14GW公共资金项目对我司数字能源关闭。",
-   "item": "欧盟资助能源项目排除高风险逆变器供应商11月1日起执行，欧委会此前拒绝推迟"
+   "text": "中国电信联合长飞、中兴完成千公里级空芯光纤双向实时传输，干线新介质验证由中兴先行，我司干线光传送在电信面临新竞争点。",
+   "item": "中国电信研究院联合长飞、中兴完成1007.48公里空芯光纤双向实时传输验证，单纤容量128Tb/s"
   },
   {
-   "text": "零跑、小鹏、小米、极氪10月均创新高，增量在自研智驾品牌，我司分享中端增量要靠尚界等中低价合作车型。",
-   "item": "新势力10月分化：零跑10.6万破纪录，小鹏、小米首破5万，极氪增52%，蔚来、理想同比双降"
+   "text": "台湾经济部证实拟依《贸易法》把高阶芯片、机床等输陆纳入出口管理，管制从“管企业”转向“管货品”，经第三地转运的通道将收紧。",
+   "item": "台湾经济部证实研议依《贸易法》管制高阶芯片、工具机等高科技货品输往大陆"
   },
   {
-   "text": "比亚迪、奇瑞、长城等靠出口撑量，五家出口合计约70万辆，乾崑与鸿蒙座舱要随车出海才能跟上。",
-   "item": "自主车企10月靠出口撑量：比亚迪海外16.96万辆增103%而国内降10.6%，奇瑞出口20.1万，长城海外占比首超50%"
+   "text": "中国移动AI超节点集采结果出炉，大华子公司4096卡中标26.3亿元、约64万元/卡，为昇腾超节点运营商报价提供参照。",
+   "item": "中国移动117亿元AI超节点集采：大华子公司华启智慧中标4096卡、金额约26.3亿元"
+  },
+  {
+   "text": "VMO2称诺基亚AI-RAN试验用Marvell基带芯片“不需要GPU”，削弱英伟达进入RAN的路线，利于自研基带路线。",
+   "item": "Light Reading：诺基亚在VMO2伦敦的AI-RAN试验用Marvell基带芯片而非英伟达GPU，频谱效率提升约20%"
+  },
+  {
+   "text": "阳光电源称明年储能出货有望接近翻倍、远快于其自估需求增速，海外大储项目价格竞争将加剧。",
+   "item": "阳光电源称2026年储能出货将超60GWh，按在手订单2027年有望接近翻倍"
+  },
+  {
+   "text": "据报车企进京协商对欧混动出口配额，若按历史出口量分配，乾崑合作品牌混动车进入欧洲的空间有限。",
+   "item": "据报多家车企进京协商对欧混动汽车出口配额，总量以2025年30.2万辆为基础"
   }
  ],
  "sections": [
@@ -31,24 +43,60 @@
    "items": [
     {
      "tag": "关注",
-     "title": "沙特阿美完成入股HUMAIN：现金约26亿美元加AI与算力资产换取49%股权，HUMAIN目标2030年3GW",
-     "summary": "11月1日，沙特公共投资基金（PIF）与沙特阿美宣布完成HUMAIN交易：阿美经全资子公司持股49%，PIF保留51%；阿美2026年出资约99亿里亚尔（约26亿美元）现金，并注入其AI、算力和数字资产（资产作价未披露）。阿美将用HUMAIN基础设施做油气等工业AI应用。HUMAIN目标2030年达3GW AI数据中心容量，NEOM Oxagon园区首期360MW、在建100MW（10月21日披露）。",
+     "title": "中国移动117亿元AI超节点集采：大华子公司华启智慧中标4096卡、金额约26.3亿元",
+     "summary": "大华股份11月2日晚公告，子公司华启智慧中标中国移动AI超节点设备采购项目，份额4096卡、金额约26.3亿元（含税），交货期30天，超出董事会此前预计的20.5亿元上限。该项目共采购超节点20480卡、RoCE交换机448台、存储82套，五家候选人总报价约116.6亿–117亿元。",
+     "comment": "1. 华启智慧4096卡对应26.3亿元，折合约64万元/卡（含交换机与存储配套），全项目约57万元/卡，可作为运营商超节点含组网单卡价格的参照，用于比对昇腾超节点在运营商集采中的报价空间。",
      "sources": [
       {
-       "name": "Aramco官网",
-       "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth"
+       "name": "星岛环球网",
+       "url": "https://m.stnn.cc/detail/6ae870f08f9d2b19dd1f088c.html"
       },
       {
-       "name": "Arabian Business",
-       "url": "https://www.arabianbusiness.com/business/technology/saudi-aramco-acquires-49-stake-in-humain-in-2-6bn-ai-deal-with-pif"
+       "name": "同花顺财经",
+       "url": "http://stock.10jqka.com.cn/20261102/c681371513.shtml"
       },
       {
-       "name": "Saudi Gulf Projects",
-       "url": "https://www.saudigulfprojects.com/2026/11/aramco-closes-2-6-billion-deal-49-percent-stake-humain-pif/"
+       "name": "新浪财经",
+       "url": "https://finance.sina.com.cn/stock/aigc/reltrade/2026-11-02/doc-inixkeur0313374.shtml"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "布鲁克菲尔德选定KB国民银行牵头约80亿美元GPU贷款，为NAVER采购AI芯片并长期租给NAVER Cloud",
+     "summary": "据彭博11月2日报道，KB国民银行牵头10.7万亿韩元（约80亿美元）银团贷款，属12.6万亿韩元项目包，为韩国首笔大规模GPU融资；布鲁克菲尔德设SPV购入GPU后长期租给NAVER Cloud，新韩、友利、韩亚已确认参与，利率据报约5%后段。项目源于7月NAVER、英伟达与布鲁克菲尔德的100亿美元AI工厂计划。",
+     "sources": [
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-02/brookfield-taps-kb-to-lead-korea-s-first-gpu-loan-at-8-billion"
       },
       {
-       "name": "FourWeekMBA",
-       "url": "https://fourweekmba.com/ai-aramco-takes-49-of-humain-for-2-6b-cash-plus-ai-assets/"
+       "name": "Private Equity Wire",
+       "url": "https://www.privateequitywire.co.uk/brookfield-selects-kb-to-arrange-8bn-korean-ai-infrastructure-loan/"
+      },
+      {
+       "name": "The Korea Herald",
+       "url": "https://www.koreaherald.com/article/10921731"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "摩尔线程无锡惠山智算中心一期2000卡投运三个月满载，拟扩容至万卡级，新石器自动驾驶训练需求近万卡",
+     "summary": "11月2日报道：无锡（惠山）国产智算中心一期2000张摩尔线程GPU投运三个月即满载，20余家客户在用，训练业务占比超62%；摩尔线程与惠山招商、新石器10月31日签署战略合作，新石器将在该中心做自动驾驶模型训练，所需算力接近万卡级。协议金额与期限未披露。",
+     "comment": "1. 训练业务占比超62%且有自动驾驶客户排队，说明摩尔线程已在地方国产智算中心的训练场景拿到付费客户，昇腾在地方政府主导的国产算力项目中面对的对手不只寒武纪和海光。",
+     "sources": [
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/discovery/2026-11-02/doc-inixicie7311162.shtml"
+      },
+      {
+       "name": "快科技",
+       "url": "https://news.mydrivers.com/1/1162/1162344.htm"
+      },
+      {
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34385069"
       }
      ]
     }
@@ -57,312 +105,259 @@
   {
    "key": "devices",
    "name": "终端",
-   "items": []
+   "items": [
+    {
+     "tag": "竞争",
+     "title": "苹果FY26 Q4营收1144.8亿美元增12%，大中华区175.4亿美元增21%但低于预期，12月季度毛利率指引降至45%–46%",
+     "summary": "苹果北京时间11月3日晨发布截至9月26日的财季业绩：营收1144.8亿美元增12%，iPhone收入575.8亿美元增约17%；大中华区175.4亿美元增21%，低于预期187.5亿美元；毛利率47.9%（含约1个百分点关税退款）。12月季度指引营收增7%–10%、毛利率45%–46%，新任CEO特努斯称内存成本将继续上升，据报苹果已涨价抵消部分成本。",
+     "table": {
+      "caption": "苹果FY26 Q4主要数据（亿美元）",
+      "columns": [
+       "项目",
+       "金额",
+       "同比/说明"
+      ],
+      "rows": [
+       [
+        "总营收",
+        "1144.8",
+        "+12%（预期1134.7）"
+       ],
+       [
+        "iPhone",
+        "575.8",
+        "约+17%"
+       ],
+       [
+        "服务",
+        "315.7",
+        "+9.8%，2022年以来最低增速"
+       ],
+       [
+        "Mac / iPad / 可穿戴",
+        "107.9 / 62.3 / 83.0",
+        "iPad低于预期"
+       ],
+       [
+        "大中华区",
+        "175.4",
+        "+21%（预期187.5）"
+       ],
+       [
+        "12月季度指引",
+        "营收+7%–10%",
+        "毛利率45%–46%"
+       ]
+      ]
+     },
+     "comment": "1. 苹果毛利率指引从47.9%降到45%–46%，并承认已靠涨价抵消部分内存成本，说明内存涨价已传导到毛利最厚的厂商，国内旗舰跟随涨价时不会单独失去对iPhone的价格优势。\n2. 大中华区增21%仍比预期少约12亿美元，且苹果称12月季度指引已计入供应受限，iPhone Duo在四季度对我司折叠屏的冲击受其产能约束。",
+     "sources": [
+      {
+       "name": "新浪财经",
+       "url": "https://finance.sina.cn/tech/2026-11-03/detail-inixkzyf0022016.d.html"
+      },
+      {
+       "name": "新浪财经（财联社）",
+       "url": "https://finance.sina.cn/2026-11-03/detail-inixkzyh6767350.d.html"
+      },
+      {
+       "name": "FX168",
+       "url": "https://www.fx168news.com/express/fastnews/1460805"
+      },
+      {
+       "name": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/stocks/live/apple-earnings-live-apple-beats-q4-estimates-on-strong-iphone-sales-but-misses-on-china-revenue-221806957.html"
+      },
+      {
+       "name": "金十（实时新闻转载）",
+       "url": "https://shishixinwen.news/news/jin10/20261103053449859800"
+      },
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/021/284.htm"
+      }
+     ]
+    }
+   ]
   },
   {
    "key": "network",
    "name": "联接",
-   "items": []
+   "items": [
+    {
+     "tag": "竞争",
+     "title": "Marvell以约1150亿美元全股票收购Lumentum，DSP与激光器/光模块/OCS合并成AI光互联全栈供应商",
+     "summary": "11月2日（美东）Marvell宣布全股票收购Lumentum，企业价值约1150亿美元、股权价值约1025亿美元，每股Lumentum换4.5股Marvell，溢价约23.9%；称年化成本协同超10亿美元、合并后可及市场5500亿美元，预计2028年上半年交割；监管否决时Marvell需付32亿美元分手费。当日两家股价分别跌超10%和约15%。",
+     "table": {
+      "caption": "交易要点",
+      "columns": [
+       "项目",
+       "数值"
+      ],
+      "rows": [
+       [
+        "企业价值",
+        "约1150亿美元"
+       ],
+       [
+        "换股比例",
+        "1股LITE换4.5股MRVL"
+       ],
+       [
+        "交割后Marvell股东持股",
+        "约67%"
+       ],
+       [
+        "成本协同",
+        "年化超10亿美元"
+       ],
+       [
+        "监管否决分手费",
+        "32亿美元"
+       ],
+       [
+        "预计交割",
+        "2028年上半年"
+       ]
+      ]
+     },
+     "comment": "1. 合并后Marvell同时拥有光DSP、激光器、光模块和光电路交换（OCS），可向北美云厂商整包供应AI集群光互联，我司数据中心光模块与数通交换机在海外AI集群面对的对手规模更大、方案更完整。\n2. Lumentum是国内高速光模块所用EML等激光器的主要外部来源之一，被同为DSP供应商的Marvell控制后，国内光模块厂的激光器供货优先级和价格存在变数；交割预计在2028年上半年，需经包括中国在内的反垄断审批。",
+     "sources": [
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings"
+      },
+      {
+       "name": "The Globe and Mail",
+       "url": "https://www.theglobeandmail.com/business/article-marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-centre-bet/"
+      },
+      {
+       "name": "Quartz",
+       "url": "https://qz.com/marvell-lumentum-acquisition-115-billion-all-stock-110226"
+      },
+      {
+       "name": "Seeking Alpha",
+       "url": "https://seekingalpha.com/news/4662061-marvell-announces-115b-all-stock-deal-for-lumentum"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "中国电信研究院联合长飞、中兴完成1007.48公里空芯光纤双向实时传输验证，单纤容量128Tb/s",
+     "summary": "11月2日中国电信研究院公布，与长飞、中兴通讯在1007.48公里空芯光纤链路上实现扩展C+L波段单波800Gb/s（PCS-16QAM）单纤双向传输，总容量128Tb/s；采用常规功率商用放大器，官方称为全球首个千公里级空芯光纤双向实时传输。去年11月电信刚完成超百公里空芯光纤实验。",
+     "comment": "1. 空芯光纤一年内由百公里级实验推进到千公里级、且用商用放大器完成，已进入干线可用性验证；这次设备合作方是中兴，若中国电信后续开展空芯干线试点，中兴在设备侧已先行一步，对我司干线光传送在电信的份额构成竞争。",
+     "sources": [
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/020/887.htm"
+      },
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-11-02/doc-inixicic0502347.shtml"
+      },
+      {
+       "name": "快科技",
+       "url": "https://news.mydrivers.com/1/1162/1162323.htm"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "Light Reading：诺基亚在VMO2伦敦的AI-RAN试验用Marvell基带芯片而非英伟达GPU，频谱效率提升约20%",
+     "summary": "11月2日Light Reading报道，VMO2与诺基亚在伦敦Paddington站点的AI-RAN试验据报采用Marvell代号ABIP的L1芯片，频谱效率提升约20%；VMO2移动接入工程总监称“做这件事不需要GPU”。此前报道称该站点使用英伟达GPU基带卡，诺基亚与VMO2未正式确认芯片来源。",
+     "comment": "1. 运营商公开称AI-RAN“不需要GPU”，频谱效率提升约20%靠专用基带芯片即可实现，这削弱英伟达借诺基亚进入无线接入网的路线，对同样用自研基带芯片的我司无线产品是有利佐证。",
+     "sources": [
+      {
+       "name": "Light Reading",
+       "url": "https://www.lightreading.com/5g/nokia-quickie-with-marvell-at-vmo2-shows-ai-ran-needs-no-nvidia"
+      },
+      {
+       "name": "Telecompaper",
+       "url": "https://www.telecompaper.com/news/vmo2-nokia-complete-live-ai-ran-technology-trial-in-london--1586785"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "据报联电拿下中际旭创、赛丽光子硅光芯片代工订单，初期约1万片，单价约为传统CMOS的7倍",
+     "summary": "据台媒11月2日报道，联电获中际旭创及腾讯投资的赛丽光子（SILITH）光子集成电路（PIC）代工订单，初期约1万片晶圆，在新加坡厂生产，报价据报约为传统CMOS工艺7倍；联电PIC长期月产能目标1.8万片，2030年达完整规模。目前具备硅光PIC量产能力的代工厂主要是高塔和格芯，联电未予置评。",
+     "sources": [
+      {
+       "name": "经济日报（台湾）",
+       "url": "https://money.udn.com/money/story/5612/9850895"
+      },
+      {
+       "name": "同花顺财经",
+       "url": "http://stock.10jqka.com.cn/20261102/c681349960.shtml"
+      },
+      {
+       "name": "快科技",
+       "url": "https://news.mydrivers.com/1/1162/1162302.htm"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "据报SpaceX洽谈收购EchoStar旗下Boost Mobile或租用其网络，推进卫星+地面混合移动网",
+     "summary": "据《华盛顿邮报》11月2日报道，SpaceX正与EchoStar洽谈收购Boost Mobile（2025年末750万用户）或使用其网络，以推出Starlink品牌移动业务；马斯克上月与EchoStar董事长Ergen面谈，SpaceX此前接触Verizon、AT&T、T-Mobile被拒。双方未置评，T-Mobile盘前跌约2%。",
+     "sources": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/02/spacex-reportedly-wants-to-buy-boost-mobile-to-compete-with-att-t-mobile-and-verizon/"
+      },
+      {
+       "name": "Investing.com（路透）",
+       "url": "https://www.investing.com/news/stock-market-news/spacex-in-talks-to-buy-boost-mobile-or-use-its-network-washington-post-reports-4990666"
+      }
+     ]
+    },
+    {
+     "tag": "机会",
+     "title": "中国信通院：网号确权打通5G独立专网落地瓶颈，行业企业可获独立网络标识",
+     "summary": "11月2日C114刊发中国信通院王涵观点：5G独立专网落地卡在“网归谁”，需通过网号确权解决；独立专网身份识别码单独规划、终端号段按企业规模分配，据报行业专网代码设为90，并配合五部门工业5G独立专网试点及试验频率许可推进。",
+     "comment": "1. 若企业可拿到独立网号自建自管5G专网，核心网和基站可由企业直接向设备商采购、不必经运营商转包，我司5G专网可直接面向电力、矿山、制造等行业客户销售，取决于试点频率许可的发放范围。",
+     "sources": [
+      {
+       "name": "新浪科技（C114）",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-11-02/doc-inixkeus7131288.shtml"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "Telia与爱立信在瑞典启动上6GHz频段6G外场试验，目标2030–2032年商用",
+     "summary": "11月2日Telia与爱立信宣布在瑞典启动6G户外外场试验，采用爱立信预标准6G技术、上6GHz频段，测试覆盖、上行容量、可靠性和时延，并评估6GHz与600MHz频谱需求；属瑞典6G联合路线图一部分，Telia还将牵头制定国家6G安全架构。",
+     "comment": "1. 瑞典已于2020年禁止我司设备进入5G网络，此次由Telia牵头制定国家6G安全架构，6G阶段瑞典市场大概率延续排除高风险供应商，北欧6G对我司无线业务基本不构成增量。",
+     "sources": [
+      {
+       "name": "Advanced Television",
+       "url": "https://www.advanced-television.com/2026/11/02/telia-ericsson-launch-6g-field-trials-in-sweden/"
+      },
+      {
+       "name": "TelecomTV",
+       "url": "https://www.telecomtv.com/content/6g/telia-trials-6g-with-ericsson-56573/"
+      },
+      {
+       "name": "MarketScreener",
+       "url": "https://www.marketscreener.com/news/telia-and-ericsson-launch-6g-trials-in-sweden-ce785fd8de8bff24"
+      }
+     ]
+    }
+   ]
   },
   {
    "key": "auto",
    "name": "汽车",
    "items": [
     {
-     "tag": "竞争",
-     "title": "鸿蒙智行10月交付33537台同比降50.8%，赛力斯销量同比腰斩，连续两个月回落",
-     "summary": "鸿蒙智行10月交付33537台（去年同期68216台），累计超160万台，全系成交均价超40万元。赛力斯10月销量27037辆（-50.3%），1-10月累计310198辆（-21.5%）。据报智界交付6090辆；智界RX 10月25日才开始批量交付，交付周期4–6周。",
-     "table": {
-      "caption": "鸿蒙智行/赛力斯10月数据（辆）",
-      "columns": [
-       "指标",
-       "10月",
-       "9月",
-       "同比"
-      ],
-      "rows": [
-       [
-        "鸿蒙智行交付",
-        "33537",
-        "37490",
-        "-50.8%"
-       ],
-       [
-        "赛力斯汽车（问界）",
-        "22105",
-        "—",
-        "约-54.7%"
-       ],
-       [
-        "赛力斯总销量",
-        "27037",
-        "—",
-        "-50.3%"
-       ],
-       [
-        "智界（据报）",
-        "6090",
-        "—",
-        "—"
-       ]
-      ]
-     },
-     "comment": "1. 鸿蒙智行10月交付同比减半、连续两个月回落（8月4.21万→9月3.75万→10月3.35万），乾崑智驾及相关软硬件的出货随之下滑；智界RX 10月25日才开始批量交付，其爬坡速度决定11月能否止跌。",
-     "sources": [
-      {
-       "name": "新浪新闻：鸿蒙智行10月交付33537辆",
-       "url": "https://www.sina.cn/weibo/detail/5360443020804654.html"
-      },
-      {
-       "name": "新浪新闻：赛力斯10月销量27037辆",
-       "url": "https://www.sina.cn/weibo/detail/5360538436767357.html"
-      },
-      {
-       "name": "新浪新闻：赛力斯10月销量2.7万辆，问界跌幅超54%",
-       "url": "https://www.sina.cn/weibo/detail/5360508627583045.html"
-      },
-      {
-       "name": "新浪新闻：智界10月交付6090辆",
-       "url": "https://www.sina.cn/weibo/detail/5360559879095872.html"
-      },
-      {
-       "name": "第一电动网：智界RX 10月25日开启大规模交付",
-       "url": "https://d1ev.com/carnews/xinche/314561"
-      }
-     ]
-    },
-    {
-     "tag": "竞争",
-     "title": "乾崑合作品牌10月普遍同比下滑：阿维塔7056辆降49.6%，岚图13030辆降24.3%，深蓝32602辆降11.4%",
-     "summary": "11月1日数据：阿维塔交付7056辆，环比-13.8%、同比-49.6%；岚图13030辆，同比约-24.3%，连续三个月停在1.3万辆，1-10月累计128511辆，梦想家右舵版11月出海；深蓝全球销量32602辆，环比+8.0%、同比-11.4%。同期未用华为方案的广汽昊铂埃安42357辆，同比+56.8%，连续8个月同比增长。",
-     "table": {
-      "caption": "10月销量（辆）",
-      "columns": [
-       "品牌",
-       "10月",
-       "同比",
-       "环比"
-      ],
-      "rows": [
-       [
-        "阿维塔",
-        "7056",
-        "-49.6%",
-        "-13.8%"
-       ],
-       [
-        "岚图",
-        "13030",
-        "约-24.3%",
-        "持平"
-       ],
-       [
-        "深蓝",
-        "32602",
-        "-11.4%",
-        "+8.0%"
-       ],
-       [
-        "昊铂埃安",
-        "42357",
-        "+56.8%",
-        "+19.3%"
-       ]
-      ]
-     },
-     "comment": "1. 阿维塔（-49.6%）、岚图（-24.3%）降幅接近或超过国内零售约-26%，而未用华为方案的昊铂埃安增56.8%，说明搭载乾崑并没有让25万元以上的合作品牌跑赢大盘，我司智能汽车解决方案的出货增长更取决于新合作品牌和中低价车型。",
-     "sources": [
-      {
-       "name": "新浪财经：10月新势力分化加剧，问界、阿维塔销量双双腰斩",
-       "url": "https://finance.sina.com.cn/roll/2026-11-01/doc-inixfzvu3424936.shtml"
-      },
-      {
-       "name": "界面新闻：深蓝汽车10月全球销量32602辆",
-       "url": "https://www.jiemian.com/article/15278462.html"
-      },
-      {
-       "name": "什么值得买：岚图10月交付13030辆，同比降约24%",
-       "url": "https://post.smzdm.com/p/awwdgn62/"
-      },
-      {
-       "name": "新浪新闻：岚图10月交付13030辆，右舵版11月出海",
-       "url": "https://www.sina.cn/weibo/detail/5360483894296840.html"
-      },
-      {
-       "name": "IT之家：昊铂埃安BU 10月销量42357辆同比增长56.79%",
-       "url": "https://www.ithome.com/1/020/722.htm"
-      }
-     ]
-    },
-    {
-     "tag": "竞争",
-     "title": "新势力10月分化：零跑10.6万破纪录，小鹏、小米首破5万，极氪增52%，蔚来、理想同比双降",
-     "summary": "11月1日公布：零跑106127辆（+51%），连续四个月破10万；小鹏50237辆（+20%，海外13326辆，+166%）；小米超5万，1-10月约33.6万，完成55万目标约61%；蔚来34246辆（蔚来18125、乐道8383、萤火虫7738）；理想29025辆，为2月以来最低；领克21958辆（-45%）。",
-     "table": {
-      "caption": "10月交付（辆）",
-      "columns": [
-       "公司",
-       "10月",
-       "同比"
-      ],
-      "rows": [
-       [
-        "零跑",
-        "106127",
-        "+51%"
-       ],
-       [
-        "小鹏",
-        "50237",
-        "+20%"
-       ],
-       [
-        "小米",
-        "超50000",
-        "—"
-       ],
-       [
-        "蔚来",
-        "34246",
-        "-15.2%"
-       ],
-       [
-        "极氪",
-        "32483",
-        "+52%"
-       ],
-       [
-        "理想",
-        "29025",
-        "-8.6%"
-       ]
-      ]
-     },
-     "comment": "1. 增量集中在零跑、小鹏、小米等自研智驾品牌，蔚来、理想与鸿蒙智行同向下滑；我司要分享中端增量取决于尚界等中低价位合作车型放量，而据报尚界H5 9月只交付约1730台。",
-     "sources": [
-      {
-       "name": "腾讯新闻：新势力公布10月销量，零跑连续月销破10万",
-       "url": "https://news.qq.com/rain/a/20261101A06FB200"
-      },
-      {
-       "name": "CnEVPost：10月主要车企交付汇总",
-       "url": "https://cnevpost.com/2026/11/01/roundup-oct-2026-deliveries-chinese-automakers/"
-      },
-      {
-       "name": "新浪财经：理想汽车2026年10月交付29,025辆",
-       "url": "https://finance.sina.com.cn/roll/2026-11-01/doc-inixeyiw0921456.shtml"
-      },
-      {
-       "name": "新浪新闻：蔚来10月分品牌交付",
-       "url": "https://www.sina.cn/weibo/detail/5360460628755159.html"
-      },
-      {
-       "name": "新浪汽车：吉利汽车10月销量310183辆",
-       "url": "https://auto.sina.com.cn/news/2026-11-01/detail-inixfrfv1080384.shtml"
-      },
-      {
-       "name": "Express Tribune（路透）：小米10月交付超5万辆",
-       "url": "https://tribune.com.pk/story/2638091/xiaomis-october-ev-deliveries-top-50000-hit-2026-monthly-high"
-      },
-      {
-       "name": "新浪新闻：问界9月交付22820台、尚界H5交付1730台",
-       "url": "https://www.sina.cn/weibo/detail/5360503031595136.html"
-      }
-     ]
-    },
-    {
-     "tag": "竞争",
-     "title": "自主车企10月靠出口撑量：比亚迪海外16.96万辆增103%而国内降10.6%，奇瑞出口20.1万，长城海外占比首超50%",
-     "summary": "11月1日公布：比亚迪10月国内约32.0万辆，同比-10.57%，海外+103%；吉利出口+158%；奇瑞出口20.1万辆居首；上汽总量-5.28%，新能源25.86万辆（+25.1%）；长城海外占比52.2%首次过半，国内少卖约2.8万辆。乘联会10月1-25日零售同比-26%。",
-     "table": {
-      "caption": "10月销量（辆）",
-      "columns": [
-       "公司",
-       "总销量",
-       "同比",
-       "海外/出口"
-      ],
-      "rows": [
-       [
-        "比亚迪",
-        "490168",
-        "+11%",
-        "169564（+103%）"
-       ],
-       [
-        "上汽集团",
-        "430000",
-        "-5.28%",
-        "162500（+67.3%）"
-       ],
-       [
-        "吉利",
-        "310183",
-        "—",
-        "107153（+158%）"
-       ],
-       [
-        "奇瑞",
-        "295934",
-        "+5.3%",
-        "200618（+58.7%）"
-       ],
-       [
-        "长城",
-        "120374",
-        "-15.87%",
-        "62862（占52.2%）"
-       ]
-      ]
-     },
-     "comment": "1. 五家头部自主出口合计约70万辆，比亚迪、长城国内同比下滑、总量靠海外拉正，我司乾崑与鸿蒙座舱要进入这些车企的主力车型，需要能随车出海，即具备欧洲、东南亚、拉美的法规认证和本地化适配。",
-     "sources": [
-      {
-       "name": "新浪新闻：比亚迪10月销量49万辆海外增长103%",
-       "url": "https://www.sina.cn/weibo/detail/5360566092958286.html"
-      },
-      {
-       "name": "CnEVPost：比亚迪10月销量",
-       "url": "https://cnevpost.com/2026/11/01/byd-oct-2026-sales/"
-      },
-      {
-       "name": "新浪新闻：吉利10月销量破31万",
-       "url": "https://www.sina.cn/weibo/detail/5360535386459872.html"
-      },
-      {
-       "name": "新浪新闻：奇瑞单月出口破20万",
-       "url": "https://www.sina.cn/weibo/detail/5360535085259526.html"
-      },
-      {
-       "name": "同花顺：上汽集团10月整车销量43万辆，同比降5.28%",
-       "url": "http://stock.10jqka.com.cn/20261101/c681327398.shtml"
-      },
-      {
-       "name": "搜狐：长城汽车10月销量12.04万台，同比下降15.87%",
-       "url": "https://www.sohu.com/a/1095738782_130887"
-      },
-      {
-       "name": "新浪财经：乘联分会10月1-25日零售114.5万辆",
-       "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-28/doc-iniwukpz6007445.shtml"
-      }
-     ]
-    },
-    {
      "tag": "关注",
-     "title": "日系合资10月继续下滑：广汽丰田53022辆同比降约26%，东风本田17026台同比降约41%",
-     "summary": "广汽丰田10月销量53022辆（去年同期71604辆），铂智3X累计交付超15万台；东风本田10月终端销量17026台，环比+16.9%，去年同期28896台，其中CR-V 10455台。上汽集团称传统合资品牌下滑，增长来自新能源和出口。",
+     "title": "全新问界M9上市20周累计交付超5万台，领世加长版50天交付超5000台、均价破70万元",
+     "summary": "问界11月2日宣布，全新一代问界M9自6月13日开启交付以来，20周累计交付超5万台（16周时为4万台）；M9 Ultimate领世加长版开启交付50天累计超5000台，成交均价突破70万元。",
+     "comment": "1. 按16周4万台、20周5万台推算，M9在10月前后约交付1万台，约占鸿蒙智行10月33537台的三成，说明鸿蒙智行同比腰斩主要来自M9以外的车型，乾崑在50万元以上价位的需求仍然稳定。",
      "sources": [
       {
-       "name": "新浪财经：多家车企公布10月销量数据",
-       "url": "https://finance.sina.com.cn/jjxw/2026-11-01/doc-inixferx3070286.shtml"
-      },
-      {
-       "name": "新浪财经：东风本田10月终端销量同比降逾四成",
-       "url": "https://finance.sina.cn/2026-11-01/detail-inixeyiw0947931.d.html"
-      },
-      {
-       "name": "新浪新闻：上汽10月销量，新能源与出口增长、传统合资下滑",
-       "url": "https://www.sina.cn/weibo/detail/5360518979126162.html"
+       "name": "新浪汽车（11月2日22时热点小时报）",
+       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908teg8.html"
       }
      ]
     }
@@ -373,26 +368,34 @@
    "name": "能源",
    "items": [
     {
-     "tag": "风险",
-     "title": "欧盟资助能源项目排除高风险逆变器供应商11月1日起执行，欧委会此前拒绝推迟",
-     "summary": "按欧委会时间表，11月1日起欧盟直接或间接资助（含欧洲投资银行）的光伏、风电、储能项目须排除或逐步替换高风险供应商的逆变器和储能PCS，报道点名华为、阳光电源；9月1日前申报、11月1日前获批项目可豁免，纯私人融资项目不受影响。据路透，受影响项目每年至少约14GW。截至发稿未见延期公告。",
-     "comment": "1. 每年约14GW受影响，占欧盟年新增光伏两成以上，我司数字能源在欧洲由欧投行等公共资金参与的地面电站和储能项目中基本失去投标资格，剩余市场主要是户用、工商业和纯私人融资电站。\n2. 欧委会已表示可用《网络安全法》在全市场限制高风险供应商逆变器，若走到这一步，影响将从公共资金项目扩大到我司欧洲光储全部收入，比这次限制本身大得多。",
+     "tag": "竞争",
+     "title": "阳光电源称2026年储能出货将超60GWh，按在手订单2027年有望接近翻倍",
+     "summary": "11月2日阳光电源投资者关系纪要：四季度储能出货预计超20GWh，全年超60GWh；按在手订单，明年储能出货可能接近今年两倍，高于其对全球储能需求增长30%以上、海外40%以上的判断；并称碳酸锂价格已较高点明显回落，利好储能毛利。其三季度单季净利同比降67.7%。",
+     "comment": "1. 阳光预计明年储能出货接近翻倍、明显快于它自估的全球需求增速（30%以上），增长要靠抢份额，我司数字能源在海外大型储能项目上将面对更积极的报价。\n2. 阳光把锂价回落列为毛利改善来源，11月2日电池级碳酸锂现货约9.3万元/吨，若维持在这一水平，集成商有降价空间，储能系统中标价下行压力将延续到明年。",
      "sources": [
       {
-       "name": "Euronews",
-       "url": "https://www.euronews.com/2026/09/23/eu-commission-rejects-calls-to-delay-phase-out-of-chinese-power-inverters"
-      },
-      {
-       "name": "SCMP",
-       "url": "https://www.scmp.com/economy/china-economy/article/3352435/brussels-bans-chinese-inverters-eu-funded-power-projects-connected-european-grid"
-      },
-      {
-       "name": "BESS Manufacturers",
-       "url": "https://bessmanufacturers.com/resources/eu-funding-ban-chinese-pcs-bess/"
+       "name": "同花顺财经",
+       "url": "http://stock.10jqka.com.cn/20261102/c681350300.shtml"
       },
       {
        "name": "新浪财经",
-       "url": "https://finance.sina.com.cn/roll/2026-05-07/doc-inhxatez2726231.shtml?froms=ggmp"
+       "url": "https://k.sina.cn/article_1644983660_620c756c02001xjpq.html"
+      },
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-02/sungrow-shares-jump-on-bullish-outlook-for-battery-storage"
+      },
+      {
+       "name": "富途牛牛",
+       "url": "https://news.futunn.com/en/post/1003056095/sungrow-power-supply-300274-sz-the-company-expects-its-energy"
+      },
+      {
+       "name": "Investing.com",
+       "url": "https://www.investing.com/news/stock-market-news/why-is-sungrow-power-supply-stock-surging-today-93CH-4989878"
+      },
+      {
+       "name": "同花顺（碳酸锂现货）",
+       "url": "http://news.10jqka.com.cn/20261102/c681352076.shtml"
       }
      ]
     }
@@ -403,25 +406,30 @@
    "name": "政策与地缘",
    "items": [
     {
-     "tag": "关注",
-     "title": "10月RatingDog中国制造业PMI为52.0，与预期持平，仍明显高于官方PMI的49.3%",
-     "summary": "11月2日09:45公布的10月RatingDog（原财新）中国制造业PMI为52.0，前值52.1，市场预期52.0（路透调查中值此前为51.6）。同期国家统计局制造业PMI为49.3%，新出口订单48.7%。RatingDog样本约650家，偏重出口导向企业。",
+     "tag": "风险",
+     "title": "台湾经济部证实研议依《贸易法》管制高阶芯片、工具机等高科技货品输往大陆",
+     "summary": "11月2日，台湾经济部证实正在研议配套措施，在台美对等贸易协定（ART）承诺下，依《贸易法》将高阶芯片等高科技货品纳入出口管理，并防范违规转运；据报研议范围涉及芯片、工具机及先进运算物项。同日立法院经济委员会就相关修法提案召开公听会。具体清单和实施时间未公布。",
+     "comment": "1. 台湾此前主要靠实体清单限制对华为、中芯等的出口，若改为按货品类别审批，台湾产高端芯片、机床和服务器等物项经第三地转运进入大陆的通道会收紧，对我司及国内供应链的影响取决于最终清单是否覆盖成熟制程芯片和通用机床。",
      "sources": [
       {
-       "name": "myforex（10月中国RatingDog製造業PMI 52.0）",
-       "url": "https://myforex.com/ja/news/dzh261102045.html"
+       "name": "联合新闻网",
+       "url": "https://udn.com/news/story/6656/9851388"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "据报多家车企进京协商对欧混动汽车出口配额，总量以2025年30.2万辆为基础",
+     "summary": "财联社11月2日报道，针对中欧10月就混动汽车贸易达成的谅解方案，多家国内车企近期赴京与相关部门协商出口配额分配；知情人士称配额总量有限，每家可分到的额度不多。商务部此前表示双方以2025年30.2万辆为基础作出向上安排。分配方式尚未公布。",
+     "comment": "1. 欧盟对混动车由关税争议转为数量配额，按各企业历史出口量分配的可能性较大时，比亚迪、奇瑞等已有大量对欧出货的车企占优，鸿蒙智行及阿维塔等乾崑合作品牌对欧出口基数小，混动车型进入欧洲的空间取决于配额是否预留给新进入者。",
+     "sources": [
+      {
+       "name": "新浪财经（转财联社）",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-11-02/doc-inixipwv2256222.shtml"
       },
       {
-       "name": "みんかぶFX",
-       "url": "https://fx.minkabu.jp/news/383219"
-      },
-      {
-       "name": "etnet（路透调查预期51.6）",
-       "url": "https://www.etnet.com.hk/www/tc/news/news-article.php?section=categorized&category=latest&newsid=ETN361030774"
-      },
-      {
-       "name": "Swingfish 11月2日亚洲经济日历",
-       "url": "https://www.swingfish.trade/blog/market-news/economic-and-event-calendar-in-asia-monday-november-2-2026-another-china-pmi-441267/"
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/020/939.htm"
       }
      ]
     }
@@ -432,52 +440,58 @@
    "name": "芯片半导体",
    "items": [
     {
-     "tag": "关注",
-     "title": "韩国10月半导体出口564亿美元、同比增约259%，占出口近半；对华出口增133.6%",
-     "summary": "韩国11月1日公布，10月出口1153亿美元，同比增93.7%（工作日调整后增76.1%），为历史第二高，低于9月的1211亿美元；半导体出口约564亿美元。对华出口269.8亿美元，同比增133.6%；对美249亿美元，增185.8%。1-10月累计出口约9300亿美元，已超去年全年。",
+     "tag": "风险",
+     "title": "恩智浦向经销商发出年内第三轮调价函，部分分销及直供产品线2027年1月1日起涨价",
+     "summary": "据报11月2日，恩智浦以原材料、能源、人力、物流及上游供应商成本上涨为由，通知经销商对部分分销及直供产品线调价，2027年1月1日生效，为其2026年内第三轮调价；具体涨幅和型号未披露，有经销商建议提前下单锁定成本。",
+     "comment": "1. 恩智浦是车规MCU、网关和座舱芯片的主要供应商，涨价从存储扩散到车规逻辑芯片，乾崑合作车企在销量同比下滑的情况下还要消化电子BOM上涨，压价空间更小。",
+     "sources": [
+      {
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15283870.html"
+      },
+      {
+       "name": "同花顺财经",
+       "url": "http://stock.10jqka.com.cn/20261102/c681370405.shtml"
+      },
+      {
+       "name": "凤凰网",
+       "url": "https://auto.ifeng.com/c/8xjMRK4zSZk"
+      }
+     ]
+    },
+    {
+     "tag": "风险",
+     "title": "高盛预计NAND紧缺延续至2027年，三星、SK海力士NAND均价明年再涨34%和30%",
+     "summary": "高盛11月2日研报据铠侠业绩判断，NAND供需紧张将持续至2027年；预计三星、SK海力士NAND业务2027年平均售价分别同比涨34%、30%（2026年预计为279%、254%）；两家客户正签五年期长期供货协议。",
      "table": {
-      "caption": "韩国2026年10月出口",
+      "caption": "高盛对NAND平均售价同比涨幅预测",
       "columns": [
-       "项目",
-       "金额",
-       "同比"
+       "厂商",
+       "2026年",
+       "2027年"
       ],
       "rows": [
        [
-        "总出口",
-        "1153亿美元",
-        "+93.7%"
+        "三星电子",
+        "279%",
+        "34%"
        ],
        [
-        "半导体",
-        "约564亿美元",
-        "约+259%"
-       ],
-       [
-        "对华出口",
-        "269.8亿美元",
-        "+133.6%"
-       ],
-       [
-        "对美出口",
-        "249亿美元",
-        "+185.8%"
+        "SK海力士",
+        "254%",
+        "30%"
        ]
       ]
      },
-     "comment": "1. 韩国半导体出口同比翻三倍多，而存储合约价四季度预计仍涨10%-20%，说明存储价格上涨仍在传导到出货额，我司终端与服务器存储采购成本短期没有下行迹象；出货额中价与量各占多少，取决于韩国后续公布的出口数量数据。",
+     "comment": "1. 存储原厂开始与客户签五年期长协，供应从比价转向锁量，未签长协的终端厂只能拿剩余产能和现货，我司终端存储成本压力会延续到2027年，涨幅从2026年的约2.5倍收窄到约三成。",
      "sources": [
       {
-       "name": "Korea Times",
-       "url": "https://www.koreatimes.co.kr/economy/20261101/koreas-monthly-exports-hit-1153-bil-in-oct-on-record-chip-sales"
+       "name": "21财经",
+       "url": "https://m.21jingji.com/article/20261102/herald/2cd916de2471a91469b3ac1bd0d9fe8e.html"
       },
       {
-       "name": "The Herald Business",
-       "url": "https://biz.heraldcorp.com/article/10921622"
-      },
-      {
-       "name": "TrendForce",
-       "url": "https://www.trendforce.com/presscenter/news/20260930-13258.html"
+       "name": "汇通财经",
+       "url": "https://news.fx678.com/202611021325282467.shtml"
       }
      ]
     }
@@ -486,12 +500,12 @@
  ],
  "watch": [
   {
-   "when": "11月3日 周二",
-   "text": "苹果FY26Q4财报（北京时间清晨）及AMD、Arista（据报）三季报，看大中华区收入、AI GPU与数据中心网络需求。"
+   "when": "11月4日 周三",
+   "text": "AMD三季报与Arista三季报（美东11月3日盘后，北京时间4日清晨），看AI GPU出货与数据中心网络需求；同日高通FY26Q4财报。"
   },
   {
    "when": "11月10日 周二",
-   "text": "中国稀土等出口管制暂停措施到期节点，看商务部是否发布续延公告。"
+   "text": "中方稀土等出口管制暂停措施到期节点（美方BIS 50%关联方规则暂停至11月9日），看双方是否发布延期公告。"
   },
   {
    "when": "11月13日 周五",
