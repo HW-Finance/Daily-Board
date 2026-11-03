@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-03",
- "updatedAt": "2026-11-03 06:59",
+ "asOf": "2026-11-04",
+ "updatedAt": "2026-11-04 07:30",
  "leaders": [
   {
    "id": "jensen",
@@ -10,6 +10,17 @@
    "company": "英伟达",
    "biz": "计算与云",
    "statements": [
+    {
+     "date": "2026-11-03",
+     "quote": "封闭前沿模型和开源模型都有位置，世界上大部分价值由专业领域智能获取；今年最大突破是智能体框架。",
+     "topic": "AI模型与应用",
+     "context": "旧金山Fireworks AI首届Forge大会，与Fireworks CEO乔琳对谈",
+     "direct": false,
+     "source": {
+      "name": "Mezha",
+      "url": "https://mezha.net/eng/news/mezha-a83bb108a8268e4fb8ac1e0f_jensen_huang_says"
+     }
+    },
     {
      "date": "2026-10-29",
      "quote": "我们研究了他们部署的所有英伟达GPU，并且每一张都清点过。",
@@ -72,19 +83,6 @@
       "url": "https://abcnews.com/Business/wireStory/nvidia-ceo-urges-german-manufacturers-adopt-ai-digital-137390930"
      },
      "ai": "1. 英伟达在欧洲的推销重点放在制造业，同日西门子在埃尔朗根工厂展示与英伟达合作的电路板检测（目标减少最多85%人工工程量），工业AI成为英伟达在欧洲找新需求的方向；可观察10月21日GTC柏林主题演讲是否公布欧洲工业客户和订单金额。"
-    },
-    {
-     "date": "2026-10-16",
-     "quote": "这一切都会过去，原因很简单：AI将带来变革，毫无疑问会持续，我们才刚刚开始。",
-     "topic": "需求与增长",
-     "context": "10月16日在柏林受访，当天美股科技股市值单日蒸发逾1万亿美元；未宣布新订单或调整指引",
-     "direct": false,
-     "original": "All of this is going to pass, and the reason for that is very simple. ... It's going to be transformative. There's no question it will continue, and we're at the beginning of that.",
-     "source": {
-      "name": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/10/17/nvidias-ceo-says-all-of-this-is-going-to-pass-after-tech-lost-1-trillion-in-a-day/"
-     },
-     "ai": "1. 只对市场下跌表态，没有给出新订单或新指引；同期Anthropic需以10%利率发债买TPU，市场担心的是下游客户的融资能力，可观察11月18日英伟达财报中的应收账款和大客户集中度。"
     }
    ]
   },
@@ -212,6 +210,42 @@
    "company": "AMD",
    "biz": "计算与云",
    "statements": [
+    {
+     "date": "2026-11-03",
+     "quote": "四季度营收预计约170亿美元，增长加速来自Helios整机柜和Venice服务器CPU的量产爬坡。",
+     "topic": "产品与路线",
+     "context": "AMD 2026年Q3财报发布；Anthropic、Meta、微软、OpenAI、甲骨文云已在首批Helios上运行负载",
+     "direct": false,
+     "source": {
+      "name": "Quartz",
+      "url": "https://qz.com/amd-q3-earnings-data-center-revenue-doubled-110326"
+     },
+     "ai": "1. AMD四季度增量约36亿美元主要来自Helios整柜，Anthropic、Meta、微软、OpenAI、甲骨文已在首批整柜上运行负载，海外头部客户已接受英伟达之外的机柜级方案，昇腾超节点出海面对的对手不止英伟达。"
+    },
+    {
+     "date": "2026-11-03",
+     "quote": "预计2027年服务器收入同比翻倍，数据中心AI业务增速将快于90天前的预期。",
+     "topic": "需求与增长",
+     "context": "AMD 2026年Q3财报电话会；Q3数据中心收入85亿美元、同比增97%",
+     "direct": false,
+     "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+     },
+     "ai": "1. 苏姿丰预计2027年服务器收入翻倍，并把增长归因于智能体推理，说明智能体拉动的不只是GPU，也拉动通用CPU；国内若同样走向智能体规模部署，鲲鹏服务器需求会随之上升，取决于国内智能体应用的落地速度。"
+    },
+    {
+     "date": "2026-11-03",
+     "quote": "（AI）普及才刚开始，随着智能体更广泛部署、承担更复杂的工作，我们预计需求将急剧增长。",
+     "topic": "需求与增长",
+     "context": "AMD 2026年Q3财报电话会（美东11月3日盘后，北京时间11月4日凌晨）",
+     "direct": true,
+     "original": "Adoption is just starting, and we expect demand to grow sharply as agents are deployed more broadly and take on more complex work",
+     "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+     }
+    },
     {
      "date": "2026-10-06",
      "quote": "未来数年需求都将非常非常高，CPU需求甚至高于供给；2027年将大幅增加供应。",
@@ -896,9 +930,94 @@
      }
     }
    ]
+  },
+  {
+   "id": "ullal",
+   "name": "乌拉尔",
+   "nameEn": "Jayshree Ullal",
+   "title": "Arista Networks董事长兼CEO",
+   "company": "Arista",
+   "biz": "联接",
+   "statements": [
+    {
+     "date": "2026-11-03",
+     "quote": "2026年营收指引上调至133亿美元；2027年预计约185亿美元、增38%—40%，AI网络翻倍至约70亿美元。",
+     "topic": "需求与增长",
+     "context": "Arista 2026年Q3财报电话会（美东11月3日盘后）；Q3营收约36.6亿美元、同比增58.5%",
+     "direct": false,
+     "source": {
+      "name": "Benzinga（电话会实录）",
+      "url": "https://www.benzinga.com/news/26/11/62848727/arista-networks-q3-2026-earnings-call-transcript"
+     },
+     "ai": "1. Arista三季度非GAAP毛利率64.0%、比上年同期低1.2个百分点，公司归因于产品成本上涨，交换机龙头也难把器件涨价全部转嫁给云厂商，我司数通产品同样要自己消化这部分成本。"
+    }
+   ]
   }
  ],
  "earnings": [
+  {
+   "company": "超微电脑",
+   "en": "Super Micro Computer",
+   "biz": "计算与云",
+   "period": "FY27 Q1（截至2026年9月）",
+   "reportDate": "2026-11-03",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "199亿美元",
+     "yoy": "上年同期50亿美元"
+    },
+    {
+     "label": "GAAP毛利率",
+     "value": "12.7%",
+     "yoy": "上季17.5%"
+    }
+   ],
+   "highlight": "营收199亿美元、高于10月预告区间，上季为111亿美元；GAAP毛利率12.7%，较上季17.5%明显回落；经营现金流净流出4.34亿美元。",
+   "guidance": "下季营收195亿—215亿美元；2027财年营收指引上调至720亿—820亿美元。",
+   "source": {
+    "name": "CNBC",
+    "url": "https://cnbc.com/2026/11/03/stocks-making-the-biggest-moves-after-hours-anet-amd-smci-swks.html"
+   },
+   "updatedOn": "2026-11-04",
+   "nextReport": "未披露"
+  },
+  {
+   "company": "Arista",
+   "en": "Arista Networks",
+   "biz": "联接",
+   "period": "2026年Q3",
+   "reportDate": "2026-11-03",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "36.6亿美元",
+     "yoy": "+58.5%"
+    },
+    {
+     "label": "产品收入",
+     "value": "31.9亿美元",
+     "yoy": "+67%"
+    },
+    {
+     "label": "非GAAP毛利率",
+     "value": "64.0%",
+     "yoy": "-1.2个百分点"
+    },
+    {
+     "label": "非GAAP每股收益",
+     "value": "1.20美元"
+    }
+   ],
+   "highlight": "营收高于33亿美元指引，为上市以来最快增速；每股收益1.20美元高于预期约1.08美元；毛利率同比下滑，公司称受产品成本上涨影响、供应链效率部分抵消；非GAAP营业利润率49.1%；盘后股价一度涨超8%。",
+   "guidance": "四季度营收39亿—40亿美元、每股收益1.26—1.30美元；2026年营收指引上调至133亿美元（增48%），2027年预计约185亿美元（增38%—40%），AI网络收入目标翻倍至约70亿美元。",
+   "source": {
+    "name": "GuruFocus",
+    "url": "https://www.gurufocus.com/news/9166705/arista-networks-reports-q3-2026-earnings-revenue-hits-366-billion-and-gaap-eps-of-122-surpasses-estimates"
+   },
+   "updatedOn": "2026-11-04",
+   "nextReport": "未披露"
+  },
   {
    "company": "苹果",
    "en": "Apple",
@@ -2575,206 +2694,37 @@
    "company": "AMD",
    "en": "AMD",
    "biz": "计算与云",
-   "period": "2026年Q2",
-   "reportDate": "2026-08-04",
+   "period": "2026年Q3",
+   "reportDate": "2026-11-03",
    "metrics": [
     {
      "label": "营收",
-     "value": "115.4亿美元",
-     "yoy": "+50%"
+     "value": "134亿美元",
+     "yoy": "+45%"
     },
     {
      "label": "数据中心收入",
-     "value": "67.2亿美元",
-     "yoy": "+107%"
+     "value": "85亿美元",
+     "yoy": "+97%"
     },
     {
-     "label": "毛利率",
-     "value": "54%",
-     "yoy": "+14pct"
+     "label": "非GAAP毛利率",
+     "value": "56%",
+     "yoy": "+2个百分点"
     },
     {
-     "label": "净利润",
-     "value": "23.0亿美元",
-     "yoy": "+163%"
+     "label": "非GAAP每股收益",
+     "value": "2.09美元"
     }
    ],
-   "highlight": "数据中心收入同比翻倍；去年同期含出口管制费用，基数偏低",
-   "guidance": "Q3营收约130亿美元，同比约+41%",
-   "nextReport": "",
+   "highlight": "营收与数据中心收入均创纪录，高于指引上限；每股收益2.09美元高于预期1.95美元；数据中心占营收64%，一年前为47%；EPYC需求加速、MI450系列开始出货，Anthropic、Meta、微软、OpenAI、甲骨文云已在首批Helios整机柜上运行负载；盘后股价涨约8%。",
+   "guidance": "四季度营收约170亿美元（±3%），增长由Helios和Venice量产推动；非GAAP毛利率约55%，略低于市场预期的55.5%；苏姿丰预计2027年服务器收入同比翻倍。",
    "source": {
-    "name": "AMD投资者关系",
-    "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
    },
-   "updatedOn": "2026-08-04",
-   "statements": {
-    "period": "2026年Q2（截至2026-06-27）",
-    "unit": "百万美元",
-    "sources": [
-     {
-      "name": "AMD 2026年Q2财报新闻稿",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
-     }
-    ],
-    "income": {
-     "columns": [
-      "项目",
-      "2026年Q2",
-      "2025年Q2"
-     ],
-     "rows": [
-      [
-       "营业收入",
-       "11,536",
-       "7,685"
-      ],
-      [
-       "营业成本（含收购无形资产摊销）",
-       "5,333",
-       "4,626"
-      ],
-      [
-       "毛利",
-       "6,203",
-       "3,059"
-      ],
-      [
-       "研发费用",
-       "2,528",
-       "1,894"
-      ],
-      [
-       "销售及管理费用",
-       "1,401",
-       "991"
-      ],
-      [
-       "营业利润",
-       "1,990",
-       "-134"
-      ],
-      [
-       "税前利润（持续经营）",
-       "2,551",
-       "-74"
-      ],
-      [
-       "净利润",
-       "2,297",
-       "872"
-      ],
-      [
-       "稀释每股收益（美元）",
-       "1.38",
-       "0.54"
-      ]
-     ]
-    },
-    "cashflow": {
-     "columns": [
-      "项目",
-      "2026年Q2",
-      "2025年Q2"
-     ],
-     "rows": [
-      [
-       "经营活动现金流净额",
-       "2,366",
-       "2,011"
-      ],
-      [
-       "资本开支",
-       "-808",
-       "-282"
-      ],
-      [
-       "自由现金流（公司披露）",
-       "1,558",
-       "1,180"
-      ],
-      [
-       "投资活动现金流净额",
-       "-2,850",
-       "-2,298"
-      ],
-      [
-       "筹资活动现金流净额",
-       "-15",
-       "-1,319"
-      ],
-      [
-       "股份回购",
-       "0",
-       "-478"
-      ],
-      [
-       "期末现金（含受限现金）",
-       "5,097",
-       "4,453"
-      ]
-     ]
-    },
-    "balance": {
-     "columns": [
-      "项目",
-      "2026-06-27",
-      "2025-12-27"
-     ],
-     "rows": [
-      [
-       "现金及等价物",
-       "5,086",
-       "5,539"
-      ],
-      [
-       "短期投资",
-       "8,025",
-       "5,013"
-      ],
-      [
-       "应收账款",
-       "7,281",
-       "6,315"
-      ],
-      [
-       "存货",
-       "8,468",
-       "7,920"
-      ],
-      [
-       "流动资产合计",
-       "31,522",
-       "26,947"
-      ],
-      [
-       "固定资产净额",
-       "3,439",
-       "2,312"
-      ],
-      [
-       "总资产",
-       "84,464",
-       "76,926"
-      ],
-      [
-       "流动负债合计",
-       "12,081",
-       "9,455"
-      ],
-      [
-       "长期债务",
-       "2,351",
-       "2,348"
-      ],
-      [
-       "股东权益合计",
-       "67,224",
-       "62,999"
-      ]
-     ]
-    },
-    "note": "US GAAP，未经审计，单季口径。净利润含已终止经营业务（本期-8、上年同期104）。AMD不派息。资产负债表未列总负债。"
-   }
+   "updatedOn": "2026-11-04",
+   "nextReport": "未披露"
   },
   {
    "company": "英伟达",
@@ -5077,6 +5027,13 @@
        "tone": "pos"
       },
       {
+       "label": "10月新能源乘用车批发（乘联会初步）",
+       "value": "180万辆",
+       "delta": "+12%，含出口",
+       "tone": "pos",
+       "updatedOn": "2026-11-04"
+      },
+      {
        "label": "10月1—25日新能源零售（乘联会）",
        "value": "75.3万辆",
        "delta": "-13%，渗透率65.7%",
@@ -5515,6 +5472,26 @@
  },
  "policy": [
   {
+   "title": "安世半导体控制权与供应链争端",
+   "region": "荷兰",
+   "biz": "智能汽车解决方案、数字能源、供应链",
+   "status": "诉讼：安世荷兰在阿姆斯特丹起诉，闻泰在东莞反诉",
+   "latest": {
+    "date": "2026-11-03",
+    "text": "闻泰公告：安世荷兰起诉闻泰、张学政及安世中国，以自建中国区供应链构成不当竞争等为由索赔20亿美元及利息；闻泰否认，称未收到传票、法院未立案"
+   },
+   "next": {
+    "date": "",
+    "text": "阿姆斯特丹法院是否立案；东莞中院80亿元人民币反诉进展"
+   },
+   "level": "中",
+   "source": {
+    "name": "路透（TradingView转载）",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46K1MN:0-nexperia-sues-wingtech-and-its-founder-demanding-compensation-for-damages/"
+   },
+   "updatedOn": "2026-11-04"
+  },
+  {
    "title": "美FCC拟禁止中国运营商直接获取美国电话号码",
    "region": "美国",
    "biz": "联接、ICT基础设施",
@@ -5917,36 +5894,6 @@
  ],
  "calendar": [
   {
-   "date": "2026-11-03",
-   "title": "美国中期选举",
-   "type": "政策",
-   "biz": "全业务",
-   "confirmed": true
-  },
-  {
-   "date": "2026-11-03",
-   "title": "AMD三季报",
-   "type": "财报",
-   "biz": "计算与云",
-   "confirmed": false
-  },
-  {
-   "date": "2026-11-03",
-   "title": "伊顿三季报（数据中心供电订单风向）",
-   "type": "财报",
-   "biz": "数字能源",
-   "confirmed": false,
-   "updatedOn": "2026-10-30"
-  },
-  {
-   "date": "2026-11-03",
-   "title": "Arista三季报（据报，数据中心网络需求）",
-   "type": "财报",
-   "biz": "联接",
-   "confirmed": false,
-   "updatedOn": "2026-11-01"
-  },
-  {
    "date": "2026-11-04",
    "title": "高通FY26Q4财报",
    "type": "财报",
@@ -6030,6 +5977,14 @@
    "biz": "华为云、昇腾、数字能源",
    "confirmed": true,
    "updatedOn": "2026-10-17"
+  },
+  {
+   "date": "2026-11-15",
+   "title": "金融机构外汇存款准备金率由4%上调至6%生效",
+   "type": "政策",
+   "biz": "全业务（汇率）",
+   "confirmed": true,
+   "updatedOn": "2026-11-04"
   },
   {
    "date": "2026-11-16",

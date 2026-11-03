@@ -1,39 +1,39 @@
 {
- "date": "2026-11-03",
- "weekday": "周二",
- "updatedAt": "2026-11-03 07:01",
+ "date": "2026-11-04",
+ "weekday": "周三",
+ "updatedAt": "2026-11-04 07:30",
  "highlights": [
   {
-   "text": "Marvell拟以约1150亿美元全股票收购Lumentum，光DSP与激光器、光模块合为一家，海外AI光互联对手更集中，国内光模块激光器来源存变数。",
-   "item": "Marvell以约1150亿美元全股票收购Lumentum，DSP与激光器/光模块/OCS合并成AI光互联全栈供应商"
+   "text": "据报英伟达要求云客户新合同中中国客户占比不超过49%，国内企业经东南亚租用英伟达算力的路径收窄，需求有望部分回流国内。",
+   "item": "据报英伟达要求云客户至少51%服务卖给中国以外企业，东南亚新型云商受冲击"
   },
   {
-   "text": "苹果12月季度毛利率指引降至45%–46%并已涨价应对内存成本，内存涨价已传导到最强厂商，国产旗舰跟涨不会单独失去价格优势。",
-   "item": "苹果FY26 Q4营收1144.8亿美元增12%，大中华区175.4亿美元增21%但低于预期，12月季度毛利率指引降至45%–46%"
+   "text": "据报DeepSeek V5计划以昇腾950为核心训练算力，若落地将成为昇腾在头部模型训练侧的标杆案例。",
+   "item": "据报DeepSeek V5计划以昇腾950为核心训练算力，目标2027年落地"
   },
   {
-   "text": "中国电信联合长飞、中兴完成千公里级空芯光纤双向实时传输，干线新介质验证由中兴先行，我司干线光传送在电信面临新竞争点。",
-   "item": "中国电信研究院联合长飞、中兴完成1007.48公里空芯光纤双向实时传输验证，单纤容量128Tb/s"
+   "text": "据报HBM借服务器CPU封装绕过管制流入国内、部分昇腾客户需自备HBM，国产HBM仍是昇腾放量瓶颈。",
+   "item": "据报三星、SK海力士HBM借低端服务器处理器封装绕过美国管制流入中国，华为昇腾960DT面临国产HBM短缺"
   },
   {
-   "text": "台湾经济部证实拟依《贸易法》把高阶芯片、机床等输陆纳入出口管理，管制从“管企业”转向“管货品”，经第三地转运的通道将收紧。",
-   "item": "台湾经济部证实研议依《贸易法》管制高阶芯片、工具机等高科技货品输往大陆"
+   "text": "央行近5年首次上调外汇存准率至6%，抑制人民币单边升值，我司海外收入折算缩水压力短期减轻。",
+   "item": "央行近5年首次上调外汇存款准备金率2个百分点至6%，11月15日起执行"
   },
   {
-   "text": "中国移动AI超节点集采结果出炉，大华子公司4096卡中标26.3亿元、约64万元/卡，为昇腾超节点运营商报价提供参照。",
-   "item": "中国移动117亿元AI超节点集采：大华子公司华启智慧中标4096卡、金额约26.3亿元"
+   "text": "AMD数据中心收入同比增97%、四季度指引约170亿美元，海外“英伟达之外”的整柜需求正被AMD拿走。",
+   "item": "AMD三季度营收134亿美元增45%，数据中心85亿美元近翻倍，四季度指引约170亿美元"
   },
   {
-   "text": "VMO2称诺基亚AI-RAN试验用Marvell基带芯片“不需要GPU”，削弱英伟达进入RAN的路线，利于自研基带路线。",
-   "item": "Light Reading：诺基亚在VMO2伦敦的AI-RAN试验用Marvell基带芯片而非英伟达GPU，频谱效率提升约20%"
+   "text": "Arista三季度营收增58.5%并给出2027年约185亿美元展望，但毛利率同比下滑，器件涨价连龙头都难完全转嫁。",
+   "item": "Arista三季度营收36.6亿美元增58.5%创上市以来最快，上调全年指引至超133亿美元并给出2027年约185亿美元展望"
   },
   {
-   "text": "阳光电源称明年储能出货有望接近翻倍、远快于其自估需求增速，海外大储项目价格竞争将加剧。",
-   "item": "阳光电源称2026年储能出货将超60GWh，按在手订单2027年有望接近翻倍"
+   "text": "安世荷兰起诉闻泰索赔20亿美元，把安世中国自建供应链列为索赔理由，车规与电源器件供应对立加深。",
+   "item": "安世荷兰在阿姆斯特丹法院起诉闻泰、张学政及安世中国，据闻泰称索赔20亿美元"
   },
   {
-   "text": "据报车企进京协商对欧混动出口配额，若按历史出口量分配，乾崑合作品牌混动车进入欧洲的空间有限。",
-   "item": "据报多家车企进京协商对欧混动汽车出口配额，总量以2025年30.2万辆为基础"
+   "text": "乘联分会10月新能源批发同比增12%，但国内零售前25天降13%，增量靠出口，乾崑伙伴国内放量空间收窄。",
+   "item": "乘联分会预估10月新能源乘用车厂商批发180万辆，同比增12%，比亚迪48.3万辆居首、特斯拉中国跌至第八"
   }
  ],
  "sections": [
@@ -42,61 +42,243 @@
    "name": "计算与云",
    "items": [
     {
-     "tag": "关注",
-     "title": "中国移动117亿元AI超节点集采：大华子公司华启智慧中标4096卡、金额约26.3亿元",
-     "summary": "大华股份11月2日晚公告，子公司华启智慧中标中国移动AI超节点设备采购项目，份额4096卡、金额约26.3亿元（含税），交货期30天，超出董事会此前预计的20.5亿元上限。该项目共采购超节点20480卡、RoCE交换机448台、存储82套，五家候选人总报价约116.6亿–117亿元。",
-     "comment": "1. 华启智慧4096卡对应26.3亿元，折合约64万元/卡（含交换机与存储配套），全项目约57万元/卡，可作为运营商超节点含组网单卡价格的参照，用于比对昇腾超节点在运营商集采中的报价空间。",
+     "tag": "竞争",
+     "title": "AMD三季度营收134亿美元增45%，数据中心85亿美元近翻倍，四季度指引约170亿美元",
+     "summary": "AMD 11月3日美股盘后发布Q3财报：营收134亿美元、同比增45%，GAAP毛利率54%；数据中心收入创纪录85亿美元、同比增97%，受EPYC与MI450系列放量驱动。Q4营收指引约170亿美元±3%，环比增约27%。苏姿丰称MI450/Helios整柜仍处爬坡初期，Q4和明年Q1继续上台阶，预计2027年服务器收入翻倍。",
+     "table": {
+      "caption": "AMD 2026年Q3关键数据",
+      "columns": [
+       "指标",
+       "数值",
+       "变化"
+      ],
+      "rows": [
+       [
+        "营收",
+        "134亿美元",
+        "同比+45%"
+       ],
+       [
+        "数据中心收入",
+        "85亿美元",
+        "同比+97%"
+       ],
+       [
+        "GAAP毛利率",
+        "54%",
+        "—"
+       ],
+       [
+        "Non-GAAP EPS",
+        "2.09美元",
+        "超预期"
+       ],
+       [
+        "Q4营收指引",
+        "约170亿美元±3%",
+        "环比约+27%，同比约+66%"
+       ]
+      ]
+     },
+     "comment": "1. AMD数据中心收入同比增97%、四季度指引环比再增约27%，增量主要来自MI450/Helios整柜，美国头部云厂商已批量采购英伟达之外的整柜方案，昇腾超节点在海外争取“非英伟达”需求时，AMD已先占住第二供应商位置。",
      "sources": [
       {
-       "name": "星岛环球网",
-       "url": "https://m.stnn.cc/detail/6ae870f08f9d2b19dd1f088c.html"
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
       },
       {
-       "name": "同花顺财经",
-       "url": "http://stock.10jqka.com.cn/20261102/c681371513.shtml"
+       "name": "Yahoo Finance（AMD新闻稿）",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/amd-reports-third-quarter-2026-211500470.html"
       },
       {
-       "name": "新浪财经",
-       "url": "https://finance.sina.com.cn/stock/aigc/reltrade/2026-11-02/doc-inixkeur0313374.shtml"
+       "name": "GuruFocus",
+       "url": "https://www.gurufocus.com/news/9166702/amd-exceeds-expectations-with-q3-2026-revenue-of-134-billion-and-gaap-eps-of-146"
+      },
+      {
+       "name": "24/7 Wall St.",
+       "url": "https://247wallst.com/investing/2026/11/03/live-will-amd-crush-q3-earnings-tonight-after-a-4-intraday-pop/"
       }
      ]
     },
     {
-     "tag": "关注",
-     "title": "布鲁克菲尔德选定KB国民银行牵头约80亿美元GPU贷款，为NAVER采购AI芯片并长期租给NAVER Cloud",
-     "summary": "据彭博11月2日报道，KB国民银行牵头10.7万亿韩元（约80亿美元）银团贷款，属12.6万亿韩元项目包，为韩国首笔大规模GPU融资；布鲁克菲尔德设SPV购入GPU后长期租给NAVER Cloud，新韩、友利、韩亚已确认参与，利率据报约5%后段。项目源于7月NAVER、英伟达与布鲁克菲尔德的100亿美元AI工厂计划。",
+     "tag": "机会",
+     "title": "据报英伟达要求云客户至少51%服务卖给中国以外企业，东南亚新型云商受冲击",
+     "summary": "据报（FT援引五位知情人士），英伟达要求数据中心与云客户新签合同中至少51%的服务须面向非中国企业，即中国客户占比不超过49%；新加坡、马来西亚、日本等地的新型云商受影响最大，存量合同暂不受影响，口径（收入、算力或客户数）未明。英伟达未予证实或否认。",
+     "comment": "1. 国内模型和应用企业通过东南亚、日本云商租用英伟达算力的路径收窄，这部分训练和推理需求回流国内的规模取决于执行力度，国内可承接的主要是昇腾云和国产卡智算中心。",
      "sources": [
       {
        "name": "Bloomberg",
-       "url": "https://www.bloomberg.com/news/articles/2026-11-02/brookfield-taps-kb-to-lead-korea-s-first-gpu-loan-at-8-billion"
+       "url": "https://www.bloomberg.com/news/articles/2026-11-03/nvidia-tells-data-center-clients-to-trim-china-business-ft-says"
       },
       {
-       "name": "Private Equity Wire",
-       "url": "https://www.privateequitywire.co.uk/brookfield-selects-kb-to-arrange-8bn-korean-ai-infrastructure-loan/"
+       "name": "TradingView",
+       "url": "https://www.tradingview.com/news/cryptobriefing:ffa228717094b:0-nvidia-tells-cloud-clients-to-sell-at-least-51-of-services-to-non-chinese-firms/"
       },
       {
-       "name": "The Korea Herald",
-       "url": "https://www.koreaherald.com/article/10921731"
+       "name": "Daily Caller",
+       "url": "https://dailycaller.com/2026/11/03/nvidia-china-chips-data-centers-artificial-intelligence-models/"
       }
      ]
     },
     {
-     "tag": "竞争",
-     "title": "摩尔线程无锡惠山智算中心一期2000卡投运三个月满载，拟扩容至万卡级，新石器自动驾驶训练需求近万卡",
-     "summary": "11月2日报道：无锡（惠山）国产智算中心一期2000张摩尔线程GPU投运三个月即满载，20余家客户在用，训练业务占比超62%；摩尔线程与惠山招商、新石器10月31日签署战略合作，新石器将在该中心做自动驾驶模型训练，所需算力接近万卡级。协议金额与期限未披露。",
-     "comment": "1. 训练业务占比超62%且有自动驾驶客户排队，说明摩尔线程已在地方国产智算中心的训练场景拿到付费客户，昇腾在地方政府主导的国产算力项目中面对的对手不只寒武纪和海光。",
+     "tag": "利好",
+     "title": "据报DeepSeek V5计划以昇腾950为核心训练算力，目标2027年落地",
+     "summary": "据报（财联社旗下财闻援引产业链人士），DeepSeek下一代模型V5计划以华为昇腾950作为核心训练算力，项目节奏指向2027年；此前昇腾仅承担DeepSeek推理任务，双方已在V4阶段完成大量底层算子适配，昇腾研发对接团队常驻杭州。DeepSeek规划在乌兰察布建设部署昇腾950的智算中心。双方均未官方确认。",
+     "comment": "1. 训练是昇腾此前在头部模型厂商中的薄弱环节；若DeepSeek V5预训练主力转到昇腾950，对其他模型厂商把训练采购转向昇腾的示范作用会强于推理案例。\n2. 能否在2027年兑现取决于950DT规模供货（解读文章称要到今年底或明年初）和HBM供应，与本期HBM走私报道指向同一瓶颈。",
      "sources": [
       {
-       "name": "新浪科技",
-       "url": "https://finance.sina.com.cn/tech/discovery/2026-11-02/doc-inixicie7311162.shtml"
+       "name": "腾讯新闻",
+       "url": "https://news.qq.com/rain/a/20261103A07YRG00"
       },
       {
-       "name": "快科技",
-       "url": "https://news.mydrivers.com/1/1162/1162344.htm"
+       "name": "21经济网",
+       "url": "https://www.21jingji.com/article/20261103/herald/df246f239d7506af28155ef462e1233e.html"
       },
       {
-       "name": "澎湃新闻",
-       "url": "https://www.thepaper.cn/newsDetail_forward_34385069"
+       "name": "FX168（转财闻）",
+       "url": "https://www.fx168news.com/express/fastnews/1460920"
+      },
+      {
+       "name": "什么值得买（解读）",
+       "url": "https://post.smzdm.com/p/a6z4gn20/"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "Anthropic更新IPO文件：三季度收入约170亿美元，算力相关承诺8954亿美元",
+     "summary": "Anthropic修订版S-1披露：前三季度收入332亿美元，Q3约170亿美元、环比增46.7%；Q3由盈转亏，经营亏损5.67亿美元，主要因50亿美元短期算力支出；算力成本占收入比由48%升至58%。截至9月30日算力与基础设施承诺约8954亿美元，最大单笔为博通TPU设备租赁1612亿美元。",
+     "sources": [
+      {
+       "name": "gHacks",
+       "url": "https://www.ghacks.net/2026/11/03/anthropics-revised-ipo-filing-reports-33-2-billion-in-nine-month-revenue-and-895-billion-in-compute-commitments/"
+      },
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/"
+      },
+      {
+       "name": "Seoul Economic Daily",
+       "url": "https://en.sedaily.com/international/2026/11/03/anthropic-locks-in-895-billion-in-computing-deals-broadcom"
+      },
+      {
+       "name": "Yahoo Finance",
+       "url": "https://uk.finance.yahoo.com/news/anthropics-amended-ipo-paperwork-reveals-153730799.html"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "海外GPU租赁价持续走高：H100成交指数月涨25%，B200中位价90天涨约25%",
+     "summary": "Ornn成交价指数显示，11月2日H100 SXM租价3.38美元/卡时，近一个月涨25.2%；B200为9.41美元/卡时，近一月涨20.6%。GetDeploying统计11月3日B200按需中位价7.99美元/卡时（21家供应商），90天涨约25%；H100中位价3.92美元/卡时（46家）。",
+     "table": {
+      "caption": "海外GPU按需租赁价格（美元/卡时）",
+      "columns": [
+       "型号",
+       "价格",
+       "来源/变化"
+      ],
+      "rows": [
+       [
+        "H100 SXM",
+        "3.38",
+        "Ornn指数，月涨25.2%"
+       ],
+       [
+        "H100",
+        "3.92",
+        "GetDeploying中位价"
+       ],
+       [
+        "B200",
+        "9.41",
+        "Ornn指数，月涨20.6%"
+       ],
+       [
+        "B200",
+        "7.99",
+        "GetDeploying中位价，90天涨约25%"
+       ]
+      ]
+     },
+     "comment": "1. 海外H100、B200租价一个月涨两成以上，叠加英伟达限制东南亚云商的中国客户占比，国内企业租用海外英伟达算力变贵也变难，国内算力租赁（含昇腾云）相对海外的价格优势扩大。",
+     "sources": [
+      {
+       "name": "Ornn OCPI",
+       "url": "https://data.ornn.com/"
+      },
+      {
+       "name": "GetDeploying",
+       "url": "https://getdeploying.com/gpus/nvidia-b200"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "超微电脑FY27Q1营收199亿美元、同比约4倍，上调全年指引至720–820亿美元",
+     "summary": "超微电脑11月3日盘后公布截至9月30日季度业绩：营收199亿美元（上年同期50亿、上季111亿），高于10月预告区间；GAAP毛利率12.7%，较上季17.5%明显回落；经营现金流净流出4.34亿美元。下季营收指引195–215亿美元，FY2027营收指引上调至720–820亿美元。",
+     "table": {
+      "caption": "超微电脑FY27Q1关键数据",
+      "columns": [
+       "指标",
+       "数值",
+       "对比"
+      ],
+      "rows": [
+       [
+        "营收",
+        "199亿美元",
+        "上年同期50亿美元"
+       ],
+       [
+        "GAAP毛利率",
+        "12.7%",
+        "上季17.5%"
+       ],
+       [
+        "GAAP EPS",
+        "1.75美元",
+        "—"
+       ],
+       [
+        "下季营收指引",
+        "195–215亿美元",
+        "—"
+       ],
+       [
+        "FY27营收指引",
+        "720–820亿美元",
+        "上调"
+       ]
+      ]
+     },
+     "sources": [
+      {
+       "name": "Quartz",
+       "url": "https://qz.com/super-micro-computer-stock-sales-tripled-earnings-110326"
+      },
+      {
+       "name": "GuruFocus",
+       "url": "https://www.gurufocus.com/news/9166774/super-micro-computer-reports-q1-fy2027-earnings-gaap-eps-at-175-and-revenue-of-199-billion-exceeds-estimates"
+      },
+      {
+       "name": "MarketScreener（路透）",
+       "url": "https://www.marketscreener.com/news/super-micro-forecasts-quarterly-revenue-above-estimates-on-strong-ai-server-demand-ce785fdedd81f521"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "Drax、布鲁克菲尔德与Radiant拟在英国电厂建超200亿英镑AI数据中心",
+     "summary": "11月3日，Drax集团、布鲁克菲尔德与AI基础设施公司Radiant同意在北约克郡Drax电站联合开发AI数据中心，全部建成总投资或超200亿英镑（约268亿美元）；一期100MW预计2028年Q1投运，2028–2031年再增500MW，远期超1GW。尚未做最终投资决定，仍需规划许可、政府批准和锁定客户。",
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html"
+      },
+      {
+       "name": "The Register",
+       "url": "https://theregister.com/on-prem/2026/11/03/drax-wants-to-feed-britains-ai-habit-with-20b-datacenter-at-biomass-power-station/5307237"
       }
      ]
     }
@@ -108,73 +290,21 @@
    "items": [
     {
      "tag": "竞争",
-     "title": "苹果FY26 Q4营收1144.8亿美元增12%，大中华区175.4亿美元增21%但低于预期，12月季度毛利率指引降至45%–46%",
-     "summary": "苹果北京时间11月3日晨发布截至9月26日的财季业绩：营收1144.8亿美元增12%，iPhone收入575.8亿美元增约17%；大中华区175.4亿美元增21%，低于预期187.5亿美元；毛利率47.9%（含约1个百分点关税退款）。12月季度指引营收增7%–10%、毛利率45%–46%，新任CEO特努斯称内存成本将继续上升，据报苹果已涨价抵消部分成本。",
-     "table": {
-      "caption": "苹果FY26 Q4主要数据（亿美元）",
-      "columns": [
-       "项目",
-       "金额",
-       "同比/说明"
-      ],
-      "rows": [
-       [
-        "总营收",
-        "1144.8",
-        "+12%（预期1134.7）"
-       ],
-       [
-        "iPhone",
-        "575.8",
-        "约+17%"
-       ],
-       [
-        "服务",
-        "315.7",
-        "+9.8%，2022年以来最低增速"
-       ],
-       [
-        "Mac / iPad / 可穿戴",
-        "107.9 / 62.3 / 83.0",
-        "iPad低于预期"
-       ],
-       [
-        "大中华区",
-        "175.4",
-        "+21%（预期187.5）"
-       ],
-       [
-        "12月季度指引",
-        "营收+7%–10%",
-        "毛利率45%–46%"
-       ]
-      ]
-     },
-     "comment": "1. 苹果毛利率指引从47.9%降到45%–46%，并承认已靠涨价抵消部分内存成本，说明内存涨价已传导到毛利最厚的厂商，国内旗舰跟随涨价时不会单独失去对iPhone的价格优势。\n2. 大中华区增21%仍比预期少约12亿美元，且苹果称12月季度指引已计入供应受限，iPhone Duo在四季度对我司折叠屏的冲击受其产能约束。",
+     "title": "苹果向全部第三方开发者开放Siri AI接入，iOS 27.3测试版上线可串联多步操作的“应用技能”",
+     "summary": "苹果11月3日（美国时间）宣布，任何第三方App都可通过App Intents接入Siri AI，并可构建串联多步操作的“应用技能”。功能已进入iOS 27.3测试版，自家应用跨App任务预计12月推送，第三方接入要等明年春季App Store开放。",
+     "comment": "1. 苹果把系统级助手从“调用自家应用”扩到“串联任意第三方应用办事”，与我司小艺智能体加鸿蒙意图框架走同一条路，手机AI体验的比拼重点正从模型能力转向能接入多少头部应用。",
      "sources": [
       {
-       "name": "新浪财经",
-       "url": "https://finance.sina.cn/tech/2026-11-03/detail-inixkzyf0022016.d.html"
+       "name": "9to5Mac",
+       "url": "https://9to5mac.com/2026/11/03/developers-can-now-create-advanced-app-skills-for-siri-ai/"
       },
       {
-       "name": "新浪财经（财联社）",
-       "url": "https://finance.sina.cn/2026-11-03/detail-inixkzyh6767350.d.html"
+       "name": "MacRumors",
+       "url": "https://www.macrumors.com/2026/11/03/ios-27-3-siri-ai/"
       },
       {
-       "name": "FX168",
-       "url": "https://www.fx168news.com/express/fastnews/1460805"
-      },
-      {
-       "name": "Yahoo Finance",
-       "url": "https://finance.yahoo.com/markets/stocks/live/apple-earnings-live-apple-beats-q4-estimates-on-strong-iphone-sales-but-misses-on-china-revenue-221806957.html"
-      },
-      {
-       "name": "金十（实时新闻转载）",
-       "url": "https://shishixinwen.news/news/jin10/20261103053449859800"
-      },
-      {
-       "name": "IT之家",
-       "url": "https://www.ithome.com/1/021/284.htm"
+       "name": "iPhone in Canada",
+       "url": "https://www.iphoneincanada.ca/2026/11/03/siri-ai-open-all-developers-ios-27-3/"
       }
      ]
     }
@@ -186,160 +316,131 @@
    "items": [
     {
      "tag": "竞争",
-     "title": "Marvell以约1150亿美元全股票收购Lumentum，DSP与激光器/光模块/OCS合并成AI光互联全栈供应商",
-     "summary": "11月2日（美东）Marvell宣布全股票收购Lumentum，企业价值约1150亿美元、股权价值约1025亿美元，每股Lumentum换4.5股Marvell，溢价约23.9%；称年化成本协同超10亿美元、合并后可及市场5500亿美元，预计2028年上半年交割；监管否决时Marvell需付32亿美元分手费。当日两家股价分别跌超10%和约15%。",
+     "title": "Arista三季度营收36.6亿美元增58.5%创上市以来最快，上调全年指引至超133亿美元并给出2027年约185亿美元展望",
+     "summary": "Arista 11月3日美股盘后发布Q3财报：营收约36.6亿美元、同比增58.5%，高于自身33亿美元指引；Q4营收指引39–40亿美元。据电话会摘要，2026全年营收上调至超133亿美元，2027年预计增38%–40%至约185亿美元。",
      "table": {
-      "caption": "交易要点",
+      "caption": "Arista关键数据",
       "columns": [
-       "项目",
-       "数值"
+       "指标",
+       "数值",
+       "备注"
       ],
       "rows": [
        [
-        "企业价值",
-        "约1150亿美元"
+        "Q3营收",
+        "36.6亿美元",
+        "同比+58.5%"
        ],
        [
-        "换股比例",
-        "1股LITE换4.5股MRVL"
+        "Q3 Non-GAAP毛利率",
+        "64.0%",
+        "上年同期65.2%"
        ],
        [
-        "交割后Marvell股东持股",
-        "约67%"
+        "Q3 Non-GAAP经营利润率",
+        "49.1%",
+        "同比+0.5pct"
        ],
        [
-        "成本协同",
-        "年化超10亿美元"
+        "Q4营收指引",
+        "39–40亿美元",
+        "环比+7%–9%"
        ],
        [
-        "监管否决分手费",
-        "32亿美元"
+        "2026全年营收",
+        "超133亿美元",
+        "增约48%（电话会）"
        ],
        [
-        "预计交割",
-        "2028年上半年"
+        "2027年展望",
+        "约185亿美元",
+        "增38%–40%（电话会摘要）"
        ]
       ]
      },
-     "comment": "1. 合并后Marvell同时拥有光DSP、激光器、光模块和光电路交换（OCS），可向北美云厂商整包供应AI集群光互联，我司数据中心光模块与数通交换机在海外AI集群面对的对手规模更大、方案更完整。\n2. Lumentum是国内高速光模块所用EML等激光器的主要外部来源之一，被同为DSP供应商的Marvell控制后，国内光模块厂的激光器供货优先级和价格存在变数；交割预计在2028年上半年，需经包括中国在内的反垄断审批。",
+     "comment": "1. Arista营收增58.5%但非GAAP毛利率同比降1.2个百分点、公司归因于产品成本上涨，交换机龙头也没能把器件涨价全部转嫁给云厂商，我司数通产品面对国内互联网大客户时同样难靠提价消化存储等器件涨价。",
      "sources": [
       {
-       "name": "Bloomberg",
-       "url": "https://www.bloomberg.com/news/articles/2026-11-02/marvell-reaches-115-billion-deal-for-lumentum-holdings"
+       "name": "GuruFocus",
+       "url": "https://www.gurufocus.com/news/9166705/arista-networks-reports-q3-2026-earnings-revenue-hits-366-billion-and-gaap-eps-of-122-surpasses-estimates"
       },
       {
-       "name": "The Globe and Mail",
-       "url": "https://www.theglobeandmail.com/business/article-marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-centre-bet/"
+       "name": "StockTitan（财报原文转载）",
+       "url": "https://www.stocktitan.net/news/ANET/arista-networks-inc-reports-third-quarter-2026-financial-kr6xmmw6qacb.html"
       },
       {
-       "name": "Quartz",
-       "url": "https://qz.com/marvell-lumentum-acquisition-115-billion-all-stock-110226"
+       "name": "Benzinga（电话会实录）",
+       "url": "https://www.benzinga.com/news/26/11/62848727/arista-networks-q3-2026-earnings-call-transcript"
       },
       {
-       "name": "Seeking Alpha",
-       "url": "https://seekingalpha.com/news/4662061-marvell-announces-115b-all-stock-deal-for-lumentum"
+       "name": "Motley Fool",
+       "url": "https://www.fool.com/investing/2026/11/03/arista-revenue-up-58-as-q4-outlook-slows-rapid-ear/"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "中际旭创回应海外客户砍单传言：2027年订单已基本覆盖全年，部分客户1.6T需求上调，光模块供应仍偏紧",
+     "summary": "中际旭创11月3日发布投资者关系活动记录：绝大部分客户未下修需求或订单，个别客户为产品结构调整，部分客户1.6T需求较此前增加；2027年绝大部分订单已覆盖全年，2028年已有至少一家重点客户给出明确且强劲的需求指引；光模块供应整体偏紧，上游扩产偏慢、部分物料涨价。",
+     "comment": "1. 头部厂商2027年产能已基本被海外云厂商订满，且上游物料在涨价，国内运营商和设备商采购800G/1.6T光模块时交期和价格都难改善，我司光模块外购成本下行空间有限。",
+     "sources": [
+      {
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15289514.html"
+      },
+      {
+       "name": "每日经济新闻",
+       "url": "https://www.nbd.com.cn/articles/2026-11-03/4637243.html"
+      },
+      {
+       "name": "第一财经",
+       "url": "https://www.yicai.com/brief/103424274.html"
+      },
+      {
+       "name": "富途牛牛",
+       "url": "https://news.futunn.com/post/1003296078/zhongji-innolight-responds-to-rumors-the-vast-majority-of-clients"
       }
      ]
     },
     {
      "tag": "竞争",
-     "title": "中国电信研究院联合长飞、中兴完成1007.48公里空芯光纤双向实时传输验证，单纤容量128Tb/s",
-     "summary": "11月2日中国电信研究院公布，与长飞、中兴通讯在1007.48公里空芯光纤链路上实现扩展C+L波段单波800Gb/s（PCS-16QAM）单纤双向传输，总容量128Tb/s；采用常规功率商用放大器，官方称为全球首个千公里级空芯光纤双向实时传输。去年11月电信刚完成超百公里空芯光纤实验。",
-     "comment": "1. 空芯光纤一年内由百公里级实验推进到千公里级、且用商用放大器完成，已进入干线可用性验证；这次设备合作方是中兴，若中国电信后续开展空芯干线试点，中兴在设备侧已先行一步，对我司干线光传送在电信的份额构成竞争。",
+     "title": "Verizon年内在全国部署爱立信智能控制器EIC运行AI原生rApp，目标L4级自治网络",
+     "summary": "Verizon与爱立信11月3日宣布，Verizon年内在全国部署爱立信智能控制器（EIC）运行AI原生RAN自动化rApp；外场测试中AAS小区赋形等rApp使下行吞吐最高提升8.9%、上行最高提升8%。Verizon还将自研rApp，目标L4级自治。",
      "sources": [
       {
-       "name": "IT之家",
-       "url": "https://www.ithome.com/1/020/887.htm"
+       "name": "PR Newswire",
+       "url": "https://www.prnewswire.com/news-releases/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks-302927310.html"
       },
+      {
+       "name": "SDxCentral",
+       "url": "https://www.sdxcentral.com/news/verizon-ai-ran-work-rides-nationwide-ericsson-intelligent-controller-deployment/"
+      },
+      {
+       "name": "Fierce Network",
+       "url": "https://www.fierce-network.com/wireless/verizon-taps-ericsson-rapps-rollout"
+      },
+      {
+       "name": "telecoms.com",
+       "url": "https://www.telecoms.com/ai/verizon-ramps-up-ai-ran-activity-with-ericsson-rapp-rollout"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "力箭二号一箭18星发射千帆星座第21组卫星，千帆在轨卫星增至274颗",
+     "summary": "11月3日，力箭二号遥二运载火箭在东风商业航天创新试验区将垣信卫星18颗千帆星座组网卫星送入预定轨道，为该型火箭首次执行低轨星座规模化组网发射；千帆在轨卫星达274颗，一期目标1296颗、计划2027年完成。",
+     "sources": [
       {
        "name": "新浪科技",
-       "url": "https://finance.sina.com.cn/tech/roll/2026-11-02/doc-inixicic0502347.shtml"
+       "url": "https://finance.sina.com.cn/tech/roll/2026-11-03/doc-inixmnqe2328659.shtml"
       },
       {
-       "name": "快科技",
-       "url": "https://news.mydrivers.com/1/1162/1162323.htm"
-      }
-     ]
-    },
-    {
-     "tag": "竞争",
-     "title": "Light Reading：诺基亚在VMO2伦敦的AI-RAN试验用Marvell基带芯片而非英伟达GPU，频谱效率提升约20%",
-     "summary": "11月2日Light Reading报道，VMO2与诺基亚在伦敦Paddington站点的AI-RAN试验据报采用Marvell代号ABIP的L1芯片，频谱效率提升约20%；VMO2移动接入工程总监称“做这件事不需要GPU”。此前报道称该站点使用英伟达GPU基带卡，诺基亚与VMO2未正式确认芯片来源。",
-     "comment": "1. 运营商公开称AI-RAN“不需要GPU”，频谱效率提升约20%靠专用基带芯片即可实现，这削弱英伟达借诺基亚进入无线接入网的路线，对同样用自研基带芯片的我司无线产品是有利佐证。",
-     "sources": [
-      {
-       "name": "Light Reading",
-       "url": "https://www.lightreading.com/5g/nokia-quickie-with-marvell-at-vmo2-shows-ai-ran-needs-no-nvidia"
+       "name": "中国网",
+       "url": "http://photo.china.com.cn/2026-11/03/content_118759351.shtml"
       },
       {
-       "name": "Telecompaper",
-       "url": "https://www.telecompaper.com/news/vmo2-nokia-complete-live-ai-ran-technology-trial-in-london--1586785"
-      }
-     ]
-    },
-    {
-     "tag": "关注",
-     "title": "据报联电拿下中际旭创、赛丽光子硅光芯片代工订单，初期约1万片，单价约为传统CMOS的7倍",
-     "summary": "据台媒11月2日报道，联电获中际旭创及腾讯投资的赛丽光子（SILITH）光子集成电路（PIC）代工订单，初期约1万片晶圆，在新加坡厂生产，报价据报约为传统CMOS工艺7倍；联电PIC长期月产能目标1.8万片，2030年达完整规模。目前具备硅光PIC量产能力的代工厂主要是高塔和格芯，联电未予置评。",
-     "sources": [
-      {
-       "name": "经济日报（台湾）",
-       "url": "https://money.udn.com/money/story/5612/9850895"
-      },
-      {
-       "name": "同花顺财经",
-       "url": "http://stock.10jqka.com.cn/20261102/c681349960.shtml"
-      },
-      {
-       "name": "快科技",
-       "url": "https://news.mydrivers.com/1/1162/1162302.htm"
-      }
-     ]
-    },
-    {
-     "tag": "关注",
-     "title": "据报SpaceX洽谈收购EchoStar旗下Boost Mobile或租用其网络，推进卫星+地面混合移动网",
-     "summary": "据《华盛顿邮报》11月2日报道，SpaceX正与EchoStar洽谈收购Boost Mobile（2025年末750万用户）或使用其网络，以推出Starlink品牌移动业务；马斯克上月与EchoStar董事长Ergen面谈，SpaceX此前接触Verizon、AT&T、T-Mobile被拒。双方未置评，T-Mobile盘前跌约2%。",
-     "sources": [
-      {
-       "name": "TechCrunch",
-       "url": "https://techcrunch.com/2026/11/02/spacex-reportedly-wants-to-buy-boost-mobile-to-compete-with-att-t-mobile-and-verizon/"
-      },
-      {
-       "name": "Investing.com（路透）",
-       "url": "https://www.investing.com/news/stock-market-news/spacex-in-talks-to-buy-boost-mobile-or-use-its-network-washington-post-reports-4990666"
-      }
-     ]
-    },
-    {
-     "tag": "机会",
-     "title": "中国信通院：网号确权打通5G独立专网落地瓶颈，行业企业可获独立网络标识",
-     "summary": "11月2日C114刊发中国信通院王涵观点：5G独立专网落地卡在“网归谁”，需通过网号确权解决；独立专网身份识别码单独规划、终端号段按企业规模分配，据报行业专网代码设为90，并配合五部门工业5G独立专网试点及试验频率许可推进。",
-     "comment": "1. 若企业可拿到独立网号自建自管5G专网，核心网和基站可由企业直接向设备商采购、不必经运营商转包，我司5G专网可直接面向电力、矿山、制造等行业客户销售，取决于试点频率许可的发放范围。",
-     "sources": [
-      {
-       "name": "新浪科技（C114）",
-       "url": "https://finance.sina.com.cn/tech/roll/2026-11-02/doc-inixkeus7131288.shtml"
-      }
-     ]
-    },
-    {
-     "tag": "关注",
-     "title": "Telia与爱立信在瑞典启动上6GHz频段6G外场试验，目标2030–2032年商用",
-     "summary": "11月2日Telia与爱立信宣布在瑞典启动6G户外外场试验，采用爱立信预标准6G技术、上6GHz频段，测试覆盖、上行容量、可靠性和时延，并评估6GHz与600MHz频谱需求；属瑞典6G联合路线图一部分，Telia还将牵头制定国家6G安全架构。",
-     "comment": "1. 瑞典已于2020年禁止我司设备进入5G网络，此次由Telia牵头制定国家6G安全架构，6G阶段瑞典市场大概率延续排除高风险供应商，北欧6G对我司无线业务基本不构成增量。",
-     "sources": [
-      {
-       "name": "Advanced Television",
-       "url": "https://www.advanced-television.com/2026/11/02/telia-ericsson-launch-6g-field-trials-in-sweden/"
-      },
-      {
-       "name": "TelecomTV",
-       "url": "https://www.telecomtv.com/content/6g/telia-trials-6g-with-ericsson-56573/"
-      },
-      {
-       "name": "MarketScreener",
-       "url": "https://www.marketscreener.com/news/telia-and-ericsson-launch-6g-trials-in-sweden-ce785fd8de8bff24"
+       "name": "FX168（转工信部）",
+       "url": "https://www.fx168news.com/express/fastnews/1461113"
       }
      ]
     }
@@ -351,13 +452,111 @@
    "items": [
     {
      "tag": "关注",
-     "title": "全新问界M9上市20周累计交付超5万台，领世加长版50天交付超5000台、均价破70万元",
-     "summary": "问界11月2日宣布，全新一代问界M9自6月13日开启交付以来，20周累计交付超5万台（16周时为4万台）；M9 Ultimate领世加长版开启交付50天累计超5000台，成交均价突破70万元。",
-     "comment": "1. 按16周4万台、20周5万台推算，M9在10月前后约交付1万台，约占鸿蒙智行10月33537台的三成，说明鸿蒙智行同比腰斩主要来自M9以外的车型，乾崑在50万元以上价位的需求仍然稳定。",
+     "title": "乘联分会预估10月新能源乘用车厂商批发180万辆，同比增12%，比亚迪48.3万辆居首、特斯拉中国跌至第八",
+     "summary": "乘联分会11月3日初步预估：10月全国新能源乘用车厂商批发180万辆，同比增12%、环比增8%（批发含出口）。前五为比亚迪、吉利、奇瑞、长安、零跑；特斯拉中国6.78万辆，同比增10.3%、环比降28.9%，由第六降至第八；小鹏、小米均超5万辆进入前十。上汽大众、一汽大众新能源同比翻倍。",
+     "table": {
+      "caption": "10月新能源乘用车厂商批发（乘联分会初步数据，辆）",
+      "columns": [
+       "车企",
+       "10月批发",
+       "备注"
+      ],
+      "rows": [
+       [
+        "比亚迪",
+        "483125",
+        "第1"
+       ],
+       [
+        "吉利",
+        "213165",
+        "第2，创新高"
+       ],
+       [
+        "奇瑞",
+        "134471",
+        "第3，创新高"
+       ],
+       [
+        "长安",
+        "122422",
+        "第4"
+       ],
+       [
+        "零跑",
+        "103021",
+        "第5"
+       ],
+       [
+        "特斯拉中国",
+        "67829",
+        "第8，同比+10.3%，环比-28.9%"
+       ]
+      ]
+     },
+     "comment": "1. 批发同比增12%，而乘联分会10月1–25日国内新能源零售同比降13%，增量主要来自出口和经销商库存，国内新能源需求实际在收缩，乾崑合作车企靠国内市场放量的空间收窄。",
      "sources": [
       {
-       "name": "新浪汽车（11月2日22时热点小时报）",
-       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908teg8.html"
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/digi/2026-11-03/doc-inixncms9901460.shtml"
+      },
+      {
+       "name": "金融界",
+       "url": "https://finance.jrj.com.cn/2026/11/03213259001276.shtml"
+      },
+      {
+       "name": "凤凰网汽车",
+       "url": "https://auto.ifeng.com/c/8xksw2LJBdK"
+      },
+      {
+       "name": "CnEVPost",
+       "url": "https://cnevpost.com/2026/11/03/cpca-estimates-china-oct-2026-nev-wholesale/"
+      },
+      {
+       "name": "CnEVPost（特斯拉）",
+       "url": "https://cnevpost.com/2026/11/03/tesla-china-oct-2026-wholesale/"
+      },
+      {
+       "name": "每日经济新闻（10月1–25日零售）",
+       "url": "https://www.nbd.com.cn/articles/2026-10-28/4623819.html"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "百度首次披露Apollo World世界模型，以多智能体虚拟城市为萝卜快跑做全球测试验证",
+     "summary": "11月3日百度AI Day（深圳）Apollo专场发布Apollo World：虚拟城市中每个交通参与者为自主决策的AI智能体，可实时生成摄像头图像与激光雷达点云，已用于萝卜快跑全球测试验证，并称可扩展至机器人等具身场景。萝卜快跑已覆盖28城，累计出行超2300万次、自动驾驶里程超3.5亿公里。",
+     "sources": [
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/discovery/2026-11-03/doc-inixnpzs2120491.shtml"
+      },
+      {
+       "name": "金融界",
+       "url": "https://finance.jrj.com.cn/2026/11/03210559000661.shtml"
+      },
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/021/808.htm"
+      },
+      {
+       "name": "InfoQ",
+       "url": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "问界新M8定档11月13日上市，预售38.98万元起，锁单最快一周提车",
+     "summary": "问界11月3日宣布新M8将于11月13日正式上市，预售价38.98万元起，锁单用户最快一周提车。问界10月交付22105辆、同比降超五成，市场将新M8视为鸿蒙智行11月回升的关键车型。",
+     "sources": [
+      {
+       "name": "微博",
+       "url": "https://weibo.com/2/detail/5361162340270944"
+      },
+      {
+       "name": "新浪新闻",
+       "url": "https://www.sina.cn/weibo/detail/5361158924014063.html"
       }
      ]
     }
@@ -369,33 +568,87 @@
    "items": [
     {
      "tag": "竞争",
-     "title": "阳光电源称2026年储能出货将超60GWh，按在手订单2027年有望接近翻倍",
-     "summary": "11月2日阳光电源投资者关系纪要：四季度储能出货预计超20GWh，全年超60GWh；按在手订单，明年储能出货可能接近今年两倍，高于其对全球储能需求增长30%以上、海外40%以上的判断；并称碳酸锂价格已较高点明显回落，利好储能毛利。其三季度单季净利同比降67.7%。",
-     "comment": "1. 阳光预计明年储能出货接近翻倍、明显快于它自估的全球需求增速（30%以上），增长要靠抢份额，我司数字能源在海外大型储能项目上将面对更积极的报价。\n2. 阳光把锂价回落列为毛利改善来源，11月2日电池级碳酸锂现货约9.3万元/吨，若维持在这一水平，集成商有降价空间，储能系统中标价下行压力将延续到明年。",
+     "title": "阳光电源供货的BW ESS英国Hams Hall储能电站投运，350MW/1240MWh为欧洲最大",
+     "summary": "Energy-Storage.News 11月3日报道，BW ESS位于英格兰的Hams Hall电池储能项目（350MW/1240MWh）进入商业运行，被称为欧洲在运规模最大；阳光电源提供储能系统，从带电到商运仅用20天。",
+     "comment": "1. 欧盟11月1日起执行的高风险逆变器限制只覆盖欧盟资助项目，英国及商业融资储能不受约束，阳光电源仍能交付欧洲最大单体储能，说明我司数字能源在英国大储市场的准入暂未因欧盟新规收紧。",
      "sources": [
       {
-       "name": "同花顺财经",
-       "url": "http://stock.10jqka.com.cn/20261102/c681350300.shtml"
+       "name": "Energy-Storage.News",
+       "url": "https://www.energy-storage.news/bw-ess-puts-europes-largest-bess-commercial-operation-uk-gb/"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "国内储能招中标：宁夏灵武2GWh储能电站PC总包中标价15.03亿元，宁德时代中标内蒙古1.2GWh构网型储能设备",
+     "summary": "浙江建投11月3日公告，子公司浙江三建牵头联合体中标宁夏灵武新丰500MW/2000MWh储能电站PC总承包，中标价15.03亿元（折合约0.75元/Wh），尚未签正式合同；同日中国电建湖北工程公示内蒙沙井300MW/1200MWh独立储能EPC项目储能设备采购由宁德时代成交，未披露金额。",
+     "table": {
+      "caption": "11月3日公示的国内储能项目",
+      "columns": [
+       "项目",
+       "规模",
+       "中标方",
+       "价格"
+      ],
+      "rows": [
+       [
+        "宁夏灵武新丰储能电站PC总承包",
+        "500MW/2000MWh",
+        "浙江三建牵头联合体",
+        "15.03亿元，约0.75元/Wh"
+       ],
+       [
+        "内蒙沙井独立储能设备采购（构网型）",
+        "300MW/1200MWh",
+        "宁德时代",
+        "未披露"
+       ]
+      ]
+     },
+     "comment": "1. 沙井项目由宁德时代间接全资控股的公司投资（总投资约9亿元），属于自投自供，不能当作宁德时代在公开招标中抢到份额的信号，也不能作为设备价格参考。",
+     "sources": [
+      {
+       "name": "金融界",
+       "url": "https://finance.jrj.com.cn/2026/11/03222459001594.shtml"
       },
       {
        "name": "新浪财经",
-       "url": "https://k.sina.cn/article_1644983660_620c756c02001xjpq.html"
+       "url": "https://k.sina.cn/article_5953466437_162dab0450670bgt5w.html"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "隆基绿能称储能订单已超3GWh，前三季度确认销量约1.6GWh",
+     "summary": "隆基绿能在2026年三季度业绩说明会上表示，储能业务订单已超3GWh，前三季度确认收入的储能销量约1.6GWh，差异来自客户项目并网进度；公司2026年切入储能，主攻大型电站、工商业和离网微网并加快出海。前三季度BC组件销量31.64GW，同比增118.58%。",
+     "comment": "1. 隆基储能订单3GWh约为阳光电源2026年预计储能出货（超60GWh）的5%，体量仍小，但组件龙头借海外组件渠道卖储能，会在工商业和离网微网场景与我司光储方案正面竞争。",
+     "sources": [
+      {
+       "name": "证券之星",
+       "url": "https://stock.stockstar.com/IG2026110300017618.shtml"
       },
       {
-       "name": "Bloomberg",
-       "url": "https://www.bloomberg.com/news/articles/2026-11-02/sungrow-shares-jump-on-bullish-outlook-for-battery-storage"
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34369811"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "市场监管总局：我国已制定实施新型储能国标和行标150项，累计装机超153GW/396GWh",
+     "summary": "市场监管总局11月3日披露，我国已制定实施新型储能国家及行业标准150项，覆盖规划设计、设备检验、并网运行、退役处置、安全管理全链条；新型储能累计装机超153GW/396GWh，占全球50%以上；6项标准已用于美国、阿根廷、吉尔吉斯斯坦的储能项目，已出具检测报告8500余份、认证产品1200余个。",
+     "sources": [
+      {
+       "name": "中新网",
+       "url": "https://www.chinanews.com.cn/cj/2026/11-03/10725416.shtml"
       },
       {
-       "name": "富途牛牛",
-       "url": "https://news.futunn.com/en/post/1003056095/sungrow-power-supply-300274-sz-the-company-expects-its-energy"
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15288038.html"
       },
       {
-       "name": "Investing.com",
-       "url": "https://www.investing.com/news/stock-market-news/why-is-sungrow-power-supply-stock-surging-today-93CH-4989878"
-      },
-      {
-       "name": "同花顺（碳酸锂现货）",
-       "url": "http://news.10jqka.com.cn/20261102/c681352076.shtml"
+       "name": "汇通财经",
+       "url": "https://news.fx678.com/202611031601229083.shtml"
       }
      ]
     }
@@ -406,30 +659,46 @@
    "name": "政策与地缘",
    "items": [
     {
-     "tag": "风险",
-     "title": "台湾经济部证实研议依《贸易法》管制高阶芯片、工具机等高科技货品输往大陆",
-     "summary": "11月2日，台湾经济部证实正在研议配套措施，在台美对等贸易协定（ART）承诺下，依《贸易法》将高阶芯片等高科技货品纳入出口管理，并防范违规转运；据报研议范围涉及芯片、工具机及先进运算物项。同日立法院经济委员会就相关修法提案召开公听会。具体清单和实施时间未公布。",
-     "comment": "1. 台湾此前主要靠实体清单限制对华为、中芯等的出口，若改为按货品类别审批，台湾产高端芯片、机床和服务器等物项经第三地转运进入大陆的通道会收紧，对我司及国内供应链的影响取决于最终清单是否覆盖成熟制程芯片和通用机床。",
+     "tag": "关注",
+     "title": "央行近5年首次上调外汇存款准备金率2个百分点至6%，11月15日起执行",
+     "summary": "人民银行11月3日宣布，自11月15日起金融机构外汇存款准备金率由4%上调至6%，为2021年12月以来首次上调；按9月末约1.2万亿美元外币存款测算，约冻结240亿美元外汇流动性。此前在岸人民币升破6.65，公告后离岸人民币先后跌破6.65、6.66、6.67；当日美元兑人民币中间价6.7150。",
+     "comment": "1. 央行用收紧外币流动性表明不希望人民币单边快速升值，人民币升值节奏短期放缓，我司以美元计价的海外收入折算成人民币的缩水压力随之减轻，后续力度取决于中间价是否继续弱于市场预期。",
      "sources": [
       {
-       "name": "联合新闻网",
-       "url": "https://udn.com/news/story/6656/9851388"
+       "name": "新华网",
+       "url": "https://www.xinhuanet.com/20261103/75107c97fc9d48c68c8041d6e5c0b230/c.html"
+      },
+      {
+       "name": "人民网",
+       "url": "http://finance.people.com.cn/n1/2026/1103/c1004-40826913.html"
+      },
+      {
+       "name": "新浪财经",
+       "url": "https://k.sina.cn/article_5953189932_162d6782c067052vau.html"
+      },
+      {
+       "name": "21财经",
+       "url": "https://m.21jingji.com/article/20261103/herald/2fca7e4847f6aa94b880abda564db659.html"
       }
      ]
     },
     {
-     "tag": "关注",
-     "title": "据报多家车企进京协商对欧混动汽车出口配额，总量以2025年30.2万辆为基础",
-     "summary": "财联社11月2日报道，针对中欧10月就混动汽车贸易达成的谅解方案，多家国内车企近期赴京与相关部门协商出口配额分配；知情人士称配额总量有限，每家可分到的额度不多。商务部此前表示双方以2025年30.2万辆为基础作出向上安排。分配方式尚未公布。",
-     "comment": "1. 欧盟对混动车由关税争议转为数量配额，按各企业历史出口量分配的可能性较大时，比亚迪、奇瑞等已有大量对欧出货的车企占优，鸿蒙智行及阿维塔等乾崑合作品牌对欧出口基数小，混动车型进入欧洲的空间取决于配额是否预留给新进入者。",
+     "tag": "风险",
+     "title": "安世荷兰在阿姆斯特丹法院起诉闻泰、张学政及安世中国，据闻泰称索赔20亿美元",
+     "summary": "11月3日闻泰公告：Nexperia B.V.已向阿姆斯特丹地方法院起诉闻泰、实控人张学政及安世中国、安世上海，理由为违反内部协议、自建中国区供应链构成不当竞争，要求连带赔偿20亿美元及自2025年10月1日起的利息（安世声明未披露金额）。闻泰否认全部指控，称尚未收到传票、法院未立案；此前闻泰已在东莞中院反诉索赔80亿元人民币。",
+     "comment": "1. 安世荷兰把“安世中国自建供应链”本身作为索赔理由，双方已从股权之争转为供应链对立，荷兰晶圆恢复供给安世中国的可能性进一步下降，国内车规与电源类分立器件供应更取决于安世中国自有及本土晶圆产能，涉及我司智能汽车解决方案与数字能源的器件采购。",
      "sources": [
       {
-       "name": "新浪财经（转财联社）",
-       "url": "https://finance.sina.com.cn/tech/roll/2026-11-02/doc-inixipwv2256222.shtml"
+       "name": "路透（TradingView转载）",
+       "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46K1MN:0-nexperia-sues-wingtech-and-its-founder-demanding-compensation-for-damages/"
       },
       {
-       "name": "IT之家",
-       "url": "https://www.ithome.com/1/020/939.htm"
+       "name": "钜亨网",
+       "url": "https://news.cnyes.com/news/id/6645590"
+      },
+      {
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34398605"
       }
      ]
     }
@@ -441,57 +710,75 @@
    "items": [
     {
      "tag": "风险",
-     "title": "恩智浦向经销商发出年内第三轮调价函，部分分销及直供产品线2027年1月1日起涨价",
-     "summary": "据报11月2日，恩智浦以原材料、能源、人力、物流及上游供应商成本上涨为由，通知经销商对部分分销及直供产品线调价，2027年1月1日生效，为其2026年内第三轮调价；具体涨幅和型号未披露，有经销商建议提前下单锁定成本。",
-     "comment": "1. 恩智浦是车规MCU、网关和座舱芯片的主要供应商，涨价从存储扩散到车规逻辑芯片，乾崑合作车企在销量同比下滑的情况下还要消化电子BOM上涨，压价空间更小。",
+     "title": "据报三星、SK海力士HBM借低端服务器处理器封装绕过美国管制流入中国，华为昇腾960DT面临国产HBM短缺",
+     "summary": "据The Information报道（11月3日多家媒体转载），走私者把HBM与低端服务器CPU封装在一起，按处理器算力申报经香港入境，到货后加热拆焊取出HBM；据报华为已让部分昇腾客户自行采购HBM，走私HBM3E单价一年内涨至约4000美元。SK海力士称2020年后未向华为供货。",
+     "comment": "1. 据报昇腾960DT需客户自备HBM，说明国产HBM产能仍是昇腾放量的主要瓶颈，走私HBM3E约4000美元/颗的成本最终压在客户整机价格上。\n2. 这一渠道依赖2024年12月管制中“已集成于逻辑芯片的HBM”豁免，美方一旦收紧该条款即会中断，昇腾出货节奏更取决于国产HBM量产进度。",
      "sources": [
       {
-       "name": "界面新闻",
-       "url": "https://www.jiemian.com/article/15283870.html"
+       "name": "TrendForce",
+       "url": "https://www.trendforce.com/news/2026/11/03/news-china-reportedly-obtains-smuggled-hbm-via-server-packages-huawei-960dt-faces-domestic-hbm-shortage/"
       },
       {
-       "name": "同花顺财经",
-       "url": "http://stock.10jqka.com.cn/20261102/c681370405.shtml"
+       "name": "Seoul Economic Daily",
+       "url": "https://en.sedaily.com/international/2026/11/03/smugglers-melt-solder-to-strip-korean-hbm-for-huawei"
       },
       {
-       "name": "凤凰网",
-       "url": "https://auto.ifeng.com/c/8xjMRK4zSZk"
+       "name": "Businesskorea",
+       "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280371"
       }
      ]
     },
     {
-     "tag": "风险",
-     "title": "高盛预计NAND紧缺延续至2027年，三星、SK海力士NAND均价明年再涨34%和30%",
-     "summary": "高盛11月2日研报据铠侠业绩判断，NAND供需紧张将持续至2027年；预计三星、SK海力士NAND业务2027年平均售价分别同比涨34%、30%（2026年预计为279%、254%）；两家客户正签五年期长期供货协议。",
-     "table": {
-      "caption": "高盛对NAND平均售价同比涨幅预测",
-      "columns": [
-       "厂商",
-       "2026年",
-       "2027年"
-      ],
-      "rows": [
-       [
-        "三星电子",
-        "279%",
-        "34%"
-       ],
-       [
-        "SK海力士",
-        "254%",
-        "30%"
-       ]
-      ]
-     },
-     "comment": "1. 存储原厂开始与客户签五年期长协，供应从比价转向锁量，未签长协的终端厂只能拿剩余产能和现货，我司终端存储成本压力会延续到2027年，涨幅从2026年的约2.5倍收窄到约三成。",
+     "tag": "关注",
+     "title": "据报三星将于2030年底前全面退出8英寸晶圆代工，2026年起已停接8英寸新品订单",
+     "summary": "据The Elec报道、DigiTimes 11月3日跟进，三星已通知8英寸客户2030年底前关闭全部相关产线；器兴S7厂2026年内关闭，8英寸月产能将从25万片降至20万片以下，资源转向12英寸先进制程。韩国DB HiTek等8英寸代工厂已满载。",
+     "comment": "1. 8英寸是电源管理、驱动和功率类芯片的主力产线，三星减产约5万片/月叠加恩智浦年内第三轮调价，我司终端和数字能源所用模拟、功率器件明年采购价下行空间有限。",
      "sources": [
       {
-       "name": "21财经",
-       "url": "https://m.21jingji.com/article/20261102/herald/2cd916de2471a91469b3ac1bd0d9fe8e.html"
+       "name": "DigiTimes",
+       "url": "https://www.digitimes.com/news/a20261103VL210/samsung-2030-capacity-business-production.html"
       },
       {
-       "name": "汇通财经",
-       "url": "https://news.fx678.com/202611021325282467.shtml"
+       "name": "The Elec",
+       "url": "https://www.thelec.net/news/articleView.html?idxno=15179"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "据报三星得州泰勒第二座晶圆厂将以2nm为AMD、英伟达生产HBM基础裸片，初期产能已被订满",
+     "summary": "据《每日经济新闻》（韩）11月3日报道，三星泰勒二厂将用2nm工艺生产HBM基础裸片，主要客户为AMD，本月正式动工，2029年2月起装机、2030年量产，面积约为一厂1.5倍；基础裸片将与韩国产DRAM堆叠后整颗交付。三星未予置评。",
+     "sources": [
+      {
+       "name": "Reuters/Investing.com",
+       "url": "https://www.investing.com/news/stock-market-news/samsung-to-make-amd-nvidia-chip-parts-at-second-texas-plant-maeil-business-reports-4994213"
+      },
+      {
+       "name": "The Next Web",
+       "url": "https://thenextweb.com/news/samsung-second-texas-fab-amd-nvidia-hbm"
+      },
+      {
+       "name": "Tradingpedia",
+       "url": "https://www.tradingpedia.com/2026/11/03/samsung-2nd-texas-fab-tapped-for-amd-nvidia-hbm-supply/"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "DRAM现货价11月3日横盘：DDR5 16Gb均价61.5美元持平，合约价涨幅收窄",
+     "summary": "TrendForce 11月3日数据：DDR5 16Gb（4800/5600）现货均价61.50美元，当日持平。据报10月DDR4 8Gb合约价为27.5美元（9月为26美元），NAND合约价21个月来首次停涨。TrendForce仍预计四季度常规DRAM合约价涨10%–15%、NAND涨15%–20%。",
+     "sources": [
+      {
+       "name": "TrendForce DRAM现货价",
+       "url": "https://www.trendforce.com/price/dram/dram_spot"
+      },
+      {
+       "name": "Tech Insider",
+       "url": "https://tech-insider.org/dram-record-high-nand-flat-21-months-october-2026/"
+      },
+      {
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34389331"
       }
      ]
     }
@@ -500,16 +787,16 @@
  ],
  "watch": [
   {
-   "when": "11月4日 周三",
-   "text": "AMD三季报与Arista三季报（美东11月3日盘后，北京时间4日清晨），看AI GPU出货与数据中心网络需求；同日高通FY26Q4财报。"
-  },
-  {
-   "when": "11月10日 周二",
-   "text": "中方稀土等出口管制暂停措施到期节点（美方BIS 50%关联方规则暂停至11月9日），看双方是否发布延期公告。"
+   "when": "11月5日 周四",
+   "text": "高通FY26Q4财报（美东11月4日盘后），看手机芯片收入与内存涨价对安卓高端机出货的影响；同期Coherent据报发布季报。"
   },
   {
    "when": "11月13日 周五",
-   "text": "问界新M8上市（乾崑ADS 5），检验鸿蒙智行11月能否止跌。"
+   "text": "问界新M8上市（预售38.98万元起），检验鸿蒙智行11月能否止跌。"
+  },
+  {
+   "when": "11月15日 周日",
+   "text": "外汇存款准备金率上调至6%生效；同日AI、光伏等技术出口管制目录征求意见截止。"
   }
  ]
 }
