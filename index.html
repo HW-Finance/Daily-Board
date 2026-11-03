@@ -916,10 +916,9 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(24px, 4vw, 
       var sec = el("section", "t-group"); sec.appendChild(el("h2", "t-dom", g.domain));
       var grid = el("div", "t-grid");
       arr(g.themes).forEach(function (id) { var c = TH.cards[id]; if (c) grid.appendChild(id === "fx" ? fxCard(c) : themeCard(c)); });
+      if (g.domain === "AI 与云" && CH && CH.card) grid.appendChild(chipsCard());
       sec.appendChild(grid); body.appendChild(sec);
     });
-    if (CH && CH.card) { var cs = el("section", "t-group"); cs.appendChild(el("h2", "t-dom", "AI 芯片自研追踪")); var cg = el("div", "t-grid"); cg.appendChild(chipsCard()); cs.appendChild(cg); body.appendChild(cs); }
-    if (D) { var hs = el("section", "t-group"); hs.appendChild(el("h2", "t-dom", "关键假设 · 领袖发言")); hs.appendChild(hypStrip()); body.appendChild(hs); }
     var dg = el("section", "t-group"); dg.appendChild(el("h2", "t-dom", "数据底稿"));
     dg.appendChild(el("p", "base-note", "以下内容每天早上随简报自动更新，供核对主题卡片背后的原始数据。"));
     var row = el("div", "base-row");
@@ -1469,10 +1468,8 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(24px, 4vw, 
   }
   function chipsCard() {
     var c = CH.card, b = el("button", "tile t-card"); b.type = "button";
-    var top = el("div", "tile-top"); top.appendChild(el("span", "tile-name", c.name)); top.appendChild(el("span", "chip new", "本期变化 " + arr(CH.summary.changes).length + " 条")); b.appendChild(top);
-    b.appendChild(el("p", "t-judg", c.judgment || ""));
-    var kn = el("div", "cp-kn"); arr(c.keyNumbers).slice(0, 3).forEach(function (k) { var x = el("div", "t-k"); x.appendChild(el("span", "lb", k.label)); x.appendChild(el("span", "vl", k.value)); if (k.compare) x.appendChild(el("span", "cp", k.compare)); kn.appendChild(x); });
-    b.appendChild(kn);
+    var top = el("div", "tile-top"); top.appendChild(el("span", "tile-name", c.name)); b.appendChild(top);
+    b.appendChild(el("p", "t-judg", "覆盖 " + arr(CH.vendors).length + " 家厂商的出货、业绩与产品路线"));
     var ft = el("div", "tile-foot"); ft.appendChild(asOfTag(CH.asOf)); b.appendChild(ft);
     b.addEventListener("click", function () { go("chips"); });
     return b;
