@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-04",
- "updatedAt": "2026-11-04 07:30",
+ "asOf": "2026-11-05",
+ "updatedAt": "2026-11-05 07:30",
  "config": [
   {
    "domain": "汇率",
@@ -47,11 +47,11 @@
    "id": "fx",
    "name": "汇率走势",
    "domain": "横向",
-   "judgment": "央行上调外汇存准率，人民币升势受抑",
+   "judgment": "中间价调贬30点，人民币升势暂停",
    "direction": "持平",
-   "directionNote": "较11月2日：USD/CNY中间价微贬4点，EUR/CNY升0.15%",
-   "asOf": "2026-11-03",
-   "change": "本期新增：11月3日USD/CNY、EUR/CNY中间价，11月3日ECB EUR/USD参考价（马耳他央行转载），央行上调外汇存准率。11月4日中间价运行时未发布；ECB 11月2日参考价未核实。",
+   "directionNote": "较11月3日：USD/CNY中间价调贬30基点，EUR/CNY上调0.38%",
+   "asOf": "2026-11-04",
+   "change": "本期新增：11月4日USD/CNY、EUR/CNY中间价及中信证券区间判断。ECB 11月4日EUR/USD参考价未核实（检索结果互相矛盾），未更新；11月5日中间价运行时未发布。",
    "pairs": [
     {
      "pair": "USD/CNY",
@@ -292,32 +292,36 @@
       {
        "d": "2026-11-03",
        "v": 6.715
+      },
+      {
+       "d": "2026-11-04",
+       "v": 6.718
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
-      "name": "中国外汇交易中心中间价（经搜狐/FX168转载）",
-      "url": "https://www.sohu.com/a/1096408552_120702",
-      "date": "2026-11-03"
+      "name": "中国外汇交易中心中间价（经中新网转载）",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-04/10725750.shtml",
+      "date": "2026-11-04"
      },
      "compare": null,
      "compareNote": "在岸即期收盘价：暂无可靠数据（未取得可核实的日度序列），故不显示对照线。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-04",
+       "v": 6.718
+      },
+      "prev": {
        "d": "2026-11-03",
        "v": 6.715
       },
-      "prev": {
-       "d": "2026-11-02",
-       "v": 6.7146
-      },
-      "dayPct": 0.01,
+      "dayPct": 0.04,
       "base30": {
-       "d": "2026-09-30",
-       "v": 6.7351
+       "d": "2026-10-08",
+       "v": 6.7367
       },
-      "d30Pct": -0.3,
+      "d30Pct": -0.28,
       "hi": {
        "d": "2026-08-18",
        "v": 6.7905
@@ -676,13 +680,17 @@
       {
        "d": "2026-11-03",
        "v": 7.476
+      },
+      {
+       "d": "2026-11-04",
+       "v": 7.5043
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
-      "name": "中国外汇交易中心中间价（经FX168转载）",
-      "url": "https://www.fx168news.com/article/%E4%BA%BA%E6%B0%91%E5%B8%81%E4%B8%AD%E9%97%B4%E4%BB%B7-1111427",
-      "date": "2026-11-03"
+      "name": "中国外汇交易中心中间价（经21世纪经济报道转载）",
+      "url": "https://www.21jingji.com/article/20261104/herald/09cc8620d5501aac9104dd35e6c2e70c.html",
+      "date": "2026-11-04"
      },
      "compare": {
       "name": "ECB参考汇率（对照）",
@@ -814,19 +822,19 @@
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-04",
+       "v": 7.5043
+      },
+      "prev": {
        "d": "2026-11-03",
        "v": 7.476
       },
-      "prev": {
-       "d": "2026-11-02",
-       "v": 7.465
-      },
-      "dayPct": 0.15,
+      "dayPct": 0.38,
       "base30": {
-       "d": "2026-09-30",
-       "v": 7.6215
+       "d": "2026-10-08",
+       "v": 7.5404
       },
-      "d30Pct": -1.91,
+      "d30Pct": -0.48,
       "hi": {
        "d": "2026-08-21",
        "v": 7.8906
@@ -1255,36 +1263,32 @@
     "EUR/USD": null
    },
    "dayMove": {
-    "headline": "央行上调外汇存准率，人民币升势受抑",
+    "headline": "存准率上调后中间价调贬30点，欧元走强",
     "points": [
-     "11月3日USD/CNY中间价6.7150，较前日调贬4基点",
-     "EUR/CNY中间价7.4760，较前日上调110基点",
-     "央行11月15日起外汇存准率由4%升至6%",
-     "公告后离岸人民币先后跌破6.65、6.66、6.67"
+     "11月4日USD/CNY中间价6.7180，调贬30基点",
+     "调贬幅度为8月18日以来最大",
+     "EUR/CNY中间价7.5043，上调283基点",
+     "中信证券预计年内在6.6—6.7区间运行"
     ],
-    "detail": "11月3日USD/CNY中间价6.7150，较前日调贬4基点；EUR/CNY中间价7.4760，较前日上调110基点；央行11月15日起外汇存准率由4%升至6%；公告后离岸人民币先后跌破6.65、6.66、6.67",
+    "detail": "11月4日USD/CNY中间价6.7180，调贬30基点；调贬幅度为8月18日以来最大；EUR/CNY中间价7.5043，上调283基点；中信证券预计年内在6.6—6.7区间运行",
     "src": [
      {
-      "name": "搜狐（中间价快讯）",
-      "url": "https://www.sohu.com/a/1096408552_120702",
-      "date": "2026-11-03"
-     },
-     {
-      "name": "FX168（中间价列表）",
-      "url": "https://www.fx168news.com/article/%E4%BA%BA%E6%B0%91%E5%B8%81%E4%B8%AD%E9%97%B4%E4%BB%B7-1111427",
-      "date": "2026-11-03"
-     },
-     {
-      "name": "新华网",
-      "url": "https://www.xinhuanet.com/20261103/75107c97fc9d48c68c8041d6e5c0b230/c.html",
-      "date": "2026-11-03",
+      "name": "中新网（中间价）",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-04/10725750.shtml",
+      "date": "2026-11-04",
       "repost": false
      },
      {
-      "name": "新浪财经",
-      "url": "https://k.sina.cn/article_5953189932_162d6782c067052vau.html",
-      "date": "2026-11-03",
+      "name": "21世纪经济报道（中间价）",
+      "url": "https://www.21jingji.com/article/20261104/herald/09cc8620d5501aac9104dd35e6c2e70c.html",
+      "date": "2026-11-04",
       "repost": true
+     },
+     {
+      "name": "21世纪经济报道（中信证券观点）",
+      "url": "https://m.21jingji.com/article/20261104/herald/558e61063cc9625d03f29793fd2efff2.html",
+      "date": "2026-11-04",
+      "repost": false
      }
     ]
    },
@@ -1394,10 +1398,10 @@
   "phone": {
    "id": "phone",
    "name": "手机大盘走势",
-   "judgment": "大盘降幅扩至15%，我司份额21%居首但环比回落",
+   "judgment": "高通看淡2027年出货，我司份额仍居首",
    "direction": "持平",
-   "directionNote": "较二季度：份额同比增幅由4.5扩至5.9pct，但出货环比-17.6%，大盘跌幅扩大",
-   "asOf": "2026-10-19",
+   "directionNote": "较10月19日：高通预计2027年全球出货持平或下滑，大盘无回暖信号",
+   "asOf": "2026-11-04",
    "keyNumbers": [
     {
      "label": "三季度中国智能手机出货（IDC）",
@@ -1433,8 +1437,36 @@
      }
     }
    ],
-   "change": "本期新增：三季度初步数据，中国大盘IDC -15.4%、Omdia -12%、Counterpoint -10%，华为份额均约21%居首；全球IDC -22%，创其纪录。未核实：Counterpoint原文正文，其全球小米份额10%存疑。",
+   "change": "本期新增：高通手机芯片收入-26%及2027年出货持平或下滑判断；苹果大中华区收入+21%。信通院10月国内手机出货未检索到。",
    "facts": [
+    {
+     "text": "高通FY26Q4手机芯片：收入51.4亿美元，同比-26%，低于预期；按2027年全球手机出货持平或下滑做计划，称中国安卓业务6月季度见底。",
+     "src": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+       "date": "2026-11-04",
+       "repost": true
+      },
+      {
+       "name": "Motley Fool",
+       "url": "https://www.fool.com/investing/2026/11/04/qualcomm-s-phone-chip-sales-drop-26-rapid-earnings-reaction/",
+       "date": "2026-11-04",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "苹果FY26Q4大中华区：营收175.4亿美元，同比+21%，低于市场预期187.5亿美元；12月季度营收指引增7%—10%，已反映供应受限。",
+     "src": [
+      {
+       "name": "新浪财经（快科技）",
+       "url": "https://finance.sina.cn/tech/2026-11-03/detail-inixkzyf0022016.d.html",
+       "date": "2026-11-03",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "Counterpoint三季度中国：出货同比-10%，2012年以来同期最低；华为份额21.3%居首，苹果19.5%居次，合计40.8%。原因是存储涨价推高BOM、供应短缺，消费者推迟换机或转买翻新机。",
      "src": [
@@ -1765,17 +1797,19 @@
      "why": "检验国补减弱、售价上涨下的需求弹性，及苹果与华为高端份额走向"
     },
     {
-     "what": "苹果FY26四季度财报中的大中华区收入与iPhone Duo表现",
-     "when": "11月初（以苹果IR官宣为准）",
-     "why": "验证苹果中国出货分歧（IDC -4.3%对Omdia +15%）谁更准，判断其高端份额上行幅度"
-    },
-    {
      "what": "四季度DRAM/NAND合约价环比涨幅",
      "when": "11—12月陆续公布（未官宣）",
      "why": "续收窄可推翻“成本压力持续至2027年大部分时间”；若扩大，终端提价降配压力加大"
     }
    ],
    "sources": [
+    {
+     "name": "CNBC：高通FY26Q4财报",
+     "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+     "date": "2026-11-04",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "IDC：成本推高售价，Q3中国手机出货跌15.4%，华为逆势增长",
      "url": "https://www.idc.com/?p=121875",
@@ -1950,10 +1984,10 @@
   "memory": {
    "id": "memory",
    "name": "介质（存储）供需与价值走势",
-   "judgment": "DRAM小涨，NAND合约据报首次停涨",
+   "judgment": "DRAM合约小涨，涨价方案遭下游抵触",
    "direction": "持平",
-   "directionNote": "较11月2日：NAND合约据报停涨，但高盛仍预计明年NAND涨约三成",
-   "asOf": "2026-11-03",
+   "directionNote": "较11月3日：合约价续涨但幅度收窄，设备交期拉长使新增供给更慢",
+   "asOf": "2026-11-04",
    "keyNumbers": [
     {
      "label": "SK海力士2027—2028年产能长协覆盖",
@@ -2011,11 +2045,40 @@
      }
     }
    ],
-   "change": "本期新增：10月DDR4合约价、NAND合约停涨（二手转述DRAMeXchange）、11月3日DDR5现货。TrendForce 1Q27合约价预测未发布。",
+   "change": "本期新增：TrendForce 11月合约价小涨判断、NAND晶圆现货周跌4.33%、设备商2028年产能据报被锁定。TrendForce 1Q27合约价预测仍未发布。",
    "facts": [
     {
-     "text": "10月合约价与现货：据报10月DDR4 8Gb合约价27.5美元（9月26美元），NAND合约价21个月来首次停涨；11月3日DDR5 16Gb现货均价61.5美元、持平。",
+     "text": "设备交期拉长：据ETNEWS，应用材料、阿斯麦等2028年供货合同进入收尾、部分洽谈2029年订单，设备交期较正常延长一倍以上。",
      "src": [
+      {
+       "name": "21经济网",
+       "url": "https://www.21jingji.com/article/20261104/herald/f06d8b822052840e139378eb3fcb51db.html",
+       "date": "2026-11-04",
+       "repost": true
+      },
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/022/148.htm",
+       "date": "2026-11-04",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "10月合约价与现货：DDR4 8Gb合约均价27.5美元（9月26美元，+5.77%），TrendForce预计11月小幅续涨，原厂15%—20%报价遭抵触；NAND晶圆现货11月2日当周跌4.33%。",
+     "src": [
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-11-04/doc-inixqnss6130806.shtml",
+       "date": "2026-11-04",
+       "repost": true
+      },
+      {
+       "name": "TrendForce",
+       "url": "https://www.trendforce.com/news/2026/11/04/insights-memory-spot-price-update-mainstream-ddr4-prices-dip-0-09-as-spot-premium-keeps-buyers-on-sidelines/",
+       "date": "2026-11-04",
+       "repost": false
+      },
       {
        "name": "TrendForce DRAM现货价",
        "url": "https://www.trendforce.com/price/dram/dram_spot",
@@ -2662,6 +2725,20 @@
    ],
    "sources": [
     {
+     "name": "21经济网（设备交期）",
+     "url": "https://www.21jingji.com/article/20261104/herald/f06d8b822052840e139378eb3fcb51db.html",
+     "date": "2026-11-04",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "TrendForce现货价周报",
+     "url": "https://www.trendforce.com/news/2026/11/04/insights-memory-spot-price-update-mainstream-ddr4-prices-dip-0-09-as-spot-premium-keeps-buyers-on-sidelines/",
+     "date": "2026-11-04",
+     "repost": false,
+     "stale": false
+    },
+    {
      "name": "澎湃新闻",
      "url": "https://www.thepaper.cn/newsDetail_forward_34389331",
      "date": "2026-11-03",
@@ -2982,30 +3059,30 @@
   "auto": {
    "id": "auto",
    "name": "智能汽车",
-   "judgment": "大盘批发靠出口转正，鸿蒙智行待新M8",
+   "judgment": "国内零售降25%，鸿蒙智行份额约3%",
    "direction": "持平",
-   "directionNote": "较11月1日：大盘批发增12%但国内零售仍降，鸿蒙智行未见回升",
-   "asOf": "2026-11-03",
+   "directionNote": "较11月3日：零售好于160万辆预测，但鸿蒙智行份额仍在低位",
+   "asOf": "2026-11-04",
    "keyNumbers": [
     {
-     "label": "9月乘用车零售（乘联会）",
-     "value": "161.8万辆",
-     "compare": "同比-28.0%，环比+5.0%；新能源108.4万辆，同比-16.7%",
+     "label": "10月乘用车零售（乘联会初步）",
+     "value": "169.3万辆",
+     "compare": "同比-25%，环比+5%；新能源114.8万辆，同比-10%",
      "source": {
-      "name": "乘联会（经凤凰网/易车转载）",
-      "url": "https://auto.ifeng.com/c/8xCScEUZZFy",
-      "date": "2026-10-13",
+      "name": "新浪科技（IT之家）",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-11-04/doc-inixqhks9378643.shtml",
+      "date": "2026-11-04",
       "repost": true
      }
     },
     {
-     "label": "9月新能源渗透率",
-     "value": "零售口径67.0%",
-     "compare": "中汽协新车销量口径61.6%，1—9月53.6%",
+     "label": "10月新能源渗透率",
+     "value": "零售口径67.8%",
+     "compare": "9月零售口径67.0%",
      "source": {
-      "name": "乘联会（经凤凰网/易车转载）",
-      "url": "https://auto.ifeng.com/c/8xCScEUZZFy",
-      "date": "2026-10-13",
+      "name": "新浪科技（IT之家）",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-11-04/doc-inixqhks9378643.shtml",
+      "date": "2026-11-04",
       "repost": true
      }
     },
@@ -3021,11 +3098,23 @@
      }
     }
    ],
-   "change": "本期新增：乘联会10月新能源批发初步数据、问界新M8预售价。乘联会10月全月零售、中汽协10月数据未发布。",
+   "change": "本期新增：乘联会10月零售初步数据，确认国内零售-25%、新能源-10%。中汽协10月数据、乘联会分厂商零售未发布或未核实。",
    "facts": [
     {
-     "text": "乘联会10月新能源批发：初步预估180万辆，同比+12%、环比+8%（含出口）；比亚迪48.3万辆居首，特斯拉中国6.78万辆降至第八。",
+     "text": "乘联会10月初步数据：乘用车零售169.3万辆（-25%），新能源零售114.8万辆（-10%），渗透率67.8%；新能源批发约180万辆（+12%），增量来自出口。",
      "src": [
+      {
+       "name": "新浪科技（IT之家）",
+       "url": "https://finance.sina.com.cn/tech/digi/2026-11-04/doc-inixqhks9378643.shtml",
+       "date": "2026-11-04",
+       "repost": true
+      },
+      {
+       "name": "CnEVPost",
+       "url": "https://cnevpost.com/2026/11/04/china-oct-nev-retail-preliminary-cpca/",
+       "date": "2026-11-04",
+       "repost": true
+      },
       {
        "name": "新浪科技",
        "url": "https://finance.sina.com.cn/tech/digi/2026-11-03/doc-inixncms9901460.shtml",
@@ -3330,6 +3419,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：鸿蒙智行份额下滑主要不是大盘拖累，新能源零售只降10%，其份额由约5.3%降至约2.9%。",
+     "confidence": "中",
+     "basis": "鸿蒙智行10月交付33537台÷114.8万；上年68216台÷按-10%倒推的约127.6万"
+    },
+    {
      "text": "推断：国内车企利润靠出口补，内销价格战不会缓和；合资利润塌陷使外资更看重低价智驾。",
      "confidence": "中",
      "basis": "比亚迪海外+91%、上汽海外+52%；上汽合资投资收益降71%，大众在华合资转亏"
@@ -3343,11 +3437,6 @@
      "text": "推断：67.0%的零售渗透率主要由燃油车零售-43%抬高，新能源零售本身同比-16.7%。",
      "confidence": "高",
      "basis": "乘联会9月燃油车零售53万辆（-43%）与新能源零售108.4万辆（-16.7%）。"
-    },
-    {
-     "text": "推断：10月国内零售大概率仍同比下滑：1—11日零售-24%，上年10月224.2万辆基数高。",
-     "confidence": "中",
-     "basis": "乘联会10月上旬周度数据与2025年10月全月数据；周度数据可能被月末冲量修正。"
     },
     {
      "text": "推断：第三方城区NOA已集中于Momenta与华为，但比亚迪、理想、奇瑞等加大自研，第三方新增空间更多来自无自研能力的品牌。",
@@ -3507,11 +3596,6 @@
    ],
    "signals": [
     {
-     "what": "乘联会10月全月零售与批发（上年10月零售224.2万辆）",
-     "when": "11月上旬（未官宣）",
-     "why": "检验10月国内零售是否仍同比两位数下滑，批发增长是否仍靠出口"
-    },
-    {
      "what": "中汽协10月产销与出口数据",
      "when": "11月中旬（未官宣）",
      "why": "检验月度新能源占比能否保持在60%以上、出口能否维持100万辆以上"
@@ -3528,6 +3612,13 @@
     }
    ],
    "sources": [
+    {
+     "name": "新浪科技（IT之家）：乘联会10月初步数据",
+     "url": "https://finance.sina.com.cn/tech/digi/2026-11-04/doc-inixqhks9378643.shtml",
+     "date": "2026-11-04",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "新浪新闻（问界微博）",
      "url": "https://www.sina.cn/weibo/detail/5361158924014063.html",
@@ -6397,10 +6488,10 @@
    "id": "geo",
    "name": "中美、中欧地缘政策跟踪",
    "domain": "横向",
-   "judgment": "安世诉闻泰索赔20亿美元，供应链对立加深",
+   "judgment": "德国拟禁5G基站，欧洲准入风险上升",
    "direction": "恶化",
-   "directionNote": "较11月2日：安世争端从股权之争转为供应链诉讼",
-   "asOf": "2026-11-03",
+   "directionNote": "较11月3日：风险从安世供应链扩大到德国无线接入网",
+   "asOf": "2026-11-04",
    "keyNumbers": [
     {
      "label": "中美休战到期日",
@@ -6436,8 +6527,25 @@
      }
     }
    ],
-   "change": "本期新增：安世荷兰起诉闻泰。美方关联方规则暂停期的正式BIS公告未检索到。",
+   "change": "本期新增：据报德国拟把5G基站列为关键组件。BIS关联方规则、中方稀土暂停的正式延期文件仍未检索到。",
    "facts": [
+    {
+     "text": "德国拟禁5G基站：据报联邦网络局拟把5G基站列为关键组件，内政部可据此禁用华为、中兴；现行安排基站基本豁免，只要求2026年底前移除核心网。",
+     "src": [
+      {
+       "name": "Handelsblatt",
+       "url": "https://www.handelsblatt.com/politik/deutschland/mobilfunk-bundesregierung-bereitet-neue-huawei-verbote-vor/100265511.html",
+       "date": "2026-11-04",
+       "repost": false
+      },
+      {
+       "name": "Anadolu Agency",
+       "url": "https://www.aa.com.tr/en/europe/germany-preparing-sweeping-ban-on-chinese-mobile-network-equipment-report/4111044",
+       "date": "2026-11-04",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "安世起诉闻泰：安世荷兰11月3日起诉闻泰及安世中国，以自建中国区供应链为由，据闻泰称索赔20亿美元；闻泰否认。",
      "src": [
@@ -6749,6 +6857,11 @@
    ],
    "signals": [
     {
+     "what": "德国关键组件清单修订稿",
+     "when": "（未官宣）",
+     "why": "若正式列入5G基站，我司德国无线存量与新增均受禁"
+    },
+    {
      "what": "FCC表决号码接入与设备限制提案",
      "when": "2026-11-19",
      "why": "若通过，“用华为设备即受限”首次写进美国服务商规则"
@@ -6775,6 +6888,33 @@
     }
    ],
    "timeline": [
+    {
+     "date": "2026-11-04",
+     "region": "德国",
+     "title": "据报德国拟把5G基站列为关键组件",
+     "status": "传闻",
+     "text": "据《德国商报》，联邦网络局拟修订关键组件清单，首次把5G基站列为特别安全相关组件，内政部可据此禁止，实际可能把华为、中兴排出移动网；德国电信警告替换成本数十亿欧元。",
+     "next": {
+      "date": "",
+      "text": "关键组件清单修订稿正式公布（时间未定）"
+     },
+     "biz": "ICT基础设施",
+     "level": "高",
+     "src": [
+      {
+       "name": "Handelsblatt",
+       "url": "https://www.handelsblatt.com/politik/deutschland/mobilfunk-bundesregierung-bereitet-neue-huawei-verbote-vor/100265511.html",
+       "date": "2026-11-04",
+       "repost": false
+      },
+      {
+       "name": "Anadolu Agency",
+       "url": "https://www.aa.com.tr/en/europe/germany-preparing-sweeping-ban-on-chinese-mobile-network-equipment-report/4111044",
+       "date": "2026-11-04",
+       "repost": true
+      }
+     ]
+    },
     {
      "date": "2026-11-03",
      "region": "荷兰",
@@ -7347,6 +7487,20 @@
    ],
    "sources": [
     {
+     "name": "Anadolu Agency",
+     "url": "https://www.aa.com.tr/en/europe/germany-preparing-sweeping-ban-on-chinese-mobile-network-equipment-report/4111044",
+     "date": "2026-11-04",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "Handelsblatt",
+     "url": "https://www.handelsblatt.com/politik/deutschland/mobilfunk-bundesregierung-bereitet-neue-huawei-verbote-vor/100265511.html",
+     "date": "2026-11-04",
+     "repost": false,
+     "stale": false
+    },
+    {
      "name": "澎湃新闻",
      "url": "https://www.thepaper.cn/newsDetail_forward_34398605",
      "date": "2026-11-03",
@@ -7645,7 +7799,7 @@
     "name": "AI 算力需求的持续性",
     "desc": "训练转推理后需求是增是减",
     "claim": "训练转向推理后，算力需求继续增长",
-    "summary": "推断：供需双方仍称需求超过供给：苏姿丰11月3日称智能体部署将使需求急剧增长、2027年服务器收入翻倍，乌拉尔预计AI网络收入2027年翻倍至约70亿美元，贾西预期AWS 2027—2028年增速均超40%；分歧在封装、电力、内存瓶颈何时缓解。",
+    "summary": "推断：供需双方仍称需求超过供给：苏姿丰11月3—4日称算力需求迫切、2027年服务器收入翻倍，哈斯11月4日称客户承诺增加、对两年AGI CPU收入最高20亿美元更有信心，乌拉尔预计AI网络2027年翻倍至约70亿美元；分歧在封装、电力、内存瓶颈何时缓解。",
     "confidence": "中"
    },
    {
@@ -7661,7 +7815,7 @@
     "name": "存储涨价周期能持续多久",
     "desc": "",
     "claim": "存储涨价周期将延续到2027年",
-    "summary": "推断：原厂与买方都预期短缺延续到2027年以后：苹果新任CEO特努斯称内存价格前所未有、12月后仍涨，三星称2027年更缺，陈立武称高价延续到2027年，黄仁勋称2029年前不过剩。",
+    "summary": "推断：原厂与买方都预期短缺延续到2027年以后：安蒙11月4日称高通“没有需求问题，是供给问题”，并按2027年手机出货持平或下滑做计划；特努斯称内存价格前所未有、12月后仍涨，三星称2027年更缺，陈立武称高价延续到2027年。",
     "confidence": "高"
    },
    {
@@ -7685,7 +7839,7 @@
     "name": "能源是否会成为 AI 数据中心扩张的瓶颈",
     "desc": "",
     "claim": "能源将成为AI数据中心扩张的瓶颈",
-    "summary": "推断：黄仁勋称供给受电力和数据中心建设限制，吴泳铭提出阿里云2032年超20GW的规划；样本只有两条，暂不宜下结论。",
+    "summary": "推断：黄仁勋称供给受电力和数据中心建设限制，吴泳铭提出阿里云2032年超20GW规划，苏姿丰11月4日称须让承建社区看到AI价值（出口民调76%选民反对本社区建数据中心）；约束从电力扩到地方接受度，样本少，暂不宜下结论。",
     "confidence": "低"
    }
   ],
@@ -8419,6 +8573,75 @@
     },
     "point": "AI网络2027年收入翻倍指引印证算力建设延续；毛利率同比下滑反映器件涨价仍在传导。",
     "question": "AI网络收入2027年翻倍的指引能否兑现，毛利率是否继续下滑？",
+    "suggest": null
+   },
+   "haas|2026-11-04|客户承诺不断增加，让我们": {
+    "hyps": [
+     "H2"
+    ],
+    "main": "H2",
+    "stance": "支持",
+    "stances": {
+     "H2": "支持"
+    },
+    "point": "自研AGI CPU获客户承诺，两年收入最高20亿美元。",
+    "question": "Arm直接卖芯片后，与授权客户的竞争关系如何影响其授权条款？",
+    "suggest": null
+   },
+   "lisasu|2026-11-04|算力需求非常迫切；中期选": {
+    "hyps": [
+     "H7",
+     "H2"
+    ],
+    "main": "H7",
+    "stance": "支持",
+    "stances": {
+     "H7": "支持",
+     "H2": "支持"
+    },
+    "point": "承认社区接受度是数据中心建设的新障碍，同时称算力需求迫切。",
+    "question": "美国地方对数据中心的反对会否转化为审批或电价限制，拖慢2027年的建设节奏？",
+    "suggest": null
+   },
+   "amon|2026-11-04|本季与苹果、华为、传音续": {
+    "hyps": [
+     "H5"
+    ],
+    "main": "H5",
+    "stance": "中性",
+    "stances": {
+     "H5": "中性"
+    },
+    "point": "续签与苹果、华为、传音的专利授权。",
+    "question": "在芯片供货受限的情况下，双方专利授权关系能否继续保持？",
+    "suggest": null
+   },
+   "amon|2026-11-04|预计2027财年数据中心": {
+    "hyps": [
+     "H2",
+     "H1"
+    ],
+    "main": "H2",
+    "stance": "支持",
+    "stances": {
+     "H2": "支持",
+     "H1": "反对"
+    },
+    "point": "预计2027财年数据中心收入约50亿美元、年末年化70亿美元。",
+    "question": "50亿美元中有多少已有客户订单支撑？推理芯片价格竞争会否压低单卡价格？",
+    "suggest": null
+   },
+   "amon|2026-11-04|我们没有需求问题，是供给": {
+    "hyps": [
+     "H4"
+    ],
+    "main": "H4",
+    "stance": "支持",
+    "stances": {
+     "H4": "支持"
+    },
+    "point": "手机芯片收入降26%，称是供给问题而非需求问题。",
+    "question": "内存短缺对安卓手机出货的压制会持续到2027年哪个季度？",
     "suggest": null
    }
   },

@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-04",
- "updatedAt": "2026-11-04 07:30",
+ "asOf": "2026-11-05",
+ "updatedAt": "2026-11-05 07:30",
  "leaders": [
   {
    "id": "jensen",
@@ -210,6 +210,17 @@
    "company": "AMD",
    "biz": "计算与云",
    "statements": [
+    {
+     "date": "2026-11-04",
+     "quote": "算力需求非常迫切；中期选举是行业的机会，必须让每个承建数据中心的社区看清AI带来的价值。",
+     "topic": "监管与地缘",
+     "context": "接受CNBC《Squawk on the Street》采访；NBC出口民调显示76%选民反对在本社区新建数据中心，市场担心选举结果拖慢数据中心建设",
+     "direct": false,
+     "source": {
+      "name": "Inc.",
+      "url": "https://www.inc.com/aaron-mok/this-tech-ceo-says-the-problem-isnt-data-centers-its-how-the-industry-is-selling-them/91430611"
+     }
+    },
     {
      "date": "2026-11-03",
      "quote": "四季度营收预计约170亿美元，增长加速来自Helios整机柜和Venice服务器CPU的量产爬坡。",
@@ -952,9 +963,182 @@
      "ai": "1. Arista三季度非GAAP毛利率64.0%、比上年同期低1.2个百分点，公司归因于产品成本上涨，交换机龙头也难把器件涨价全部转嫁给云厂商，我司数通产品同样要自己消化这部分成本。"
     }
    ]
+  },
+  {
+   "id": "amon",
+   "name": "安蒙",
+   "nameEn": "Cristiano Amon",
+   "title": "高通总裁兼CEO",
+   "company": "高通",
+   "biz": "芯片半导体",
+   "statements": [
+    {
+     "date": "2026-11-04",
+     "quote": "我们没有需求问题，是供给问题；如果有更多供给，业绩可能会更好。",
+     "topic": "芯片与供应",
+     "context": "高通FY26Q4财报（美东11月4日盘后）；手机芯片收入51.4亿美元、同比降26%，CNBC称内存短缺迫使手机厂商提价、压制需求",
+     "direct": true,
+     "original": "We don't have a demand issue; it's a supply issue. If I had more supply, I would probably be doing better.",
+     "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html"
+     },
+     "ai": "1. 高通把收入下滑归于供给不足而非需求，并按2027年全球手机出货持平或下滑做计划，存储供给是2027年安卓手机出货的上限，我司手机出货同样取决于存储保供。"
+    },
+    {
+     "date": "2026-11-04",
+     "quote": "预计2027财年数据中心收入约50亿美元，年末年化规模达70亿美元；手机收入占比将降至50%以下。",
+     "topic": "战略",
+     "context": "高通FY26 Q4财报电话会；本季数据中心收入约6.5亿美元，汽车收入首次单季突破20亿美元、同比增89%",
+     "direct": false,
+     "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html"
+     },
+     "ai": "1. 高通数据中心收入要从本季约6.5亿美元增到2027财年约50亿美元，海外推理芯片市场在英伟达、AMD和云厂商自研之外又多一家握有大客户的供应商，昇腾出海面对的对手更多。"
+    },
+    {
+     "date": "2026-11-04",
+     "quote": "本季与苹果、华为、传音续签专利授权协议，结果非常令人满意。",
+     "topic": "战略",
+     "context": "高通FY26 Q4财报电话会；管理层同时称中国安卓手机业务在6月季度已见底，预计2027年手机市场持平",
+     "direct": false,
+     "source": {
+      "name": "Benzinga（电话会实录）",
+      "url": "https://www.benzinga.com/news/26/11/62899398/qualcomm-q4-2026-earnings-call-transcript"
+     }
+    }
+   ]
+  },
+  {
+   "id": "haas",
+   "name": "雷内·哈斯",
+   "nameEn": "Rene Haas",
+   "title": "Arm CEO",
+   "company": "Arm",
+   "biz": "芯片半导体",
+   "statements": [
+    {
+     "date": "2026-11-04",
+     "quote": "客户承诺不断增加，让我们对2027—2028财年Arm AGI CPU收入最高20亿美元更有信心。",
+     "topic": "产品与路线",
+     "context": "Arm FY27 Q2财报（美东11月4日盘后）；营收14.4亿美元、同比增27%，数据中心版税同比翻倍",
+     "direct": false,
+     "source": {
+      "name": "Arm Newsroom",
+      "url": "https://newsroom.arm.com/news/arm-q2-fye27-results"
+     }
+    }
+   ]
   }
  ],
  "earnings": [
+  {
+   "company": "高通",
+   "en": "Qualcomm",
+   "biz": "芯片半导体",
+   "period": "FY26 Q4（截至2026年9月）",
+   "reportDate": "2026-11-04",
+   "metrics": [
+    {
+     "label": "营收（GAAP）",
+     "value": "103.2亿美元",
+     "yoy": "非GAAP约104亿美元，处指引高端"
+    },
+    {
+     "label": "手机芯片收入",
+     "value": "51.4亿美元",
+     "yoy": "-26%"
+    },
+    {
+     "label": "汽车收入",
+     "value": "19.9亿美元",
+     "yoy": "+89%"
+    },
+    {
+     "label": "IoT收入",
+     "value": "18.9亿美元",
+     "yoy": "+4%"
+    }
+   ],
+   "highlight": "非GAAP每股收益2.17美元、高于预期；手机芯片收入降26%，CNBC称主因内存短缺压制手机出货；数据中心收入约6.5亿美元，预计2027财年约50亿美元；本季续签苹果、华为、传音专利授权；称中国安卓业务6月季度见底。全财年营收431亿美元。",
+   "guidance": "FY27 Q1营收104亿—112亿美元，非GAAP每股收益2.15—2.35美元，CNBC称弱于预期；QCT汽车+IoT收入环比约持平，QCT非手机收入同比增超60%。",
+   "nextReport": "未披露",
+   "source": {
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html"
+   },
+   "updatedOn": "2026-11-05"
+  },
+  {
+   "company": "Arm",
+   "en": "Arm Holdings",
+   "biz": "芯片半导体",
+   "period": "FY27 Q2（截至2026年9月30日）",
+   "reportDate": "2026-11-04",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "14.4亿美元",
+     "yoy": "+27%"
+    },
+    {
+     "label": "授权及其他收入",
+     "value": "7.73亿美元",
+     "yoy": "+50%"
+    },
+    {
+     "label": "版税收入",
+     "value": "6.70亿美元",
+     "yoy": "+8%"
+    }
+   ],
+   "highlight": "营收创第二季度新高，增长主要来自授权；数据中心版税同比翻倍，但版税总额低于市场预期约7.2亿美元；公司称对2027—2028财年自研Arm AGI CPU收入最高20亿美元更有信心。",
+   "guidance": "FY27 Q3营收约15.4亿美元。",
+   "nextReport": "未披露",
+   "source": {
+    "name": "Arm Newsroom",
+    "url": "https://newsroom.arm.com/news/arm-q2-fye27-results"
+   },
+   "updatedOn": "2026-11-05"
+  },
+  {
+   "company": "Coherent",
+   "en": "Coherent Corp.",
+   "biz": "联接",
+   "period": "FY27 Q1（截至2026年9月30日）",
+   "reportDate": "2026-11-04",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "23.7亿美元",
+     "yoy": "+50%（备考+56%）"
+    },
+    {
+     "label": "GAAP毛利率",
+     "value": "39.1%",
+     "yoy": "—"
+    },
+    {
+     "label": "非GAAP每股收益",
+     "value": "2.09美元",
+     "yoy": "预期1.97美元"
+    },
+    {
+     "label": "GAAP每股收益",
+     "value": "1.90美元",
+     "yoy": "—"
+    }
+   ],
+   "highlight": "营收与利润均超预期，公司称AI数据中心由铜缆转向光互联是需求主因；目标2027财年末前实现首个30亿美元营收季度、2027财年备考营收增超60%，2028财年实现首个40亿美元季度。",
+   "guidance": "FY27 Q2营收25.5亿—27.5亿美元，非GAAP每股收益2.28—2.48美元；目标2028年底前非GAAP毛利率超45%。",
+   "nextReport": "未披露",
+   "source": {
+    "name": "Coherent投资者关系",
+    "url": "https://ir.coherent.com/news-releases/news-release-details/coherent-corp-reports-first-quarter-fiscal-2027-results"
+   },
+   "updatedOn": "2026-11-05"
+  },
   {
    "company": "超微电脑",
    "en": "Super Micro Computer",
@@ -2474,221 +2658,6 @@
     "url": "https://www.stocktitan.net/news/SKHY/sk-hynix-announces-3q26-financial-fcr2bh8ikc0x.html"
    },
    "updatedOn": "2026-10-28"
-  },
-  {
-   "company": "高通",
-   "en": "Qualcomm",
-   "biz": "芯片半导体",
-   "period": "FY26 Q3（截至6月）",
-   "reportDate": "2026-07-29",
-   "metrics": [
-    {
-     "label": "营收",
-     "value": "99.5亿美元",
-     "yoy": "-4%"
-    },
-    {
-     "label": "手机芯片收入",
-     "value": "50.9亿美元",
-     "yoy": "-20%"
-    },
-    {
-     "label": "汽车收入",
-     "value": "15.9亿美元",
-     "yoy": "+61%"
-    },
-    {
-     "label": "净利润",
-     "value": "20.0亿美元",
-     "yoy": "-25%"
-    }
-   ],
-   "highlight": "手机芯片收入降20%，汽车大增61%，加速向手机以外转型",
-   "guidance": "FY26 Q4营收97亿~105亿美元",
-   "nextReport": "",
-   "source": {
-    "name": "高通财报",
-    "url": "https://s204.q4cdn.com/645488518/files/doc_financials/2026/q3/FY2026-3rd-Quarter-Earnings-Release.pdf"
-   },
-   "updatedOn": "2026-07-29",
-   "statements": {
-    "period": "FY26 Q3（截至2026-06-28）",
-    "unit": "百万美元",
-    "sources": [
-     {
-      "name": "Qualcomm FY26 Q3财报新闻稿（SEC 8-K）",
-      "url": "https://www.sec.gov/Archives/edgar/data/0000804328/000080432826000085/qcom062826erex991.htm"
-     }
-    ],
-    "income": {
-     "columns": [
-      "项目",
-      "FY26 Q3",
-      "FY25 Q3"
-     ],
-     "rows": [
-      [
-       "营业收入",
-       "9,947",
-       "10,365"
-      ],
-      [
-       "营业成本",
-       "4,670",
-       "4,606"
-      ],
-      [
-       "毛利（计算值）",
-       "5,277",
-       "5,759"
-      ],
-      [
-       "研发费用",
-       "2,607",
-       "2,226"
-      ],
-      [
-       "销售及管理费用",
-       "976",
-       "771"
-      ],
-      [
-       "营业利润",
-       "1,626",
-       "2,762"
-      ],
-      [
-       "税前利润",
-       "2,462",
-       "2,952"
-      ],
-      [
-       "净利润",
-       "2,002",
-       "2,666"
-      ],
-      [
-       "稀释每股收益（美元）",
-       "1.87",
-       "2.43"
-      ]
-     ]
-    },
-    "cashflow": {
-     "columns": [
-      "项目",
-      "FY26前三季度",
-      "FY25前三季度"
-     ],
-     "rows": [
-      [
-       "经营活动现金流净额",
-       "8,405",
-       "10,016"
-      ],
-      [
-       "资本开支",
-       "-1,578",
-       "-785"
-      ],
-      [
-       "自由现金流（计算值）",
-       "6,827",
-       "9,231"
-      ],
-      [
-       "投资活动现金流净额",
-       "-1,648",
-       "-329"
-      ],
-      [
-       "筹资活动现金流净额",
-       "-10,046",
-       "-9,760"
-      ],
-      [
-       "分红",
-       "-2,868",
-       "-2,848"
-      ],
-      [
-       "股份回购",
-       "-6,806",
-       "-6,347"
-      ],
-      [
-       "期末现金及等价物",
-       "4,533",
-       "7,771"
-      ]
-     ]
-    },
-    "balance": {
-     "columns": [
-      "项目",
-      "2026-06-28",
-      "2025-09-28"
-     ],
-     "rows": [
-      [
-       "现金及等价物",
-       "4,533",
-       "5,520"
-      ],
-      [
-       "短期投资",
-       "3,771",
-       "4,635"
-      ],
-      [
-       "应收账款",
-       "4,668",
-       "4,315"
-      ],
-      [
-       "存货",
-       "8,379",
-       "6,526"
-      ],
-      [
-       "流动资产合计",
-       "23,004",
-       "25,754"
-      ],
-      [
-       "固定资产净额",
-       "5,217",
-       "4,690"
-      ],
-      [
-       "总资产",
-       "57,367",
-       "50,143"
-      ],
-      [
-       "流动负债合计",
-       "11,413",
-       "9,144"
-      ],
-      [
-       "长期债务",
-       "12,781",
-       "14,811"
-      ],
-      [
-       "总负债",
-       "29,709",
-       "28,937"
-      ],
-      [
-       "股东权益合计",
-       "27,658",
-       "21,206"
-      ]
-     ]
-    },
-    "note": "US GAAP，未经审计。损益表为单季，现金流量表只披露年初至今。另有短期债务2,489未计入长期债务。"
-   }
   },
   {
    "company": "AMD",
@@ -5034,11 +5003,11 @@
        "updatedOn": "2026-11-04"
       },
       {
-       "label": "10月1—25日新能源零售（乘联会）",
-       "value": "75.3万辆",
-       "delta": "-13%，渗透率65.7%",
+       "label": "10月新能源零售（乘联会初步）",
+       "value": "114.8万辆",
+       "delta": "-10%，渗透率67.8%",
        "tone": "neg",
-       "updatedOn": "2026-10-29"
+       "updatedOn": "2026-11-05"
       },
       {
        "label": "9月汽车类零售额（统计局）",
@@ -5048,11 +5017,11 @@
        "updatedOn": "2026-10-20"
       },
       {
-       "label": "10月乘用车零售预测（乘联会）",
-       "value": "约160万辆",
-       "delta": "-28.9%，新能源约107万辆",
+       "label": "10月乘用车零售（乘联会初步）",
+       "value": "169.3万辆",
+       "delta": "-25%，好于此前160万辆预测",
        "tone": "neg",
-       "updatedOn": "2026-10-24"
+       "updatedOn": "2026-11-05"
       }
      ]
     },
@@ -5477,8 +5446,8 @@
    "biz": "智能汽车解决方案、数字能源、供应链",
    "status": "诉讼：安世荷兰在阿姆斯特丹起诉，闻泰在东莞反诉",
    "latest": {
-    "date": "2026-11-03",
-    "text": "闻泰公告：安世荷兰起诉闻泰、张学政及安世中国，以自建中国区供应链构成不当竞争等为由索赔20亿美元及利息；闻泰否认，称未收到传票、法院未立案"
+    "date": "2026-11-04",
+    "text": "闻泰拒绝法院指定管理人的“两个圈”重组方案（闻泰保留安世中国、外部投资者控股海外业务），称其歧视中国投资者；已就控制权裁决上诉至荷兰最高法院"
    },
    "next": {
     "date": "",
@@ -5486,10 +5455,10 @@
    },
    "level": "中",
    "source": {
-    "name": "路透（TradingView转载）",
-    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L5N46K1MN:0-nexperia-sues-wingtech-and-its-founder-demanding-compensation-for-damages/"
+    "name": "South China Morning Post",
+    "url": "https://www.scmp.com/tech/tech-war/article/3373244/wingtech-rejects-nexperia-restructuring-cites-discrimination-towards-chinese-investors"
    },
-   "updatedOn": "2026-11-04"
+   "updatedOn": "2026-11-05"
   },
   {
    "title": "美FCC拟禁止中国运营商直接获取美国电话号码",
@@ -5695,21 +5664,21 @@
    "title": "德国5G核心网移除华为组件",
    "region": "其他",
    "biz": "ICT",
-   "status": "国家计划：核心网年底前移除、无线接入网至2029年底",
+   "status": "核心网年底前移除；据报拟把5G基站列为关键组件",
    "latest": {
-    "date": "2026-05-27",
-    "text": "德国、西班牙在理事会反对欧委会全欧统一禁令"
+    "date": "2026-11-04",
+    "text": "据《德国商报》，联邦网络局拟修订关键组件清单，首次把5G基站列为特别安全相关组件，内政部可据此禁止特定组件，实际可能把华为、中兴排除出移动网；尚未正式决定"
    },
    "next": {
-    "date": "2026-12-31",
-    "text": "德国5G核心网华为/中兴组件移除期限"
+    "date": "",
+    "text": "关键组件清单修订稿正式公布（时间未定）；2026-12-31核心网移除期限"
    },
    "level": "高",
    "source": {
-    "name": "The Next Web",
-    "url": "https://thenextweb.com/news/germany-spain-push-back-eu-huawei-ban"
+    "name": "Handelsblatt",
+    "url": "https://www.handelsblatt.com/politik/deutschland/mobilfunk-bundesregierung-bereitet-neue-huawei-verbote-vor/100265511.html"
    },
-   "updatedOn": "2026-05-27"
+   "updatedOn": "2026-11-05"
   },
   {
    "title": "中美经贸休战与关税清单",
@@ -5777,19 +5746,19 @@
    "biz": "终端、能源、供应链",
    "status": "2025年10月扩大管制暂停中，随休战延至2027年1月10日",
    "latest": {
-    "date": "2026-09-25",
-    "text": "特习会将暂停期从11月10日再延两个月"
+    "date": "2026-11-04",
+    "text": "截至11月4日，中方暂停公告文本仍写11月10日到期，BIS关联方规则暂停在联邦公报中仍定于11月9日结束，均未见新的正式延期文件"
    },
    "next": {
-    "date": "2027-01-10",
-    "text": "暂停期与休战同时到期"
+    "date": "2026-11-10",
+    "text": "看双方是否发布正式延期公告；休战整体延至2027-01-10"
    },
    "level": "中",
    "source": {
-    "name": "Rinnovabili",
-    "url": "https://www.rinnovabili.net/policy-and-affairs/environmental-policies/chinese-rare-earth-exports-trump-xi-truce/"
+    "name": "Miller Canfield",
+    "url": "https://www.millercanfield.com/resources-BIS-Affiliates-Rule-Suspension-Extended.html"
    },
-   "updatedOn": "2026-09-25"
+   "updatedOn": "2026-11-05"
   },
   {
    "title": "新能源车出口退税降至9%",
@@ -5894,29 +5863,6 @@
  ],
  "calendar": [
   {
-   "date": "2026-11-04",
-   "title": "高通FY26Q4财报",
-   "type": "财报",
-   "biz": "终端、芯片",
-   "confirmed": false
-  },
-  {
-   "date": "2026-11-04",
-   "title": "Kimi K3.1 Pro完整权重开放（公司称11月4日前）",
-   "type": "发布",
-   "biz": "计算与云",
-   "confirmed": true,
-   "updatedOn": "2026-10-28"
-  },
-  {
-   "date": "2026-11-04",
-   "title": "iOS 27.3开发者Beta：国行Apple智能（千问）首批功能",
-   "type": "发布",
-   "biz": "终端",
-   "confirmed": true,
-   "updatedOn": "2026-11-01"
-  },
-  {
    "date": "2026-11-05",
    "title": "第九届进博会（11/5—10）",
    "type": "行业",
@@ -5961,6 +5907,14 @@
    "biz": "全业务",
    "confirmed": true,
    "updatedOn": "2026-11-03"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "中芯国际三季报（据Investing.com日历）",
+   "type": "财报",
+   "biz": "芯片供应链",
+   "confirmed": false,
+   "updatedOn": "2026-11-05"
   },
   {
    "date": "2026-11-13",
