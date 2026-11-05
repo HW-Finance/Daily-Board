@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-05",
- "updatedAt": "2026-11-05 07:30",
+ "asOf": "2026-11-06",
+ "updatedAt": "2026-11-06 07:01",
  "leaders": [
   {
    "id": "jensen",
@@ -211,6 +211,18 @@
    "biz": "计算与云",
    "statements": [
     {
+     "date": "2026-11-05",
+     "quote": "市场有时会有点短视，就是这样；我看的是长期，我深信算力在很多方面就等于智能。",
+     "topic": "需求与增长",
+     "context": "接受雅虎财经Brian Sozzi节目采访；当日美股AI板块大跌，费城半导体指数跌约10%，AMD盘中跌幅最高约17%",
+     "direct": true,
+     "original": "I think the market can sometimes be a little bit short-sighted. It is what it is. What I look at is in the long term, if you believe, which I do, I believe very deeply that computing, in many ways, equates to intelligence",
+     "source": {
+      "name": "Benzinga",
+      "url": "https://www.benzinga.com/markets/tech/26/11/62946994/amd-ceo-lisa-su-calls-this-market-moment-short-sighted-on-ai-spending"
+     }
+    },
+    {
      "date": "2026-11-04",
      "quote": "算力需求非常迫切；中期选举是行业的机会，必须让每个承建数据中心的社区看清AI带来的价值。",
      "topic": "监管与地缘",
@@ -269,17 +281,6 @@
      },
      "original": "There's very, very high demand for the next several years... The demand is even higher than our supply",
      "ai": "AI带动的不只是GPU，通用服务器CPU也出现供不应求。若国际CPU供给持续紧张，国内服务器市场对鲲鹏等国产CPU的替代需求会得到支撑；代价是先进制程和封装产能的争夺更激烈。"
-    },
-    {
-     "date": "2026-10-06",
-     "quote": "AMD将向供应链投入“数百亿美元”，高于5月宣布的100亿美元。",
-     "topic": "芯片与供应",
-     "context": "年内第三次访台",
-     "direct": false,
-     "source": {
-      "name": "Quartz",
-      "url": "https://qz.com/amd-lisa-su-tens-billions-ai-chip-supply-taiwan-korea-100726"
-     }
     }
    ]
   },
@@ -1033,6 +1034,80 @@
   }
  ],
  "earnings": [
+  {
+   "company": "华虹半导体",
+   "en": "Hua Hong Semiconductor",
+   "biz": "芯片半导体",
+   "period": "2026年Q3",
+   "reportDate": "2026-11-05",
+   "metrics": [
+    {
+     "label": "销售收入（含华力微）",
+     "value": "9.871亿美元",
+     "yoy": "+19.9%（重述后可比口径）"
+    },
+    {
+     "label": "毛利率",
+     "value": "24.6%",
+     "yoy": "+7.6个百分点"
+    },
+    {
+     "label": "母公司拥有人应占利润",
+     "value": "1.234亿美元",
+     "yoy": "+147.1%"
+    },
+    {
+     "label": "不含华力微销售收入",
+     "value": "8.034亿美元",
+     "yoy": "毛利率19.9%，均高于上季指引"
+    }
+   ],
+   "highlight": "已完成收购上海华力微约97.5%股权并首次并表，季度收入创新高；A股口径营收67.06亿元、同比增13.95%，归母净利润8.35亿元、增136.14%，扣非净利润增276.11%；公司称MCU、闪存、电源管理及功率器件需求增长，部分细分领域供应趋紧。",
+   "guidance": "2026年Q4销售收入约10.8亿—10.9亿美元，毛利率约25%—26%。",
+   "nextReport": "未披露",
+   "source": {
+    "name": "每日经济新闻",
+    "url": "https://www.nbd.com.cn/articles/2026-11-05/4639632.html"
+   },
+   "updatedOn": "2026-11-06"
+  },
+  {
+   "company": "Cloudflare",
+   "en": "Cloudflare",
+   "biz": "计算与云",
+   "period": "2026年Q3",
+   "reportDate": "2026-11-05",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "7.825亿美元",
+     "yoy": "+39%"
+    },
+    {
+     "label": "非GAAP经营利润",
+     "value": "1.371亿美元",
+     "yoy": "利润率17.5%（上年同期15.3%）"
+    },
+    {
+     "label": "非GAAP每股收益",
+     "value": "0.38美元",
+     "yoy": "高于预期约0.34美元"
+    },
+    {
+     "label": "GAAP经营亏损",
+     "value": "6790万美元",
+     "yoy": "—"
+    }
+   ],
+   "highlight": "营收增速为近四年最快，剩余履约义务（当期）增37%；CEO普林斯称是“史上最好的季度”，年化收入突破30亿美元，增长来自云基础设施、网络安全和AI开发服务需求；同时宣布新任全球销售负责人。盘后股价涨约14%—17%。",
+   "guidance": "全年营收指引上调至29.63亿—29.64亿美元（此前28.64亿—28.70亿美元）；据报Q4营收约8.45亿—8.46亿美元。",
+   "nextReport": "未披露",
+   "source": {
+    "name": "Benzinga",
+    "url": "https://www.benzinga.com/markets/earnings/26/11/62957362/cloudflare-stock-rises-after-q3-results-ceo-says-best-quarter-ever"
+   },
+   "updatedOn": "2026-11-06"
+  },
   {
    "company": "高通",
    "en": "Qualcomm",
@@ -5726,19 +5801,19 @@
    "biz": "昇腾、云",
    "status": "H200等个案审批并收取25%分成；中资海外子公司购芯须许可",
    "latest": {
-    "date": "2026-10-20",
-    "text": "三季度游说披露：英伟达、谷歌、英特尔等游说反对搭车NDAA的AI OVERWATCH、芯片安全法和MATCH法案；MATCH法案点名中芯、长江存储、长鑫、华为、华虹相关设施，要求盟友150天内对齐"
+    "date": "2026-11-05",
+    "text": "据路透，约60万颗H200存放香港待运，北京尚未批准大规模进口，几家互联网大厂过去数月各自仅获约1万颗"
    },
    "next": {
-    "date": "2026-11-03",
-    "text": "美国中期选举后跛脚鸭会期，关注NDAA是否加入对华芯片限制"
+    "date": "2026-11-18",
+    "text": "英伟达FY27Q3财报会对中国收入及H200出货的表述（日期未官宣）"
    },
    "level": "中",
    "source": {
-    "name": "Crypto Briefing",
-    "url": "https://cryptobriefing.com/nvidia-google-intel-anthropic-lobby-chip-exports/"
+    "name": "联合报（转路透）",
+    "url": "https://udn.com/news/story/6811/9860477"
    },
-   "updatedOn": "2026-10-22"
+   "updatedOn": "2026-11-06"
   },
   {
    "title": "中国稀土出口管制暂停期",
@@ -5863,21 +5938,6 @@
  ],
  "calendar": [
   {
-   "date": "2026-11-05",
-   "title": "第九届进博会（11/5—10）",
-   "type": "行业",
-   "biz": "全业务",
-   "confirmed": true
-  },
-  {
-   "date": "2026-11-05",
-   "title": "华虹半导体三季报",
-   "type": "财报",
-   "biz": "芯片供应链",
-   "confirmed": false,
-   "updatedOn": "2026-10-31"
-  },
-  {
    "date": "2026-11-06",
    "title": "美光桃园厂劳资第三次协商",
    "type": "行业",
@@ -5939,6 +5999,14 @@
    "biz": "全业务（汇率）",
    "confirmed": true,
    "updatedOn": "2026-11-04"
+  },
+  {
+   "date": "2026-11-15",
+   "title": "华为云上线openPangu-2.1-Pro（据报）",
+   "type": "发布",
+   "biz": "华为云",
+   "confirmed": false,
+   "updatedOn": "2026-11-06"
   },
   {
    "date": "2026-11-16",

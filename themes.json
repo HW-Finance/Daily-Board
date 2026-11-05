@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-05",
- "updatedAt": "2026-11-05 07:30",
+ "asOf": "2026-11-06",
+ "updatedAt": "2026-11-06 07:01",
  "config": [
   {
    "domain": "汇率",
@@ -47,24 +47,16 @@
    "id": "fx",
    "name": "汇率走势",
    "domain": "横向",
-   "judgment": "中间价调贬30点，人民币升势暂停",
+   "judgment": "人民币中间价回升，欧元对美元回落",
    "direction": "持平",
-   "directionNote": "较11月3日：USD/CNY中间价调贬30基点，EUR/CNY上调0.38%",
-   "asOf": "2026-11-04",
-   "change": "本期新增：11月4日USD/CNY、EUR/CNY中间价及中信证券区间判断。ECB 11月4日EUR/USD参考价未核实（检索结果互相矛盾），未更新；11月5日中间价运行时未发布。",
+   "directionNote": "较11月4日：USD/CNY中间价调升24基点，EUR/USD参考价跌0.38%",
+   "asOf": "2026-11-05",
+   "change": "本期新增：11月5日USD/CNY、EUR/CNY中间价，ECB 11月4日、5日EUR/USD参考价，美元加息预期背景。ECB人民币参考价仍未更新；本期未找到新的机构数值预测。",
    "pairs": [
     {
      "pair": "USD/CNY",
      "label": "美元/人民币",
      "series": [
-      {
-       "d": "2026-08-05",
-       "v": 6.7889
-      },
-      {
-       "d": "2026-08-06",
-       "v": 6.7895
-      },
       {
        "d": "2026-08-07",
        "v": 6.7904
@@ -296,32 +288,36 @@
       {
        "d": "2026-11-04",
        "v": 6.718
+      },
+      {
+       "d": "2026-11-05",
+       "v": 6.7156
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
-      "name": "中国外汇交易中心中间价（经中新网转载）",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-04/10725750.shtml",
-      "date": "2026-11-04"
+      "name": "中国经济网（转中国外汇交易中心）",
+      "url": "http://finance.ce.cn/fe/gdxw/202611/t20261105_3284180.shtml",
+      "date": "2026-11-05"
      },
      "compare": null,
      "compareNote": "在岸即期收盘价：暂无可靠数据（未取得可核实的日度序列），故不显示对照线。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-05",
+       "v": 6.7156
+      },
+      "prev": {
        "d": "2026-11-04",
        "v": 6.718
       },
-      "prev": {
-       "d": "2026-11-03",
-       "v": 6.715
-      },
-      "dayPct": 0.04,
+      "dayPct": -0.04,
       "base30": {
        "d": "2026-10-08",
        "v": 6.7367
       },
-      "d30Pct": -0.28,
+      "d30Pct": -0.31,
       "hi": {
        "d": "2026-08-18",
        "v": 6.7905
@@ -445,14 +441,6 @@
      "pair": "EUR/CNY",
      "label": "欧元/人民币",
      "series": [
-      {
-       "d": "2026-08-05",
-       "v": 7.8059
-      },
-      {
-       "d": "2026-08-06",
-       "v": 7.8197
-      },
       {
        "d": "2026-08-07",
        "v": 7.8067
@@ -684,13 +672,17 @@
       {
        "d": "2026-11-04",
        "v": 7.5043
+      },
+      {
+       "d": "2026-11-05",
+       "v": 7.5243
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
-      "name": "中国外汇交易中心中间价（经21世纪经济报道转载）",
-      "url": "https://www.21jingji.com/article/20261104/herald/09cc8620d5501aac9104dd35e6c2e70c.html",
-      "date": "2026-11-04"
+      "name": "新浪财经（转中国外汇交易中心）",
+      "url": "https://finance.sina.cn/2026-11-05/detail-inixrumy8955186.d.html",
+      "date": "2026-11-05"
      },
      "compare": {
       "name": "ECB参考汇率（对照）",
@@ -822,19 +814,19 @@
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-05",
+       "v": 7.5243
+      },
+      "prev": {
        "d": "2026-11-04",
        "v": 7.5043
       },
-      "prev": {
-       "d": "2026-11-03",
-       "v": 7.476
-      },
-      "dayPct": 0.38,
+      "dayPct": 0.27,
       "base30": {
        "d": "2026-10-08",
        "v": 7.5404
       },
-      "d30Pct": -0.48,
+      "d30Pct": -0.21,
       "hi": {
        "d": "2026-08-21",
        "v": 7.8906
@@ -850,14 +842,6 @@
      "pair": "EUR/USD",
      "label": "欧元/美元",
      "series": [
-      {
-       "d": "2026-08-05",
-       "v": 1.1554
-      },
-      {
-       "d": "2026-08-06",
-       "v": 1.1542
-      },
       {
        "d": "2026-08-07",
        "v": 1.1535
@@ -1101,32 +1085,40 @@
       {
        "d": "2026-11-03",
        "v": 1.1179
+      },
+      {
+       "d": "2026-11-04",
+       "v": 1.1267
+      },
+      {
+       "d": "2026-11-05",
+       "v": 1.1224
       }
      ],
      "seriesName": "ECB欧元参考汇率",
      "source": {
-      "name": "马耳他央行（转载ECB欧元参考汇率）",
-      "url": "https://www.centralbankmalta.org/exchange-rates",
-      "date": "2026-11-03"
+      "name": "欧洲央行参考汇率（RSS）",
+      "url": "https://www.ecb.europa.eu/rss/fxref-usd.html",
+      "date": "2026-11-05"
      },
      "compare": null,
-     "compareNote": "ECB参考汇率每日一个值（欧洲中部时间14:15），最新为10月30日1.1172；10月27日、10月29日参考价本次未检索到，序列留空。",
+     "compareNote": "ECB参考汇率每日一个值（欧洲中部时间14:15），最新为11月5日1.1224；10月29日、10月31日—11月2日部分参考价本次未检索到，序列留空。",
      "decimals": 4,
      "stats": {
       "last": {
-       "d": "2026-11-03",
-       "v": 1.1179
+       "d": "2026-11-05",
+       "v": 1.1224
       },
       "prev": {
-       "d": "2026-10-30",
-       "v": 1.1172
+       "d": "2026-11-04",
+       "v": 1.1267
       },
-      "dayPct": 0.06,
+      "dayPct": -0.38,
       "base30": {
-       "d": "2026-10-05",
-       "v": 1.1204
+       "d": "2026-10-06",
+       "v": 1.1269
       },
-      "d30Pct": -0.22,
+      "d30Pct": -0.4,
       "hi": {
        "d": "2026-08-21",
        "v": 1.1699
@@ -1263,72 +1255,58 @@
     "EUR/USD": null
    },
    "dayMove": {
-    "headline": "存准率上调后中间价调贬30点，欧元走强",
+    "headline": "美就业数据偏强，美元回升压低欧元",
     "points": [
-     "11月4日USD/CNY中间价6.7180，调贬30基点",
-     "调贬幅度为8月18日以来最大",
-     "EUR/CNY中间价7.5043，上调283基点",
-     "中信证券预计年内在6.6—6.7区间运行"
+     "11月5日USD/CNY中间价6.7156，调升24基点",
+     "EUR/CNY中间价7.5243，上调200基点",
+     "ECB参考价EUR/USD 1.1224，较前日1.1267跌0.38%",
+     "美国初请降至18.9万，12月加息定价约74.5%"
     ],
-    "detail": "11月4日USD/CNY中间价6.7180，调贬30基点；调贬幅度为8月18日以来最大；EUR/CNY中间价7.5043，上调283基点；中信证券预计年内在6.6—6.7区间运行",
+    "detail": "11月5日USD/CNY中间价6.7156，调升24基点；EUR/CNY中间价7.5243，上调200基点；ECB参考价EUR/USD 1.1224，较前日1.1267跌0.38%；美国初请降至18.9万，12月加息定价约74.5%",
     "src": [
      {
-      "name": "中新网（中间价）",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-04/10725750.shtml",
-      "date": "2026-11-04",
-      "repost": false
-     },
-     {
-      "name": "21世纪经济报道（中间价）",
-      "url": "https://www.21jingji.com/article/20261104/herald/09cc8620d5501aac9104dd35e6c2e70c.html",
-      "date": "2026-11-04",
+      "name": "中国经济网",
+      "url": "http://finance.ce.cn/fe/gdxw/202611/t20261105_3284180.shtml",
+      "date": "2026-11-05",
       "repost": true
      },
      {
-      "name": "21世纪经济报道（中信证券观点）",
-      "url": "https://m.21jingji.com/article/20261104/herald/558e61063cc9625d03f29793fd2efff2.html",
-      "date": "2026-11-04",
+      "name": "新浪财经",
+      "url": "https://finance.sina.cn/2026-11-05/detail-inixrumy8955186.d.html",
+      "date": "2026-11-05",
+      "repost": true
+     },
+     {
+      "name": "欧洲央行参考汇率",
+      "url": "https://www.ecb.europa.eu/rss/fxref-usd.html",
+      "date": "2026-11-05",
       "repost": false
+     },
+     {
+      "name": "TradingNews",
+      "url": "https://www.tradingnews.com/news/eur-slips-to-112220-as-dollar-rebounds-from-dxy-101-20",
+      "date": "2026-11-05",
+      "repost": true
      }
     ]
    },
    "background": [
     {
-     "title": "欧元：法国财政与增长拖累",
-     "text": "法国骚乱与财政风险推高法德10年期利差至约158bp（10月21日，2011年以来最宽）；10月27日EUR/USD约1.1165，低于100日均线约1.1445。",
-     "inference": "推断：法国风险溢价是欧元偏弱的主要欧洲侧因素，若利差向意大利外溢，欧元下行压力会加大。",
+     "title": "美元：加息预期升温",
+     "text": "11月5日美国初请失业金降至18.9万人（预期约19.6万），多位美联储官员主张继续加息，市场对12月加息定价约74.5%；美元指数自101.20回升至约101.60。",
+     "inference": "推断：若12月加息兑现，欧元对美元反弹受限，人民币对美元升值压力减轻。",
      "src": [
       {
-       "name": "investingLive – European markets steady for now but widening bond yield spreads offer a warning",
-       "url": "https://investinglive.com/news/european-markets-steady-for-now-but-widening-bond-yield-spreads-offer-a-warning/",
-       "date": "2026-10-21"
+       "name": "TradingNews",
+       "url": "https://www.tradingnews.com/news/eur-slips-to-112220-as-dollar-rebounds-from-dxy-101-20",
+       "date": "2026-11-05",
+       "repost": true
       },
       {
-       "name": "investingLive – European session wrap: French unrest weighs on the euro",
-       "url": "https://investinglive.com/news/investinglive-european-session-wrap-french-unrest-weighs-on-the-euro-as-wall-street-looks-to-bounce-back/",
-       "date": "2026-10-19"
-      },
-      {
-       "name": "Tradingpedia",
-       "url": "https://www.tradingpedia.com/2026/10/27/eur-usd-drops-toward-1-1150-as-bearish-bias-persists/",
-       "date": "2026-10-27"
-      }
-     ]
-    },
-    {
-     "title": "美元：美联储按兵不动",
-     "text": "美联储10月28日维持3.75%—4.00%不变，投票10比2；美国9月CPI同比3.7%、高于预期，联邦基金利率仍比欧央行2.50%存款利率高1.25—1.50个百分点。",
-     "inference": "推断：美欧利差未收窄，美元对欧元的利率优势仍在。",
-     "src": [
-      {
-       "name": "FXStreet – Euro edges up as the Fed holds a day before the ECB",
-       "url": "https://www.fxstreet.com/news/euro-edges-up-as-the-fed-holds-a-day-before-the-ecb-202610281809",
-       "date": "2026-10-28"
-      },
-      {
-       "name": "Trading Economics – Treasury Yields Jump After Hot CPI Report",
-       "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/591950",
-       "date": "2026-10-14"
+       "name": "FXStreet",
+       "url": "https://www.fxstreet.com/news/euro-loses-momentum-as-us-dollar-regains-footing-after-election-led-volatility-202611051519",
+       "date": "2026-11-05",
+       "repost": true
       }
      ]
     },
@@ -1984,10 +1962,10 @@
   "memory": {
    "id": "memory",
    "name": "介质（存储）供需与价值走势",
-   "judgment": "DRAM合约小涨，涨价方案遭下游抵触",
-   "direction": "持平",
-   "directionNote": "较11月3日：合约价续涨但幅度收窄，设备交期拉长使新增供给更慢",
-   "asOf": "2026-11-04",
+   "judgment": "美光桃园新厂据报停工，供给偏紧延续",
+   "direction": "恶化",
+   "directionNote": "较11月4日：据报美光暂停桃园新厂建设，2028年新增DRAM供给推迟风险上升",
+   "asOf": "2026-11-05",
    "keyNumbers": [
     {
      "label": "SK海力士2027—2028年产能长协覆盖",
@@ -2045,8 +2023,25 @@
      }
     }
    ],
-   "change": "本期新增：TrendForce 11月合约价小涨判断、NAND晶圆现货周跌4.33%、设备商2028年产能据报被锁定。TrendForce 1Q27合约价预测仍未发布。",
+   "change": "本期新增：据彭博美光因劳资纠纷基本暂停桃园新厂建设。11月6日协商结果截至运行时未出；TrendForce 1Q27合约价预测仍未发布。",
    "facts": [
+    {
+     "text": "美光桃园新厂停工：据彭博，美光因劳资纠纷基本暂停桃园30–45亿美元新存储厂建设（原定2028年投产），美光称在台营运正常；11月6日劳资再协商。",
+     "src": [
+      {
+       "name": "经济日报（台湾）",
+       "url": "https://money.udn.com/money/story/5612/9860460",
+       "date": "2026-11-05",
+       "repost": true
+      },
+      {
+       "name": "Tom's Hardware",
+       "url": "https://www.tomshardware.com/tech-industry/semiconductors/microns-usd4-5-billion-taoyuan-plant-construction-halted-amidst-labor-dispute-company-and-union-still-havent-reached-agreement-as-latter-asks-for-clearer-profit-sharing-terms",
+       "date": "2026-11-05",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "设备交期拉长：据ETNEWS，应用材料、阿斯麦等2028年供货合同进入收尾、部分洽谈2029年订单，设备交期较正常延长一倍以上。",
      "src": [
@@ -2703,9 +2698,9 @@
      "why": "服务器用料继内存后再涨价的幅度"
     },
     {
-     "what": "美光桃园厂劳资第三次协商",
+     "what": "美光桃园劳资协商结果及新厂是否复工",
      "when": "2026-11-06",
-     "why": "桃园厂据报占美光DRAM产能约22%，若升级为长期罢工将加剧DRAM紧张"
+     "why": "新厂原定2028年投产，停工延长将推迟DRAM新增供给"
     },
     {
      "what": "长鑫HBM3E首批出货量、良率和客户",
@@ -2724,6 +2719,13 @@
     }
    ],
    "sources": [
+    {
+     "name": "经济日报（台湾）",
+     "url": "https://money.udn.com/money/story/5612/9860460",
+     "date": "2026-11-05",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "21经济网（设备交期）",
      "url": "https://www.21jingji.com/article/20261104/herald/f06d8b822052840e139378eb3fcb51db.html",
@@ -4426,10 +4428,10 @@
   "aicompute": {
    "id": "aicompute",
    "name": "AI 算力供需与国产替代",
-   "judgment": "据报DeepSeek训练转昇腾，HBM仍是瓶颈",
-   "direction": "改善",
-   "directionNote": "较11月2日：据报DeepSeek训练转向昇腾、英伟达限东南亚云对华服务",
-   "asOf": "2026-11-03",
+   "judgment": "H200约60万颗滞港，国产卡补位延续",
+   "direction": "持平",
+   "directionNote": "较11月3日：H200进口受阻利好昇腾，但月之暗面经欧洲租用Blackwell",
+   "asOf": "2026-11-05",
    "keyNumbers": [
     {
      "label": "华为2026上半年数据中心AI加速卡出货",
@@ -4465,8 +4467,47 @@
      }
     }
    ],
-   "change": "本期新增：英伟达51%条款（FT）、DeepSeek V5据报用昇腾950训练、HBM走私报道、AMD三季报、海外GPU租价。DeepSeek与华为均未确认；中国移动其余中标人仍未检索到。",
+   "change": "本期新增：据路透约60万颗H200滞港未获批、月之暗面据报转向欧洲租Blackwell、腾讯称推理算力受限。未能打开路透和CNBC原文核实。",
    "facts": [
+    {
+     "text": "H200滞留香港：据路透，约60万颗H200存放香港待运，北京未批准大规模进口，几家互联网大厂各自仅获约1万颗。",
+     "src": [
+      {
+       "name": "联合报（转路透）",
+       "url": "https://udn.com/news/story/6811/9860477",
+       "date": "2026-11-05",
+       "repost": true
+      },
+      {
+       "name": "Unite.AI",
+       "url": "https://unite.ai/roughly-600-000-nvidia-h200s-idle-in-hong-kong-amid-beijings-import-hold",
+       "date": "2026-11-05",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "月之暗面境外租卡：据CNBC，月之暗面转向欧洲云服务租用英伟达Blackwell算力；美国对境外云服务缺乏广泛管控权。",
+     "src": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
+       "date": "2026-11-05",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "腾讯推理算力紧张：Hy4上线后推理集群紧急扩容至原来十倍，腾讯称仍受高端算力总量和高峰并发制约，Hy3限免延至11月15日。",
+     "src": [
+      {
+       "name": "界面新闻",
+       "url": "https://www.jiemian.com/article/15299520.html",
+       "date": "2026-11-05",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "英伟达限中国客户占比：据FT，英伟达要求云客户新合同至少51%服务面向非中国企业；东南亚、日本新型云商受影响最大，英伟达未证实。",
      "src": [
@@ -4780,6 +4821,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：头部模型厂仍可经境外租用拿到Blackwell训练算力，昇腾在训练侧的替代慢于推理侧。",
+     "confidence": "低",
+     "basis": "CNBC称月之暗面转向欧洲租Blackwell；单一信源，未获其他媒体证实"
+    },
+    {
      "text": "推断：英伟达限比例若执行，国内企业经东南亚租英伟达算力的路径收窄，部分需求回流国内。",
      "confidence": "低",
      "basis": "FT报道新合同中国客户占比不超49%，存量合同不受影响、口径未明"
@@ -4876,7 +4922,7 @@
     }
    ],
    "drivers": [
-    "管制双向收紧：美方管制叠加中方限制H200进口，英伟达在华出货-44%",
+    "管制双向收紧：中方据报未批H200大规模进口，约60万颗滞港",
     "国产芯片放量：非GPU加速芯片增近80%至101.6万张，华为等四家占95%",
     "英伟达新卡紧缺：RTX PRO 5500明年产量据称不超过300万张，在华订单超600万"
    ],
@@ -4931,6 +4977,27 @@
     }
    ],
    "sources": [
+    {
+     "name": "联合报（转路透）",
+     "url": "https://udn.com/news/story/6811/9860477",
+     "date": "2026-11-05",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
+     "date": "2026-11-05",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "界面新闻",
+     "url": "https://www.jiemian.com/article/15299520.html",
+     "date": "2026-11-05",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "GetDeploying",
      "url": "https://getdeploying.com/gpus/nvidia-b200",
@@ -5175,10 +5242,10 @@
   "cloudcapex": {
    "id": "cloudcapex",
    "name": "云厂商资本开支与 AI 回报",
-   "judgment": "三大云增速齐升，AWS预期两年增超40%",
+   "judgment": "美国数据中心电力成本转由云厂自担",
    "direction": "持平",
-   "directionNote": "与10月29日相比：AWS加入加速行列，海外投入延续，国内无新数据",
-   "asOf": "2026-10-29",
+   "directionNote": "较10月29日：资本开支计划未变，美国新建园区新增电力和电网成本",
+   "asOf": "2026-11-05",
    "keyNumbers": [
     {
      "label": "Anthropic算力与基础设施承诺",
@@ -5225,8 +5292,36 @@
      }
     }
    ],
-   "change": "本期新增：亚马逊三季报（AWS+39%、全年资本开支约2200亿美元、预期2027—2028年增速超40%）；工业富联ASIC服务器出货快于GPU机柜。未能读取AWS电话会细节。",
+   "change": "本期新增：谷歌170亿美元怀俄明数据中心自建702MW电厂、OpenAI承诺自担电网成本、41项地方公投40项反对数据中心。未检索到云厂下调资本开支的表态。",
    "facts": [
+    {
+     "text": "谷歌怀俄明数据中心：11月5日宣布投资170亿美元，配702MW燃料电池电厂并自付电力和电网升级；同日OpenAI承诺自担电费和电网成本。",
+     "src": [
+      {
+       "name": "Google博客",
+       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+       "date": "2026-11-05",
+       "repost": false
+      },
+      {
+       "name": "US News（路透）",
+       "url": "https://www.usnews.com/news/politics/articles/2026-11-05/google-plans-17-billion-wyoming-data-center-amid-rising-threats-of-curbs",
+       "date": "2026-11-05",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "美国地方公投：11月3日10个州41项涉数据中心地方公投中40项支持限制或否决开发，其中俄亥俄21项。",
+     "src": [
+      {
+       "name": "CNBC",
+       "url": "https://cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
+       "date": "2026-11-04",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "亚马逊三季度业绩：AWS收入460亿美元、+39%（二季度+37%），经营利润178亿美元；三季度购置固定资产773亿美元，全年资本开支约2200亿美元；贾西预计2027、2028年AWS增速均超40%。",
      "src": [
@@ -5700,6 +5795,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "Google博客",
+     "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+     "date": "2026-11-05",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "CNBC",
+     "url": "https://cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
+     "date": "2026-11-04",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "新浪财经",
      "url": "https://finance.sina.com.cn/jjxw/2026-10-29/doc-iniwwtus5976237.shtml",
@@ -6488,10 +6597,10 @@
    "id": "geo",
    "name": "中美、中欧地缘政策跟踪",
    "domain": "横向",
-   "judgment": "德国拟禁5G基站，欧洲准入风险上升",
-   "direction": "恶化",
-   "directionNote": "较11月3日：风险从安世供应链扩大到德国无线接入网",
-   "asOf": "2026-11-04",
+   "judgment": "德国拟禁5G基站，中方据报卡H200进口",
+   "direction": "持平",
+   "directionNote": "较11月4日：德国5G禁令无新进展，新增中方据报暂缓H200进口",
+   "asOf": "2026-11-05",
    "keyNumbers": [
     {
      "label": "中美休战到期日",
@@ -6527,8 +6636,19 @@
      }
     }
    ],
-   "change": "本期新增：据报德国拟把5G基站列为关键组件。BIS关联方规则、中方稀土暂停的正式延期文件仍未检索到。",
+   "change": "本期新增：据路透北京暂缓批准H200大规模进口。BIS关联方规则与中方稀土暂停的正式延期文件截至11月5日仍未检索到。",
    "facts": [
+    {
+     "text": "H200进口闸门：据路透，约60万颗H200滞留香港，北京未批准大规模进口；美方此前已按个案许可放行。",
+     "src": [
+      {
+       "name": "联合报（转路透）",
+       "url": "https://udn.com/news/story/6811/9860477",
+       "date": "2026-11-05",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "德国拟禁5G基站：据报联邦网络局拟把5G基站列为关键组件，内政部可据此禁用华为、中兴；现行安排基站基本豁免，只要求2026年底前移除核心网。",
      "src": [
@@ -6888,6 +7008,27 @@
     }
    ],
    "timeline": [
+    {
+     "date": "2026-11-05",
+     "region": "中国",
+     "title": "据报北京暂缓批准H200大规模进口",
+     "status": "传闻",
+     "text": "据路透，约60万颗英伟达H200存放香港待运，北京尚未批准大规模进口，几家互联网大厂过去数月各自仅获约1万颗；工信部、发改委未回应。",
+     "next": {
+      "date": "2026-11-18",
+      "text": "APEC深圳会议前后中美磋商（日期未官宣）"
+     },
+     "biz": "昇腾、华为云",
+     "level": "中",
+     "src": [
+      {
+       "name": "联合报（转路透）",
+       "url": "https://udn.com/news/story/6811/9860477",
+       "date": "2026-11-05",
+       "repost": true
+      }
+     ]
+    },
     {
      "date": "2026-11-04",
      "region": "德国",
@@ -7487,6 +7628,13 @@
    ],
    "sources": [
     {
+     "name": "联合报（转路透）",
+     "url": "https://udn.com/news/story/6811/9860477",
+     "date": "2026-11-05",
+     "repost": true,
+     "stale": false
+    },
+    {
      "name": "Anadolu Agency",
      "url": "https://www.aa.com.tr/en/europe/germany-preparing-sweeping-ban-on-chinese-mobile-network-equipment-report/4111044",
      "date": "2026-11-04",
@@ -7791,7 +7939,7 @@
     "name": "AI 是否存在泡沫",
     "desc": "资本开支增速能否被收入兑现",
     "claim": "AI存在泡沫：资本开支增速难以被收入兑现",
-    "summary": "推断：需求方继续用收入回应：AMD四季度指引环比增约27%，谷歌云增103%接近其资本开支增速，贾西称AWS投入“正在见效”；质疑仍只来自陈福阳；是否泡沫取决于2027年加码的开支能否继续被云收入覆盖。",
+    "summary": "推断：需求方继续用收入回应：AMD四季度指引环比增约27%，苏姿丰11月5日AI股大跌时称市场“短视”、算力即智能；谷歌云增103%接近其资本开支增速，贾西称AWS投入“正在见效”；质疑仍只来自陈福阳；是否泡沫取决于2027年加码的开支能否继续被云收入覆盖。",
     "confidence": "中"
    },
    {
@@ -8642,6 +8790,21 @@
     },
     "point": "手机芯片收入降26%，称是供给问题而非需求问题。",
     "question": "内存短缺对安卓手机出货的压制会持续到2027年哪个季度？",
+    "suggest": null
+   },
+   "lisasu|2026-11-05|市场有时会有点短视，就是": {
+    "hyps": [
+     "H1",
+     "H2"
+    ],
+    "main": "H1",
+    "stance": "反对",
+    "stances": {
+     "H1": "反对",
+     "H2": "支持"
+    },
+    "point": "AI股大跌当天称市场短视，坚信算力等于智能。",
+    "question": "AMD四季度约170亿美元指引是否维持？客户是否因股价下跌放缓下单？",
     "suggest": null
    }
   },
