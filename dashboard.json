@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-06",
- "updatedAt": "2026-11-06 07:01",
+ "asOf": "2026-11-07",
+ "updatedAt": "2026-11-07 07:01",
  "leaders": [
   {
    "id": "jensen",
@@ -584,6 +584,18 @@
    "biz": "汽车",
    "statements": [
     {
+     "date": "2026-11-06",
+     "quote": "将于明年年中左右逐步结束得州超级工厂的Cybertruck生产，为更多Cybercab生产腾出产能。",
+     "topic": "自动驾驶与Robotaxi",
+     "context": "北京时间11月6日在X发文；Cybercab已在得州工厂投产，马斯克称Cybertruck停产是“一个时代的结束”",
+     "direct": true,
+     "original": "winding down Cybertruck production at Gigafactory Texas around the middle of next year, to make room for more Cybercab production",
+     "source": {
+      "name": "Fox Business",
+      "url": "https://www.foxbusiness.com/markets/tesla-wind-down-cybertruck-production-texas-factory-next-year-make-room-cybercab"
+     }
+    },
+    {
      "date": "2026-10-26",
      "quote": "机器人对内存的需求将超过地球上其他一切用途；超级智能的需求还会大得多，但几乎都将在太空中计算。",
      "topic": "需求与增长",
@@ -645,19 +657,6 @@
       "url": "https://www.trendforce.com/news/2026/10/14/news-musk-weighs-in-on-memory-again-praises-microns-future-pricing-warns-extortionate-practices-wont-be-forgotten/"
      },
      "ai": "特斯拉这样的大买家也在公开抱怨存储定价，同时据报三星、美光2027年产能大部分已被长协锁定。存储成本高位很可能延续到2027年，终端厂商的议价空间取决于能否尽早锁定长协份额。"
-    },
-    {
-     "date": "2026-10-01",
-     "quote": "削减AI5/AI6芯片内存是让Optimus实现足够量产的唯一途径，对性能影响可忽略。",
-     "topic": "价格与成本",
-     "context": "X平台发帖，回应美光关于机器人内存需求的说法",
-     "direct": true,
-     "source": {
-      "name": "Benzinga",
-      "url": "https://www.benzinga.com/markets/tech/26/10/62125996/elon-musk-tesla-optimus-memory-micron-humanoid-robots"
-     },
-     "original": "the only way to get enough volume for Optimus production ... negligible effect on Optimus performance",
-     "ai": "内存价格已经高到改变芯片规格设计，而不只是推高整机售价。存储高价期，端侧AI算力与内存配置的取舍是所有硬件厂商共同面对的问题。"
     }
    ]
   },
@@ -5761,19 +5760,19 @@
    "biz": "终端、ICT、供应链",
    "status": "休战延至2027年1月10日；芯片、电动车、电池不在降税清单",
    "latest": {
-    "date": "2026-10-20",
-    "text": "据SCMP，投资理事会初步清单涉及电动车、储能、电力设备等非敏感行业但仍有重大分歧；休战延期谈判可能拖到12月美国G20；200架波音订单未落实"
+    "date": "2026-11-06",
+    "text": "美东11月6日格里尔、贝森特与何立峰视频通话，USTR称要求中方就农产品采购、稀土和关键矿产拿出具体行动；据FT美方认为中方仅兑现约三分之二承诺，中方不认可；未检索到中方通稿"
    },
    "next": {
     "date": "2026-11-18",
-    "text": "深圳APEC领导人会议（11/18—19）"
+    "text": "深圳APEC领导人会议（11/18—19），其后12月14—15日G20"
    },
    "level": "高",
    "source": {
-    "name": "联合新闻网（编译SCMP）",
-    "url": "https://udn.com/news/story/6811/9827268"
+    "name": "USTR",
+    "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/readout-ambassador-greers-call-chinas-vice-premier-he-lifeng"
    },
-   "updatedOn": "2026-10-22"
+   "updatedOn": "2026-11-07"
   },
   {
    "title": "欧盟对华贸易措施与混动配额",
@@ -5805,8 +5804,8 @@
     "text": "据路透，约60万颗H200存放香港待运，北京尚未批准大规模进口，几家互联网大厂过去数月各自仅获约1万颗"
    },
    "next": {
-    "date": "2026-11-18",
-    "text": "英伟达FY27Q3财报会对中国收入及H200出货的表述（日期未官宣）"
+    "date": "2026-11-17",
+    "text": "英伟达FY27Q3财报会对中国收入及H200出货的表述"
    },
    "level": "中",
    "source": {
@@ -5819,21 +5818,21 @@
    "title": "中国稀土出口管制暂停期",
    "region": "中国",
    "biz": "终端、能源、供应链",
-   "status": "2025年10月扩大管制暂停中，随休战延至2027年1月10日",
+   "status": "2025年10月扩大管制暂停中；美方已正式把关联方规则暂停延至2027年1月10日，中方暂停公告仍写11月10日到期",
    "latest": {
-    "date": "2026-11-04",
-    "text": "截至11月4日，中方暂停公告文本仍写11月10日到期，BIS关联方规则暂停在联邦公报中仍定于11月9日结束，均未见新的正式延期文件"
+    "date": "2026-11-06",
+    "text": "BIS美东11月5日宣布关联方规则暂停延至2027年1月10日（定于11月9日刊登联邦公报）；中方2025年第70号公告未见延期文件。美东11月6日格里尔、贝森特与何立峰通话，要求中方“立即全面”落实稀土与农产品承诺"
    },
    "next": {
     "date": "2026-11-10",
-    "text": "看双方是否发布正式延期公告；休战整体延至2027-01-10"
+    "text": "中方稀土暂停公告与美方301关税178项排除同日到期，看是否发布延期文件"
    },
-   "level": "中",
+   "level": "高",
    "source": {
-    "name": "Miller Canfield",
-    "url": "https://www.millercanfield.com/resources-BIS-Affiliates-Rule-Suspension-Extended.html"
+    "name": "Baker McKenzie",
+    "url": "https://sanctionsnews.bakermckenzie.com/bis-extends-suspension-of-the-affiliates-rule-through-january-10-2027/"
    },
-   "updatedOn": "2026-11-05"
+   "updatedOn": "2026-11-07"
   },
   {
    "title": "新能源车出口退税降至9%",
@@ -5938,22 +5937,6 @@
  ],
  "calendar": [
   {
-   "date": "2026-11-06",
-   "title": "美光桃园厂劳资第三次协商",
-   "type": "行业",
-   "biz": "芯片半导体",
-   "confirmed": false,
-   "updatedOn": "2026-10-28"
-  },
-  {
-   "date": "2026-11-06",
-   "title": "苹果触屏OLED MacBook Pro发售",
-   "type": "发布",
-   "biz": "终端",
-   "confirmed": true,
-   "updatedOn": "2026-10-29"
-  },
-  {
    "date": "2026-11-10",
    "title": "双11巅峰期开启（20:00）",
    "type": "行业",
@@ -5962,11 +5945,19 @@
   },
   {
    "date": "2026-11-10",
-   "title": "中方稀土等出口管制暂停措施原定到期节点（美方关联方规则暂停至11月9日），看是否发布延期公告",
+   "title": "中方稀土等出口管制暂停公告原定到期（美方关联方规则暂停已延至2027-01-10），看中方是否发布延期公告",
    "type": "政策",
    "biz": "全业务",
    "confirmed": true,
-   "updatedOn": "2026-11-03"
+   "updatedOn": "2026-11-07"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "美方301关税178项排除到期，尚未宣布延期",
+   "type": "政策",
+   "biz": "终端、供应链",
+   "confirmed": true,
+   "updatedOn": "2026-11-07"
   },
   {
    "date": "2026-11-12",
@@ -5975,6 +5966,14 @@
    "biz": "芯片供应链",
    "confirmed": false,
    "updatedOn": "2026-11-05"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "北汽星钽5X上市（乾崑ADS 5 Pro）",
+   "type": "发布",
+   "biz": "汽车",
+   "confirmed": false,
+   "updatedOn": "2026-11-07"
   },
   {
    "date": "2026-11-13",
@@ -6017,18 +6016,27 @@
    "updatedOn": "2026-11-03"
   },
   {
+   "date": "2026-11-17",
+   "title": "英伟达FY27Q3财报",
+   "type": "财报",
+   "biz": "计算与云",
+   "confirmed": true,
+   "updatedOn": "2026-11-07"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "美光与桃园工会第四次劳资协商",
+   "type": "行业",
+   "biz": "芯片半导体",
+   "confirmed": false,
+   "updatedOn": "2026-11-07"
+  },
+  {
    "date": "2026-11-18",
    "title": "APEC领导人会议·深圳（11/18—19）",
    "type": "政策",
    "biz": "全业务",
    "confirmed": true
-  },
-  {
-   "date": "2026-11-18",
-   "title": "英伟达FY27Q3财报",
-   "type": "财报",
-   "biz": "计算与云",
-   "confirmed": false
   },
   {
    "date": "2026-11-18",
@@ -6082,6 +6090,14 @@
    "biz": "芯片半导体",
    "confirmed": true,
    "updatedOn": "2026-10-28"
+  },
+  {
+   "date": "2026-12-14",
+   "title": "G20峰会（美国，12/14—15），中美元首或再会晤",
+   "type": "政策",
+   "biz": "全业务",
+   "confirmed": false,
+   "updatedOn": "2026-11-07"
   },
   {
    "date": "2028-12-01",

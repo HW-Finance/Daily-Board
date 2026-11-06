@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-06",
- "updatedAt": "2026-11-06 07:01",
+ "asOf": "2026-11-07",
+ "updatedAt": "2026-11-07 07:01",
  "config": [
   {
    "domain": "汇率",
@@ -47,11 +47,11 @@
    "id": "fx",
    "name": "汇率走势",
    "domain": "横向",
-   "judgment": "人民币中间价回升，欧元对美元回落",
+   "judgment": "非农超预期，美元走强欧元回落",
    "direction": "持平",
-   "directionNote": "较11月4日：USD/CNY中间价调升24基点，EUR/USD参考价跌0.38%",
-   "asOf": "2026-11-05",
-   "change": "本期新增：11月5日USD/CNY、EUR/CNY中间价，ECB 11月4日、5日EUR/USD参考价，美元加息预期背景。ECB人民币参考价仍未更新；本期未找到新的机构数值预测。",
+   "directionNote": "较11月5日：USD/CNY中间价调降12基点，EUR/USD参考价跌0.53%",
+   "asOf": "2026-11-06",
+   "change": "本期新增：11月6日USD/CNY、EUR/CNY中间价，ECB 11月6日EUR/USD参考价，美国10月非农数据。在岸即期日度序列仍未取得；本期未找到新的机构数值预测。",
    "pairs": [
     {
      "pair": "USD/CNY",
@@ -292,32 +292,36 @@
       {
        "d": "2026-11-05",
        "v": 6.7156
+      },
+      {
+       "d": "2026-11-06",
+       "v": 6.7168
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
-      "name": "中国经济网（转中国外汇交易中心）",
-      "url": "http://finance.ce.cn/fe/gdxw/202611/t20261105_3284180.shtml",
-      "date": "2026-11-05"
+      "name": "观点网（转中国外汇交易中心）",
+      "url": "https://www.guandian.cn/article/20261106/624069.html",
+      "date": "2026-11-06"
      },
      "compare": null,
      "compareNote": "在岸即期收盘价：暂无可靠数据（未取得可核实的日度序列），故不显示对照线。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-06",
+       "v": 6.7168
+      },
+      "prev": {
        "d": "2026-11-05",
        "v": 6.7156
       },
-      "prev": {
-       "d": "2026-11-04",
-       "v": 6.718
-      },
-      "dayPct": -0.04,
+      "dayPct": 0.02,
       "base30": {
        "d": "2026-10-08",
        "v": 6.7367
       },
-      "d30Pct": -0.31,
+      "d30Pct": -0.3,
       "hi": {
        "d": "2026-08-18",
        "v": 6.7905
@@ -676,13 +680,17 @@
       {
        "d": "2026-11-05",
        "v": 7.5243
+      },
+      {
+       "d": "2026-11-06",
+       "v": 7.5191
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
-      "name": "新浪财经（转中国外汇交易中心）",
-      "url": "https://finance.sina.cn/2026-11-05/detail-inixrumy8955186.d.html",
-      "date": "2026-11-05"
+      "name": "21经济网（转中国外汇交易中心）",
+      "url": "https://www.21jingji.com/article/20261106/herald/56718ada27b917412cb7dc5fb20b4970.html",
+      "date": "2026-11-06"
      },
      "compare": {
       "name": "ECB参考汇率（对照）",
@@ -814,19 +822,19 @@
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-06",
+       "v": 7.5191
+      },
+      "prev": {
        "d": "2026-11-05",
        "v": 7.5243
       },
-      "prev": {
-       "d": "2026-11-04",
-       "v": 7.5043
-      },
-      "dayPct": 0.27,
+      "dayPct": -0.07,
       "base30": {
        "d": "2026-10-08",
        "v": 7.5404
       },
-      "d30Pct": -0.21,
+      "d30Pct": -0.28,
       "hi": {
        "d": "2026-08-21",
        "v": 7.8906
@@ -1093,32 +1101,36 @@
       {
        "d": "2026-11-05",
        "v": 1.1224
+      },
+      {
+       "d": "2026-11-06",
+       "v": 1.1165
       }
      ],
      "seriesName": "ECB欧元参考汇率",
      "source": {
-      "name": "欧洲央行参考汇率（RSS）",
-      "url": "https://www.ecb.europa.eu/rss/fxref-usd.html",
-      "date": "2026-11-05"
+      "name": "欧洲央行汇率数据页",
+      "url": "https://data.ecb.europa.eu/key-figures/ecb-interest-rates-and-exchange-rates/exchange-rates",
+      "date": "2026-11-06"
      },
      "compare": null,
-     "compareNote": "ECB参考汇率每日一个值（欧洲中部时间14:15），最新为11月5日1.1224；10月29日、10月31日—11月2日部分参考价本次未检索到，序列留空。",
+     "compareNote": "ECB参考汇率每日一个值（欧洲中部时间14:15），最新为11月6日1.1165；10月29日、10月31日—11月2日部分参考价本次未检索到，序列留空。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-06",
+       "v": 1.1165
+      },
+      "prev": {
        "d": "2026-11-05",
        "v": 1.1224
       },
-      "prev": {
-       "d": "2026-11-04",
-       "v": 1.1267
-      },
-      "dayPct": -0.38,
+      "dayPct": -0.53,
       "base30": {
-       "d": "2026-10-06",
-       "v": 1.1269
+       "d": "2026-10-07",
+       "v": 1.1177
       },
-      "d30Pct": -0.4,
+      "d30Pct": -0.11,
       "hi": {
        "d": "2026-08-21",
        "v": 1.1699
@@ -1255,57 +1267,57 @@
     "EUR/USD": null
    },
    "dayMove": {
-    "headline": "美就业数据偏强，美元回升压低欧元",
+    "headline": "美非农大超预期，美元走强压低欧元",
     "points": [
-     "11月5日USD/CNY中间价6.7156，调升24基点",
-     "EUR/CNY中间价7.5243，上调200基点",
-     "ECB参考价EUR/USD 1.1224，较前日1.1267跌0.38%",
-     "美国初请降至18.9万，12月加息定价约74.5%"
+     "11月6日USD/CNY中间价6.7168，调降12基点",
+     "EUR/CNY中间价7.5191，下调52基点",
+     "ECB参考价EUR/USD 1.1165，较前日1.1224跌0.53%",
+     "美10月非农增16.5万，远超预期约6.5万"
     ],
-    "detail": "11月5日USD/CNY中间价6.7156，调升24基点；EUR/CNY中间价7.5243，上调200基点；ECB参考价EUR/USD 1.1224，较前日1.1267跌0.38%；美国初请降至18.9万，12月加息定价约74.5%",
+    "detail": "11月6日USD/CNY中间价6.7168，调降12基点；EUR/CNY中间价7.5191，下调52基点；ECB参考价EUR/USD 1.1165，较前日1.1224跌0.53%；美10月非农增16.5万，远超预期约6.5万",
     "src": [
      {
-      "name": "中国经济网",
-      "url": "http://finance.ce.cn/fe/gdxw/202611/t20261105_3284180.shtml",
-      "date": "2026-11-05",
+      "name": "21经济网（转中国外汇交易中心）",
+      "url": "https://www.21jingji.com/article/20261106/herald/56718ada27b917412cb7dc5fb20b4970.html",
+      "date": "2026-11-06",
       "repost": true
      },
      {
-      "name": "新浪财经",
-      "url": "https://finance.sina.cn/2026-11-05/detail-inixrumy8955186.d.html",
-      "date": "2026-11-05",
+      "name": "观点网（转中国外汇交易中心）",
+      "url": "https://www.guandian.cn/article/20261106/624069.html",
+      "date": "2026-11-06",
       "repost": true
      },
      {
-      "name": "欧洲央行参考汇率",
-      "url": "https://www.ecb.europa.eu/rss/fxref-usd.html",
-      "date": "2026-11-05",
+      "name": "欧洲央行汇率数据页",
+      "url": "https://data.ecb.europa.eu/key-figures/ecb-interest-rates-and-exchange-rates/exchange-rates",
+      "date": "2026-11-06",
       "repost": false
      },
      {
-      "name": "TradingNews",
-      "url": "https://www.tradingnews.com/news/eur-slips-to-112220-as-dollar-rebounds-from-dxy-101-20",
-      "date": "2026-11-05",
-      "repost": true
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+      "date": "2026-11-06",
+      "repost": false
      }
     ]
    },
    "background": [
     {
-     "title": "美元：加息预期升温",
-     "text": "11月5日美国初请失业金降至18.9万人（预期约19.6万），多位美联储官员主张继续加息，市场对12月加息定价约74.5%；美元指数自101.20回升至约101.60。",
-     "inference": "推断：若12月加息兑现，欧元对美元反弹受限，人民币对美元升值压力减轻。",
+     "title": "美元：非农超预期",
+     "text": "美国10月非农新增16.5万（预期约6.5万），失业率降至4.1%，8—9月数据上修；CME FedWatch显示12月加息概率升至约80%（前一日约67%）。",
+     "inference": "推断：12月加息预期强化，欧元对美元短期偏弱，人民币对美元升值放缓。",
      "src": [
       {
-       "name": "TradingNews",
-       "url": "https://www.tradingnews.com/news/eur-slips-to-112220-as-dollar-rebounds-from-dxy-101-20",
-       "date": "2026-11-05",
-       "repost": true
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+       "date": "2026-11-06",
+       "repost": false
       },
       {
        "name": "FXStreet",
-       "url": "https://www.fxstreet.com/news/euro-loses-momentum-as-us-dollar-regains-footing-after-election-led-volatility-202611051519",
-       "date": "2026-11-05",
+       "url": "https://www.fxstreet.com/news/euro-erases-weekly-gains-upbeat-us-jobs-data-fuel-dollar-rally-202611061422",
+       "date": "2026-11-06",
        "repost": true
       }
      ]
@@ -1336,29 +1348,20 @@
      ]
     },
     {
-     "title": "欧央行：12月或加息",
-     "text": "路透调查预计欧央行10月29日维持存款利率2.50%、12月加息25个基点，欧元区通胀约为目标的两倍。",
-     "inference": "推断：若29日会议未释放12月加息信号，欧元可能继续承压。",
+     "title": "欧元：区内数据偏弱",
+     "text": "11月6日欧元区零售销售数据疲弱，欧央行官员表态谨慎，欧元在美国非农公布前已走低，随后抹去本周涨幅。",
+     "inference": "推断：欧元区内需偏弱，欧元对美元反弹缺少本地支撑。",
      "src": [
       {
-       "name": "Tradingpedia",
-       "url": "https://www.tradingpedia.com/2026/10/27/eur-usd-drops-toward-1-1150-as-bearish-bias-persists/",
-       "date": "2026-10-27"
+       "name": "FXStreet",
+       "url": "https://www.fxstreet.com/news/euro-extends-losses-in-risk-off-markets-despite-bright-german-industrial-production-202611060731",
+       "date": "2026-11-06",
+       "repost": true
       }
      ]
     }
    ],
    "calendar": [
-    {
-     "date": "2026-11-06",
-     "event": "美国10月非农就业报告（美东08:30）",
-     "region": "US",
-     "why": "就业强弱→美联储12月决策→美元",
-     "src": {
-      "name": "fedratecalc – 2026 U.S. Economic Calendar",
-      "url": "https://fedratecalc.com/us-economic-calendar/"
-     }
-    },
     {
      "date": "2026-11-15",
      "event": "外汇存款准备金率上调至6%生效",
@@ -1962,10 +1965,10 @@
   "memory": {
    "id": "memory",
    "name": "介质（存储）供需与价值走势",
-   "judgment": "美光桃园新厂据报停工，供给偏紧延续",
-   "direction": "恶化",
-   "directionNote": "较11月4日：据报美光暂停桃园新厂建设，2028年新增DRAM供给推迟风险上升",
-   "asOf": "2026-11-05",
+   "judgment": "美光协商仍无果，现货微跌但供给偏紧",
+   "direction": "持平",
+   "directionNote": "较11月5日：美光停工延续，DRAM现货小幅回落，合约价预测未变",
+   "asOf": "2026-11-06",
    "keyNumbers": [
     {
      "label": "SK海力士2027—2028年产能长协覆盖",
@@ -2023,11 +2026,17 @@
      }
     }
    ],
-   "change": "本期新增：据彭博美光因劳资纠纷基本暂停桃园新厂建设。11月6日协商结果截至运行时未出；TrendForce 1Q27合约价预测仍未发布。",
+   "change": "本期新增：美光第三次劳资协商无果、17日再谈；据报台积电评估3D DRAM；TrendForce翻新内存渗透预测；11月6日DRAM现货价。TrendForce 1Q27合约价预测仍未发布。",
    "facts": [
     {
-     "text": "美光桃园新厂停工：据彭博，美光因劳资纠纷基本暂停桃园30–45亿美元新存储厂建设（原定2028年投产），美光称在台营运正常；11月6日劳资再协商。",
+     "text": "美光桃园劳资协商：11月6日第三次协商无共识，工会要求营业利润15%分润；17日第四次协商，此前据彭博桃园30–45亿美元新厂已基本停工。",
      "src": [
+      {
+       "name": "联合新闻网",
+       "url": "https://udn.com/news/story/7314/9862644",
+       "date": "2026-11-06",
+       "repost": true
+      },
       {
        "name": "经济日报（台湾）",
        "url": "https://money.udn.com/money/story/5612/9860460",
@@ -2039,6 +2048,45 @@
        "url": "https://www.tomshardware.com/tech-industry/semiconductors/microns-usd4-5-billion-taoyuan-plant-construction-halted-amidst-labor-dispute-company-and-union-still-havent-reached-agreement-as-latter-asks-for-clearer-profit-sharing-terms",
        "date": "2026-11-05",
        "repost": true
+      }
+     ]
+    },
+    {
+     "text": "台积电评估3D DRAM：据The Information，台积电应英伟达要求评估生产3D DRAM，考虑新建或收购工厂，尚无量产时间表。",
+     "src": [
+      {
+       "name": "The Next Web",
+       "url": "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia",
+       "date": "2026-11-06",
+       "repost": true
+      },
+      {
+       "name": "TechPowerUp",
+       "url": "https://www.techpowerup.com/354547/tsmc-is-reportedly-considering-3d-dram-production",
+       "date": "2026-11-06",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "翻新内存渗透：TrendForce称手机用拆焊翻新内存渗透率2026年约3%–4%，2027年或升至7%–9%，以LPDDR4X 4GB为主。",
+     "src": [
+      {
+       "name": "TrendForce",
+       "url": "https://www.trendforce.com/presscenter/news/20261106-13297.html",
+       "date": "2026-11-06",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "DRAM现货回落：11月6日DDR4 8Gb现货均价45.607美元、日跌0.93%，DDR5 16Gb 60.167美元、跌0.82%，现货仍高于合约价。",
+     "src": [
+      {
+       "name": "TrendForce DRAM现货价",
+       "url": "https://www.trendforce.com.tw/price/dram/dram_spot",
+       "date": "2026-11-06",
+       "repost": false
       }
      ]
     },
@@ -2693,14 +2741,14 @@
    ],
    "signals": [
     {
+     "what": "美光与桃园工会第四次协商及新厂复工",
+     "when": "2026-11-17",
+     "why": "停工延长将推迟美光在台DRAM新增供给"
+    },
+    {
      "what": "TrendForce高容MLCC 1Q27议价结果",
      "when": "11月起（未官宣）",
      "why": "服务器用料继内存后再涨价的幅度"
-    },
-    {
-     "what": "美光桃园劳资协商结果及新厂是否复工",
-     "when": "2026-11-06",
-     "why": "新厂原定2028年投产，停工延长将推迟DRAM新增供给"
     },
     {
      "what": "长鑫HBM3E首批出货量、良率和客户",
@@ -2719,6 +2767,41 @@
     }
    ],
    "sources": [
+    {
+     "name": "TrendForce DRAM现货价",
+     "url": "https://www.trendforce.com.tw/price/dram/dram_spot",
+     "date": "2026-11-06",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "TechPowerUp",
+     "url": "https://www.techpowerup.com/354547/tsmc-is-reportedly-considering-3d-dram-production",
+     "date": "2026-11-06",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia",
+     "date": "2026-11-06",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "TrendForce",
+     "url": "https://www.trendforce.com/presscenter/news/20261106-13297.html",
+     "date": "2026-11-06",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "联合新闻网",
+     "url": "https://udn.com/news/story/7314/9862644",
+     "date": "2026-11-06",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "经济日报（台湾）",
      "url": "https://money.udn.com/money/story/5612/9860460",
@@ -5242,10 +5325,10 @@
   "cloudcapex": {
    "id": "cloudcapex",
    "name": "云厂商资本开支与 AI 回报",
-   "judgment": "美国数据中心电力成本转由云厂自担",
+   "judgment": "微软收缩外部算力采购，转向自建",
    "direction": "持平",
-   "directionNote": "较10月29日：资本开支计划未变，美国新建园区新增电力和电网成本",
-   "asOf": "2026-11-05",
+   "directionNote": "较11月5日：云厂资本开支计划未变，外部算力租用开始收缩",
+   "asOf": "2026-11-06",
    "keyNumbers": [
     {
      "label": "Anthropic算力与基础设施承诺",
@@ -5292,8 +5375,25 @@
      }
     }
    ],
-   "change": "本期新增：谷歌170亿美元怀俄明数据中心自建702MW电厂、OpenAI承诺自担电网成本、41项地方公投40项反对数据中心。未检索到云厂下调资本开支的表态。",
+   "change": "本期新增：据报微软收缩neocloud合作、退出Nscale英国项目。未检索到微软下调资本开支总额的表态。",
    "facts": [
+    {
+     "text": "微软收缩neocloud：据CNBC、彭博，微软收紧对Nebius、IREN、Nscale项目审核，因并网推迟到2030年代退出Nscale英国埃塞克斯项目，更多转向自建。",
+     "src": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+       "date": "2026-11-06",
+       "repost": false
+      },
+      {
+       "name": "Investing.com（转彭博）",
+       "url": "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281",
+       "date": "2026-11-06",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "谷歌怀俄明数据中心：11月5日宣布投资170亿美元，配702MW燃料电池电厂并自付电力和电网升级；同日OpenAI承诺自担电费和电网成本。",
      "src": [
@@ -5796,6 +5896,20 @@
    ],
    "sources": [
     {
+     "name": "Investing.com（转彭博）",
+     "url": "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281",
+     "date": "2026-11-06",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+     "date": "2026-11-06",
+     "repost": false,
+     "stale": false
+    },
+    {
      "name": "Google博客",
      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
      "date": "2026-11-05",
@@ -6039,10 +6153,10 @@
   "pvess": {
    "id": "pvess",
    "name": "光储供需与价格",
-   "judgment": "组件龙头入局储能，储能抢量更激烈",
-   "direction": "持平",
-   "directionNote": "较11月2日：隆基储能订单破3GWh，储能新进入者增多",
-   "asOf": "2026-11-03",
+   "judgment": "国家定2030年储能3亿千瓦，采招价仍低",
+   "direction": "改善",
+   "directionNote": "较11月3日：新增2030年国内储能装机目标，国内需求预期更明确",
+   "asOf": "2026-11-06",
    "keyNumbers": [
     {
      "label": "1—9月中国光伏新增装机",
@@ -6078,8 +6192,36 @@
      }
     }
    ],
-   "change": "本期新增：宁夏2GWh储能总包中标价、隆基储能订单、阳光电源英国项目投运。本周InfoLink组件价、CNESA储能数据未检索到。",
+   "change": "本期新增：国家能源局2030年新型储能3亿千瓦等目标；寻熵10月储能采招数据。本周InfoLink组件价、CNESA储能数据仍未检索到。",
    "facts": [
+    {
+     "text": "“十五五”储能目标：国家能源局11月6日称2030年新型储能装机达3亿千瓦、充电设施超4000万个，“十五五”用电年均增约6000亿度。",
+     "src": [
+      {
+       "name": "21世纪经济报道",
+       "url": "https://m.21jingji.com/article/20261106/herald/2e1534e4be18861242a29ab41b283db3.html",
+       "date": "2026-11-06",
+       "repost": false
+      },
+      {
+       "name": "搜狐",
+       "url": "https://sohu.com/a/1097944052_121400326",
+       "date": "2026-11-06",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "10月储能采招：据寻熵研究院，10月国内储能采招17GW/52.5GWh，EPC均价持续低于1元/Wh，废标再招标增多。",
+     "src": [
+      {
+       "name": "新浪（转储能与电力市场）",
+       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908tucc.html",
+       "date": "2026-11-06",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "宁夏2GWh储能总包价：灵武新丰500MW/2000MWh储能PC总承包中标价15.03亿元，约0.75元/Wh，未签正式合同。",
      "src": [
@@ -6451,6 +6593,27 @@
    ],
    "sources": [
     {
+     "name": "新浪（转储能与电力市场）",
+     "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908tucc.html",
+     "date": "2026-11-06",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "搜狐",
+     "url": "https://sohu.com/a/1097944052_121400326",
+     "date": "2026-11-06",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "21世纪经济报道",
+     "url": "https://m.21jingji.com/article/20261106/herald/2e1534e4be18861242a29ab41b283db3.html",
+     "date": "2026-11-06",
+     "repost": false,
+     "stale": false
+    },
+    {
      "name": "Energy-Storage.News",
      "url": "https://www.energy-storage.news/bw-ess-puts-europes-largest-bess-commercial-operation-uk-gb/",
      "date": "2026-11-03",
@@ -6597,10 +6760,10 @@
    "id": "geo",
    "name": "中美、中欧地缘政策跟踪",
    "domain": "横向",
-   "judgment": "德国拟禁5G基站，中方据报卡H200进口",
+   "judgment": "美方延关联方规则，同时催中方兑现稀土",
    "direction": "持平",
-   "directionNote": "较11月4日：德国5G禁令无新进展，新增中方据报暂缓H200进口",
-   "asOf": "2026-11-05",
+   "directionNote": "较11月5日：关联方规则风险推迟两个月，稀土与关税到期仍未明",
+   "asOf": "2026-11-06",
    "keyNumbers": [
     {
      "label": "中美休战到期日",
@@ -6636,8 +6799,47 @@
      }
     }
    ],
-   "change": "本期新增：据路透北京暂缓批准H200大规模进口。BIS关联方规则与中方稀土暂停的正式延期文件截至11月5日仍未检索到。",
+   "change": "本期新增：BIS关联方规则暂停延至2027年1月10日；美方与何立峰通话催落实稀土承诺；中方对欧两项反倾销立案。中方稀土暂停延期公告、301排除是否延期未检索到。",
    "facts": [
+    {
+     "text": "美方催落实承诺：11月6日格里尔、贝森特与何立峰通话，要求中方落实稀土与农产品采购；据FT美方称中方仅兑现约三分之二。",
+     "src": [
+      {
+       "name": "USTR",
+       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/readout-ambassador-greers-call-chinas-vice-premier-he-lifeng",
+       "date": "2026-11-06",
+       "repost": false
+      },
+      {
+       "name": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-urges-china-to-meet-rare-earths-commitments-ahead-of-trump-xi-meetings",
+       "date": "2026-11-06",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "关联方规则延期：BIS美东11月5日宣布50%关联方规则暂停由11月9日延至2027年1月10日，定于11月9日刊登联邦公报；中方稀土暂停公告未见延期。",
+     "src": [
+      {
+       "name": "Baker McKenzie",
+       "url": "https://sanctionsnews.bakermckenzie.com/bis-extends-suspension-of-the-affiliates-rule-through-january-10-2027/",
+       "date": "2026-11-06",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "中方对欧反倾销：商务部11月6日对欧盟对位芳纶长丝、欧盟和日本乙叉降冰片烯立案反倾销调查，称欧盟今年对华发起16起贸易救济调查。",
+     "src": [
+      {
+       "name": "中新网",
+       "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727307.shtml",
+       "date": "2026-11-06",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "H200进口闸门：据路透，约60万颗H200滞留香港，北京未批准大规模进口；美方此前已按个案许可放行。",
      "src": [
@@ -6880,9 +7082,9 @@
    ],
    "inferences": [
     {
-     "text": "推断：11月10日是本季最大单点风险：BIS若未修订，实体清单企业持股超50%的未列名子公司和合资方需许可，波及我司海外主体采购。",
+     "text": "推断：关联方规则风险推迟到2027年1月10日，若届时休战未续，我司持股超50%的未列名子公司和合资方将需许可。",
      "confidence": "中",
-     "basis": "BKL称现行规定11月9日暂停期满、BIS未修订，延期仅有官员口头表态"
+     "basis": "BIS 11月5日只延长暂停两个月、未撤销规则"
     },
     {
      "text": "推断：欧盟网络安全法大概率保留高风险供应商淘汰机制，但硬性36个月期限将改为按风险和设备生命周期弹性确定，节奏慢于原案。",
@@ -6977,6 +7179,11 @@
    ],
    "signals": [
     {
+     "what": "中方稀土暂停公告是否延期",
+     "when": "2026-11-10",
+     "why": "未延期则稀土磁材出口审批口径可能收紧"
+    },
+    {
      "what": "德国关键组件清单修订稿",
      "when": "（未官宣）",
      "why": "若正式列入5G基站，我司德国无线存量与新增均受禁"
@@ -6992,22 +7199,65 @@
      "why": "验证欧委会是否真正“零延期”，决定数字能源欧洲项目受损范围"
     },
     {
-     "what": "BIS是否正式发布关联方规则暂停延期",
-     "when": "2026-11-10",
-     "why": "若未发布，第一条推断的风险兑现"
-    },
-    {
      "what": "技术出口目录征求意见截止及正式目录",
      "when": "2026-11-15",
      "why": "确认AI大模型、算力集群条目门槛，判断我司对外技术合作是否需许可"
     },
     {
      "what": "深圳APEC中美领导人会晤是否延长休战或达成一揽子协议",
-     "when": "11月（具体日期未核实）",
+     "when": "2026-11-18",
      "why": "决定关税、稀土暂停在2027-01-10之后是否延续"
     }
    ],
    "timeline": [
+    {
+     "date": "2026-11-06",
+     "region": "美国",
+     "title": "美方通话催中方落实稀土承诺",
+     "status": "进行中",
+     "text": "美东11月6日格里尔、贝森特与何立峰视频通话，要求中方就农产品采购、稀土和关键矿产拿出具体行动；据FT美方认为中方仅兑现约三分之二，中方不认可。",
+     "next": {
+      "date": "2026-11-18",
+      "text": "深圳APEC领导人会议（11/18—19）"
+     },
+     "biz": "全业务",
+     "level": "高",
+     "src": [
+      {
+       "name": "USTR",
+       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/readout-ambassador-greers-call-chinas-vice-premier-he-lifeng",
+       "date": "2026-11-06",
+       "repost": false
+      },
+      {
+       "name": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-urges-china-to-meet-rare-earths-commitments-ahead-of-trump-xi-meetings",
+       "date": "2026-11-06",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "date": "2026-11-05",
+     "region": "美国",
+     "title": "BIS关联方规则暂停延至2027年1月",
+     "status": "已公布",
+     "text": "BIS宣布50%关联方规则暂停延至2027年1月10日，仅延长暂停、未撤销规则，定于11月9日刊登联邦公报；中方2025年第70号稀土暂停公告仍写11月10日到期。",
+     "next": {
+      "date": "2026-11-10",
+      "text": "看中方是否发布稀土暂停延期公告"
+     },
+     "biz": "海思与供应链、全业务",
+     "level": "高",
+     "src": [
+      {
+       "name": "Baker McKenzie",
+       "url": "https://sanctionsnews.bakermckenzie.com/bis-extends-suspension-of-the-affiliates-rule-through-january-10-2027/",
+       "date": "2026-11-06",
+       "repost": false
+      }
+     ]
+    },
     {
      "date": "2026-11-05",
      "region": "中国",
@@ -7627,6 +7877,34 @@
     }
    ],
    "sources": [
+    {
+     "name": "中新网",
+     "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727307.shtml",
+     "date": "2026-11-06",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-urges-china-to-meet-rare-earths-commitments-ahead-of-trump-xi-meetings",
+     "date": "2026-11-06",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "USTR",
+     "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/readout-ambassador-greers-call-chinas-vice-premier-he-lifeng",
+     "date": "2026-11-06",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "Baker McKenzie",
+     "url": "https://sanctionsnews.bakermckenzie.com/bis-extends-suspension-of-the-affiliates-rule-through-january-10-2027/",
+     "date": "2026-11-06",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "联合报（转路透）",
      "url": "https://udn.com/news/story/6811/9860477",
@@ -8805,6 +9083,15 @@
     },
     "point": "AI股大跌当天称市场短视，坚信算力等于智能。",
     "question": "AMD四季度约170亿美元指引是否维持？客户是否因股价下跌放缓下单？",
+    "suggest": null
+   },
+   "musk|2026-11-06|将于明年年中左右逐步结束": {
+    "hyps": [],
+    "main": null,
+    "stance": "中性",
+    "stances": {},
+    "point": "称将于2027年年中前后停产得州Cybertruck，为Cybercab腾产能。",
+    "question": "特斯拉Robotaxi量产节奏加快，对国内Robotaxi与乾崑智驾合作车型的竞争影响？",
     "suggest": null
    }
   },
