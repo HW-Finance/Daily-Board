@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-07",
- "updatedAt": "2026-11-07 07:01",
+ "asOf": "2026-11-08",
+ "updatedAt": "2026-11-08 07:00",
  "leaders": [
   {
    "id": "jensen",
@@ -5800,8 +5800,8 @@
    "biz": "昇腾、云",
    "status": "H200等个案审批并收取25%分成；中资海外子公司购芯须许可",
    "latest": {
-    "date": "2026-11-05",
-    "text": "据路透，约60万颗H200存放香港待运，北京尚未批准大规模进口，几家互联网大厂过去数月各自仅获约1万颗"
+    "date": "2026-11-07",
+    "text": "据《纽约时报》，获BIS批准组装H200服务器的北京New Matrix登记地址为空置毛坯房、部分股东关联实体清单企业智路资本，另一获批企业Maginfra办公室无人；BIS称严格审查所有申请。同日据FT，众议院就Megaspeed情报备忘录要求黄仁勋闭门说明"
    },
    "next": {
     "date": "2026-11-17",
@@ -5809,8 +5809,8 @@
    },
    "level": "中",
    "source": {
-    "name": "联合报（转路透）",
-    "url": "https://udn.com/news/story/6811/9860477"
+    "name": "FourWeekMBA（转述纽约时报）",
+    "url": "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/"
    },
    "updatedOn": "2026-11-06"
   },

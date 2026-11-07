@@ -1,108 +1,22 @@
 {
- "date": "2026-11-07",
- "weekday": "周六",
- "updatedAt": "2026-11-07 07:01",
+ "date": "2026-11-08",
+ "weekday": "周日",
+ "updatedAt": "2026-11-08 07:00",
  "highlights": [
   {
-   "text": "美方BIS把50%关联方规则暂停延至2027年1月10日，中方稀土暂停仍未见公告；规则若1月后恢复，我司控股子公司将被一并纳管。",
-   "item": "美商务部BIS宣布50%关联方规则暂停期由11月9日延至2027年1月10日，中方稀土管制暂停仍未见正式延期公告"
+   "text": "《纽约时报》称BIS批准的H200对华组装企业中至少两家办公室空置、股东关联实体清单企业，若引发许可复核，国内H200供给更不确定，昇腾替代空间扩大。",
+   "item": "据《纽约时报》调查，美商务部批准处理英伟达H200的中国企业中至少两家登记地址无实际办公"
   },
   {
-   "text": "美方与何立峰通话要求中方“立即全面”落实稀土与农产品承诺，APEC前稀土仍是筹码，磁材供应商出口节奏有变数。",
-   "item": "格里尔、贝森特与何立峰视频通话，要求中方“立即全面”落实釜山承诺中的稀土与农产品采购"
-  },
-  {
-   "text": "国家能源局给出2030年新型储能3亿千瓦、充电设施超4000万个目标，并把算力列为用电增量主因，利好数字能源国内需求。",
-   "item": "国家能源局：“十五五”用电需求年均增约6000亿度，2030年新型储能装机目标3亿千瓦、充电设施超4000万个"
-  },
-  {
-   "text": "据报台积电应英伟达要求评估生产3D DRAM，英伟达存储供给或进一步绑定台积电，昇腾与其HBM供给差距可能拉大。",
-   "item": "据The Information，台积电应英伟达要求评估进军3D DRAM存储芯片制造"
-  },
-  {
-   "text": "据报微软收缩neocloud合作并因并网推迟退出Nscale英国项目，海外算力项目“能否通电”比拿到GPU更关键。",
-   "item": "据报微软收缩新兴云（neocloud）合作名单，收紧对Nebius、IREN、Nscale项目的审核"
-  },
-  {
-   "text": "国内算力租赁再提价：行云科技头部客户二次上调合同金额，AutoDL将于11月12日调价，国内算力偏紧利于昇腾算力定价。",
-   "item": "国内算力租赁价格上行：行云科技头部客户二次上调合同金额，AutoDL称11月12日调整部分GPU价格"
-  },
-  {
-   "text": "美光与桃园工会第三次协商无果、17日再谈，新厂停工延续，我司终端存储采购价下行时点可能再后延。",
-   "item": "美光与桃园工会第三次协商仍无共识，定于11月17日再谈，桃园新厂停工未解除"
-  },
-  {
-   "text": "小米汽车成立国际业务部、2027年下半年首进欧洲，鸿蒙智行系出海将直面同样打手机生态牌的对手。",
-   "item": "小米汽车成立国际业务部，副总裁于立国兼任总经理，2027年下半年首站欧洲"
+   "text": "FT称美情报备忘录涉及英伟达新加坡客户Megaspeed高管，国会要求黄仁勋说明，中国企业经海外租用英伟达算力的渠道可能进一步收窄。",
+   "item": "据FT，美国情报备忘录称英伟达客户Megaspeed高管疑受中国国安部招募，众议院要求黄仁勋闭门说明"
   }
  ],
  "sections": [
   {
    "key": "compute",
    "name": "计算与云",
-   "items": [
-    {
-     "tag": "关注",
-     "title": "据报微软收缩新兴云（neocloud）合作名单，收紧对Nebius、IREN、Nscale项目的审核",
-     "summary": "据CNBC、彭博11月6日报道，微软正缩减neocloud合作方、更多依靠自建，收紧对Nebius、IREN、Nscale项目的审核，并因电网接入推迟到2030年代退出Nscale英国埃塞克斯项目。微软称新协议节奏“反映当前所需”。",
-     "comment": "1. 微软退出Nscale埃塞克斯项目的直接原因是电网接入推迟到2030年代，海外大客户选算力供应方时已把“能否按期通电”放在拿到GPU之前，数据中心供电和并网方案在海外项目中的分量随之上升，与我司数字能源的数据中心能源业务直接相关。",
-     "sources": [
-      {
-       "name": "CNBC",
-       "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html"
-      },
-      {
-       "name": "Investing.com（转引彭博/路透）",
-       "url": "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281"
-      }
-     ]
-    },
-    {
-     "tag": "关注",
-     "title": "国内算力租赁价格上行：行云科技头部客户二次上调合同金额，AutoDL称11月12日调整部分GPU价格",
-     "summary": "21世纪经济报道11月6日称，行云科技今年公告算力及存储订单约206.41亿元，V、VB两家头部客户已完成第二次合同金额上调。AutoDL官网称因供应侧成本波动，11月12日调整部分GPU价格，未披露型号和幅度。",
-     "table": {
-      "caption": "海外GPU租赁成交价格指数（Ornn OCPI，11月5日，美元/卡·小时）",
-      "columns": [
-       "型号",
-       "价格"
-      ],
-      "rows": [
-       [
-        "H100 SXM",
-        "3.13"
-       ],
-       [
-        "H200",
-        "6.45"
-       ],
-       [
-        "B200",
-        "9.46"
-       ],
-       [
-        "A100 SXM4",
-        "1.05"
-       ]
-      ]
-     },
-     "comment": "1. 国内头部租户年内两次接受提价，而海外H100成交价约3.13美元/卡·小时并未同步上涨，国内外租赁价走势分化，国内算力偏紧对国产算力（含华为云昇腾算力服务）的定价有利。",
-     "sources": [
-      {
-       "name": "21世纪经济报道",
-       "url": "https://www.21jingji.com/article/20261106/herald/6b6dd724b3147b359ceb7ded55a3db8e.html"
-      },
-      {
-       "name": "AutoDL算力云",
-       "url": "https://www.autodl.com/"
-      },
-      {
-       "name": "Ornn Compute Price Index",
-       "url": "https://data.ornn.com/"
-      }
-     ]
-    }
-   ]
+   "items": []
   },
   {
    "key": "devices",
@@ -120,55 +34,31 @@
    "items": [
     {
      "tag": "竞争",
-     "title": "小米汽车成立国际业务部，副总裁于立国兼任总经理，2027年下半年首站欧洲",
-     "summary": "11月6日小米汽车新设国际业务部，副总裁于立国兼任总经理，向雷军、卢伟冰汇报。小米此前已与德国8家经销集团签署谅解备忘录，计划2027年下半年进入欧洲、2028年进入右舵市场。",
-     "comment": "1. 小米把手机加汽车的互联打法带到欧洲，2027年下半年起鸿蒙智行系车型出海将面对同样主打手机生态的中国对手；小米借德国8家经销集团铺渠道，起步速度可能快于自建网络。",
+     "title": "比亚迪仰望超豪华行政轿车鼎曜在阿布扎比全球首秀，山河鼎韵限量版预售208万元",
+     "summary": "11月7日，仰望首款行政旗舰轿车鼎曜（ALTIOR）在阿联酋阿布扎比全球首秀，为仰望首次在海外办完整发布会。车长约5.6米，续航超1000公里；山河鼎韵限量版全球限量发售，预售价208万元、定金30万元，基础版价格未公布。",
      "sources": [
       {
-       "name": "21世纪经济报道",
-       "url": "https://www.21jingji.com/article/20261106/herald/603ab5d2b749555eeaac58550b27eaa0.html"
+       "name": "新浪微博（汽车博主）",
+       "url": "https://www.sina.cn/weibo/detail/5362787497019954.html"
       },
       {
-       "name": "ChinaEVHome",
-       "url": "https://chinaevhome.com/2026/11/06/xiaomi-auto-establishes-international-business-division-to-step-up-overseas-expansion/"
-      }
-     ]
-    },
-    {
-     "tag": "利好",
-     "title": "北汽星钽5X定档11月12日上市，搭载乾崑ADS 5 Pro，预售价13.99万元起",
-     "summary": "北汽星钽5X将于11月12日上市，方盒子造型，智驾版搭载华为乾崑ADS 5 Pro，采用舱内固态激光雷达方案，预售价13.99万元起。",
-     "comment": "1. 乾崑ADS 5 Pro装进14万元级车型，乾崑智驾正向15万元以下主流价位延伸，装车量可随之放大，但单车智驾收入取决于该车型的硬件配置和授权定价。",
-     "sources": [
-      {
-       "name": "17173（转载）",
-       "url": "https://news.17173.com/content/11062026/193255277.shtml"
+       "name": "新浪汽车热点小时报",
+       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908u0qk.html"
       }
      ]
     },
     {
      "tag": "竞争",
-     "title": "小鹏G9L开启预售，23.18万元起，何小鹏称目标为12月15日前锁单5万台",
-     "summary": "小鹏G9L开启预售，定位大五座旗舰SUV，预售价23.18万元起，纯电版800V+5C超充。何小鹏称5万台目标指12月15日前锁单量，首月交付目标过万。",
+     "title": "特斯拉量产版Cybercab在进博会完成亚洲首秀，称在华零部件本土化率达98%",
+     "summary": "11月7日，特斯拉在第九届进博会展出量产Cybercab无人驾驶车、人形机器人和Model Y高性能版，Cybercab为亚洲首秀；特斯拉副总裁陶琳称在华零部件本土化率达98%。特斯拉此前已宣布2027年年中起逐步停产Cybertruck，把得州产线让给Cybercab。",
      "sources": [
       {
-       "name": "新浪汽车热点小时报",
-       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908ttm0.html"
+       "name": "新浪微博",
+       "url": "https://www.sina.cn/weibo/detail/5362630598591562.html"
       },
       {
-       "name": "新浪新闻",
-       "url": "https://www.sina.cn/weibo/detail/5362331829403788.html"
-      }
-     ]
-    },
-    {
-     "tag": "关注",
-     "title": "日产将于下周开启NX7插混SUV在华预售，计划2027年夏前再推5款新能源车",
-     "summary": "日产11月6日表示，将于下周在中国开启NX7插电混动SUV预售，并在进博会展示中国研发车型；计划到2027年夏季前在华再推出5款新能源车型。",
-     "sources": [
-      {
-       "name": "CnEVPost",
-       "url": "https://cnevpost.com/2026/11/06/nissan-nx7-pre-sales-china-next-week/"
+       "name": "新浪财经",
+       "url": "https://finance.sina.cn/tech/2026-11-06/detail-inixuuqw8743047.d.html"
       }
      ]
     }
@@ -177,76 +67,7 @@
   {
    "key": "energy",
    "name": "能源",
-   "items": [
-    {
-     "tag": "利好",
-     "title": "国家能源局：“十五五”用电需求年均增约6000亿度，2030年新型储能装机目标3亿千瓦、充电设施超4000万个",
-     "summary": "11月6日国家发改委发布会上，国家能源局称受算力等带动，“十五五”用电需求年均增约6000亿度；2030年新型储能装机达3亿千瓦、抽水蓄能约1.6亿千瓦、虚拟电厂调节能力超5000万千瓦、充电设施超4000万个。",
-     "table": {
-      "caption": "“十五五”能源保障主要目标（国家能源局，11月6日）",
-      "columns": [
-       "指标",
-       "目标/预测"
-      ],
-      "rows": [
-       [
-        "用电需求年均增量",
-        "约6000亿度"
-       ],
-       [
-        "新型储能装机（2030年）",
-        "3亿千瓦"
-       ],
-       [
-        "抽水蓄能装机（2030年）",
-        "约1.6亿千瓦"
-       ],
-       [
-        "虚拟电厂调节能力（2030年）",
-        "5000万千瓦以上"
-       ],
-       [
-        "充电基础设施（2030年）",
-        "超4000万个"
-       ],
-       [
-        "今冬最高用电负荷",
-        "约15.2亿千瓦"
-       ]
-      ]
-     },
-     "comment": "1. 国家能源局把算力列为“十五五”用电增量的主要来源，并给出2030年新型储能3亿千瓦、充电设施超4000万个的目标，我司数字能源的储能、数据中心供配电和充电业务在国内有明确的政策需求支撑。\n2. 虚拟电厂调节能力被单列为5000万千瓦目标，储能收益将更多来自参与调节而非单纯装机，具体取决于后续容量电价和电力市场细则。",
-     "sources": [
-      {
-       "name": "21世纪经济报道",
-       "url": "https://m.21jingji.com/article/20261106/herald/2e1534e4be18861242a29ab41b283db3.html"
-      },
-      {
-       "name": "21世纪经济报道（充电设施）",
-       "url": "https://m.21jingji.com/article/20261106/herald/0dc42810779eb1065b71098c004d9b38.html"
-      },
-      {
-       "name": "搜狐（储能与虚拟电厂目标）",
-       "url": "https://sohu.com/a/1097944052_121400326"
-      },
-      {
-       "name": "澎湃新闻",
-       "url": "https://www.thepaper.cn/newsDetail_forward_34421843"
-      }
-     ]
-    },
-    {
-     "tag": "关注",
-     "title": "寻熵研究院：10月国内储能采招17GW/52.5GWh，EPC均价持续低于1元/Wh，“废标再招标”增多",
-     "summary": "据寻熵研究院统计（11月6日经转载），10月国内储能完成采招17GW/52.5GWh，内蒙古、宁夏、山西居前三；EPC均价持续低于1元/Wh，今年招标-废标-再招标及中标人不签约明显增多。",
-     "sources": [
-      {
-       "name": "新浪（转载储能与电力市场）",
-       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908tucc.html"
-      }
-     ]
-    }
-   ]
+   "items": []
   },
   {
    "key": "policy",
@@ -254,106 +75,37 @@
    "items": [
     {
      "tag": "关注",
-     "title": "美商务部BIS宣布50%关联方规则暂停期由11月9日延至2027年1月10日，中方稀土管制暂停仍未见正式延期公告",
-     "summary": "BIS美东11月5日宣布，原定11月9日到期的50%关联方规则暂停延至2027年1月10日，定于11月9日刊登联邦公报，仅延长暂停、未撤销规则。中方2025年第70号稀土暂停公告仍写11月10日到期，未检索到延期公告。",
-     "table": {
-      "caption": "中美吉隆坡安排相关暂停措施到期状态",
-      "columns": [
-       "措施",
-       "原到期日",
-       "最新状态"
-      ],
-      "rows": [
-       [
-        "美方50%关联方规则暂停",
-        "2026-11-09",
-        "BIS已宣布延至2027-01-10"
-       ],
-       [
-        "中方稀土等出口管制暂停（2025年第70号公告）",
-        "2026-11-10",
-        "未见正式延期公告"
-       ],
-       [
-        "中方对美镓锗锑等两用物项管制暂停（2025年第72号公告）",
-        "2026-11-27",
-        "未见变化"
-       ],
-       [
-        "美方301关税178项排除",
-        "2026-11-10",
-        "未见延期公告"
-       ]
-      ]
-     },
-     "comment": "1. 美方已用正式文件把关联方规则推到1月10日，中方稀土暂停仍只有“联合安排延期”的表态、没有公告文号，11月10日后国内稀土永磁出口的审批口径取决于商务部是否补发公告，影响我司海外工厂和海外供应商的磁材采购。\n2. 这次只延两个月；若1月10日后规则恢复，我司持股50%以上但未单独列入实体清单的子公司和合资企业将自动受同等管制，获取美国技术和物料的难度上升。",
+     "title": "据《纽约时报》调查，美商务部批准处理英伟达H200的中国企业中至少两家登记地址无实际办公",
+     "summary": "《纽约时报》11月7日报道，获BIS批准将H200组装成AI服务器的北京New Matrix成立约17个月，登记地址为空置毛坯房，部分股东与2024年被列入实体清单的智路资本关联；另一获批企业Maginfra办公室同样无人。约两打中国企业获H200许可，含百度、比亚迪、特斯拉上海。BIS称对所有申请严格审查。",
+     "comment": "1. 若该报道促使美方复核H200对华许可，加上北京尚未放行约60万颗滞港H200，国内客户能拿到的H200数量更不确定，昇腾在国内AI算力采购中的替代空间更大；影响大小取决于BIS是否真的暂停或撤销已发许可。",
      "sources": [
       {
-       "name": "Baker McKenzie 制裁与出口管制博客",
-       "url": "https://sanctionsnews.bakermckenzie.com/bis-extends-suspension-of-the-affiliates-rule-through-january-10-2027/"
+       "name": "FourWeekMBA（转述纽约时报）",
+       "url": "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/"
       },
       {
-       "name": "AAEI",
-       "url": "https://aaei.org/bis-extends-suspension-of-the-affiliates-rule/"
+       "name": "ShiftDelete",
+       "url": "https://shiftdelete.net/en/nvidia-h200-china"
       },
       {
-       "name": "Trade Compliance Resource Hub",
-       "url": "https://www.tradecomplianceresourcehub.com/2026/11/06/bis-further-suspends-affiliates-rule-until-january-2027/"
-      },
-      {
-       "name": "MINING.COM",
-       "url": "https://x.com/mining/status/2118084012942000158"
-      }
-     ]
-    },
-    {
-     "tag": "风险",
-     "title": "格里尔、贝森特与何立峰视频通话，要求中方“立即全面”落实釜山承诺中的稀土与农产品采购",
-     "summary": "美东11月6日，格里尔、贝森特与何立峰视频通话，USTR称要求中方就农产品采购、稀土和关键矿产拿出具体行动；据FT美方认为中方仅兑现约三分之二承诺，中方不认可。未检索到中方通稿。",
-     "comment": "1. 美方把稀土交付不足列为首要不满，并与11月10日到期的301关税排除、1月10日到期的休战挂钩，APEC会晤前稀土仍是双方筹码，国内磁材供应商的出口审批节奏仍有变数，牵涉我司数字能源和智能汽车部件供应商的海外交付。",
-     "sources": [
-      {
-       "name": "USTR",
-       "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/readout-ambassador-greers-call-chinas-vice-premier-he-lifeng"
-      },
-      {
-       "name": "Nikkei Asia",
-       "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-urges-china-to-meet-rare-earths-commitments-ahead-of-trump-xi-meetings"
-      },
-      {
-       "name": "Inside U.S. Trade",
-       "url": "https://insidetrade.com/daily-news/greer-bessent-tell-china-live-busan-trade-commitments"
-      },
-      {
-       "name": "The Korea Times",
-       "url": "https://www.koreatimes.co.kr/world/20261107/us-warns-china-it-must-immediately-meet-terms-of-busan-trade-truce-ft-reports"
-      },
-      {
-       "name": "Thomson Reuters Tax（301排除到期）",
-       "url": "https://tax.thomsonreuters.com/blog/section-301-exclusions-expiration/"
+       "name": "Mezha",
+       "url": "https://mezha.net/eng/news/mezha-6edc4f4db658358b3e578d26_report_questions_vetting/"
       }
      ]
     },
     {
      "tag": "关注",
-     "title": "商务部对欧盟对位芳纶长丝、欧盟和日本乙叉降冰片烯发起反倾销调查",
-     "summary": "商务部11月6日发布第56、57号公告，对欧盟对位芳纶长丝、欧盟和日本乙叉降冰片烯立案反倾销调查。商务部称欧盟今年已对华发起16起贸易救济调查，约为去年同期两倍；欧盟拟年底前推出快速反制贸易工具。",
+     "title": "据FT，美国情报备忘录称英伟达客户Megaspeed高管疑受中国国安部招募，众议院要求黄仁勋闭门说明",
+     "summary": "据报美国政府一份情报备忘录称，新加坡数据中心公司、英伟达客户Megaspeed的高管Alice Huang疑受中国国安部招募，并称其与黄仁勋有私人关系；英伟达拒绝置评。众议院三位共和党委员会主席致信要求黄仁勋出席闭门简报，说明对华往来和防止芯片流入中国的措施。报道未指控黄仁勋违法。",
+     "comment": "1. 国会把英伟达东南亚算力客户纳入审查，与此前FT所报英伟达要求云客户新合同至少51%服务非中国企业同向，中国企业经新加坡等地租用英伟达算力的空间在收窄，国内训练需求转向昇腾集群和华为云的可能性上升；幅度取决于国会是否推动立法或商务部出台新规。",
      "sources": [
       {
-       "name": "中新网",
-       "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727307.shtml"
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
       },
       {
-       "name": "21经济网",
-       "url": "https://www.21jingji.com/article/20261106/herald/d9389214dc261177865ddb5b8e6df002.html"
-      },
-      {
-       "name": "澎湃新闻",
-       "url": "https://www.thepaper.cn/newsDetail_forward_34420464"
-      },
-      {
-       "name": "Euronews",
-       "url": "https://euronews.com/2026/11/05/china-threatens-eu-with-retaliation-as-eu-mulls-kill-switch-to-defend-its-market"
+       "name": "Yahoo News（转FT）",
+       "url": "https://sg.news.yahoo.com/nvidias-jensen-huang-romantically-involved-133802951.html"
       }
      ]
     }
@@ -362,111 +114,21 @@
   {
    "key": "supply",
    "name": "芯片半导体",
-   "items": [
-    {
-     "tag": "竞争",
-     "title": "据The Information，台积电应英伟达要求评估进军3D DRAM存储芯片制造",
-     "summary": "据报台积电正评估生产3D DRAM，起因是最大客户英伟达的要求，考虑新建存储厂或收购现有工厂改造，由先进封装副总经理徐国晋负责，尚处评估阶段、无量产时间表；台积电与英伟达未置评。",
-     "comment": "1. 若台积电为英伟达新增AI存储产能，这部分供给会优先绑定英伟达；昇腾无法使用台积电产能、HBM依赖国内供给，双方在存储供给上的差距可能拉大，取决于台积电是否真正投产以及投产时间。",
-     "sources": [
-      {
-       "name": "The Next Web",
-       "url": "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia"
-      },
-      {
-       "name": "TechPowerUp",
-       "url": "https://www.techpowerup.com/354547/tsmc-is-reportedly-considering-3d-dram-production"
-      }
-     ]
-    },
-    {
-     "tag": "风险",
-     "title": "美光与桃园工会第三次协商仍无共识，定于11月17日再谈，桃园新厂停工未解除",
-     "summary": "11月6日美光与桃园工会在桃园市政府第三次协商未果，工会称公司仍未提出营业利润分润方案（工会要求15%）；双方同意待奖酬查询系统下周上线后，于17日下午进行第四次协商。据报桃园Fab 11E新厂工程暂停，美光称现有工厂运营正常。",
-     "comment": "1. 桃园新厂是美光在台扩充DRAM/HBM的主要新增产能，停工至少延续到17日之后，2027年DRAM新增供给偏紧的判断更难松动，我司手机、PC等终端的存储采购价下行时点可能进一步后延。",
-     "sources": [
-      {
-       "name": "联合新闻网",
-       "url": "https://udn.com/news/story/7314/9862644"
-      },
-      {
-       "name": "经济日报",
-       "url": "https://money.udn.com/money/story/5648/9862457"
-      },
-      {
-       "name": "自由时报",
-       "url": "https://news.ltn.com.tw/news/life/breakingnews/5631981"
-      }
-     ]
-    },
-    {
-     "tag": "关注",
-     "title": "TrendForce：DRAM持续高价推动翻新内存使用，2027年手机渗透率预计达7%–9%",
-     "summary": "TrendForce 11月6日称，手机用拆焊翻新内存渗透率2026年约3%–4%，2027年或升至7%–9%，以LPDDR4X 4GB为主、流向1299元以下4G手机，不会明显改变DRAM合约价上涨趋势。",
-     "comment": "1. 低价机品牌已开始靠翻新颗粒维持售价，而TrendForce判断合约价仍会上涨，说明我司终端用的新品LPDDR5X等存储成本不会因低端替代而缓解，低价段对手的成本优势则来自降规格而非采购价。",
-     "sources": [
-      {
-       "name": "TrendForce",
-       "url": "https://www.trendforce.com/presscenter/news/20261106-13297.html"
-      }
-     ]
-    },
-    {
-     "tag": "关注",
-     "title": "DRAMeXchange现货价继续小幅回落，DDR4 8Gb跌0.93%至45.6美元",
-     "summary": "TrendForce 11月6日现货报价：DDR4 8Gb均价45.607美元，跌0.93%；DDR5 16Gb跌0.82%。买方观望，TrendForce仍预计四季度一般DRAM合约价环比涨10%–15%、NAND涨15%–20%。",
-     "table": {
-      "caption": "DRAM现货均价（11月6日，美元）",
-      "columns": [
-       "品类",
-       "均价",
-       "日变动"
-      ],
-      "rows": [
-       [
-        "DDR4 8Gb 3200",
-        "45.607",
-        "-0.93%"
-       ],
-       [
-        "DDR4 16Gb 3200",
-        "80.815",
-        "-1.06%"
-       ],
-       [
-        "DDR5 16Gb 4800/5600",
-        "60.167",
-        "-0.82%"
-       ]
-      ]
-     },
-     "comment": "1. 据TrendForce，DDR4现货仍高于原厂合约报价，这轮下跌是现货溢价在收缩，不等于合约价见顶；同期512Gb TLC晶圆现货周跌4.33%，跌幅明显大于DRAM，我司存储成本若有缓解，更可能先出现在NAND端。",
-     "sources": [
-      {
-       "name": "TrendForce DRAM现货价",
-       "url": "https://www.trendforce.com.tw/price/dram/dram_spot"
-      },
-      {
-       "name": "TrendForce",
-       "url": "https://www.trendforce.com/news/2026/11/04/insights-memory-spot-price-update-mainstream-ddr4-prices-dip-0-09-as-spot-premium-keeps-buyers-on-sidelines/"
-      }
-     ]
-    }
-   ]
+   "items": []
   }
  ],
  "watch": [
   {
    "when": "11月9日 周一—11月10日 周二",
-   "text": "美方关联方规则暂停延期刊登联邦公报（11月9日）；中方稀土等出口管制暂停公告与美方301关税178项排除同于11月10日到期，看是否发布延期文件。"
+   "text": "美方301关税178项排除与中方稀土等出口管制暂停公告到期，看双方是否发布延期文件；海关总署10月进出口数据（据日历11月10日）、台积电10月营收。"
   },
   {
-   "when": "11月12日 周四",
-   "text": "北汽星钽5X上市（乾崑ADS 5 Pro，预售13.99万元起）；AutoDL调整部分GPU价格；中芯国际董事会审议三季报。"
+   "when": "11月12日 周四—11月13日 周五",
+   "text": "北汽星钽5X上市（乾崑ADS 5 Pro）；中芯国际三季报（据报）；问界新M8上市（乾崑ADS 5）。"
   },
   {
-   "when": "11月17日 周二",
-   "text": "英伟达FY27Q3财报（美东下午）；美光与桃园工会第四次协商。"
+   "when": "11月19日 周四",
+   "text": "美FCC表决禁止中国运营商直接获取美国电话号码，并限制使用华为、中兴设备的IP通信服务商。"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-07",
- "updatedAt": "2026-11-07 07:01",
+ "asOf": "2026-11-08",
+ "updatedAt": "2026-11-08 07:00",
  "config": [
   {
    "domain": "汇率",
@@ -4511,10 +4511,10 @@
   "aicompute": {
    "id": "aicompute",
    "name": "AI 算力供需与国产替代",
-   "judgment": "H200约60万颗滞港，国产卡补位延续",
+   "judgment": "H200许可遭质疑，对华供给更不确定",
    "direction": "持平",
-   "directionNote": "较11月3日：H200进口受阻利好昇腾，但月之暗面经欧洲租用Blackwell",
-   "asOf": "2026-11-05",
+   "directionNote": "较11月5日：H200获批企业受媒体质疑，但未见BIS撤销许可",
+   "asOf": "2026-11-07",
    "keyNumbers": [
     {
      "label": "华为2026上半年数据中心AI加速卡出货",
@@ -4550,8 +4550,42 @@
      }
     }
    ],
-   "change": "本期新增：据路透约60万颗H200滞港未获批、月之暗面据报转向欧洲租Blackwell、腾讯称推理算力受限。未能打开路透和CNBC原文核实。",
+   "change": "本期新增：《纽约时报》质疑H200获批企业资质；FT披露Megaspeed情报备忘录、国会要求黄仁勋说明。未能打开两家原文核实，未检索到BIS复核许可的消息。",
    "facts": [
+    {
+     "text": "H200获批企业受质疑：据《纽约时报》，获BIS批准组装H200服务器的北京New Matrix登记地址为空置毛坯房，部分股东关联实体清单企业智路资本；另一获批企业Maginfra办公室无人。",
+     "src": [
+      {
+       "name": "FourWeekMBA（转述纽约时报）",
+       "url": "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/",
+       "date": "2026-11-07",
+       "repost": true
+      },
+      {
+       "name": "ShiftDelete",
+       "url": "https://shiftdelete.net/en/nvidia-h200-china",
+       "date": "2026-11-07",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "Megaspeed情报备忘录：据FT，美情报备忘录称英伟达客户、新加坡Megaspeed高管疑受中国国安部招募；众议院三位委员会主席要求黄仁勋闭门说明。",
+     "src": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+       "date": "2026-11-07",
+       "repost": false
+      },
+      {
+       "name": "Yahoo News（转FT）",
+       "url": "https://sg.news.yahoo.com/nvidias-jensen-huang-romantically-involved-133802951.html",
+       "date": "2026-11-07",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "H200滞留香港：据路透，约60万颗H200存放香港待运，北京未批准大规模进口，几家互联网大厂各自仅获约1万颗。",
      "src": [
@@ -5034,6 +5068,11 @@
    ],
    "signals": [
     {
+     "what": "BIS是否复核或暂停已发H200对华许可",
+     "when": "未官宣",
+     "why": "决定国内H200供给是否进一步收缩"
+    },
+    {
      "what": "英伟达是否正式确认或发布51%条款口径",
      "when": "11月18日FY27Q3财报会（未官宣）",
      "why": "口径按收入或算力，决定东南亚对华算力供给收缩幅度"
@@ -5060,6 +5099,34 @@
     }
    ],
    "sources": [
+    {
+     "name": "Yahoo News（转FT）",
+     "url": "https://sg.news.yahoo.com/nvidias-jensen-huang-romantically-involved-133802951.html",
+     "date": "2026-11-07",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+     "date": "2026-11-07",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "ShiftDelete",
+     "url": "https://shiftdelete.net/en/nvidia-h200-china",
+     "date": "2026-11-07",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "FourWeekMBA（转述纽约时报）",
+     "url": "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/",
+     "date": "2026-11-07",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "联合报（转路透）",
      "url": "https://udn.com/news/story/6811/9860477",
