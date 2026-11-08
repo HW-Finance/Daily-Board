@@ -1,15 +1,15 @@
 {
- "date": "2026-11-08",
- "weekday": "周日",
- "updatedAt": "2026-11-08 07:00",
+ "date": "2026-11-09",
+ "weekday": "周一",
+ "updatedAt": "2026-11-09 07:00",
  "highlights": [
   {
-   "text": "《纽约时报》称BIS批准的H200对华组装企业中至少两家办公室空置、股东关联实体清单企业，若引发许可复核，国内H200供给更不确定，昇腾替代空间扩大。",
-   "item": "据《纽约时报》调查，美商务部批准处理英伟达H200的中国企业中至少两家登记地址无实际办公"
+   "text": "英伟达董事会启动独立调查黄仁勋是否成为外国情报目标，国会追查经新加坡客户的出货链路，H200等高端卡对华供给更难放宽，昇腾国内替代空间延续。",
+   "item": "英伟达董事会启动独立调查黄仁勋是否成为外国情报目标，国会要求其11月11日前答复闭门说明"
   },
   {
-   "text": "FT称美情报备忘录涉及英伟达新加坡客户Megaspeed高管，国会要求黄仁勋说明，中国企业经海外租用英伟达算力的渠道可能进一步收窄。",
-   "item": "据FT，美国情报备忘录称英伟达客户Megaspeed高管疑受中国国安部招募，众议院要求黄仁勋闭门说明"
+   "text": "广汽与乾崑合作的启境GX7上市约六周累计交付破4000台，月均不到3000台，乾崑新合作品牌首款车起量偏慢。",
+   "item": "广汽与华为乾崑合作的启境GX7上市约六周累计交付破4000台"
   }
  ],
  "sections": [
@@ -26,48 +26,82 @@
   {
    "key": "network",
    "name": "联接",
-   "items": []
-  },
-  {
-   "key": "auto",
-   "name": "汽车",
    "items": [
     {
-     "tag": "竞争",
-     "title": "比亚迪仰望超豪华行政轿车鼎曜在阿布扎比全球首秀，山河鼎韵限量版预售208万元",
-     "summary": "11月7日，仰望首款行政旗舰轿车鼎曜（ALTIOR）在阿联酋阿布扎比全球首秀，为仰望首次在海外办完整发布会。车长约5.6米，续航超1000公里；山河鼎韵限量版全球限量发售，预售价208万元、定金30万元，基础版价格未公布。",
+     "tag": "关注",
+     "title": "我国成功发射卫星互联网低轨29组卫星，距28组发射仅约两周",
+     "summary": "11月9日4时24分，长征十二号运载火箭在海南商业航天发射场发射卫星互联网低轨29组卫星，卫星顺利进入预定轨道。上一组（28组）于10月25日由长征八号甲发射，国网（GW）星座组网节奏保持约两周一组。",
      "sources": [
       {
-       "name": "新浪微博（汽车博主）",
-       "url": "https://www.sina.cn/weibo/detail/5362787497019954.html"
+       "name": "中国新闻网",
+       "url": "https://www.chinanews.com.cn/gn/2026/11-09/10728582.shtml"
       },
       {
-       "name": "新浪汽车热点小时报",
-       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908u0qk.html"
-      }
-     ]
-    },
-    {
-     "tag": "竞争",
-     "title": "特斯拉量产版Cybercab在进博会完成亚洲首秀，称在华零部件本土化率达98%",
-     "summary": "11月7日，特斯拉在第九届进博会展出量产Cybercab无人驾驶车、人形机器人和Model Y高性能版，Cybercab为亚洲首秀；特斯拉副总裁陶琳称在华零部件本土化率达98%。特斯拉此前已宣布2027年年中起逐步停产Cybertruck，把得州产线让给Cybercab。",
-     "sources": [
-      {
-       "name": "新浪微博",
-       "url": "https://www.sina.cn/weibo/detail/5362630598591562.html"
-      },
-      {
-       "name": "新浪财经",
-       "url": "https://finance.sina.cn/tech/2026-11-06/detail-inixuuqw8743047.d.html"
+       "name": "IT之家（28组发射报道）",
+       "url": "https://www.ithome.com/1/017/566.htm"
       }
      ]
     }
    ]
   },
   {
+   "key": "auto",
+   "name": "汽车",
+   "items": [
+    {
+     "tag": "关注",
+     "title": "广汽与华为乾崑合作的启境GX7上市约六周累计交付破4000台",
+     "summary": "启境11月8日称GX7自9月23日上市累计交付破4000台（品牌披露），售价23.99万–30.19万元，搭载乾崑智驾ADS 5与鸿蒙座舱，近九成车主选高配四驱版，首轮OTA预计11月上线。",
+     "comment": "1. GX7上市约6周累计交付4000台，月均不到3000台，乾崑合作的新品牌首款车起量偏慢，短期对我司乾崑智驾和鸿蒙座舱装车量的增量有限。",
+     "sources": [
+      {
+       "name": "腾讯新闻",
+       "url": "https://news.qq.com/rain/a/20261108A07NBU00"
+      },
+      {
+       "name": "汽车之家",
+       "url": "https://www.autohome.com.cn/news/202611/1318237.html"
+      },
+      {
+       "name": "凤凰网汽车",
+       "url": "https://auto.ifeng.com/c/8xsxxYq8Sws"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "崔东树：1–10月新上市129款车型中增程42款，同比多26款",
+     "summary": "乘联分会秘书长崔东树11月8日披露，今年1–10月新品共129款，其中增程车型42款，较去年同期多26款；混合动力车型10款，多10款；汽油车新品较去年同期少4款。他认为混动新车增多体现以混动替代燃油车、突破出口的思路。",
+     "sources": [
+      {
+       "name": "新浪新闻（转钛媒体）",
+       "url": "https://www.sina.cn/weibo/detail/5363008550997237.html"
+      }
+     ],
+     "comment": "1. 增程新车从去年同期16款增至42款，问界M7/M8/M9等主力车都有增程版，鸿蒙智行在增程细分面对的新竞品数量约为去年的2.6倍，靠增程差异化拿份额的难度上升。"
+    }
+   ]
+  },
+  {
    "key": "energy",
    "name": "能源",
-   "items": []
+   "items": [
+    {
+     "tag": "关注",
+     "title": "据FT，Anthropic斥资约34亿美元锁定1.7GW燃气发电机组为数据中心供电",
+     "summary": "据FT 11月8日报道，Anthropic9月下旬与得州OnePWR达成协议，以约34亿美元接手其向卡特彼勒订购的1.7GW燃气发电机组及安装能力，约合2美元/瓦，据称为AI公司最大单笔发电设备采购；双方未确认，部署地点未披露。",
+     "sources": [
+      {
+       "name": "CNBC（转引FT）",
+       "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html"
+      },
+      {
+       "name": "The Energy Mag",
+       "url": "https://theenergymag.com/news/market-news/anthropic-gas-generation-acquisition-ai-data-center"
+      }
+     ]
+    }
+   ]
   },
   {
    "key": "policy",
@@ -75,37 +109,33 @@
    "items": [
     {
      "tag": "关注",
-     "title": "据《纽约时报》调查，美商务部批准处理英伟达H200的中国企业中至少两家登记地址无实际办公",
-     "summary": "《纽约时报》11月7日报道，获BIS批准将H200组装成AI服务器的北京New Matrix成立约17个月，登记地址为空置毛坯房，部分股东与2024年被列入实体清单的智路资本关联；另一获批企业Maginfra办公室同样无人。约两打中国企业获H200许可，含百度、比亚迪、特斯拉上海。BIS称对所有申请严格审查。",
-     "comment": "1. 若该报道促使美方复核H200对华许可，加上北京尚未放行约60万颗滞港H200，国内客户能拿到的H200数量更不确定，昇腾在国内AI算力采购中的替代空间更大；影响大小取决于BIS是否真的暂停或撤销已发许可。",
+     "title": "英伟达董事会启动独立调查黄仁勋是否成为外国情报目标，国会要求其11月11日前答复闭门说明",
+     "summary": "英伟达董事会11月8日（美东）宣布由独立董事聘外部律师调查黄仁勋是否成为外国情报行动目标，称暂无理由认为国家安全或公司机密受损，黄仁勋留任CEO。事件涉新加坡算力客户Megaspeed关联人士，国会委员会要求其11月11日前确认能否出席闭门说明。",
+     "comment": "1. 董事会和国会都在追查英伟达经新加坡云客户的出货链路，加上约60万颗H200仍滞港未获北京放行，国内客户短期能新增拿到的英伟达高端卡有限，昇腾在国内AI算力采购中的替代空间延续；程度取决于BIS是否收紧东南亚转售审查。\n2. 黄仁勋是华盛顿主张对华放开AI芯片的主要声音，他本人被调查期间，H200以上产品对华放开的可能性更低。",
      "sources": [
       {
-       "name": "FourWeekMBA（转述纽约时报）",
-       "url": "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/"
+       "name": "Bloomberg",
+       "url": "https://bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity"
       },
       {
-       "name": "ShiftDelete",
-       "url": "https://shiftdelete.net/en/nvidia-h200-china"
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
       },
       {
-       "name": "Mezha",
-       "url": "https://mezha.net/eng/news/mezha-6edc4f4db658358b3e578d26_report_questions_vetting/"
-      }
-     ]
-    },
-    {
-     "tag": "关注",
-     "title": "据FT，美国情报备忘录称英伟达客户Megaspeed高管疑受中国国安部招募，众议院要求黄仁勋闭门说明",
-     "summary": "据报美国政府一份情报备忘录称，新加坡数据中心公司、英伟达客户Megaspeed的高管Alice Huang疑受中国国安部招募，并称其与黄仁勋有私人关系；英伟达拒绝置评。众议院三位共和党委员会主席致信要求黄仁勋出席闭门简报，说明对华往来和防止芯片流入中国的措施。报道未指控黄仁勋违法。",
-     "comment": "1. 国会把英伟达东南亚算力客户纳入审查，与此前FT所报英伟达要求云客户新合同至少51%服务非中国企业同向，中国企业经新加坡等地租用英伟达算力的空间在收窄，国内训练需求转向昇腾集群和华为云的可能性上升；幅度取决于国会是否推动立法或商务部出台新规。",
-     "sources": [
-      {
-       "name": "TechCrunch",
-       "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
+       "name": "CNBC（国会审查）",
+       "url": "https://cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html"
       },
       {
-       "name": "Yahoo News（转FT）",
-       "url": "https://sg.news.yahoo.com/nvidias-jensen-huang-romantically-involved-133802951.html"
+       "name": "NBC News",
+       "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+      },
+      {
+       "name": "星岛头条",
+       "url": "https://www.stheadline.com/zh-hans/realtime-world/3635006/%E8%A2%AB%E6%8C%87%E6%88%90%E4%B8%AD%E5%9B%BD%E9%97%B4%E8%B0%8D%E7%9B%AE%E6%A0%87-%E9%BB%84%E4%BB%81%E5%8B%8B%E8%AE%A4%E5%AF%B9%E5%A6%BB%E4%B8%8D%E5%BF%A0-%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B1%95%E5%BC%80%E8%B0%83%E6%9F%A5"
+      },
+      {
+       "name": "Axios",
+       "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation"
       }
      ]
     }
@@ -114,21 +144,41 @@
   {
    "key": "supply",
    "name": "芯片半导体",
-   "items": []
+   "items": [
+    {
+     "tag": "关注",
+     "title": "台积电回应3D DRAM传闻：称始终专注代工核心业务，未承认应英伟达要求进军存储",
+     "summary": "针对The Information所称台积电应英伟达要求评估生产3D DRAM，台积电发言人向Tom's Hardware表示公司始终专注专业集成电路代工核心业务，未正面承认相关计划；The Information坚持其消息来源。",
+     "sources": [
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/023/870.htm"
+      },
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/digi/2026-11-08/doc-inixywfh4204153.shtml"
+      },
+      {
+       "name": "Yahoo奇摩新闻",
+       "url": "https://tw.news.yahoo.com/3d-dram%E4%B9%9F%E8%A6%81%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%A2%9D%E9%BE%8D-%E5%A4%96%E5%AA%92%E7%88%86%E6%96%991%E5%85%A7%E5%B9%95-%E9%9F%93%E5%BB%A0%E6%86%82%E5%BF%83-092506344.html"
+      }
+     ]
+    }
+   ]
   }
  ],
  "watch": [
   {
-   "when": "11月9日 周一—11月10日 周二",
-   "text": "美方301关税178项排除与中方稀土等出口管制暂停公告到期，看双方是否发布延期文件；海关总署10月进出口数据（据日历11月10日）、台积电10月营收。"
+   "when": "11月10日 周二",
+   "text": "美方301关税178项排除（美东9日24时到期）与中方稀土等出口管制暂停到期，看双方是否发布延期文件；海关总署10月进出口数据；双11巅峰期开启。"
   },
   {
-   "when": "11月12日 周四—11月13日 周五",
-   "text": "北汽星钽5X上市（乾崑ADS 5 Pro）；中芯国际三季报（据报）；问界新M8上市（乾崑ADS 5）。"
+   "when": "11月11日 周三—11月13日 周五",
+   "text": "黄仁勋答复国会闭门说明期限（11日）；中芯国际三季报（12日盘后）、思科FY27Q1财报（美东12日）；问界新M8上市（13日）。"
   },
   {
-   "when": "11月19日 周四",
-   "text": "美FCC表决禁止中国运营商直接获取美国电话号码，并限制使用华为、中兴设备的IP通信服务商。"
+   "when": "11月17日 周二",
+   "text": "英伟达FY27Q3财报；美光与桃园工会第四次劳资协商。"
   }
  ]
 }

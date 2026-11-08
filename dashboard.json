@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-08",
- "updatedAt": "2026-11-08 07:00",
+ "asOf": "2026-11-09",
+ "updatedAt": "2026-11-09 07:00",
  "leaders": [
   {
    "id": "jensen",
@@ -10,6 +10,19 @@
    "company": "英伟达",
    "biz": "计算与云",
    "statements": [
+    {
+     "date": "2026-11-08",
+     "quote": "我完全不同意禁止向中国出售所有美国产品；美国讲究竞争，应去竞争而不是拱手让出整个市场。",
+     "topic": "监管与地缘",
+     "context": "接受CBS采访，回应Anthropic CEO阿莫代全面禁止向中国出售先进AI芯片的主张；同时支持英伟达最好的技术优先供给美国企业",
+     "direct": true,
+     "original": "I completely disagree that we should ban China of all American products... America is about competition, and we ought to go and compete and not cede entire markets.",
+     "source": {
+      "name": "Wccftech",
+      "url": "https://wccftech.com/nvidia-jensen-huang-rejects-anthropic-china-chip-ban-america-competition-vera-rubin/"
+     },
+     "ai": "1. 黄仁勋反对全面禁售，但同时支持最好的技术优先给美国企业，即使游说成功，进入中国的也只会是H200这类落后一代产品，昇腾在国内对手仍是性能次一档、CUDA生态更强的英伟达卡，而非Blackwell/Rubin。"
+    },
     {
      "date": "2026-11-03",
      "quote": "封闭前沿模型和开源模型都有位置，世界上大部分价值由专业领域智能获取；今年最大突破是智能体框架。",
@@ -70,19 +83,6 @@
       "url": "https://m.21jingji.com/article/20261021/herald/adc2307005fb630d259746810044a81a.html"
      },
      "ai": "1. 英伟达在欧洲一边用投资争取政府和制造业的主权AI项目，一边经诺基亚把GPU推进运营商基站，我司在欧洲的云、昇腾和无线三条业务同时面对其竞争。"
-    },
-    {
-     "date": "2026-10-19",
-     "quote": "下一波AI是物理AI；电子永远不会取代原子，AI只会增强你的能力，不会取代你的能力。",
-     "topic": "战略",
-     "context": "10月19日在柏林与德国总理默茨同台出席投资会议，敦促德国制造业和中小企业采用AI，并称各国可以进口AI技术，但工业数据和知识应留在本国",
-     "direct": false,
-     "original": "The next wave of AI is physical. ... Electrons will never replace atoms. ... AI can only augment your capability. It will not replace your capability.",
-     "source": {
-      "name": "AP（经ABC News）",
-      "url": "https://abcnews.com/Business/wireStory/nvidia-ceo-urges-german-manufacturers-adopt-ai-digital-137390930"
-     },
-     "ai": "1. 英伟达在欧洲的推销重点放在制造业，同日西门子在埃尔朗根工厂展示与英伟达合作的电路板检测（目标减少最多85%人工工程量），工业AI成为英伟达在欧洲找新需求的方向；可观察10月21日GTC柏林主题演讲是否公布欧洲工业客户和订单金额。"
     }
    ]
   },
@@ -5800,19 +5800,19 @@
    "biz": "昇腾、云",
    "status": "H200等个案审批并收取25%分成；中资海外子公司购芯须许可",
    "latest": {
-    "date": "2026-11-07",
-    "text": "据《纽约时报》，获BIS批准组装H200服务器的北京New Matrix登记地址为空置毛坯房、部分股东关联实体清单企业智路资本，另一获批企业Maginfra办公室无人；BIS称严格审查所有申请。同日据FT，众议院就Megaspeed情报备忘录要求黄仁勋闭门说明"
+    "date": "2026-11-08",
+    "text": "英伟达董事会宣布由独立董事聘外部律师调查黄仁勋是否成为外国情报行动目标（涉新加坡客户Megaspeed关联人士），称暂无理由认为国家安全或公司机密受损；国会委员会要求黄仁勋11月11日前确认能否出席闭门说明"
    },
    "next": {
-    "date": "2026-11-17",
-    "text": "英伟达FY27Q3财报会对中国收入及H200出货的表述"
+    "date": "2026-11-11",
+    "text": "黄仁勋答复国会闭门说明期限；11月17日英伟达FY27Q3财报会对中国收入及H200出货的表述"
    },
    "level": "中",
    "source": {
-    "name": "FourWeekMBA（转述纽约时报）",
-    "url": "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/"
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
    },
-   "updatedOn": "2026-11-06"
+   "updatedOn": "2026-11-09"
   },
   {
    "title": "中国稀土出口管制暂停期",
@@ -5960,6 +5960,14 @@
    "updatedOn": "2026-11-07"
   },
   {
+   "date": "2026-11-11",
+   "title": "黄仁勋答复国会闭门说明期限（Megaspeed事件）",
+   "type": "政策",
+   "biz": "昇腾、云",
+   "confirmed": true,
+   "updatedOn": "2026-11-09"
+  },
+  {
    "date": "2026-11-12",
    "title": "中芯国际三季报（据Investing.com日历）",
    "type": "财报",
@@ -5974,6 +5982,14 @@
    "biz": "汽车",
    "confirmed": false,
    "updatedOn": "2026-11-07"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "思科FY27Q1财报（美东时间，北京13日晨）",
+   "type": "财报",
+   "biz": "联接",
+   "confirmed": false,
+   "updatedOn": "2026-11-09"
   },
   {
    "date": "2026-11-13",

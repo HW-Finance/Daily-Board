@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-08",
- "updatedAt": "2026-11-08 07:00",
+ "asOf": "2026-11-09",
+ "updatedAt": "2026-11-09 07:00",
  "config": [
   {
    "domain": "汇率",
@@ -3144,10 +3144,10 @@
   "auto": {
    "id": "auto",
    "name": "智能汽车",
-   "judgment": "国内零售降25%，鸿蒙智行份额约3%",
+   "judgment": "零售降25%，乾崑新合作车型起量偏慢",
    "direction": "持平",
-   "directionNote": "较11月3日：零售好于160万辆预测，但鸿蒙智行份额仍在低位",
-   "asOf": "2026-11-04",
+   "directionNote": "较11月4日：GX7月均交付不到3000台，鸿蒙智行份额仍在低位",
+   "asOf": "2026-11-08",
    "keyNumbers": [
     {
      "label": "10月乘用车零售（乘联会初步）",
@@ -3183,8 +3183,36 @@
      }
     }
    ],
-   "change": "本期新增：乘联会10月零售初步数据，确认国内零售-25%、新能源-10%。中汽协10月数据、乘联会分厂商零售未发布或未核实。",
+   "change": "本期新增：启境GX7上市约六周交付破4000台；1–10月增程新车42款、同比多26款。中汽协10月数据、乘联会分厂商零售仍未发布。",
    "facts": [
+    {
+     "text": "启境GX7交付：广汽与乾崑合作的启境GX7自9月23日上市累计交付破4000台（品牌披露），售价23.99万–30.19万元，搭载ADS 5与鸿蒙座舱。",
+     "src": [
+      {
+       "name": "腾讯新闻",
+       "url": "https://news.qq.com/rain/a/20261108A07NBU00",
+       "date": "2026-11-08",
+       "repost": true
+      },
+      {
+       "name": "汽车之家",
+       "url": "https://www.autohome.com.cn/news/202611/1318237.html",
+       "date": "2026-11-08",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "增程新车增多：乘联分会崔东树称1–10月新上市129款车型中增程42款，同比多26款；混动10款，多10款。",
+     "src": [
+      {
+       "name": "新浪新闻（转钛媒体）",
+       "url": "https://www.sina.cn/weibo/detail/5363008550997237.html",
+       "date": "2026-11-08",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "乘联会10月初步数据：乘用车零售169.3万辆（-25%），新能源零售114.8万辆（-10%），渗透率67.8%；新能源批发约180万辆（+12%），增量来自出口。",
      "src": [
@@ -3697,6 +3725,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "新浪新闻（转钛媒体）",
+     "url": "https://www.sina.cn/weibo/detail/5363008550997237.html",
+     "date": "2026-11-08",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "腾讯新闻",
+     "url": "https://news.qq.com/rain/a/20261108A07NBU00",
+     "date": "2026-11-08",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "新浪科技（IT之家）：乘联会10月初步数据",
      "url": "https://finance.sina.com.cn/tech/digi/2026-11-04/doc-inixqhks9378643.shtml",
@@ -4511,10 +4553,10 @@
   "aicompute": {
    "id": "aicompute",
    "name": "AI 算力供需与国产替代",
-   "judgment": "H200许可遭质疑，对华供给更不确定",
+   "judgment": "英伟达陷调查，对华放宽高端卡更难",
    "direction": "持平",
-   "directionNote": "较11月5日：H200获批企业受媒体质疑，但未见BIS撤销许可",
-   "asOf": "2026-11-07",
+   "directionNote": "较11月7日：英伟达受调查升级，但BIS许可与滞港H200状态未变",
+   "asOf": "2026-11-08",
    "keyNumbers": [
     {
      "label": "华为2026上半年数据中心AI加速卡出货",
@@ -4550,8 +4592,25 @@
      }
     }
    ],
-   "change": "本期新增：《纽约时报》质疑H200获批企业资质；FT披露Megaspeed情报备忘录、国会要求黄仁勋说明。未能打开两家原文核实，未检索到BIS复核许可的消息。",
+   "change": "本期新增：英伟达董事会就Megaspeed事件启动独立调查，国会要求黄仁勋11日前答复；黄仁勋接受CBS采访反对全面对华禁售。未检索到BIS复核H200许可的消息。",
    "facts": [
+    {
+     "text": "英伟达董事会启动调查：11月8日宣布由独立董事聘外部律师调查黄仁勋是否成为外国情报目标，称暂无理由认为机密受损；国会要求其11月11日前答复闭门说明。",
+     "src": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+       "date": "2026-11-08",
+       "repost": false
+      },
+      {
+       "name": "Bloomberg",
+       "url": "https://bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+       "date": "2026-11-08",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "H200获批企业受质疑：据《纽约时报》，获BIS批准组装H200服务器的北京New Matrix登记地址为空置毛坯房，部分股东关联实体清单企业智路资本；另一获批企业Maginfra办公室无人。",
      "src": [
@@ -5068,6 +5127,11 @@
    ],
    "signals": [
     {
+     "what": "黄仁勋是否出席国会闭门说明",
+     "when": "2026-11-11（答复期限）",
+     "why": "国会若推动立法，经东南亚租用英伟达算力的渠道将收窄"
+    },
+    {
      "what": "BIS是否复核或暂停已发H200对华许可",
      "when": "未官宣",
      "why": "决定国内H200供给是否进一步收缩"
@@ -5099,6 +5163,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "Bloomberg",
+     "url": "https://bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+     "date": "2026-11-08",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+     "date": "2026-11-08",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "Yahoo News（转FT）",
      "url": "https://sg.news.yahoo.com/nvidias-jensen-huang-romantically-involved-133802951.html",
@@ -8316,7 +8394,7 @@
     "name": "中美科技脱钩的深度与节奏",
     "desc": "",
     "claim": "中美科技脱钩会继续加深",
-    "summary": "推断：美国企业CEO仍主张合作，黄仁勋还就新加坡Megaspeed间谍报道称已清点每张GPU，显示美方审查已延伸到东南亚云商；企业表态不代表政策走向，判断以政策动作为准。",
+    "summary": "推断：美国企业CEO仍主张有限合作：黄仁勋11月8日接受CBS采访称完全不同意全面对华禁售，但支持最好技术优先供美国；他本人同日因Megaspeed事件受董事会调查，其游说影响力下降；企业表态不代表政策，判断以政策动作为准。",
     "confidence": "中"
    },
    {
@@ -9159,6 +9237,19 @@
     "stances": {},
     "point": "称将于2027年年中前后停产得州Cybertruck，为Cybercab腾产能。",
     "question": "特斯拉Robotaxi量产节奏加快，对国内Robotaxi与乾崑智驾合作车型的竞争影响？",
+    "suggest": null
+   },
+   "jensen|2026-11-08|我完全不同意禁止向中国出": {
+    "hyps": [
+     "H5"
+    ],
+    "main": "H5",
+    "stance": "反对",
+    "stances": {
+     "H5": "反对"
+    },
+    "point": "反对全面禁止对华销售美国产品，但支持最好技术优先供美国企业。",
+    "question": "本人受董事会和国会调查后，其对华放开游说还能否影响白宫和商务部决策？",
     "suggest": null
    }
   },
