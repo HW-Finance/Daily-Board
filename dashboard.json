@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-09",
- "updatedAt": "2026-11-09 07:00",
+ "asOf": "2026-11-10",
+ "updatedAt": "2026-11-10 07:40",
  "leaders": [
   {
    "id": "jensen",
@@ -584,6 +584,17 @@
    "biz": "汽车",
    "statements": [
     {
+     "date": "2026-11-09",
+     "quote": "Cybertruck订单远超产能，停产前将退还大量订金；停产不是因为不赚钱，而是要把产能让给Cybercab。",
+     "topic": "自动驾驶与Robotaxi",
+     "context": "在X发文回应得州超级工厂明年年中停产Cybertruck、产能让给Cybercab的决定，称将加班优先交付已有订单",
+     "direct": false,
+     "source": {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/zacharyfolk/2026/11/09/musk-says-tesla-will-refund-cybertruck-deposits-if-company-cannot-manufacture-enough-before-production-shutters/"
+     }
+    },
+    {
      "date": "2026-11-06",
      "quote": "将于明年年中左右逐步结束得州超级工厂的Cybertruck生产，为更多Cybercab生产腾出产能。",
      "topic": "自动驾驶与Robotaxi",
@@ -644,19 +655,6 @@
       "name": "新浪新闻",
       "url": "https://news.sina.com.cn/c/2026-10-18/doc-inivpwwi8115596.shtml"
      }
-    },
-    {
-     "date": "2026-10-14",
-     "quote": "美光在未来内存价格上一直很合理，其他厂商则漫天要价。",
-     "topic": "价格与成本",
-     "context": "X平台发帖，未点名其他厂商；韩媒猜测指三星、SK海力士",
-     "direct": true,
-     "original": "has been reasonable regarding future memory prices, while others have been extortionate",
-     "source": {
-      "name": "TrendForce",
-      "url": "https://www.trendforce.com/news/2026/10/14/news-musk-weighs-in-on-memory-again-praises-microns-future-pricing-warns-extortionate-practices-wont-be-forgotten/"
-     },
-     "ai": "特斯拉这样的大买家也在公开抱怨存储定价，同时据报三星、美光2027年产能大部分已被长协锁定。存储成本高位很可能延续到2027年，终端厂商的议价空间取决于能否尽早锁定长协份额。"
     }
    ]
   },
@@ -1030,9 +1028,68 @@
      }
     }
    ]
+  },
+  {
+   "id": "chiao_winbond",
+   "name": "焦佑钧",
+   "nameEn": "Arthur Chiao",
+   "title": "华邦电子董事长",
+   "company": "华邦电子",
+   "biz": "芯片半导体",
+   "statements": [
+    {
+     "date": "2026-11-09",
+     "quote": "AI驱动的内存涨价不可持续，目前只有AI公司负担得起，消费者和非AI行业正受冲击。",
+     "topic": "价格与成本",
+     "context": "接受日经亚洲专访；华邦是全球最大NOR闪存厂商，据报其10月营收同比增约257%",
+     "direct": false,
+     "source": {
+      "name": "日经亚洲",
+      "url": "https://asia.nikkei.com/editor-s-picks/interview/taiwan-chipmaker-ceo-warns-memory-price-rises-are-unsustainable"
+     },
+     "ai": "1. 受益方华邦（10月营收据报同比增约257%）都称涨价难以为继，但未给出回落时间；同日模组厂创见称DRAM配额到明年上半年仍不足，我司终端内存成本压力短期难缓解。"
+    }
+   ]
   }
  ],
  "earnings": [
+  {
+   "company": "Onto Innovation",
+   "en": "Onto Innovation",
+   "biz": "芯片半导体",
+   "period": "2026年Q3",
+   "reportDate": "2026-11-09",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "4.097亿美元",
+     "yoy": "+88%，高于3.8亿—4.0亿美元指引"
+    },
+    {
+     "label": "非GAAP经营利润",
+     "value": "1.335亿美元",
+     "yoy": "经营利润率32.6%"
+    },
+    {
+     "label": "订单积压",
+     "value": "超13亿美元",
+     "yoy": "创新高"
+    },
+    {
+     "label": "现金及有价证券",
+     "value": "12.5亿美元",
+     "yoy": "—"
+    }
+   ],
+   "highlight": "先进封装检测设备Dragonfly G5获超2亿美元订单、多数2027年交付；公司称订单积压支撑增长至少到2027年上半年，AI芯片扩产对封装检测需求仍强。",
+   "guidance": "2026年Q4营收4.3亿—4.5亿美元；全年营收增速预计超45%。",
+   "nextReport": "未披露",
+   "source": {
+    "name": "Business Wire（FinancialContent转载）",
+    "url": "https://www.financialcontent.com/article/bizwire-2026-11-9-onto-innovation-reports-2026-third-quarter-results"
+   },
+   "updatedOn": "2026-11-10"
+  },
   {
    "company": "华虹半导体",
    "en": "Hua Hong Semiconductor",
@@ -5077,11 +5134,11 @@
        "updatedOn": "2026-11-04"
       },
       {
-       "label": "10月新能源零售（乘联会初步）",
-       "value": "114.8万辆",
-       "delta": "-10%，渗透率67.8%",
+       "label": "10月新能源零售（乘联会终值）",
+       "value": "110.9万辆",
+       "delta": "-13.7%，渗透率67.5%",
        "tone": "neg",
-       "updatedOn": "2026-11-05"
+       "updatedOn": "2026-11-09"
       },
       {
        "label": "9月汽车类零售额（统计局）",
@@ -5091,11 +5148,18 @@
        "updatedOn": "2026-10-20"
       },
       {
-       "label": "10月乘用车零售（乘联会初步）",
-       "value": "169.3万辆",
-       "delta": "-25%，好于此前160万辆预测",
+       "label": "10月乘用车零售（乘联会终值）",
+       "value": "164.3万辆",
+       "delta": "-27.1%，环比+1.5%，差于初步-25%",
        "tone": "neg",
-       "updatedOn": "2026-11-05"
+       "updatedOn": "2026-11-09"
+      },
+      {
+       "label": "10月乘用车出口（乘联会）",
+       "value": "92.8万辆",
+       "delta": "+68.5%，占厂商销量35%；新能源58.2万",
+       "tone": "pos",
+       "updatedOn": "2026-11-09"
       }
      ]
     },
@@ -5440,6 +5504,13 @@
        "delta": "14家客户，合同多为5年",
        "tone": "neg",
        "updatedOn": "2026-10-28"
+      },
+      {
+       "label": "10月手机、计算机零售价（统计局CPI）",
+       "value": "+16.7%、+23.0%",
+       "delta": "同比；数据存储设备+45.4%",
+       "tone": "neg",
+       "updatedOn": "2026-11-09"
       }
      ]
     },
@@ -5758,21 +5829,21 @@
    "title": "中美经贸休战与关税清单",
    "region": "美国",
    "biz": "终端、ICT、供应链",
-   "status": "休战延至2027年1月10日；芯片、电动车、电池不在降税清单",
+   "status": "休战已正式延至2027年1月10日；芯片、电动车、电池不在降税清单",
    "latest": {
-    "date": "2026-11-06",
-    "text": "美东11月6日格里尔、贝森特与何立峰视频通话，USTR称要求中方就农产品采购、稀土和关键矿产拿出具体行动；据FT美方认为中方仅兑现约三分之二承诺，中方不认可；未检索到中方通稿"
+    "date": "2026-11-09",
+    "text": "国务院关税税则委员会宣布自11月10日13:01起2个月内继续暂停24%对美加征关税、保留10%；美方USTR同日提交海事301措施暂停延长两个月，178项301关税排除据报延至2027年1月9日"
    },
    "next": {
     "date": "2026-11-18",
-    "text": "深圳APEC领导人会议（11/18—19），其后12月14—15日G20"
+    "text": "深圳APEC领导人会议（11/18—19），看能否把休战延至2027年1月10日之后"
    },
    "level": "高",
    "source": {
-    "name": "USTR",
-    "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/readout-ambassador-greers-call-chinas-vice-premier-he-lifeng"
+    "name": "The Star（路透）",
+    "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/china-extends-suspension-of-rare-earth-export-controls-until-january"
    },
-   "updatedOn": "2026-11-07"
+   "updatedOn": "2026-11-10"
   },
   {
    "title": "欧盟对华贸易措施与混动配额",
@@ -5818,21 +5889,21 @@
    "title": "中国稀土出口管制暂停期",
    "region": "中国",
    "biz": "终端、能源、供应链",
-   "status": "2025年10月扩大管制暂停中；美方已正式把关联方规则暂停延至2027年1月10日，中方暂停公告仍写11月10日到期",
+   "status": "2025年10月扩大的稀土等出口管制暂停已延至2027年1月10日，与美方关联方规则暂停同日到期",
    "latest": {
-    "date": "2026-11-06",
-    "text": "BIS美东11月5日宣布关联方规则暂停延至2027年1月10日（定于11月9日刊登联邦公报）；中方2025年第70号公告未见延期文件。美东11月6日格里尔、贝森特与何立峰通话，要求中方“立即全面”落实稀土与农产品承诺"
+    "date": "2026-11-09",
+    "text": "商务部宣布2025年10月稀土等出口管制暂停延至2027年1月10日，同步续停11家美企不可靠实体清单和16家美企出口管制管控名单措施"
    },
    "next": {
-    "date": "2026-11-10",
-    "text": "中方稀土暂停公告与美方301关税178项排除同日到期，看是否发布延期文件"
+    "date": "2027-01-10",
+    "text": "暂停再次到期；之前看11月18—19日深圳APEC会晤能否转为长期安排"
    },
    "level": "高",
    "source": {
-    "name": "Baker McKenzie",
-    "url": "https://sanctionsnews.bakermckenzie.com/bis-extends-suspension-of-the-affiliates-rule-through-january-10-2027/"
+    "name": "Business Standard",
+    "url": "https://www.business-standard.com/world-news/china-extends-suspension-of-new-rare-earth-controls-until-january-10-126110900599_1.html"
    },
-   "updatedOn": "2026-11-07"
+   "updatedOn": "2026-11-10"
   },
   {
    "title": "新能源车出口退税降至9%",
@@ -5945,19 +6016,10 @@
   },
   {
    "date": "2026-11-10",
-   "title": "中方稀土等出口管制暂停公告原定到期（美方关联方规则暂停已延至2027-01-10），看中方是否发布延期公告",
-   "type": "政策",
-   "biz": "全业务",
-   "confirmed": true,
-   "updatedOn": "2026-11-07"
-  },
-  {
-   "date": "2026-11-10",
-   "title": "美方301关税178项排除到期，尚未宣布延期",
-   "type": "政策",
-   "biz": "终端、供应链",
-   "confirmed": true,
-   "updatedOn": "2026-11-07"
+   "title": "台积电10月营收（按往月节奏）",
+   "type": "财报",
+   "biz": "芯片半导体",
+   "confirmed": false
   },
   {
    "date": "2026-11-11",
@@ -5966,6 +6028,13 @@
    "biz": "昇腾、云",
    "confirmed": true,
    "updatedOn": "2026-11-09"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "CoreWeave三季报（美东10日盘后）",
+   "type": "财报",
+   "biz": "计算与云",
+   "confirmed": false
   },
   {
    "date": "2026-11-12",
@@ -6114,6 +6183,13 @@
    "biz": "全业务",
    "confirmed": false,
    "updatedOn": "2026-11-07"
+  },
+  {
+   "date": "2027-01-10",
+   "title": "中美关税、稀土管制等暂停措施再到期",
+   "type": "政策",
+   "biz": "全业务",
+   "confirmed": true
   },
   {
    "date": "2028-12-01",

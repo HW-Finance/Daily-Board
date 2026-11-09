@@ -1,22 +1,102 @@
 {
- "date": "2026-11-09",
- "weekday": "周一",
- "updatedAt": "2026-11-09 07:00",
+ "date": "2026-11-10",
+ "weekday": "周二",
+ "updatedAt": "2026-11-10 07:40",
  "highlights": [
   {
-   "text": "英伟达董事会启动独立调查黄仁勋是否成为外国情报目标，国会追查经新加坡客户的出货链路，H200等高端卡对华供给更难放宽，昇腾国内替代空间延续。",
-   "item": "英伟达董事会启动独立调查黄仁勋是否成为外国情报目标，国会要求其11月11日前答复闭门说明"
+   "text": "中美同日把对美关税、稀土管制等暂停措施再延两个月至2027年1月10日，确定性只覆盖到明年1月，对美业务关税与稀土供应能否长期稳定取决于深圳APEC会晤。",
+   "item": "中美休战再延两个月至2027年1月10日：中方续停24%关税及稀土等出口管制，美方续停海事301措施并延178项排除"
   },
   {
-   "text": "广汽与乾崑合作的启境GX7上市约六周累计交付破4000台，月均不到3000台，乾崑新合作品牌首款车起量偏慢。",
-   "item": "广汽与华为乾崑合作的启境GX7上市约六周累计交付破4000台"
+   "text": "10月PPI同比涨5.7%创2022年7月以来新高，手机、电脑零售价同比涨16.7%和23.0%，存储涨价已传到终端零售，整机提价成全行业现象。",
+   "item": "10月PPI同比涨5.7%创2022年7月以来新高，存储设备零售价同比涨45.4%"
+  },
+  {
+   "text": "据报华为、江淮与Stellantis的玛莎拉蒂项目已完成外观设计、目标2027年四季度量产，乾崑有望借外资豪华品牌出海，但三方尚无约束性协议。",
+   "item": "据报华为、江淮与Stellantis合作的“玛莎拉蒂Design”项目已完成外观设计，目标2027年四季度量产；尊界或推40–50万元SUV子品牌"
+  },
+  {
+   "text": "乘联分会10月终值：国内零售同比降27.1%，新能源零售也降13.7%，出口占厂商销量35%，乾崑和鸿蒙智行所在的国内盘子在缩小。",
+   "item": "乘联分会10月终值：国内乘用车零售164.3万辆同比降27.1%，新能源渗透率升至67.5%创新高，出口92.8万辆增68.5%"
+  },
+  {
+   "text": "NAND颗粒现货价明显回落（512Gb TLC由23美元降至16美元），但DRAM仍更紧缺，终端存储成本压力集中在内存。",
+   "item": "存储价格分化：NAND现货明显回落，模组厂与群联称DRAM仍比NAND更紧缺"
+  },
+  {
+   "text": "谷歌发布TPU 8tx与8i Max，TPU客户近100家、2027年起进驻甲骨文云，海外云在英伟达之外已有成熟的第二供应商。",
+   "item": "谷歌发布TPU 8tx与TPU 8i Max两款专用芯片，AMD EPYC任TPU 8tx主控CPU"
   }
  ],
  "sections": [
   {
    "key": "compute",
    "name": "计算与云",
-   "items": []
+   "items": [
+    {
+     "tag": "竞争",
+     "title": "谷歌发布TPU 8tx与TPU 8i Max两款专用芯片，AMD EPYC任TPU 8tx主控CPU",
+     "summary": "谷歌11月9日发布第八代TPU两款变体：TPU 8tx面向机密计算，延迟较TPU 8t最多低一半；TPU 8i Max将两颗TPU 8i合封，算力、SRAM和HBM带宽翻倍。两者均为现有芯片重新配置，明年供货。AMD第五代EPYC作TPU 8tx主控CPU。谷歌称TPU客户近100家，甲骨文云2027年起提供TPU；彭博行业研究预计TPU销售额由今年约120亿美元增至2028年超1350亿美元。",
+     "comment": "1. TPU客户已近100家、2027年起进驻甲骨文云，并用AMD EPYC做主控，海外云厂商在英伟达之外已有成熟的第二套整柜方案，昇腾以“英伟达替代”身份进入海外云的空间被谷歌先占一块。",
+     "sources": [
+      {
+       "name": "Invezz",
+       "url": "https://invezz.com/news/2026/11/09/alphabet-stock-rises-as-google-expands-ai-chip-lineup-to-challenge-nvidia/"
+      },
+      {
+       "name": "TipRanks",
+       "url": "https://www.tipranks.com/news/alphabet-stock-googl-climbs-after-google-launches-two-new-ai-chips-to-rival-nvidia"
+      },
+      {
+       "name": "Investing.com",
+       "url": "https://www.investing.com/news/company-news/amd-chips-to-power-google-clouds-confidential-ai-system-93CH-5011943"
+      },
+      {
+       "name": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/article/googles-chip-business-is-on-a-faster-track-than-nvidias-own-ai-boom-135447046.html"
+      }
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "英伟达与韩国Rebellions、SK电讯合作，经NVLink Fusion把韩国NPU接入英伟达机柜",
+     "summary": "英伟达在首尔AI Day（11月9–10日）宣布：Rebellions下一代R200 NPU将通过NVLink Fusion与英伟达GPU互联，基于MGX架构做整柜系统，部署在SK电讯AI数据中心并配其自研模型，韩国科技部支持；据Unite.AI，系统预计2028年可部署。英伟达同日还宣布与三星、LG、现代、斗山等的物理AI合作。",
+     "comment": "1. 韩国政府撮合本国NPU挂靠英伟达互联和机柜标准，而不是自建一套体系，说明主权AI国家可以既扶持本土芯片又留在英伟达生态里；我司昇腾在海外推主权算力时，对手可能是“本土芯片+英伟达互联”的组合，而不只是英伟达整机。",
+     "sources": [
+      {
+       "name": "Yahoo Finance（英伟达新闻稿）",
+       "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-rebellions-sk-telecom-announce-050000656.html"
+      },
+      {
+       "name": "The Korea Times",
+       "url": "https://www.koreatimes.co.kr/business/companies/20261109/nvidia-skt-rebellions-to-jointly-establish-heterogeneous-computing-system-for-ai-1"
+      },
+      {
+       "name": "Unite.AI",
+       "url": "https://www.unite.ai/rebellions-to-use-nvidia-nvlink-fusion-for-korean-sovereign-ai/"
+      },
+      {
+       "name": "Digital Today",
+       "url": "https://www.digitaltoday.co.kr/en/view/123139/nvidia-broadens-ai-cooperation-with-south-korean-government-and-companies-from-semiconductors-to-robots-and-startups"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "OpenRouter上周全球大模型调用量210万亿Token，前五名中国模型占四席",
+     "summary": "据财联社11月9日报道，OpenRouter数据显示11月2日至8日全球大模型总调用量210万亿Token，环比增8.25%；周调用量前五中有四款中国模型，腾讯混元Hy4位列第四，中国模型调用量已连续28周领先美国。",
+     "sources": [
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/discovery/2026-11-09/doc-iniycfmy2968846.shtml"
+      },
+      {
+       "name": "21财经",
+       "url": "https://m.21jingji.com/article/20261109/herald/f7028dad17f00ba4c3c99c4e8eaa582b.html"
+      }
+     ]
+    }
+   ]
   },
   {
    "key": "devices",
@@ -26,23 +106,7 @@
   {
    "key": "network",
    "name": "联接",
-   "items": [
-    {
-     "tag": "关注",
-     "title": "我国成功发射卫星互联网低轨29组卫星，距28组发射仅约两周",
-     "summary": "11月9日4时24分，长征十二号运载火箭在海南商业航天发射场发射卫星互联网低轨29组卫星，卫星顺利进入预定轨道。上一组（28组）于10月25日由长征八号甲发射，国网（GW）星座组网节奏保持约两周一组。",
-     "sources": [
-      {
-       "name": "中国新闻网",
-       "url": "https://www.chinanews.com.cn/gn/2026/11-09/10728582.shtml"
-      },
-      {
-       "name": "IT之家（28组发射报道）",
-       "url": "https://www.ithome.com/1/017/566.htm"
-      }
-     ]
-    }
-   ]
+   "items": []
   },
   {
    "key": "auto",
@@ -50,35 +114,129 @@
    "items": [
     {
      "tag": "关注",
-     "title": "广汽与华为乾崑合作的启境GX7上市约六周累计交付破4000台",
-     "summary": "启境11月8日称GX7自9月23日上市累计交付破4000台（品牌披露），售价23.99万–30.19万元，搭载乾崑智驾ADS 5与鸿蒙座舱，近九成车主选高配四驱版，首轮OTA预计11月上线。",
-     "comment": "1. GX7上市约6周累计交付4000台，月均不到3000台，乾崑合作的新品牌首款车起量偏慢，短期对我司乾崑智驾和鸿蒙座舱装车量的增量有限。",
+     "title": "乘联分会10月终值：国内乘用车零售164.3万辆同比降27.1%，新能源渗透率升至67.5%创新高，出口92.8万辆增68.5%",
+     "summary": "乘联分会11月9日发布10月数据：零售164.3万辆，同比降27.1%、环比增1.5%，低于11月4日初步统计；新能源零售110.9万辆，同比降13.7%，燃油车零售同比降约45%；批发263.3万辆，同比降10.2%；出口92.8万辆占厂商销量35%，其中新能源出口58.2万辆，同比增144.7%。1–10月累计零售1497.8万辆，同比降22.3%。",
+     "table": {
+      "caption": "2026年10月乘联分会乘用车数据",
+      "columns": [
+       "指标",
+       "10月",
+       "同比"
+      ],
+      "rows": [
+       [
+        "零售",
+        "164.3万辆",
+        "-27.1%"
+       ],
+       [
+        "新能源零售",
+        "110.9万辆（渗透率67.5%）",
+        "-13.7%"
+       ],
+       [
+        "厂商批发",
+        "263.3万辆（新能源渗透率67.3%）",
+        "-10.2%"
+       ],
+       [
+        "出口（含CKD）",
+        "92.8万辆",
+        "+68.5%"
+       ],
+       [
+        "新能源出口",
+        "58.2万辆",
+        "+144.7%"
+       ],
+       [
+        "1–10月累计零售",
+        "1497.8万辆",
+        "-22.3%"
+       ]
+      ]
+     },
+     "comment": "1. 新能源零售也同比少了13.7%，说明国内电动车总盘子在缩小，乾崑和鸿蒙智行车型主要在国内卖，搭载量要增长只能靠从别人手里抢份额，不能指望市场扩容。\n2. 出口已占厂商销量35%，新能源出口同比增144.7%，增量集中在海外；乾崑方案能分到多少，取决于合作车型能否拿到欧盟等海外认证、海外版能否保留智驾功能。",
      "sources": [
       {
-       "name": "腾讯新闻",
-       "url": "https://news.qq.com/rain/a/20261108A07NBU00"
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/024/211.htm"
       },
       {
-       "name": "汽车之家",
-       "url": "https://www.autohome.com.cn/news/202611/1318237.html"
+       "name": "凤凰网汽车（网通社）",
+       "url": "https://auto.ifeng.com/c/8xuYiNcui5E"
       },
       {
-       "name": "凤凰网汽车",
-       "url": "https://auto.ifeng.com/c/8xsxxYq8Sws"
+       "name": "凤凰网汽车（新能源出口）",
+       "url": "https://auto.ifeng.com/c/8xub7sbtI75"
+      },
+      {
+       "name": "CnEVPost",
+       "url": "https://cnevpost.com/2026/11/09/china-oct-2026-nev-retail-sales-cpca/"
+      },
+      {
+       "name": "Reuters（Investing.com转载）",
+       "url": "https://www.investing.com/news/economic-indicators/chinas-october-car-exports-stay-resilient-falling-domestic-sales-yet-to-hit-bottom-5010503"
+      }
+     ]
+    },
+    {
+     "tag": "机会",
+     "title": "据报华为、江淮与Stellantis合作的“玛莎拉蒂Design”项目已完成外观设计，目标2027年四季度量产；尊界或推40–50万元SUV子品牌",
+     "summary": "据第一财经11月9日报道，项目由华为主导产品定义并提供智驾、座舱、电驱，江淮在尊界工厂制造，玛莎拉蒂负责造型和海外渠道；首款为大型纯电GT，另有中大型纯电SUV；国内以尊界品牌销售、海外挂玛莎拉蒂标，三方尚未签约束性协议。另据财联社，尊界或推定价40–50万元、主打SUV的子品牌，与玛莎拉蒂项目分属两个项目。",
+     "comment": "1. 若三方签约，乾崑智驾和鸿蒙座舱将借玛莎拉蒂车标与海外渠道进入豪华车出口市场，是我司“不造车”模式借外资品牌出海的样本；但三方尚无约束性协议，落地取决于Stellantis据报12月发布的玛莎拉蒂长期计划。\n2. 尊界S800售价70.8万元起，40–50万元子品牌将与同属鸿蒙智行的问界M9价位重叠，增加的是尊界工厂产能利用率，可能分流的是问界高端销量。",
+     "sources": [
+      {
+       "name": "CarNewsChina（援引第一财经）",
+       "url": "https://carnewschina.com/2026/11/09/maseratis-china-developed-ev-reportedly-completes-exterior-design-production-targeted-for-2027/"
+      },
+      {
+       "name": "新浪新闻（转第一财经）",
+       "url": "https://www.sina.cn/weibo/detail/5363382933785605.html"
+      },
+      {
+       "name": "新浪新闻（转财联社）",
+       "url": "https://www.sina.cn/weibo/detail/5363322046120306.html"
       }
      ]
     },
     {
      "tag": "竞争",
-     "title": "崔东树：1–10月新上市129款车型中增程42款，同比多26款",
-     "summary": "乘联分会秘书长崔东树11月8日披露，今年1–10月新品共129款，其中增程车型42款，较去年同期多26款；混合动力车型10款，多10款；汽油车新品较去年同期少4款。他认为混动新车增多体现以混动替代燃油车、突破出口的思路。",
+     "title": "特斯拉中国10月出口59012辆，占批发量约87%，国内对应量不足9千辆",
+     "summary": "乘联分会11月9日公布特斯拉中国10月出口59012辆；其10月批发67829辆，同比增10.3%、环比降28.9%，为2月以来最低，新能源厂商批发排名降至第八。按批发减出口计，国内对应量约8817辆。据每经，特斯拉中国今年已至少7次调整购车优惠。",
      "sources": [
       {
-       "name": "新浪新闻（转钛媒体）",
-       "url": "https://www.sina.cn/weibo/detail/5363008550997237.html"
+       "name": "金十数据（乘联分会）",
+       "url": "https://shishixinwen.news/news/jin10/20261109132423989800"
+      },
+      {
+       "name": "老虎证券",
+       "url": "https://www.itiger.com/news/1137107004"
+      },
+      {
+       "name": "每日经济新闻",
+       "url": "https://www.nbd.com.cn/articles/2026-11-04/4638128.html"
       }
-     ],
-     "comment": "1. 增程新车从去年同期16款增至42款，问界M7/M8/M9等主力车都有增程版，鸿蒙智行在增程细分面对的新竞品数量约为去年的2.6倍，靠增程差异化拿份额的难度上升。"
+     ]
+    },
+    {
+     "tag": "竞争",
+     "title": "乘联分会10月新能源厂商批发：比亚迪48.3万辆居首，零跑破10万，小鹏、小米均超5万辆进前十",
+     "summary": "乘联分会11月9日数据：10月新能源批发比亚迪482610辆、吉利211240辆、奇瑞133890辆、零跑103025辆；小鹏50237辆、小米50168辆分列前十，二者仅差69辆；月批发破万辆的新能源厂商23家。据路透，零跑、小鹏、小米均创单月新高，理想、蔚来下滑。",
+     "sources": [
+      {
+       "name": "金融界",
+       "url": "https://finance.jrj.com.cn/2026/11/09160259068815.shtml"
+      },
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/024/211.htm"
+      },
+      {
+       "name": "Reuters（Investing.com转载）",
+       "url": "https://www.investing.com/news/economic-indicators/chinas-october-car-exports-stay-resilient-falling-domestic-sales-yet-to-hit-bottom-5010503"
+      }
+     ]
     }
    ]
   },
@@ -88,16 +246,17 @@
    "items": [
     {
      "tag": "关注",
-     "title": "据FT，Anthropic斥资约34亿美元锁定1.7GW燃气发电机组为数据中心供电",
-     "summary": "据FT 11月8日报道，Anthropic9月下旬与得州OnePWR达成协议，以约34亿美元接手其向卡特彼勒订购的1.7GW燃气发电机组及安装能力，约合2美元/瓦，据称为AI公司最大单笔发电设备采购；双方未确认，部署地点未披露。",
+     "title": "坎德拉11月9日价格风向标：近期组串式逆变器中标价0.103元/W，光伏EPC 2.42元/W",
+     "summary": "坎德拉学院11月9日汇总近期光伏设备、EPC、监理招投标价格：组串式逆变器0.103元/W，EPC 2.42元/W；文中引用PVInfoLink组件价TOPCon 0.715元/W、BC 0.792元/W、HJT 0.750元/W（未注明更新日期）。",
+     "comment": "1. 阳光电源11月初已宣布逆变器与储能全线提价，但国内组串式逆变器中标价仍在约0.1元/W，提价暂未进入国内招标价，我司数字能源国内逆变器价格环境尚未改善。",
      "sources": [
       {
-       "name": "CNBC（转引FT）",
-       "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html"
+       "name": "坎德拉学院",
+       "url": "https://www.candela.cn/%E3%80%90%E4%BB%B7%E6%A0%BC%E9%A3%8E%E5%90%91%E6%A0%871109%E3%80%91epc2-42%E5%85%83-w%EF%BC%8C%E7%BB%84%E4%B8%B2%E5%BC%8F%E9%80%86%E5%8F%98%E5%99%A80-103%E5%85%83-w%EF%BC%8C%E8%BF%91%E6%9C%9F%E5%85%89/"
       },
       {
-       "name": "The Energy Mag",
-       "url": "https://theenergymag.com/news/market-news/anthropic-gas-generation-acquisition-ai-data-center"
+       "name": "财经日报（阳光电源提价）",
+       "url": "https://news.jkn.co.kr/editions/chinese/post/1070129"
       }
      ]
     }
@@ -109,33 +268,133 @@
    "items": [
     {
      "tag": "关注",
-     "title": "英伟达董事会启动独立调查黄仁勋是否成为外国情报目标，国会要求其11月11日前答复闭门说明",
-     "summary": "英伟达董事会11月8日（美东）宣布由独立董事聘外部律师调查黄仁勋是否成为外国情报行动目标，称暂无理由认为国家安全或公司机密受损，黄仁勋留任CEO。事件涉新加坡算力客户Megaspeed关联人士，国会委员会要求其11月11日前确认能否出席闭门说明。",
-     "comment": "1. 董事会和国会都在追查英伟达经新加坡云客户的出货链路，加上约60万颗H200仍滞港未获北京放行，国内客户短期能新增拿到的英伟达高端卡有限，昇腾在国内AI算力采购中的替代空间延续；程度取决于BIS是否收紧东南亚转售审查。\n2. 黄仁勋是华盛顿主张对华放开AI芯片的主要声音，他本人被调查期间，H200以上产品对华放开的可能性更低。",
+     "title": "中美休战再延两个月至2027年1月10日：中方续停24%关税及稀土等出口管制，美方续停海事301措施并延178项排除",
+     "summary": "11月9日，国务院关税税则委员会宣布自11月10日13:01起2个月内继续暂停24%对美加征关税、保留10%；商务部同步将2025年10月稀土等出口管制暂停延至2027年1月10日，并续停11家美企不可靠实体清单和16家美企出口管制管控名单措施，交通部续停对美船舶特别港务费。美方USTR同日提交延长海事301措施暂停两个月，178项301关税排除据报已延至2027年1月9日。去年同类暂停期为1年。",
+     "table": {
+      "caption": "中美主要暂停措施新到期日",
+      "columns": [
+       "措施",
+       "原到期",
+       "新到期"
+      ],
+      "rows": [
+       [
+        "中方24%对美加征关税暂停（保留10%）",
+        "2026-11-10",
+        "2027-01-10"
+       ],
+       [
+        "中方2025年10月稀土等出口管制暂停",
+        "2026-11-10",
+        "2027-01-10"
+       ],
+       [
+        "中方不可靠实体清单（11家）/管控名单（16家）措施暂停",
+        "2026-11-10",
+        "2027-01-10"
+       ],
+       [
+        "美方海事/造船301港口费及岸桥关税暂停",
+        "2026-11-09",
+        "2027-01-09（据报）"
+       ],
+       [
+        "美方178项对华301关税排除",
+        "2026-11-09",
+        "2027-01-09（据报）"
+       ]
+      ]
+     },
+     "comment": "1. 暂停期由去年的1年缩为2个月，稀土等管制暂停与对美关税安排的确定性只覆盖到明年1月10日，节点前的深圳APEC元首会晤结果决定能否转为长期安排。\n2. 税委会公告点明美方拟以301关税替代被判失效的IEEPA关税、中方将视情况调整反制，说明对美出口的关税风险正从IEEPA转向301，后者不受法院裁决限制、持续时间更长。",
      "sources": [
       {
-       "name": "Bloomberg",
-       "url": "https://bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity"
+       "name": "The Star（路透）",
+       "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/china-extends-suspension-of-rare-earth-export-controls-until-january"
       },
       {
-       "name": "CNBC",
-       "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/world-news/china-extends-suspension-of-new-rare-earth-controls-until-january-10-126110900599_1.html"
       },
       {
-       "name": "CNBC（国会审查）",
-       "url": "https://cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html"
+       "name": "东方财富网",
+       "url": "https://finance.eastmoney.com/a/202611093926051572.html"
       },
       {
-       "name": "NBC News",
-       "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34437712"
       },
       {
-       "name": "星岛头条",
-       "url": "https://www.stheadline.com/zh-hans/realtime-world/3635006/%E8%A2%AB%E6%8C%87%E6%88%90%E4%B8%AD%E5%9B%BD%E9%97%B4%E8%B0%8D%E7%9B%AE%E6%A0%87-%E9%BB%84%E4%BB%81%E5%8B%8B%E8%AE%A4%E5%AF%B9%E5%A6%BB%E4%B8%8D%E5%BF%A0-%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B1%95%E5%BC%80%E8%B0%83%E6%9F%A5"
+       "name": "21经济网",
+       "url": "https://www.21jingji.com/article/20261109/herald/884f1f25152806a89de02d9466b91933.html"
       },
       {
-       "name": "Axios",
-       "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation"
+       "name": "gCaptain",
+       "url": "https://gcaptain.com/china-extends-us-trade-truce-by-two-months/"
+      },
+      {
+       "name": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/economy/policy/articles/us-china-officially-extend-trade-140000886.html"
+      },
+      {
+       "name": "Tech Times",
+       "url": "https://www.techtimes.com/articles/330285/20261109/ustr-extends-section-301-tariff-exclusions-chinese-goods-entries-after-january-9-pay-full-duty.htm"
+      }
+     ]
+    },
+    {
+     "tag": "风险",
+     "title": "10月PPI同比涨5.7%创2022年7月以来新高，存储设备零售价同比涨45.4%",
+     "summary": "国家统计局11月9日公布：10月CPI同比涨0.7%，核心CPI涨0.8%；PPI同比涨5.7%，涨幅扩大0.7个百分点，环比涨0.7%。计算机通信和其他电子设备制造业价格同比涨5.9%、环比仅涨0.1%，统计局称受AI需求带动。消费端数据存储设备、平板、计算机、手机价格同比分别涨45.4%、29.3%、23.0%、16.7%。",
+     "table": {
+      "caption": "10月价格数据（同比）",
+      "columns": [
+       "指标",
+       "涨幅"
+      ],
+      "rows": [
+       [
+        "PPI",
+        "5.7%"
+       ],
+       [
+        "电子设备制造业出厂价",
+        "5.9%"
+       ],
+       [
+        "数据存储设备（CPI）",
+        "45.4%"
+       ],
+       [
+        "平板电脑（CPI）",
+        "29.3%"
+       ],
+       [
+        "计算机（CPI）",
+        "23.0%"
+       ],
+       [
+        "手机（CPI）",
+        "16.7%"
+       ]
+      ]
+     },
+     "comment": "1. 手机、电脑零售价同比分别涨16.7%和23.0%，存储涨价已普遍传导到国内零售端，整机提价是全行业现象，我司终端提价不会单独处于价格劣势。\n2. 电子设备出厂价10月环比只涨0.1%，远低于全部工业品的0.7%，元器件涨价动能在放缓；若延续，终端和服务器整机成本压力可能接近高点。",
+     "sources": [
+      {
+       "name": "新华网",
+       "url": "https://www.news.cn/fortune/20261109/decb1630fe0f4b03b1eedaed46676cc1/c.html"
+      },
+      {
+       "name": "21经济网",
+       "url": "https://www.21jingji.com/article/20261109/herald/dcaf098023ac1280cc29ba38da28ba31.html"
+      },
+      {
+       "name": "新浪财经",
+       "url": "https://k.sina.cn/article_5953740931_162dee083067044w06.html"
+      },
+      {
+       "name": "澎湃新闻",
+       "url": "https://www.thepaper.cn/newsDetail_forward_34439802"
       }
      ]
     }
@@ -147,20 +406,52 @@
    "items": [
     {
      "tag": "关注",
-     "title": "台积电回应3D DRAM传闻：称始终专注代工核心业务，未承认应英伟达要求进军存储",
-     "summary": "针对The Information所称台积电应英伟达要求评估生产3D DRAM，台积电发言人向Tom's Hardware表示公司始终专注专业集成电路代工核心业务，未正面承认相关计划；The Information坚持其消息来源。",
+     "title": "存储价格分化：NAND现货明显回落，模组厂与群联称DRAM仍比NAND更紧缺",
+     "summary": "据快科技11月9日援引DRAMeXchange与韩亚证券数据，512Gb TLC颗粒现货价由23美元降至16美元，1Tb TLC/QLC由32美元降至26美元，而内存现货与合约价仍在涨。创见董事长束崇万称DRAM与NAND价格已到顶、短期持平，DRAM更紧缺，明年上半年配额仍不足；群联CEO潘健成称NAND价格僵持只是暂时，2027年春节后需求将回升。",
+     "table": {
+      "caption": "NAND颗粒现货价变化（据快科技引DRAMeXchange/韩亚证券）",
+      "columns": [
+       "品类",
+       "此前（美元）",
+       "最新（美元）"
+      ],
+      "rows": [
+       [
+        "512Gb TLC",
+        "23",
+        "16"
+       ],
+       [
+        "1Tb TLC/QLC",
+        "32",
+        "26"
+       ]
+      ]
+     },
+     "comment": "1. 跌的是NAND现货，DRAM配额到明年上半年仍不足，终端BOM里存储成本的压力主要还在内存，不在闪存；手机、PC若想靠存储降成本，只能在闪存容量配置上找空间，内存规格难降。",
      "sources": [
       {
-       "name": "IT之家",
-       "url": "https://www.ithome.com/1/023/870.htm"
+       "name": "新浪科技（快科技）：SSD硬盘有机会便宜了 闪存价格突降",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniyears6426746.shtml"
       },
       {
-       "name": "新浪科技",
-       "url": "https://finance.sina.com.cn/tech/digi/2026-11-08/doc-inixywfh4204153.shtml"
+       "name": "新浪科技：存储暴利终结！模组厂获利回归常态：DRAM比NAND更紧缺",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniycfna6548378.shtml"
       },
       {
-       "name": "Yahoo奇摩新闻",
-       "url": "https://tw.news.yahoo.com/3d-dram%E4%B9%9F%E8%A6%81%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%A2%9D%E9%BE%8D-%E5%A4%96%E5%AA%92%E7%88%86%E6%96%991%E5%85%A7%E5%B9%95-%E9%9F%93%E5%BB%A0%E6%86%82%E5%BF%83-092506344.html"
+       "name": "新浪财经：NAND价格僵持只是暂时！群联CEO潘健成：2027春节后需求要大爆发",
+       "url": "https://finance.sina.cn/tech/2026-11-09/detail-iniyazcy6433889.d.html"
+      }
+     ]
+    },
+    {
+     "tag": "关注",
+     "title": "清溢光电拟投不超过15亿元建设高端半导体掩膜版生产基地三期",
+     "summary": "清溢光电11月9日公告，控股子公司拟投资建设高端半导体掩膜版生产基地三期项目，计划总投资不超过15亿元人民币。",
+     "sources": [
+      {
+       "name": "新浪半导体热点小时报（2026年11月09日20时）",
+       "url": "https://k.sina.cn/article_7857201856_1d45362c001908u86o.html"
       }
      ]
     }
@@ -170,15 +461,15 @@
  "watch": [
   {
    "when": "11月10日 周二",
-   "text": "美方301关税178项排除（美东9日24时到期）与中方稀土等出口管制暂停到期，看双方是否发布延期文件；海关总署10月进出口数据；双11巅峰期开启。"
+   "text": "台积电10月营收；CoreWeave三季报（美东10日盘后，北京11日晨），看AI云订单积压与资本开支指引。"
   },
   {
-   "when": "11月11日 周三—11月13日 周五",
-   "text": "黄仁勋答复国会闭门说明期限（11日）；中芯国际三季报（12日盘后）、思科FY27Q1财报（美东12日）；问界新M8上市（13日）。"
+   "when": "11月12日 周四—11月13日 周五",
+   "text": "中芯国际三季报（12日）、思科FY27Q1财报（美东12日）；北汽星钽5X上市（12日）、问界新M8上市（13日）。"
   },
   {
-   "when": "11月17日 周二",
-   "text": "英伟达FY27Q3财报；美光与桃园工会第四次劳资协商。"
+   "when": "11月17日 周二—11月19日 周四",
+   "text": "英伟达FY27Q3财报与美光桃园工会第四次协商（17日）；深圳APEC领导人会议（18—19日），看中美能否把休战延至1月10日之后。"
   }
  ]
 }

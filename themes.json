@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-09",
- "updatedAt": "2026-11-09 07:00",
+ "asOf": "2026-11-10",
+ "updatedAt": "2026-11-10 07:40",
  "config": [
   {
    "domain": "汇率",
@@ -47,20 +47,16 @@
    "id": "fx",
    "name": "汇率走势",
    "domain": "横向",
-   "judgment": "非农超预期，美元走强欧元回落",
+   "judgment": "非农后美元偏强，欧元对人民币明显走低",
    "direction": "持平",
-   "directionNote": "较11月5日：USD/CNY中间价调降12基点，EUR/USD参考价跌0.53%",
-   "asOf": "2026-11-06",
-   "change": "本期新增：11月6日USD/CNY、EUR/CNY中间价，ECB 11月6日EUR/USD参考价，美国10月非农数据。在岸即期日度序列仍未取得；本期未找到新的机构数值预测。",
+   "directionNote": "较11月6日：USD/CNY中间价调升20基点，EUR/CNY下调510基点",
+   "asOf": "2026-11-09",
+   "change": "本期新增：11月9日USD/CNY、EUR/CNY中间价。EUR/CNY仅取得一个转载来源；ECB 11月9日EUR/USD参考价未检索到，序列未更新；未找到新的机构数值预测。",
    "pairs": [
     {
      "pair": "USD/CNY",
      "label": "美元/人民币",
      "series": [
-      {
-       "d": "2026-08-07",
-       "v": 6.7904
-      },
       {
        "d": "2026-08-10",
        "v": 6.7884
@@ -296,32 +292,36 @@
       {
        "d": "2026-11-06",
        "v": 6.7168
+      },
+      {
+       "d": "2026-11-09",
+       "v": 6.7188
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
-      "name": "观点网（转中国外汇交易中心）",
-      "url": "https://www.guandian.cn/article/20261106/624069.html",
-      "date": "2026-11-06"
+      "name": "中新网（转中国外汇交易中心）",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728616.shtml",
+      "date": "2026-11-09"
      },
      "compare": null,
      "compareNote": "在岸即期收盘价：暂无可靠数据（未取得可核实的日度序列），故不显示对照线。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-09",
+       "v": 6.7188
+      },
+      "prev": {
        "d": "2026-11-06",
        "v": 6.7168
       },
-      "prev": {
-       "d": "2026-11-05",
-       "v": 6.7156
-      },
-      "dayPct": 0.02,
+      "dayPct": 0.03,
       "base30": {
-       "d": "2026-10-08",
-       "v": 6.7367
+       "d": "2026-10-09",
+       "v": 6.733
       },
-      "d30Pct": -0.3,
+      "d30Pct": -0.21,
       "hi": {
        "d": "2026-08-18",
        "v": 6.7905
@@ -445,10 +445,6 @@
      "pair": "EUR/CNY",
      "label": "欧元/人民币",
      "series": [
-      {
-       "d": "2026-08-07",
-       "v": 7.8067
-      },
       {
        "d": "2026-08-10",
        "v": 7.8171
@@ -684,13 +680,17 @@
       {
        "d": "2026-11-06",
        "v": 7.5191
+      },
+      {
+       "d": "2026-11-09",
+       "v": 7.4681
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
-      "name": "21经济网（转中国外汇交易中心）",
-      "url": "https://www.21jingji.com/article/20261106/herald/56718ada27b917412cb7dc5fb20b4970.html",
-      "date": "2026-11-06"
+      "name": "金十数据（转中国外汇交易中心）",
+      "url": "https://shishixinwen.news/news/jin10/20261109091529923800",
+      "date": "2026-11-09"
      },
      "compare": {
       "name": "ECB参考汇率（对照）",
@@ -818,23 +818,23 @@
        "date": "2026-10-29"
       }
      },
-     "compareNote": "对照线为欧洲央行每日参考汇率（欧洲中部时间14:15定盘），与CFETS中间价（北京时间9:15公布）定价时点不同，二者存在差异属正常。ECB CNY页面最新数据为10月16日。 10月30日EUR/CNY中间价7.4792由11月2日7.4650及“下调142点”倒推。",
+     "compareNote": "对照线为欧洲央行每日参考汇率（欧洲中部时间14:15定盘），与CFETS中间价（北京时间9:15公布）定价时点不同，二者存在差异属正常。ECB CNY页面最新数据为10月16日。 10月30日EUR/CNY中间价7.4792由11月2日7.4650及“下调142点”倒推。 11月9日中间价7.4681仅见金十数据转载，未取得官方原文。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-09",
+       "v": 7.4681
+      },
+      "prev": {
        "d": "2026-11-06",
        "v": 7.5191
       },
-      "prev": {
-       "d": "2026-11-05",
-       "v": 7.5243
-      },
-      "dayPct": -0.07,
+      "dayPct": -0.68,
       "base30": {
-       "d": "2026-10-08",
-       "v": 7.5404
+       "d": "2026-10-09",
+       "v": 7.5323
       },
-      "d30Pct": -0.28,
+      "d30Pct": -0.85,
       "hi": {
        "d": "2026-08-21",
        "v": 7.8906
@@ -1267,32 +1267,31 @@
     "EUR/USD": null
    },
    "dayMove": {
-    "headline": "美非农大超预期，美元走强压低欧元",
+    "headline": "非农后美元偏强，欧元中间价跌0.68%",
     "points": [
-     "11月6日USD/CNY中间价6.7168，调降12基点",
-     "EUR/CNY中间价7.5191，下调52基点",
-     "ECB参考价EUR/USD 1.1165，较前日1.1224跌0.53%",
-     "美10月非农增16.5万，远超预期约6.5万"
+     "11月9日USD/CNY中间价6.7188，调升20基点",
+     "EUR/CNY中间价7.4681，较前日下调510基点",
+     "中间价隐含欧元兑美元约1.1115，上周五约1.1194",
+     "美10月非农增16.5万、远超预期，为上周五主要驱动"
     ],
-    "detail": "11月6日USD/CNY中间价6.7168，调降12基点；EUR/CNY中间价7.5191，下调52基点；ECB参考价EUR/USD 1.1165，较前日1.1224跌0.53%；美10月非农增16.5万，远超预期约6.5万",
     "src": [
      {
-      "name": "21经济网（转中国外汇交易中心）",
-      "url": "https://www.21jingji.com/article/20261106/herald/56718ada27b917412cb7dc5fb20b4970.html",
-      "date": "2026-11-06",
+      "name": "中新网（转中国外汇交易中心）",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728616.shtml",
+      "date": "2026-11-09",
       "repost": true
      },
      {
-      "name": "观点网（转中国外汇交易中心）",
-      "url": "https://www.guandian.cn/article/20261106/624069.html",
-      "date": "2026-11-06",
+      "name": "21财经（转中国外汇交易中心）",
+      "url": "https://m.21jingji.com/article/20261109/herald/f06e588dbe72f0a54fde1b6ff4163042.html",
+      "date": "2026-11-09",
       "repost": true
      },
      {
-      "name": "欧洲央行汇率数据页",
-      "url": "https://data.ecb.europa.eu/key-figures/ecb-interest-rates-and-exchange-rates/exchange-rates",
-      "date": "2026-11-06",
-      "repost": false
+      "name": "金十数据（转中国外汇交易中心）",
+      "url": "https://shishixinwen.news/news/jin10/20261109091529923800",
+      "date": "2026-11-09",
+      "repost": true
      },
      {
       "name": "CNBC",
@@ -1300,7 +1299,8 @@
       "date": "2026-11-06",
       "repost": false
      }
-    ]
+    ],
+    "detail": "11月9日USD/CNY中间价6.7188，调升20基点；EUR/CNY中间价7.4681，较前日下调510基点；中间价隐含欧元兑美元约1.1115，上周五约1.1194；美10月非农增16.5万、远超预期，为上周五主要驱动"
    },
    "background": [
     {
@@ -1374,7 +1374,7 @@
     }
    ],
    "forecastNote": "预测只收录有出处的机构公开目标价。EUR/USD收录近60天内发布的预测（ING、德商银行、瑞银）。USD/CNY的机构预测均发布于60天前（5—8月），已标“较旧”，仅供参考；近60天未找到带数值的USD/CNY机构目标价。EUR/CNY暂无可靠预测。未找到彭博汇总中位数。",
-   "notFound": "1. USD/CNY：近60天内未找到带数值的机构年末或季度末目标价（德商银行、法兴10月仅给出“渐进升值”的定性判断），表中USD/CNY预测均发布于5—8月，已标“较旧”。2. EUR/CNY：未找到任何机构预测。3. 未找到彭博等机构汇总的预测中位数；摩根士丹利、摩根大通、花旗、渣打、野村、中金等近期数值预测未找到。4. 在岸人民币即期收盘价的日度序列未取得可靠来源，图中未画对照线。5. ECB参考汇率：USD最新为10月28日（10月27日缺），CNY最新为10月16日。"
+   "notFound": "1. USD/CNY：近60天内未找到带数值的机构年末或季度末目标价（德商银行、法兴10月仅给出“渐进升值”的定性判断），表中USD/CNY预测均发布于5—8月，已标“较旧”。2. EUR/CNY：未找到任何机构预测。3. 未找到彭博等机构汇总的预测中位数；摩根士丹利、摩根大通、花旗、渣打、野村、中金等近期数值预测未找到。4. 在岸人民币即期收盘价的日度序列未取得可靠来源，图中未画对照线。5. ECB参考汇率：11月9日EUR/USD参考价本次未检索到（ECB站点无法访问）；USD最新为10月28日（10月27日缺），CNY最新为10月16日。"
   },
   "phone": {
    "id": "phone",
@@ -1965,10 +1965,10 @@
   "memory": {
    "id": "memory",
    "name": "介质（存储）供需与价值走势",
-   "judgment": "美光协商仍无果，现货微跌但供给偏紧",
+   "judgment": "NAND现货回落，DRAM仍偏紧",
    "direction": "持平",
-   "directionNote": "较11月5日：美光停工延续，DRAM现货小幅回落，合约价预测未变",
-   "asOf": "2026-11-06",
+   "directionNote": "较11月6日：NAND现货明显回落，但DRAM配额仍紧、合约价预测未变",
+   "asOf": "2026-11-09",
    "keyNumbers": [
     {
      "label": "SK海力士2027—2028年产能长协覆盖",
@@ -2026,8 +2026,59 @@
      }
     }
    ],
-   "change": "本期新增：美光第三次劳资协商无果、17日再谈；据报台积电评估3D DRAM；TrendForce翻新内存渗透预测；11月6日DRAM现货价。TrendForce 1Q27合约价预测仍未发布。",
+   "change": "本期新增：NAND颗粒现货回落；10月CPI手机、计算机零售价同比+16.7%、+23.0%；华邦称涨价不可持续。TrendForce 1Q27合约价预测仍未发布。",
    "facts": [
+    {
+     "text": "NAND现货回落：据快科技引DRAMeXchange，512Gb TLC颗粒由23美元降至16美元，1Tb由32美元降至26美元；创见称DRAM更紧缺，配额到明年上半年仍不足。",
+     "src": [
+      {
+       "name": "新浪科技（快科技）",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniyears6426746.shtml",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniycfna6548378.shtml",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "新浪财经",
+       "url": "https://finance.sina.cn/tech/2026-11-09/detail-iniyazcy6433889.d.html",
+       "date": "2026-11-09",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "终端零售涨价：统计局10月CPI中数据存储设备同比+45.4%，平板+29.3%，计算机+23.0%，手机+16.7%；电子设备出厂价同比+5.9%、环比仅+0.1%。",
+     "src": [
+      {
+       "name": "新华网",
+       "url": "https://www.news.cn/fortune/20261109/decb1630fe0f4b03b1eedaed46676cc1/c.html",
+       "date": "2026-11-09",
+       "repost": false
+      },
+      {
+       "name": "21经济网",
+       "url": "https://www.21jingji.com/article/20261109/herald/dcaf098023ac1280cc29ba38da28ba31.html",
+       "date": "2026-11-09",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "华邦称涨价难持续：董事长焦佑钧接受日经亚洲专访称AI驱动的内存涨价不可持续，目前只有AI公司负担得起。",
+     "src": [
+      {
+       "name": "日经亚洲",
+       "url": "https://asia.nikkei.com/editor-s-picks/interview/taiwan-chipmaker-ceo-warns-memory-price-rises-are-unsustainable",
+       "date": "2026-11-09",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "美光桃园劳资协商：11月6日第三次协商无共识，工会要求营业利润15%分润；17日第四次协商，此前据彭博桃园30–45亿美元新厂已基本停工。",
      "src": [
@@ -2556,6 +2607,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：存储涨价出现分化，NAND现货先松动，DRAM仍偏紧，终端成本压力主要在内存。",
+     "confidence": "中",
+     "basis": "NAND颗粒现货降约20%—30%；创见、群联称DRAM配额到明年上半年仍不足"
+    },
+    {
      "text": "推断：2027年NAND缺口靠扩产补不上，闪存价格2027年仍难回落。",
      "confidence": "中",
      "basis": "闪迪称2027年需求增约40%、供应增十几个百分点；高盛预计两大原厂2027年NAND均价再涨约三成"
@@ -2767,6 +2823,41 @@
     }
    ],
    "sources": [
+    {
+     "name": "21经济网",
+     "url": "https://www.21jingji.com/article/20261109/herald/dcaf098023ac1280cc29ba38da28ba31.html",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "新华网",
+     "url": "https://www.news.cn/fortune/20261109/decb1630fe0f4b03b1eedaed46676cc1/c.html",
+     "date": "2026-11-09",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "新浪财经",
+     "url": "https://finance.sina.cn/tech/2026-11-09/detail-iniyazcy6433889.d.html",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "新浪科技",
+     "url": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniycfna6548378.shtml",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "新浪科技（快科技）",
+     "url": "https://finance.sina.com.cn/tech/roll/2026-11-09/doc-iniyears6426746.shtml",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "TrendForce DRAM现货价",
      "url": "https://www.trendforce.com.tw/price/dram/dram_spot",
@@ -3144,30 +3235,30 @@
   "auto": {
    "id": "auto",
    "name": "智能汽车",
-   "judgment": "零售降25%，乾崑新合作车型起量偏慢",
-   "direction": "持平",
-   "directionNote": "较11月4日：GX7月均交付不到3000台，鸿蒙智行份额仍在低位",
-   "asOf": "2026-11-08",
+   "judgment": "10月零售终值降27%，新能源也降13.7%",
+   "direction": "恶化",
+   "directionNote": "较11月8日：零售终值同比-27.1%，差于初步统计的-25%",
+   "asOf": "2026-11-09",
    "keyNumbers": [
     {
-     "label": "10月乘用车零售（乘联会初步）",
-     "value": "169.3万辆",
-     "compare": "同比-25%，环比+5%；新能源114.8万辆，同比-10%",
+     "label": "10月乘用车零售（乘联会终值）",
+     "value": "164.3万辆",
+     "compare": "较2025年10月-27.1%，较9月+1.5%；新能源110.9万辆，同比-13.7%",
      "source": {
-      "name": "新浪科技（IT之家）",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-11-04/doc-inixqhks9378643.shtml",
-      "date": "2026-11-04",
+      "name": "IT之家",
+      "url": "https://www.ithome.com/1/024/211.htm",
+      "date": "2026-11-09",
       "repost": true
      }
     },
     {
      "label": "10月新能源渗透率",
-     "value": "零售口径67.8%",
-     "compare": "9月零售口径67.0%",
+     "value": "零售口径67.5%",
+     "compare": "9月零售口径67.0%；初步数据为67.8%",
      "source": {
-      "name": "新浪科技（IT之家）",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-11-04/doc-inixqhks9378643.shtml",
-      "date": "2026-11-04",
+      "name": "IT之家",
+      "url": "https://www.ithome.com/1/024/211.htm",
+      "date": "2026-11-09",
       "repost": true
      }
     },
@@ -3183,8 +3274,72 @@
      }
     }
    ],
-   "change": "本期新增：启境GX7上市约六周交付破4000台；1–10月增程新车42款、同比多26款。中汽协10月数据、乘联会分厂商零售仍未发布。",
+   "change": "本期新增：乘联会10月终值（零售-27.1%、新能源零售-13.7%、出口+68.5%）；据报玛莎拉蒂合作项目完成外观设计。中汽协10月数据仍未发布。",
    "facts": [
+    {
+     "text": "乘联会10月数据：终值零售164.3万辆（-27.1%），差于初步169.3万辆；新能源零售110.9万辆（-13.7%），渗透率67.5%；出口92.8万辆（+68.5%），占厂商销量35%。",
+     "src": [
+      {
+       "name": "IT之家",
+       "url": "https://www.ithome.com/1/024/211.htm",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "CnEVPost",
+       "url": "https://cnevpost.com/2026/11/09/china-oct-2026-nev-retail-sales-cpca/",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "Reuters（Investing.com转载）",
+       "url": "https://www.investing.com/news/economic-indicators/chinas-october-car-exports-stay-resilient-falling-domestic-sales-yet-to-hit-bottom-5010503",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "新浪科技（IT之家）",
+       "url": "https://finance.sina.com.cn/tech/digi/2026-11-04/doc-inixqhks9378643.shtml",
+       "date": "2026-11-04",
+       "repost": true
+      },
+      {
+       "name": "CnEVPost",
+       "url": "https://cnevpost.com/2026/11/04/china-oct-nev-retail-preliminary-cpca/",
+       "date": "2026-11-04",
+       "repost": true
+      },
+      {
+       "name": "新浪科技",
+       "url": "https://finance.sina.com.cn/tech/digi/2026-11-03/doc-inixncms9901460.shtml",
+       "date": "2026-11-03",
+       "repost": true
+      },
+      {
+       "name": "CnEVPost",
+       "url": "https://cnevpost.com/2026/11/03/cpca-estimates-china-oct-2026-nev-wholesale/",
+       "date": "2026-11-03",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "玛莎拉蒂合作项目：据第一财经，华为、江淮与Stellantis项目已完成外观设计，目标2027年四季度量产，国内挂尊界、海外挂玛莎拉蒂；三方尚无约束性协议。",
+     "src": [
+      {
+       "name": "CarNewsChina（援引第一财经）",
+       "url": "https://carnewschina.com/2026/11/09/maseratis-china-developed-ev-reportedly-completes-exterior-design-production-targeted-for-2027/",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "新浪新闻（转第一财经）",
+       "url": "https://www.sina.cn/weibo/detail/5363382933785605.html",
+       "date": "2026-11-09",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "启境GX7交付：广汽与乾崑合作的启境GX7自9月23日上市累计交付破4000台（品牌披露），售价23.99万–30.19万元，搭载ADS 5与鸿蒙座舱。",
      "src": [
@@ -3209,35 +3364,6 @@
        "name": "新浪新闻（转钛媒体）",
        "url": "https://www.sina.cn/weibo/detail/5363008550997237.html",
        "date": "2026-11-08",
-       "repost": true
-      }
-     ]
-    },
-    {
-     "text": "乘联会10月初步数据：乘用车零售169.3万辆（-25%），新能源零售114.8万辆（-10%），渗透率67.8%；新能源批发约180万辆（+12%），增量来自出口。",
-     "src": [
-      {
-       "name": "新浪科技（IT之家）",
-       "url": "https://finance.sina.com.cn/tech/digi/2026-11-04/doc-inixqhks9378643.shtml",
-       "date": "2026-11-04",
-       "repost": true
-      },
-      {
-       "name": "CnEVPost",
-       "url": "https://cnevpost.com/2026/11/04/china-oct-nev-retail-preliminary-cpca/",
-       "date": "2026-11-04",
-       "repost": true
-      },
-      {
-       "name": "新浪科技",
-       "url": "https://finance.sina.com.cn/tech/digi/2026-11-03/doc-inixncms9901460.shtml",
-       "date": "2026-11-03",
-       "repost": true
-      },
-      {
-       "name": "CnEVPost",
-       "url": "https://cnevpost.com/2026/11/03/cpca-estimates-china-oct-2026-nev-wholesale/",
-       "date": "2026-11-03",
        "repost": true
       }
      ]
@@ -3532,9 +3658,9 @@
    ],
    "inferences": [
     {
-     "text": "推断：鸿蒙智行份额下滑主要不是大盘拖累，新能源零售只降10%，其份额由约5.3%降至约2.9%。",
+     "text": "推断：鸿蒙智行份额下滑主要不是大盘拖累，新能源零售降13.7%，其份额由约5.3%降至约3.0%。",
      "confidence": "中",
-     "basis": "鸿蒙智行10月交付33537台÷114.8万；上年68216台÷按-10%倒推的约127.6万"
+     "basis": "鸿蒙智行10月交付33537台÷110.9万（终值）；上年68216台÷按-13.7%倒推的约128.5万"
     },
     {
      "text": "推断：国内车企利润靠出口补，内销价格战不会缓和；合资利润塌陷使外资更看重低价智驾。",
@@ -3673,6 +3799,7 @@
     }
    ],
    "drivers": [
+    "出口拉动：10月乘用车出口92.8万辆、+68.5%，占厂商销量35%",
     "高油价：燃油车9月国内零售53万辆、同比-43%，新能源零售渗透率升至67.0%",
     "出口拉动批发：9月乘用车出口91.7万辆、+73.7%，批发-8.9%远好于零售-28%",
     "补贴政策不利：自主A00级电动车国内零售跌幅较大，拖累新能源零售-16.7%"
@@ -3725,6 +3852,41 @@
     }
    ],
    "sources": [
+    {
+     "name": "新浪新闻（转第一财经）",
+     "url": "https://www.sina.cn/weibo/detail/5363382933785605.html",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "CarNewsChina（援引第一财经）",
+     "url": "https://carnewschina.com/2026/11/09/maseratis-china-developed-ev-reportedly-completes-exterior-design-production-targeted-for-2027/",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "Reuters（Investing.com转载）",
+     "url": "https://www.investing.com/news/economic-indicators/chinas-october-car-exports-stay-resilient-falling-domestic-sales-yet-to-hit-bottom-5010503",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "CnEVPost",
+     "url": "https://cnevpost.com/2026/11/09/china-oct-2026-nev-retail-sales-cpca/",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "IT之家",
+     "url": "https://www.ithome.com/1/024/211.htm",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "新浪新闻（转钛媒体）",
      "url": "https://www.sina.cn/weibo/detail/5363008550997237.html",
@@ -6905,19 +7067,19 @@
    "id": "geo",
    "name": "中美、中欧地缘政策跟踪",
    "domain": "横向",
-   "judgment": "美方延关联方规则，同时催中方兑现稀土",
-   "direction": "持平",
-   "directionNote": "较11月5日：关联方规则风险推迟两个月，稀土与关税到期仍未明",
-   "asOf": "2026-11-06",
+   "judgment": "休战正式延至1月10日，仍属短期安排",
+   "direction": "改善",
+   "directionNote": "较11月6日：稀土与关税暂停11月10日到期风险解除",
+   "asOf": "2026-11-09",
    "keyNumbers": [
     {
      "label": "中美休战到期日",
-     "value": "2027-01-10（距今约74天）",
-     "compare": "原定2026-11-10，延长2个月",
+     "value": "2027-01-10",
+     "compare": "原定2026-11-10；11月9日中方税委会、商务部正式公告延期2个月",
      "source": {
-      "name": "Rinnovabili",
-      "url": "https://www.rinnovabili.net/policy-and-affairs/environmental-policies/chinese-rare-earth-exports-trump-xi-truce/",
-      "date": "2026-09-25",
+      "name": "The Star（路透）",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/china-extends-suspension-of-rare-earth-export-controls-until-january",
+      "date": "2026-11-09",
       "repost": true
      }
     },
@@ -6944,8 +7106,37 @@
      }
     }
    ],
-   "change": "本期新增：BIS关联方规则暂停延至2027年1月10日；美方与何立峰通话催落实稀土承诺；中方对欧两项反倾销立案。中方稀土暂停延期公告、301排除是否延期未检索到。",
+   "change": "本期新增：中方续停24%关税与稀土等管制至2027年1月10日；美方续停海事301措施，178项排除延期仅见转载，未见USTR原文。",
    "facts": [
+    {
+     "text": "休战延期落地：11月9日中方续停24%对美关税和稀土等出口管制至2027年1月10日；美方续停海事301措施，178项301排除据报延至1月9日。",
+     "src": [
+      {
+       "name": "The Star（路透）",
+       "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/china-extends-suspension-of-rare-earth-export-controls-until-january",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/world-news/china-extends-suspension-of-new-rare-earth-controls-until-january-10-126110900599_1.html",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "21经济网",
+       "url": "https://www.21jingji.com/article/20261109/herald/884f1f25152806a89de02d9466b91933.html",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "Tech Times",
+       "url": "https://www.techtimes.com/articles/330285/20261109/ustr-extends-section-301-tariff-exclusions-chinese-goods-entries-after-january-9-pay-full-duty.htm",
+       "date": "2026-11-09",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "美方催落实承诺：11月6日格里尔、贝森特与何立峰通话，要求中方落实稀土与农产品采购；据FT美方称中方仅兑现约三分之二。",
      "src": [
@@ -7324,11 +7515,6 @@
    ],
    "signals": [
     {
-     "what": "中方稀土暂停公告是否延期",
-     "when": "2026-11-10",
-     "why": "未延期则稀土磁材出口审批口径可能收紧"
-    },
-    {
      "what": "德国关键组件清单修订稿",
      "when": "（未官宣）",
      "why": "若正式列入5G基站，我司德国无线存量与新增均受禁"
@@ -7355,6 +7541,45 @@
     }
    ],
    "timeline": [
+    {
+     "date": "2026-11-09",
+     "region": "中国",
+     "title": "中美休战延期正式落地",
+     "status": "已生效",
+     "text": "税委会续停24%对美加征关税2个月、保留10%；商务部将稀土等出口管制暂停延至2027年1月10日，续停对美企清单措施；美方续停海事301，178项排除据报延至1月9日。",
+     "next": {
+      "date": "2026-11-18",
+      "text": "深圳APEC领导人会议，看能否转为长期安排"
+     },
+     "biz": "全业务",
+     "level": "高",
+     "src": [
+      {
+       "name": "The Star（路透）",
+       "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/china-extends-suspension-of-rare-earth-export-controls-until-january",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/world-news/china-extends-suspension-of-new-rare-earth-controls-until-january-10-126110900599_1.html",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "21经济网",
+       "url": "https://www.21jingji.com/article/20261109/herald/884f1f25152806a89de02d9466b91933.html",
+       "date": "2026-11-09",
+       "repost": true
+      },
+      {
+       "name": "Tech Times",
+       "url": "https://www.techtimes.com/articles/330285/20261109/ustr-extends-section-301-tariff-exclusions-chinese-goods-entries-after-january-9-pay-full-duty.htm",
+       "date": "2026-11-09",
+       "repost": true
+      }
+     ]
+    },
     {
      "date": "2026-11-06",
      "region": "美国",
@@ -7389,8 +7614,8 @@
      "status": "已公布",
      "text": "BIS宣布50%关联方规则暂停延至2027年1月10日，仅延长暂停、未撤销规则，定于11月9日刊登联邦公报；中方2025年第70号稀土暂停公告仍写11月10日到期。",
      "next": {
-      "date": "2026-11-10",
-      "text": "看中方是否发布稀土暂停延期公告"
+      "date": "2027-01-10",
+      "text": "与中方稀土暂停同日到期（中方已于11月9日延期）"
      },
      "biz": "海思与供应链、全业务",
      "level": "高",
@@ -8023,6 +8248,34 @@
    ],
    "sources": [
     {
+     "name": "Tech Times",
+     "url": "https://www.techtimes.com/articles/330285/20261109/ustr-extends-section-301-tariff-exclusions-chinese-goods-entries-after-january-9-pay-full-duty.htm",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "21经济网",
+     "url": "https://www.21jingji.com/article/20261109/herald/884f1f25152806a89de02d9466b91933.html",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "Business Standard",
+     "url": "https://www.business-standard.com/world-news/china-extends-suspension-of-new-rare-earth-controls-until-january-10-126110900599_1.html",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "The Star（路透）",
+     "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/china-extends-suspension-of-rare-earth-export-controls-until-january",
+     "date": "2026-11-09",
+     "repost": true,
+     "stale": false
+    },
+    {
      "name": "中新网",
      "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727307.shtml",
      "date": "2026-11-06",
@@ -8386,8 +8639,8 @@
     "name": "存储涨价周期能持续多久",
     "desc": "",
     "claim": "存储涨价周期将延续到2027年",
-    "summary": "推断：原厂与买方都预期短缺延续到2027年以后：安蒙11月4日称高通“没有需求问题，是供给问题”，并按2027年手机出货持平或下滑做计划；特努斯称内存价格前所未有、12月后仍涨，三星称2027年更缺，陈立武称高价延续到2027年。",
-    "confidence": "高"
+    "summary": "推断：原厂多数预期短缺延续到2027年，但已有松动迹象：华邦焦佑钧11月9日称AI驱动涨价不可持续；安蒙11月4日称“是供给问题”，特努斯称12月后仍涨，陈立武称高价延续到2027年。",
+    "confidence": "中"
    },
    {
     "id": "H5",
@@ -9250,6 +9503,28 @@
     },
     "point": "反对全面禁止对华销售美国产品，但支持最好技术优先供美国企业。",
     "question": "本人受董事会和国会调查后，其对华放开游说还能否影响白宫和商务部决策？",
+    "suggest": null
+   },
+   "musk|2026-11-09|Cybertruck订单": {
+    "hyps": [],
+    "main": null,
+    "stance": "中性",
+    "stances": {},
+    "point": "宁可放弃Cybertruck订单，也把得州产能集中给Cybercab，Robotaxi是特斯拉主要产能投向。",
+    "question": "Cybercab量产节奏能否支撑这一取舍？",
+    "suggest": null
+   },
+   "chiao_winbond|2026-11-09|AI驱动的内存涨价不可持": {
+    "hyps": [
+     "H4"
+    ],
+    "main": "H4",
+    "stance": "反对",
+    "stances": {
+     "H4": "反对"
+    },
+    "point": "存储厂商自己也认为AI推动的内存涨价不可持续，非AI行业已难以承受。",
+    "question": "涨价何时、以何种形式回落？非AI需求萎缩会否先压低消费类DRAM价格？",
     "suggest": null
    }
   },
