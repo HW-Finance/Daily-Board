@@ -1,5 +1,575 @@
 [
  {
+  "date": "2026-11-11",
+  "weekday": "周三",
+  "updatedAt": "2026-11-11 07:00",
+  "highlights": [
+   {
+    "text": "Anthropic招股书披露约9009亿美元算力等承诺，未来12个月到期707亿美元已接近其810亿美元年化收入，模型公司收入几乎全部转成算力订单。",
+    "item": "Anthropic更新招股书启动路演：算力等承诺约9009亿美元，年化收入约810亿美元"
+   },
+   {
+    "text": "阿里拟分拆平头哥赴港上市，同时做AI芯片和服务器CPU的对手将有独立融资渠道，昇腾、鲲鹏在互联网客户中多一个有钱的竞标者。",
+    "item": "阿里巴巴公告拟分拆平头哥赴港主板独立上市"
+   },
+   {
+    "text": "彭博称英伟达申报售予Megaspeed的芯片比贸易记录少约5万颗、特朗普称FBI调查黄仁勋，英伟达芯片经第三地入华的渠道面临收紧。",
+    "item": "彭博称英伟达申报售予Megaspeed芯片比贸易记录少约5万颗，特朗普称FBI正调查黄仁勋"
+   },
+   {
+    "text": "乾崑车型在鸿蒙智行之外密集上量：华境S累计交付破4万台，深蓝G318乾崑版19.68万元起，把ADS 5 Pro带到20万元以下。",
+    "item": "乾崑合作车型密集落地：华境S累计交付破4万台，深蓝G318乾崑版11日上市，启境GT7新版开启预定"
+   },
+   {
+    "text": "10月集成电路出口增137.1%、自动数据处理设备增114.8%，主要是涨价推动，我司终端和服务器存储成本仍无回落信号。",
+    "item": "10月出口同比增35.2%、进口增41.6%，集成电路出口395.94亿美元增137.1%，前10月顺差连续第二年破1万亿美元"
+   },
+   {
+    "text": "力积电10月营收同比增94%、据报明年代工涨价近20%，外购芯片涨价从存储扩到成熟制程。",
+    "item": "力积电10月营收80.28亿新台币同比增94%，据报明年代工价格看涨近20%"
+   }
+  ],
+  "sections": [
+   {
+    "key": "compute",
+    "name": "计算与云",
+    "items": [
+     {
+      "tag": "关注",
+      "title": "Anthropic更新招股书启动路演：算力等承诺约9009亿美元，年化收入约810亿美元",
+      "summary": "11月10日Anthropic更新S-1并启动路演，发行价70–78美元，顶端估值约1.4万亿美元。截至9月30日的采购与租赁承诺约9009亿美元，其中未来12个月到期约707亿美元；10月底年化收入约810亿美元。谷歌、英伟达各认购100亿美元，AMD认购25亿美元。",
+      "table": {
+       "caption": "Anthropic招股书关键数字",
+       "columns": [
+        "项目",
+        "数值"
+       ],
+       "rows": [
+        [
+         "承诺支出总额",
+         "约9009亿美元"
+        ],
+        [
+         "未来12个月到期",
+         "约707亿美元"
+        ],
+        [
+         "对谷歌承诺（含TPU）",
+         "至少约1145亿美元（另一口径1213亿）"
+        ],
+        [
+         "年化收入（10月31日）",
+         "约810亿美元，较9月底增100亿"
+        ],
+        [
+         "战略投资者认购",
+         "260亿美元（谷歌、英伟达各100亿，AMD 25亿）"
+        ]
+       ]
+      },
+      "comment": "1. 未来12个月到期的707亿美元承诺已接近810亿美元年化收入，头部模型公司的新增收入几乎全部转成算力采购；国内大模型厂商若收入同样上量，华为云和昇腾的算力订单会随之放大。",
+      "sources": [
+       {
+        "name": "StockTitan（S-1/A摘要）",
+        "url": "https://www.stocktitan.net/sec-filings/ANT/s-1-a-anthropic-pbc-amends-s-1-registration-statement-d2a82652ec9c.html"
+       },
+       {
+        "name": "RTÉ",
+        "url": "https://www.rte.ie/news/business/2026/1110/1598679-anthropic-sets-modest-1-trillion-ipo-valuation-target/"
+       },
+       {
+        "name": "MLQ.ai",
+        "url": "https://mlq.ai/news/anthropics-compute-bill-901-billion-of-cloud-chip-and-data-center-commitments-against-an-81-billion-run-rate/"
+       },
+       {
+        "name": "界面新闻",
+        "url": "https://www.jiemian.com/article/15242566.html"
+       },
+       {
+        "name": "FX168",
+        "url": "https://www.fx168news.com/express/fastnews/1466152"
+       },
+       {
+        "name": "文学城",
+        "url": "https://www.wenxuecity.com/news/2026/11/10/126832491.html"
+       }
+      ]
+     },
+     {
+      "tag": "竞争",
+      "title": "阿里巴巴公告拟分拆平头哥赴港主板独立上市",
+      "summary": "11月10日晚阿里公告，港交所已确认可分拆平头哥以H股在港主板上市，完成后仍为阿里子公司；发售规模未定，尚需上市委员会批准及证监会备案。据报拟募资20亿–30亿美元。平头哥产品含真武AI芯片、倚天CPU。",
+      "comment": "1. 平头哥同时有AI芯片（真武）和服务器CPU（倚天），与昇腾、鲲鹏两条线正面重叠，独立上市后有了自己的融资渠道，也更需要阿里以外的客户支撑估值，字节、腾讯等互联网客户的国产算力采购多了一个有资金的竞标者。\n2. 百度昆仑芯也在筹备赴港上市，大厂自研芯片正从“自用”转向“对外卖”，昇腾在互联网客户中要面对有母公司订单托底的对手。",
+      "sources": [
+       {
+        "name": "21世纪经济报道",
+        "url": "https://www.21jingji.com/article/20261110/herald/65d09abf4f5e0d1ef3643ec804235d2d.html"
+       },
+       {
+        "name": "网易（转载）",
+        "url": "https://www.163.com/dy/article/LBDMJLLG0531SC48.html"
+       },
+       {
+        "name": "新浪财经",
+        "url": "https://k.sina.cn/article_5953466437_162dab0450670bhhta.html"
+       }
+      ]
+     },
+     {
+      "tag": "关注",
+      "title": "CoreWeave三季度收入36.6亿美元增168%，积压订单升至1325亿美元并上调全年指引",
+      "summary": "CoreWeave美东11月10日盘后发布三季报：收入36.6亿美元，同比增168%；净亏损7.09亿美元；积压订单1325亿美元（6月底约1040亿）。全年收入指引上调至130亿–133亿美元，季末债务470亿美元。",
+      "table": {
+       "caption": "CoreWeave 2026年三季度",
+       "columns": [
+        "指标",
+        "数值"
+       ],
+       "rows": [
+        [
+         "收入",
+         "36.6亿美元（同比+168%）"
+        ],
+        [
+         "净亏损",
+         "7.09亿美元（去年同期1.10亿）"
+        ],
+        [
+         "积压订单",
+         "1325亿美元（6月底约1040亿）"
+        ],
+        [
+         "2026全年收入指引",
+         "130亿–133亿美元"
+        ],
+        [
+         "2026资本开支",
+         "370亿–390亿美元"
+        ],
+        [
+         "季末债务",
+         "470亿美元（上季350亿）"
+        ]
+       ]
+      },
+      "sources": [
+       {
+        "name": "CoreWeave投资者关系",
+        "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+       },
+       {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+       },
+       {
+        "name": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com/world/2026/11/11/coreweave-lifts-revenue-outlook-as-backlog-climbs-30-percent"
+       }
+      ]
+     },
+     {
+      "tag": "竞争",
+      "title": "谷歌最强模型Gemini 4 Carbon向付费开发者全面开放",
+      "summary": "11月10日谷歌向付费开发者全面开放Gemini 4 Carbon（API付费层、AI Studio、Android Studio），主打网络安全与长程任务；推出价每百万输入/输出Token 2/10美元。该模型10月28日发布时仅限部分网络安全用户。",
+      "sources": [
+       {
+        "name": "Google Blog（开发者）",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/"
+       },
+       {
+        "name": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "devices",
+    "name": "终端",
+    "items": [
+     {
+      "tag": "竞争",
+      "title": "iPhone 18 Pro双11天猫叠加优惠最高降2300元，256GB到手价低至7699元",
+      "summary": "11月10日多家媒体报道，iPhone 18 Pro 256GB官网价9999元，在天猫叠加苹果官方立减300元、惊喜券及以旧换新补贴后最低7699元；无旧机或旧机残值低时到手约8499–9199元。该机开售不足一月即在第三方平台破发。",
+      "table": {
+       "caption": "iPhone 18 Pro 256GB双11价格",
+       "columns": [
+        "口径",
+        "价格（元）"
+       ],
+       "rows": [
+        [
+         "官网标价",
+         "9999"
+        ],
+        [
+         "第三方平台补贴后",
+         "9099"
+        ],
+        [
+         "无旧机/低残值到手",
+         "8499–9199"
+        ],
+        [
+         "天猫叠加全部优惠最低",
+         "7699"
+        ]
+       ]
+      },
+      "comment": "1. 苹果不动官网价、只靠平台券和以旧换新把18 Pro到手价最多压低23%至7699元，开售不足一月即破发，双11高端价位段我司Mate系列面对的是实际降价的iPhone。",
+      "sources": [
+       {
+        "name": "新浪新闻（微博）",
+        "url": "https://www.sina.cn/weibo/detail/5363695289108726.html"
+       },
+       {
+        "name": "17173",
+        "url": "https://news.17173.com/content/11092026/213137222.shtml"
+       },
+       {
+        "name": "21经济网",
+        "url": "https://www.21jingji.com/article/20261109/herald/ead942b69921a9a063fe13a6fd7ae916.html"
+       }
+      ]
+     },
+     {
+      "tag": "关注",
+      "title": "华为官宣鸿蒙小折叠电脑MateBook Fold S，11月14日10:08开启预订",
+      "summary": "11月10日余承东官宣MateBook Fold S，为华为第二款量产折叠电脑，展开14.7英寸，背部配可看消息和日程的小屏，三种配色；据报重约600g、搭载麒麟X9系列并预装HarmonyOS 6.1。价格和完整配置未公布。",
+      "sources": [
+       {
+        "name": "IT之家",
+        "url": "https://www.ithome.com/1/024/742.htm"
+       },
+       {
+        "name": "凤凰网科技",
+        "url": "https://tech.ifeng.com/c/8xw6T13BUc3"
+       },
+       {
+        "name": "网易",
+        "url": "https://www.163.com/dy/article/LBC900CQ0511CPVM.html"
+       },
+       {
+        "name": "ITBear科技资讯",
+        "url": "https://www.itbear.com.cn/html/2026-11/1581447.html"
+       },
+       {
+        "name": "网易（MateBook Fold二代定价）",
+        "url": "https://www.163.com/dy/article/L3J56F2H051191D6.html"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "network",
+    "name": "联接",
+    "items": [
+     {
+      "tag": "关注",
+      "title": "菲律宾Globe Telecom前三季度资本开支同比增14%至358亿比索，主要投向数据网络",
+      "summary": "Globe Telecom 11月10日披露，2026年前三季度资本开支同比增14%至358亿比索，大部分投向数据网络；家庭宽带收入增6%，光纤用户增长30%。",
+      "sources": [
+       {
+        "name": "TelecomLead",
+        "url": "https://telecomlead.com/news/telecom-news-globe-telecom-ntt-mitsubishi-electric-safran-data-systems-128666"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "auto",
+    "name": "汽车",
+    "items": [
+     {
+      "tag": "利好",
+      "title": "乾崑合作车型密集落地：华境S累计交付破4万台，深蓝G318乾崑版11日上市，启境GT7新版开启预定",
+      "summary": "11月10日，上汽通用五菱华境S大六座SUV宣布累计交付突破4万台，全系标配乾崑智驾ADS 5 Pro；长安深蓝G318四驱畅行乾崑版定于11月11日上市（ADS 5 Pro+鸿蒙座舱5，限时19.68万元起）；广汽启境GT7纯电及增程新版开启预定，11月13日上市。",
+      "comment": "1. 鸿蒙智行10月交付3.35万台、连续两月回落，同期华境S、深蓝、启境等非鸿蒙智行品牌的乾崑车型在上量，我司智能汽车解决方案的装车量已不只取决于鸿蒙智行一个渠道。\n2. 深蓝G318乾崑版19.68万元起，ADS 5 Pro进入20万元以下车型，装车量受益，单车收入是否下降取决于与长安的计价方式。",
+      "sources": [
+       {
+        "name": "网易",
+        "url": "https://www.163.com/dy/article/LBCEDUTN0511B8LM.html"
+       },
+       {
+        "name": "17173",
+        "url": "https://news.17173.com/content/11102026/133203827.shtml"
+       },
+       {
+        "name": "新浪",
+        "url": "https://www.sina.cn/weibo/detail/5363847466583057.html"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "energy",
+    "name": "能源",
+    "items": [
+     {
+      "tag": "利好",
+      "title": "中国移动2027—2028年模块化UPS集采公示中标候选人，维谛技术、华为等五家入围",
+      "summary": "11月10日，中国移动公示2027—2028年模块化UPS集采中标候选人，维谛技术、华为等五家入围，采购周期两年；各家报价与份额以官方公示为准。上一轮（2024年招标）80~600kVA模块化UPS规模约7508台。",
+      "sources": [
+       {
+        "name": "搜狐",
+        "url": "https://www.sohu.com/a/1099587879_128075"
+       },
+       {
+        "name": "新浪科技（上一轮招标背景）",
+        "url": "https://finance.sina.com.cn/tech/roll/2024-11-22/doc-incwxnsk3848614.shtml"
+       }
+      ]
+     },
+     {
+      "tag": "关注",
+      "title": "SMM 11月10日光伏价格：电池片暂稳，硅片年末让利出货继续走弱",
+      "summary": "SMM 11月10日报价：183N电池片0.29–0.296元/W，0.29元/W被视为关键关口；210R电池片出口窗口预计11月中旬结束，之后可能回调。硅片延续弱势，18X报0.929–0.949元/片。",
+      "table": {
+       "caption": "SMM 11月10日光伏主链报价",
+       "columns": [
+        "品类",
+        "规格",
+        "价格"
+       ],
+       "rows": [
+        [
+         "电池片",
+         "183N",
+         "0.29–0.296元/W"
+        ],
+        [
+         "电池片",
+         "210RN",
+         "0.305–0.313元/W"
+        ],
+        [
+         "电池片",
+         "210N",
+         "0.31–0.315元/W"
+        ],
+        [
+         "硅片",
+         "18X",
+         "0.929–0.949元/片"
+        ],
+        [
+         "硅片",
+         "210RN",
+         "1.003–1.013元/片"
+        ],
+        [
+         "硅片",
+         "210N",
+         "1.108–1.128元/片"
+        ]
+       ]
+      },
+      "sources": [
+       {
+        "name": "新浪财经（转SMM）",
+        "url": "https://k.sina.cn/article_5952915720_162d249080670550d6.html"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "policy",
+    "name": "政策与地缘",
+    "items": [
+     {
+      "tag": "关注",
+      "title": "10月出口同比增35.2%、进口增41.6%，集成电路出口395.94亿美元增137.1%，前10月顺差连续第二年破1万亿美元",
+      "summary": "海关总署11月10日公布：10月出口同比增35.2%（路透预期33.5%），进口增41.6%，顺差1052.8亿美元，前10月顺差超1万亿美元；集成电路出口增137.1%，自动数据处理设备增114.77%；据CNBC对欧盟出口增24.4%。",
+      "table": {
+       "caption": "2026年10月外贸主要数据（美元计）",
+       "columns": [
+        "指标",
+        "10月数值",
+        "同比"
+       ],
+       "rows": [
+        [
+         "出口",
+         "4123.3亿美元",
+         "+35.2%"
+        ],
+        [
+         "进口",
+         "3070.5亿美元",
+         "+41.6%"
+        ],
+        [
+         "贸易顺差",
+         "1052.8亿美元",
+         "前10月超1万亿美元"
+        ],
+        [
+         "集成电路出口",
+         "395.94亿美元",
+         "+137.1%"
+        ],
+        [
+         "自动数据处理设备及零部件出口",
+         "—",
+         "+114.77%"
+        ],
+        [
+         "稀土出口",
+         "4386.0吨",
+         "前10月48097.2吨，-8.7%"
+        ]
+       ]
+      },
+      "comment": "1. 集成电路和自动数据处理设备出口金额都翻倍，分析认为主要由涨价而非出货量拉动，与10月PPI中存储设备零售价同比涨45.4%相互印证，我司终端和服务器的存储采购成本短期看不到回落信号。\n2. 前10月顺差连续第二年破万亿美元、对欧盟出口增24.4%，欧方以贸易失衡为由推进对华措施的理由更多，网络安全法高风险供应商条款对我司欧洲运营商业务的压力不会减轻。",
+      "sources": [
+       {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html"
+       },
+       {
+        "name": "21世纪经济报道",
+        "url": "https://www.21jingji.com/article/20261110/herald/b25e4e3a7586524ccf974bdcb8f3a131.html"
+       },
+       {
+        "name": "界面新闻",
+        "url": "https://www.jiemian.com/article/15315066.html"
+       },
+       {
+        "name": "澎湃新闻",
+        "url": "https://www.thepaper.cn/newsDetail_forward_34446211"
+       },
+       {
+        "name": "FX168",
+        "url": "https://www.fx168news.com/express/fastnews/1465860"
+       },
+       {
+        "name": "InvestingLive",
+        "url": "https://investinglive.com/news/china-october-exports-beat-forecasts-imports-surge-41-6-as-trade-surplus-narrows/"
+       }
+      ]
+     },
+     {
+      "tag": "关注",
+      "title": "彭博称英伟达申报售予Megaspeed芯片比贸易记录少约5万颗，特朗普称FBI正调查黄仁勋",
+      "summary": "据彭博，英伟达申报的经合作伙伴售予Megaspeed的芯片数比贸易记录少约5万颗，其法务总监2025年8月曾联系商务部调查人员。特朗普美东9日称FBI正调查黄仁勋；外交部10日称“中国间谍”说法是污蔑。众议院要求黄仁勋确认出席18日闭门说明。",
+      "comment": "1. 焦点已从个人丑闻转到经新加坡等第三地转售英伟达芯片的渠道，若18日闭门说明后美方收紧这类渠道的许可审查，国内客户获取英伟达算力更难，昇腾在国内智算采购中的替代空间扩大，力度取决于国会是否推动立法或BIS是否出手。",
+      "sources": [
+       {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/nvidia-s-intervention-in-chip-probe-brings-fresh-scrutiny"
+       },
+       {
+        "name": "Yahoo Finance（彭博）",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-intervened-us-probe-megaspeed-212826572.html"
+       },
+       {
+        "name": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/policy/president-trump-says-the-fbi-is-investigating-jensen-huangs-affair-nvidia-also-accused-of-intervening-in-megaspeed-chip-smuggling-investigation"
+       },
+       {
+        "name": "NBC News",
+        "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439"
+       },
+       {
+        "name": "新浪新闻（外交部例行记者会）",
+        "url": "https://news.sina.com.cn/c/2026-11-10/doc-iniyfuyz2625957.shtml"
+       },
+       {
+        "name": "美国众议院外交委员会",
+        "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "supply",
+    "name": "芯片半导体",
+    "items": [
+     {
+      "tag": "关注",
+      "title": "台积电10月营收5868.9亿新台币创单月新高，同比增59.7%",
+      "summary": "台积电11月10日公布10月合并营收5868.9亿新台币，环比增14.7%、同比增59.7%，超过8月5148亿元的前高；1–10月累计4.486万亿新台币，同比增43.3%。四季度指引为523–543亿美元，10月单月已完成约三分之一。",
+      "table": {
+       "caption": "台积电月度营收（新台币）",
+       "columns": [
+        "指标",
+        "数值",
+        "变化"
+       ],
+       "rows": [
+        [
+         "10月营收",
+         "5868.9亿",
+         "环比+14.7%，同比+59.7%"
+        ],
+        [
+         "1–10月累计",
+         "4.486万亿",
+         "同比+43.3%"
+        ],
+        [
+         "四季度指引",
+         "523–543亿美元",
+         "10月约占三分之一"
+        ]
+       ]
+      },
+      "sources": [
+       {
+        "name": "TipRanks",
+        "url": "https://www.tipranks.com/news/company-announcements/tsmc-reports-approximately-nt586-89-billion-october-revenue"
+       },
+       {
+        "name": "Hardware Busters",
+        "url": "https://hwbusters.com/news/tsmc-posts-record-nt586-9-billion-october-already-a-third-of-the-way-to-its-q4-target/"
+       },
+       {
+        "name": "新浪财经",
+        "url": "https://finance.sina.cn/2026-11-10/detail-iniyfqtc2689384.d.html"
+       }
+      ]
+     },
+     {
+      "tag": "风险",
+      "title": "力积电10月营收80.28亿新台币同比增94%，据报明年代工价格看涨近20%",
+      "summary": "力积电10月合并营收80.28亿新台币，环比增4.74%、同比增94.19%，创52个月新高；1–10月累计602.33亿元，同比增56.98%。据报其明年代工价格看涨近20%。",
+      "comment": "1. 台系成熟制程代工若明年涨价近20%，电源管理、驱动等成熟制程外购芯片的采购成本会上行，中芯、华虹等国内成熟制程代工也有了跟涨空间，我司终端和数字能源的外购芯片成本压力从存储扩到成熟制程。",
+      "sources": [
+       {
+        "name": "自由财经",
+        "url": "https://ec.ltn.com.tw/article/breakingnews/5635875"
+       },
+       {
+        "name": "三立新闻",
+        "url": "https://www.setn.com/news/1936596"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "watch": [
+   {
+    "when": "11月12日 周四—11月13日 周五",
+    "text": "中芯国际三季报（12日）、思科FY27Q1财报（美东12日盘后）；问界新M8、启境GT7新版上市（13日）。"
+   },
+   {
+    "when": "11月14日 周六",
+    "text": "华为MateBook Fold S开启预订，公布价格后看鸿蒙折叠PC能否明显下探原Fold的价位。"
+   },
+   {
+    "when": "11月17日 周二—11月18日 周三",
+    "text": "英伟达FY27Q3财报与小米18 Pro巴黎发布（17日）；黄仁勋国会闭门说明与深圳APEC领导人会议（18日）。"
+   }
+  ]
+ },
+ {
   "date": "2026-11-10",
   "weekday": "周二",
   "updatedAt": "2026-11-10 07:40",
@@ -13782,182 +14352,6 @@
    {
     "when": "10月15日 周四",
     "text": "台积电发布三季度财报，LSEG一致预期净利润约7463亿新台币、同比增长65%，关注2nm进度和2027年定价。"
-   }
-  ]
- },
- {
-  "date": "2026-10-12",
-  "weekday": "周一",
-  "updatedAt": "2026-10-12 08:02",
-  "highlights": [
-   "华尔街日报：亚马逊正洽谈以约 70 亿美元收购 AI 公司 Decart，Anthropic 此前以约 60 亿美元估值洽购后放弃。",
-   "金融时报：英伟达正洽谈收购或增持开放权重模型公司 Reflection AI，此前已投资 8 亿美元。",
-   "字节、腾讯、蚂蚁同步推进个人智能体，蚂蚁“灵光”新版据报计划本月全面开放。",
-   "彭博：苹果 10 月 13 日发布智能家居中枢 HomeView，11 月中旬发货；OLED 版 iPad mini 据报涨至近 799 美元。",
-   "粤芯半导体 10 月 13 日登陆创业板，募资约 61.57 亿元，12 英寸月产能计划从 6.33 万片扩至 12 万片。"
-  ],
-  "sections": [
-   {
-    "key": "chips",
-    "name": "芯片 / 半导体",
-    "items": [
-     {
-      "title": "英伟达据报洽谈收购或增持开放权重模型公司 Reflection AI",
-      "summary": "金融时报 10 月 10 日援引知情人士报道（路透 11 日跟进），英伟达正与 Reflection AI 洽谈追加投资或收购，谈判处于早期，可能采用“吸纳团队加技术授权”的人才收购方式以避开较长的监管审查，数周内可能达成，也可能破裂。英伟达此前已向该公司投资 8 亿美元，Reflection 今年上半年融资时估值约 250 亿美元。该公司由前 DeepMind 研究员于 2024 年创立，10 月 5 日发布首个开放权重模型 Beam，主打编程和智能体任务，对标 DeepSeek、Kimi 等低价中国模型。Reflection 拒绝置评，英伟达未回应。",
-      "comment": "按金融时报的报道口径，英伟达去年 12 月以约 200 亿美元与 Groq 达成同类结构的交易，今年 9 月同意以约 130 亿美元收购模型托管平台 Hugging Face，再加上 Reflection，它在把“芯片、模型分发平台、开放权重模型”串成一条线。传导到华为主要在昇腾和 CANN 生态：开放权重模型是非 CUDA 芯片获取开发者的主要入口，如果最大的模型分发平台和一批头部开放模型都在英伟达手里，新模型的首发适配和默认优化路径会更偏向 CUDA，昇腾拿到同等优化水平的时间可能被拉长。可以提前准备两件事：一是把国内主流开放权重模型（Beam 点名对标的 DeepSeek、Kimi 等）在昇腾上的首日适配做成固定机制；二是模型获取和分发不依赖单一海外平台。对终端侧，端侧小模型多数由开放权重模型蒸馏或裁剪而来，上游来源集中度上升同样需要留意。交易尚在早期且可能破裂，以上判断取决于最终是收购还是仅增持。",
-      "sources": [
-       {
-        "name": "Financial Times",
-        "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
-       },
-       {
-        "name": "Reuters（Business Standard 转载）",
-        "url": "https://www.business-standard.com/world-news/nvidia-in-talks-to-deepen-investment-in-or-acquire-ai-startup-reflection-126101100061_1.html"
-       },
-       {
-        "name": "IT之家",
-        "url": "https://www.ithome.com/1/011/541.htm"
-       }
-      ]
-     },
-     {
-      "title": "粤芯半导体 10 月 13 日登陆创业板，募资约 61.57 亿元",
-      "summary": "粤芯半导体 10 月 11 日公告，股票将于 10 月 13 日在深交所创业板上市（代码 301660），发行价 12.01 元/股，公开发行 5.13 亿股，发行后总股本 28.78 亿股，募资约 61.57 亿元，按发行价和发行后总股本计算市值约 345 亿元。公司从事成熟制程 12 英寸晶圆代工，主攻模拟芯片、功率器件和传感器，现有两座 12 英寸厂、月产能 6.33 万片，四期项目完工后将达 12 万片；2023 至 2025 年营收分别为 10.44 亿元、16.81 亿元和 25.82 亿元。据快科技报道，公司合作客户超过 200 家，国内前十大模拟芯片企业中约八成是其客户。",
-      "comment": "手机、平板、穿戴设备里的电源管理、充电、音频和传感器芯片大量使用成熟制程，粤芯的客户覆盖国内前十大模拟芯片企业中的约八成，它把月产能从 6.33 万片扩到 12 万片，会间接增加这些器件的国内供给。对终端的实际意义有边界：当前整机成本压力来自存储而不是模拟器件，这部分新增产能改善的是供应安全和议价空间，解决不了今年的 BOM 上涨。四期项目的达产时间报道未给出，暂不宜估算对器件价格的影响。",
-      "sources": [
-       {
-        "name": "财联社",
-        "url": "https://www.cls.cn/detail/2501586"
-       },
-       {
-        "name": "界面新闻（新浪财经转载）",
-        "url": "http://finance.sina.com.cn/jjxw/2026-10-11/doc-iniuwkhc7266837.shtml"
-       },
-       {
-        "name": "快科技（新浪科技转载）",
-        "url": "https://finance.sina.com.cn/tech/roll/2026-10-12/doc-iniuxfms0450109.shtml"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "key": "ai",
-    "name": "AI",
-    "items": [
-     {
-      "title": "亚马逊据报洽购 AI 公司 Decart，交易估值约 70 亿美元",
-      "summary": "华尔街日报 10 月 11 日援引知情人士报道，亚马逊正洽谈收购 AI 创业公司 Decart，交易估值约 70 亿美元，可能很快达成，也可能谈崩或出现其他买家；路透未能独立核实，双方未回应置评。Decart 今年 5 月融资 3 亿美元时估值近 40 亿美元，由 Radical Ventures 领投、英伟达参投。公司产品包括实时编辑视频的模型 Lucy，以及为机器人和自动驾驶生成仿真环境的模型 Oasis；另有报道称其业务还包括让 AI 负载在不同芯片上高效运行的优化软件。彭博此前报道，Anthropic 8 月曾以约 60 亿美元估值洽购该公司，尽调后于 9 月放弃。",
-      "comment": "五个月内估值从近 40 亿美元到约 70 亿美元，先后出价的是 Anthropic 和亚马逊，说明“让模型在多种芯片上跑得快”的软件层正被模型公司和云厂商当作稀缺资产争抢。亚马逊有自研芯片 Trainium，收购后这层软件是继续对各家芯片保持中立，还是优先服务自家芯片，目前没有公开信息。对华为的关联在昇腾和 CANN：非 CUDA 芯片的主要障碍是迁移和调优成本，跨芯片优化工具本来是帮客户降低这一成本的第三方力量，被大厂逐个收入之后，独立可用的选择变少，自研工具链和开源社区的投入更难靠外部替代。Decart 的实时视频模型如果随交易进入 AWS，会增加云端实时视频生成的供给，这与终端影像类 AI 功能的端云分工有关，但这一点目前只是推测，取决于交易是否成交以及亚马逊的产品安排。",
-      "sources": [
-       {
-        "name": "Reuters（KSL 转载）",
-        "url": "https://www.ksl.com/article/51635095/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-wsj-reports"
-       },
-       {
-        "name": "RuntimeWire",
-        "url": "https://runtimewire.com/article/amazon-decart-acquisition-talks-7-billion-ai-chip-software"
-       }
-      ]
-     },
-     {
-      "title": "字节、腾讯、蚂蚁同步推进个人智能体，蚂蚁“灵光”新版据报本月全面开放",
-      "summary": "据财新报道（IT之家 10 月 11 日转述），字节跳动代号“Spell”的个人智能体今年 4 月立项，由豆包手机助手团队主导，豆包内部已启动内测，国庆假期前加紧研发，计划与豆包结合后尽快对外推出；腾讯的个人智能体 LightVela 于 9 月底上线，定位“云端个人助理”，可通过微信接入，目前处于开发者体验阶段。另据新浪科技 10 月 11 日援引接近项目人士的消息，蚂蚁“灵光”新版已开启小范围内测，转向具备长期记忆、能主动推进任务的个人智能体，可通过 Skill 和 MCP 完成在钉钉发消息、控制智能家居设备等操作，计划本月全面开放。三家都以 Meta 9 月 8 日推出的个人智能体 Muse 为参照；以上信息均未获公司官方确认。",
-      "comment": "三款产品的共同点是把智能体放在超级应用和云端：腾讯走微信，字节走豆包，蚂蚁走自家应用并接入钉钉和智能家居。对华为终端，核心问题是“替用户办事”的入口最终落在系统层的小艺，还是落在应用层的这几家。应用层的优势是自带支付、社交、本地生活的闭环和账号体系，不需要别的应用开放接口；系统层的优势是跨应用、跨设备的权限和端侧数据（日程、健康、智能家居、车）。时间上，蚂蚁计划本月全面开放，字节是“尽快”，窗口按月计算。有两个取舍值得提前想清楚。一是小艺对第三方智能体的态度：开放系统能力让它们接入，还是坚持由小艺做调度方，这决定鸿蒙上智能体生态的形态。二是设备控制接口：灵光已经在用 Skill 和 MCP 调用智能家居，鸿蒙智联设备对外部智能体是否开放、按什么规则开放，需要先有答案，否则家庭设备的控制入口会被应用侧先定义。去年豆包手机助手推出后，据当时公开报道有部分应用限制了它的跨应用操作，说明应用方是否配合是系统级智能体的硬约束，这一点对各家都一样。",
-      "sources": [
-       {
-        "name": "IT之家（转述财新）",
-        "url": "https://www.ithome.com/1/011/548.htm"
-       },
-       {
-        "name": "36氪（转引新浪科技）",
-        "url": "https://36kr.com/newsflashes/4021098794291072"
-       }
-      ]
-     },
-     {
-      "title": "The Information：Anthropic 催促约 5300 亿美元租赁数据中心尽快上线，新签 IREN 云协议",
-      "summary": "The Information 10 月 11 日报道，Anthropic 正推动合作方尽快交付其已签约的约 5300 亿美元数据中心租赁容量，并与由比特币矿企转型的 IREN 签署了一份尚未公布的多年期云服务协议，金额未披露。报道称 Anthropic 已从 AWS、谷歌、SpaceXAI 等锁定约 15 吉瓦容量，合作方还包括 Hut 8、TeraWulf、Nscale 等。外部分析师估算，Hut 8 路易斯安那园区的 245 兆瓦可用容量每提前一个月上线，可多带来约 13 亿美元收入；推理业务毛利率约 85%。报道同时提到该公司预计下月 IPO。",
-      "sources": [
-       {
-        "name": "The Information",
-        "url": "https://www.theinformation.com/newsletters/ai-infrastructure/attractive-economics-behind-anthropic-data-center-sprint"
-       },
-       {
-        "name": "Techmeme",
-        "url": "https://www.techmeme.com/261011/p9"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "key": "devices",
-    "name": "终端",
-    "items": [
-     {
-      "title": "彭博：苹果 10 月 13 日发布智能家居中枢 HomeView，OLED 版 iPad mini 据报涨至近 799 美元",
-      "summary": "彭博社记者古尔曼 10 月 11 日报道，苹果将在 10 月 13 日的“Welcome home”发布会上推出带屏智能家居中枢 HomeView，搭载 A18 芯片，以 Siri 语音控制为主并支持触控，只运行少量苹果应用、不设应用商店，有桌面和壁挂两种形态，预计 11 月中旬发货；新款 Apple TV 4K（A19）和 HomePod mini（S10）预计 10 月 30 日发货，价格均未披露。古尔曼还称，苹果计划本月晚些时候发布首次采用 OLED 屏的新款 iPad mini，售价预计接近 799 美元，现款为 599 美元。另外，苹果在欧盟《数字市场法案》数据库披露，以“反向人才收购”方式吸纳个性化音频创业公司 Huxe 的部分员工并获得其知识产权的非独占许可，该团队出自谷歌 NotebookLM。发布会日期为苹果官方公布，产品细节均为报道口径。",
-      "comment": "苹果第一次用独立硬件去占家庭入口，形态是带屏的语音中枢，不设应用商店说明它定位为控制面板而不是又一块平板。华为在这个位置上已有智慧屏、音箱、全屋智能中控屏和鸿蒙智联设备，有三点可以考虑。一，HomeView 的吸引力取决于新版 Siri 的实际能力以及在中国市场可用的功能范围，这两点 13 日才有答案，在此之前不宜高估它对国内市场的直接冲击。二，间接影响更确定：它会把“家庭中枢”这个品类重新带回高端用户的视野，华为可以借这个关注度讲清楚已有的跨设备体验，而不是等对方定义品类。三，iPad mini 据报从 599 美元涨到近 799 美元，涨幅约三分之一，苹果在小尺寸平板上选择加配置并提价，599 美元附近会空出一段价位，小尺寸 MatePad 的定价空间变大；但结合上周 iPhone 18 Pro 涨价 100 美元后被下调订单的报道，提价后的需求弹性同样是风险，是否跟进提价需要谨慎。",
-      "sources": [
-       {
-        "name": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-10-11/apple-smart-home-launch-oct-13-plans-homeview-has-mid-november-release"
-       },
-       {
-        "name": "MacRumors",
-        "url": "https://www.macrumors.com/2026/10/11/apple-homeview-smart-home-hub-ship-next-month/"
-       },
-       {
-        "name": "IT之家（新浪转载）",
-        "url": "http://k.sina.com.cn/article_5952915720_162d2490806704zdkm.html"
-       },
-       {
-        "name": "36氪（转引新浪科技）",
-        "url": "https://36kr.com/newsflashes/4021034763718784"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "key": "internet",
-    "name": "互联网",
-    "items": [
-     {
-      "title": "Yandex 四天内第三座数据中心遭无人机袭击停运，80 多项云服务中断",
-      "summary": "10 月 11 日凌晨，Yandex 位于俄罗斯弗拉基米尔的数据中心遭无人机袭击，公司确认该数据中心停止运行。据基辅邮报，该设施规模约 40 至 50 兆瓦、设计容纳 2880 个机柜，这是继 8 日梁赞州萨索沃、9 日卡卢加之后四天内第三处受袭的 Yandex 设施。受影响的包括语音助手 Alice、Yandex Music，以及 Yandex Cloud 的计算、对象存储、托管数据库和 YandexGPT API 等 80 多项服务，部分银行、网约车和零售企业的应用也受到波及；恢复时间未公布。",
-      "sources": [
-       {
-        "name": "Kyiv Post",
-        "url": "https://www.kyivpost.com/post/86708"
-       },
-       {
-        "name": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/11/russias-yandex-says-data-centre-in-vladimir-shut-down-after-drone-attack"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "key": "auto",
-    "name": "汽车 / 智能驾驶",
-    "items": []
-   }
-  ],
-  "watch": [
-   {
-    "when": "10月12日 周一",
-    "text": "巴黎车展开幕（至 18 日），约 100 家参展商中中国品牌约 20 个，理想 i6、小鹏 G9L 等在欧洲亮相；京东双 11 于 20 点开启。"
-   },
-   {
-    "when": "10月13日 周二",
-    "text": "苹果“Welcome home”发布会，关注 HomeView 定价和新版 Siri 的功能范围；粤芯半导体在创业板上市；高通诉 Arm 案陪审团恢复评议。"
-   },
-   {
-    "when": "10月14日 周三",
-    "text": "ASML 发布三季度财报；15 日台积电三季度法说会，天猫双 11 于 15 日 20 点开启预售；16 日 20 点 iPhone Duo 国行开启预售（15999 元起，仅支持 eSIM，京东预约已超 200 万人），23 日开售。"
    }
   ]
  }

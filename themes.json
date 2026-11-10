@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-10",
- "updatedAt": "2026-11-10 07:40",
+ "asOf": "2026-11-11",
+ "updatedAt": "2026-11-11 07:00",
  "config": [
   {
    "domain": "汇率",
@@ -47,11 +47,11 @@
    "id": "fx",
    "name": "汇率走势",
    "domain": "横向",
-   "judgment": "非农后美元偏强，欧元对人民币明显走低",
+   "judgment": "美元CPI偏热，欧元反弹后再遇压制",
    "direction": "持平",
-   "directionNote": "较11月6日：USD/CNY中间价调升20基点，EUR/CNY下调510基点",
-   "asOf": "2026-11-09",
-   "change": "本期新增：11月9日USD/CNY、EUR/CNY中间价。EUR/CNY仅取得一个转载来源；ECB 11月9日EUR/USD参考价未检索到，序列未更新；未找到新的机构数值预测。",
+   "directionNote": "较11月9日：USD/CNY中间价降21基点，EUR/CNY升390基点",
+   "asOf": "2026-11-10",
+   "change": "本期新增：11月10日USD/CNY、EUR/CNY中间价与ECB欧元兑美元参考价1.1214；美国10月CPI。ECB 11月9日参考价无法确认，留空；未找到新的机构数值预测。",
    "pairs": [
     {
      "pair": "USD/CNY",
@@ -296,32 +296,36 @@
       {
        "d": "2026-11-09",
        "v": 6.7188
+      },
+      {
+       "d": "2026-11-10",
+       "v": 6.7167
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
       "name": "中新网（转中国外汇交易中心）",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728616.shtml",
-      "date": "2026-11-09"
+      "url": "https://www.chinanews.com.cn/cj/2026/11-10/10729234.shtml",
+      "date": "2026-11-10"
      },
      "compare": null,
      "compareNote": "在岸即期收盘价：暂无可靠数据（未取得可核实的日度序列），故不显示对照线。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-10",
+       "v": 6.7167
+      },
+      "prev": {
        "d": "2026-11-09",
        "v": 6.7188
       },
-      "prev": {
-       "d": "2026-11-06",
-       "v": 6.7168
-      },
-      "dayPct": 0.03,
+      "dayPct": -0.03,
       "base30": {
-       "d": "2026-10-09",
-       "v": 6.733
+       "d": "2026-10-12",
+       "v": 6.7313
       },
-      "d30Pct": -0.21,
+      "d30Pct": -0.22,
       "hi": {
        "d": "2026-08-18",
        "v": 6.7905
@@ -684,13 +688,17 @@
       {
        "d": "2026-11-09",
        "v": 7.4681
+      },
+      {
+       "d": "2026-11-10",
+       "v": 7.5071
       }
      ],
      "seriesName": "CFETS人民币汇率中间价",
      "source": {
-      "name": "金十数据（转中国外汇交易中心）",
-      "url": "https://shishixinwen.news/news/jin10/20261109091529923800",
-      "date": "2026-11-09"
+      "name": "汇通财经（转中国外汇交易中心）",
+      "url": "https://news.fx678.com/202611100915502365.shtml",
+      "date": "2026-11-10"
      },
      "compare": {
       "name": "ECB参考汇率（对照）",
@@ -818,23 +826,23 @@
        "date": "2026-10-29"
       }
      },
-     "compareNote": "对照线为欧洲央行每日参考汇率（欧洲中部时间14:15定盘），与CFETS中间价（北京时间9:15公布）定价时点不同，二者存在差异属正常。ECB CNY页面最新数据为10月16日。 10月30日EUR/CNY中间价7.4792由11月2日7.4650及“下调142点”倒推。 11月9日中间价7.4681仅见金十数据转载，未取得官方原文。",
+     "compareNote": "对照线为欧洲央行每日参考汇率（欧洲中部时间14:15定盘），与CFETS中间价（北京时间9:15公布）定价时点不同，二者存在差异属正常。ECB CNY页面最新数据为10月16日。 10月30日EUR/CNY中间价7.4792由11月2日7.4650及“下调142点”倒推。 11月9日中间价7.4681仅见金十数据转载；11月10日7.5071见汇通财经、金十数据转载，未取得官方原文。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-10",
+       "v": 7.5071
+      },
+      "prev": {
        "d": "2026-11-09",
        "v": 7.4681
       },
-      "prev": {
-       "d": "2026-11-06",
-       "v": 7.5191
-      },
-      "dayPct": -0.68,
+      "dayPct": 0.52,
       "base30": {
-       "d": "2026-10-09",
-       "v": 7.5323
+       "d": "2026-10-12",
+       "v": 7.5258
       },
-      "d30Pct": -0.85,
+      "d30Pct": -0.25,
       "hi": {
        "d": "2026-08-21",
        "v": 7.8906
@@ -1105,32 +1113,36 @@
       {
        "d": "2026-11-06",
        "v": 1.1165
+      },
+      {
+       "d": "2026-11-10",
+       "v": 1.1214
       }
      ],
      "seriesName": "ECB欧元参考汇率",
      "source": {
       "name": "欧洲央行汇率数据页",
-      "url": "https://data.ecb.europa.eu/key-figures/ecb-interest-rates-and-exchange-rates/exchange-rates",
-      "date": "2026-11-06"
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+      "date": "2026-11-10"
      },
      "compare": null,
-     "compareNote": "ECB参考汇率每日一个值（欧洲中部时间14:15），最新为11月6日1.1165；10月29日、10月31日—11月2日部分参考价本次未检索到，序列留空。",
+     "compareNote": "ECB参考汇率每日一个值（欧洲中部时间14:15），最新为11月10日1.1214（ECB页面与立陶宛央行转载一致）；11月9日参考价检索结果表格错位、无法确认，序列留空；10月29日、10月31日—11月2日亦缺。",
      "decimals": 4,
      "stats": {
       "last": {
+       "d": "2026-11-10",
+       "v": 1.1214
+      },
+      "prev": {
        "d": "2026-11-06",
        "v": 1.1165
       },
-      "prev": {
-       "d": "2026-11-05",
-       "v": 1.1224
-      },
-      "dayPct": -0.53,
+      "dayPct": 0.44,
       "base30": {
-       "d": "2026-10-07",
-       "v": 1.1177
+       "d": "2026-10-12",
+       "v": 1.1181
       },
-      "d30Pct": -0.11,
+      "d30Pct": 0.3,
       "hi": {
        "d": "2026-08-21",
        "v": 1.1699
@@ -1267,42 +1279,55 @@
     "EUR/USD": null
    },
    "dayMove": {
-    "headline": "非农后美元偏强，欧元中间价跌0.68%",
+    "headline": "欧元周一反弹，欧元中间价涨0.52%",
     "points": [
-     "11月9日USD/CNY中间价6.7188，调升20基点",
-     "EUR/CNY中间价7.4681，较前日下调510基点",
-     "中间价隐含欧元兑美元约1.1115，上周五约1.1194",
-     "美10月非农增16.5万、远超预期，为上周五主要驱动"
+     "11月10日USD/CNY中间价6.7167，较前日低21基点",
+     "EUR/CNY中间价7.5071，较前日上调390基点",
+     "欧元兑美元周一自1.1137低点反弹，ECB10日定盘1.1214",
+     "据报布伦特一周跌逾20%，缓解欧元区能源压力"
     ],
+    "detail": "11月10日USD/CNY中间价6.7167，较前日低21基点；EUR/CNY中间价7.5071，较前日上调390基点；欧元兑美元周一自1.1137低点反弹，ECB10日定盘1.1214；据报布伦特一周跌逾20%，缓解欧元区能源压力",
     "src": [
      {
       "name": "中新网（转中国外汇交易中心）",
-      "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728616.shtml",
-      "date": "2026-11-09",
+      "url": "https://www.chinanews.com.cn/cj/2026/11-10/10729234.shtml",
+      "date": "2026-11-10",
       "repost": true
      },
      {
-      "name": "21财经（转中国外汇交易中心）",
-      "url": "https://m.21jingji.com/article/20261109/herald/f06e588dbe72f0a54fde1b6ff4163042.html",
-      "date": "2026-11-09",
+      "name": "汇通财经（转中国外汇交易中心）",
+      "url": "https://news.fx678.com/202611100915502365.shtml",
+      "date": "2026-11-10",
       "repost": true
      },
      {
-      "name": "金十数据（转中国外汇交易中心）",
-      "url": "https://shishixinwen.news/news/jin10/20261109091529923800",
-      "date": "2026-11-09",
+      "name": "新浪财经",
+      "url": "https://k.sina.cn/article_5953740931_162dee0830670451sk.html",
+      "date": "2026-11-10",
       "repost": true
-     },
-     {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
-      "date": "2026-11-06",
-      "repost": false
      }
-    ],
-    "detail": "11月9日USD/CNY中间价6.7188，调升20基点；EUR/CNY中间价7.4681，较前日下调510基点；中间价隐含欧元兑美元约1.1115，上周五约1.1194；美10月非农增16.5万、远超预期，为上周五主要驱动"
+    ]
    },
    "background": [
+    {
+     "title": "美元：10月CPI偏热",
+     "text": "美10月CPI环比涨0.4%（预期约0.3%），核心涨0.3%，连续三个月0.3%；交易员已完全计入12月8—9日加息25基点，北京11日晨美元指数涨0.57%至102.25。",
+     "inference": "推断：12月加息几成定局，美元偏强，11日起人民币中间价升势或放缓。",
+     "src": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "新浪外汇热点小时报",
+       "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908ue0w.html",
+       "date": "2026-11-11",
+       "repost": true
+      }
+     ]
+    },
     {
      "title": "美元：非农超预期",
      "text": "美国10月非农新增16.5万（预期约6.5万），失业率降至4.1%，8—9月数据上修；CME FedWatch显示12月加息概率升至约80%（前一日约67%）。",
@@ -1348,14 +1373,14 @@
      ]
     },
     {
-     "title": "欧元：区内数据偏弱",
-     "text": "11月6日欧元区零售销售数据疲弱，欧央行官员表态谨慎，欧元在美国非农公布前已走低，随后抹去本周涨幅。",
-     "inference": "推断：欧元区内需偏弱，欧元对美元反弹缺少本地支撑。",
+     "title": "欧元：油价回落反弹",
+     "text": "据报布伦特原油一周跌逾20%，欧元兑美元周一自1.1137反弹，周二守住大部分涨幅，但纽约时段随美元走强跌0.53%至1.1165。",
+     "inference": "推断：油价下跌给欧元托底，但美欧利差扩大压制反弹空间。",
      "src": [
       {
-       "name": "FXStreet",
-       "url": "https://www.fxstreet.com/news/euro-extends-losses-in-risk-off-markets-despite-bright-german-industrial-production-202611060731",
-       "date": "2026-11-06",
+       "name": "新浪财经",
+       "url": "https://k.sina.cn/article_5953740931_162dee0830670451sk.html",
+       "date": "2026-11-10",
        "repost": true
       }
      ]
@@ -1371,10 +1396,20 @@
       "name": "新华网",
       "url": "https://www.xinhuanet.com/20261103/75107c97fc9d48c68c8041d6e5c0b230/c.html"
      }
+    },
+    {
+     "date": "2026-12-09",
+     "event": "美联储议息会议（12月8—9日）",
+     "region": "US",
+     "why": "10月CPI偏热后市场已计入加息25基点→美元走强",
+     "src": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+     }
     }
    ],
    "forecastNote": "预测只收录有出处的机构公开目标价。EUR/USD收录近60天内发布的预测（ING、德商银行、瑞银）。USD/CNY的机构预测均发布于60天前（5—8月），已标“较旧”，仅供参考；近60天未找到带数值的USD/CNY机构目标价。EUR/CNY暂无可靠预测。未找到彭博汇总中位数。",
-   "notFound": "1. USD/CNY：近60天内未找到带数值的机构年末或季度末目标价（德商银行、法兴10月仅给出“渐进升值”的定性判断），表中USD/CNY预测均发布于5—8月，已标“较旧”。2. EUR/CNY：未找到任何机构预测。3. 未找到彭博等机构汇总的预测中位数；摩根士丹利、摩根大通、花旗、渣打、野村、中金等近期数值预测未找到。4. 在岸人民币即期收盘价的日度序列未取得可靠来源，图中未画对照线。5. ECB参考汇率：11月9日EUR/USD参考价本次未检索到（ECB站点无法访问）；USD最新为10月28日（10月27日缺），CNY最新为10月16日。"
+   "notFound": "1. USD/CNY：近60天内未找到带数值的机构年末或季度末目标价（德商银行、法兴10月仅给出“渐进升值”的定性判断），表中USD/CNY预测均发布于5—8月，已标“较旧”。2. EUR/CNY：未找到任何机构预测。3. 未找到彭博等机构汇总的预测中位数；摩根士丹利、摩根大通、花旗、渣打、野村、中金等近期数值预测未找到。4. 在岸人民币即期收盘价的日度序列未取得可靠来源，图中未画对照线。5. ECB参考汇率：11月9日EUR/USD参考价无法确认（检索结果表格错位，ECB站点无法直接访问）；USD最新为10月28日（10月27日缺），CNY最新为10月16日。"
   },
   "phone": {
    "id": "phone",
@@ -3235,10 +3270,10 @@
   "auto": {
    "id": "auto",
    "name": "智能汽车",
-   "judgment": "10月零售终值降27%，新能源也降13.7%",
-   "direction": "恶化",
-   "directionNote": "较11月8日：零售终值同比-27.1%，差于初步统计的-25%",
-   "asOf": "2026-11-09",
+   "judgment": "大盘仍弱，乾崑车型向20万以下下探",
+   "direction": "持平",
+   "directionNote": "较11月9日：大盘无新数据，乾崑在鸿蒙智行外的车型继续上量",
+   "asOf": "2026-11-10",
    "keyNumbers": [
     {
      "label": "10月乘用车零售（乘联会终值）",
@@ -3274,8 +3309,25 @@
      }
     }
    ],
-   "change": "本期新增：乘联会10月终值（零售-27.1%、新能源零售-13.7%、出口+68.5%）；据报玛莎拉蒂合作项目完成外观设计。中汽协10月数据仍未发布。",
+   "change": "本期新增：华境S累计交付破4万台、深蓝G318乾崑版上市定价。中汽协10月数据截至发稿仍未发布。",
    "facts": [
+    {
+     "text": "乾崑车型上量：11月10日华境S累计交付破4万台，全系标配ADS 5 Pro；深蓝G318乾崑版11日上市，限时19.68万元起；启境GT7新版13日上市。",
+     "src": [
+      {
+       "name": "网易",
+       "url": "https://www.163.com/dy/article/LBCEDUTN0511B8LM.html",
+       "date": "2026-11-10",
+       "repost": true
+      },
+      {
+       "name": "17173",
+       "url": "https://news.17173.com/content/11102026/133203827.shtml",
+       "date": "2026-11-10",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "乘联会10月数据：终值零售164.3万辆（-27.1%），差于初步169.3万辆；新能源零售110.9万辆（-13.7%），渗透率67.5%；出口92.8万辆（+68.5%），占厂商销量35%。",
      "src": [
@@ -3658,6 +3710,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：乾崑装车量的增量更多来自鸿蒙智行以外品牌，且价位下探到20万元以下。",
+     "confidence": "中",
+     "basis": "鸿蒙智行10月3.35万台连续两月回落；华境S破4万、深蓝G318乾崑版19.68万元起"
+    },
+    {
      "text": "推断：鸿蒙智行份额下滑主要不是大盘拖累，新能源零售降13.7%，其份额由约5.3%降至约3.0%。",
      "confidence": "中",
      "basis": "鸿蒙智行10月交付33537台÷110.9万（终值）；上年68216台÷按-13.7%倒推的约128.5万"
@@ -3852,6 +3909,20 @@
     }
    ],
    "sources": [
+    {
+     "name": "17173",
+     "url": "https://news.17173.com/content/11102026/133203827.shtml",
+     "date": "2026-11-10",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "网易",
+     "url": "https://www.163.com/dy/article/LBCEDUTN0511B8LM.html",
+     "date": "2026-11-10",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "新浪新闻（转第一财经）",
      "url": "https://www.sina.cn/weibo/detail/5363382933785605.html",
@@ -4715,10 +4786,10 @@
   "aicompute": {
    "id": "aicompute",
    "name": "AI 算力供需与国产替代",
-   "judgment": "英伟达陷调查，对华放宽高端卡更难",
+   "judgment": "平头哥拟独立上市，英伟达调查再升级",
    "direction": "持平",
-   "directionNote": "较11月7日：英伟达受调查升级，但BIS许可与滞港H200状态未变",
-   "asOf": "2026-11-08",
+   "directionNote": "较11月8日：国产对手平头哥获独立融资渠道，英伟达涉华渠道调查同步升级",
+   "asOf": "2026-11-10",
    "keyNumbers": [
     {
      "label": "华为2026上半年数据中心AI加速卡出货",
@@ -4754,8 +4825,48 @@
      }
     }
    ],
-   "change": "本期新增：英伟达董事会就Megaspeed事件启动独立调查，国会要求黄仁勋11日前答复；黄仁勋接受CBS采访反对全面对华禁售。未检索到BIS复核H200许可的消息。",
+   "change": "本期新增：阿里公告拟分拆平头哥赴港上市；彭博披露英伟达申报Megaspeed芯片数比贸易记录少约5万颗，特朗普称FBI调查黄仁勋。黄仁勋是否出席闭门说明截至发稿未见公开答复。",
    "facts": [
+    {
+     "text": "平头哥拟分拆上市：阿里11月10日公告港交所已确认可分拆平头哥以H股上市，仍为阿里子公司；据报募资20亿—30亿美元，产品含真武AI芯片、倚天CPU。",
+     "src": [
+      {
+       "name": "21世纪经济报道",
+       "url": "https://www.21jingji.com/article/20261110/herald/65d09abf4f5e0d1ef3643ec804235d2d.html",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "新浪财经",
+       "url": "https://k.sina.cn/article_5953466437_162dab0450670bhhta.html",
+       "date": "2026-11-10",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "Megaspeed案升级：据彭博，英伟达申报经合作伙伴售予Megaspeed的芯片数比贸易记录少约5万颗；特朗普称FBI正调查黄仁勋，外交部称“间谍”说法是污蔑。",
+     "src": [
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/nvidia-s-intervention-in-chip-probe-brings-fresh-scrutiny",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "NBC News",
+       "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "新浪新闻（外交部例行记者会）",
+       "url": "https://news.sina.com.cn/c/2026-11-10/doc-iniyfuyz2625957.shtml",
+       "date": "2026-11-10",
+       "repost": true
+      }
+     ]
+    },
     {
      "text": "英伟达董事会启动调查：11月8日宣布由独立董事聘外部律师调查黄仁勋是否成为外国情报目标，称暂无理由认为机密受损；国会要求其11月11日前答复闭门说明。",
      "src": [
@@ -5159,6 +5270,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：平头哥独立上市后需外部客户支撑估值，昇腾、鲲鹏在互联网客户中多一个有资金的对手。",
+     "confidence": "中",
+     "basis": "平头哥同做AI芯片与服务器CPU；分拆后有独立融资渠道（阿里公告）"
+    },
+    {
      "text": "推断：头部模型厂仍可经境外租用拿到Blackwell训练算力，昇腾在训练侧的替代慢于推理侧。",
      "confidence": "低",
      "basis": "CNBC称月之暗面转向欧洲租Blackwell；单一信源，未获其他媒体证实"
@@ -5260,6 +5376,7 @@
     }
    ],
    "drivers": [
+    "大厂芯片对外：平头哥拟分拆赴港上市，据报募资20亿—30亿美元",
     "管制双向收紧：中方据报未批H200大规模进口，约60万颗滞港",
     "国产芯片放量：非GPU加速芯片增近80%至101.6万张，华为等四家占95%",
     "英伟达新卡紧缺：RTX PRO 5500明年产量据称不超过300万张，在华订单超600万"
@@ -5290,8 +5407,8 @@
    "signals": [
     {
      "what": "黄仁勋是否出席国会闭门说明",
-     "when": "2026-11-11（答复期限）",
-     "why": "国会若推动立法，经东南亚租用英伟达算力的渠道将收窄"
+     "when": "2026-11-18（闭门说明）",
+     "why": "出席与否影响国会是否推动收紧第三地转售渠道"
     },
     {
      "what": "BIS是否复核或暂停已发H200对华许可",
@@ -5322,9 +5439,49 @@
      "what": "中国移动超节点其余中标人份额及所用芯片",
      "when": "未官宣",
      "why": "判断昇腾系整机在运营商智算集采中的份额"
+    },
+    {
+     "what": "平头哥发售规模、估值与上市时间",
+     "when": "（未官宣）",
+     "why": "决定其对外争取互联网客户的资金实力"
     }
    ],
    "sources": [
+    {
+     "name": "新浪新闻（外交部例行记者会）",
+     "url": "https://news.sina.com.cn/c/2026-11-10/doc-iniyfuyz2625957.shtml",
+     "date": "2026-11-10",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/nvidia-s-intervention-in-chip-probe-brings-fresh-scrutiny",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "新浪财经",
+     "url": "https://k.sina.cn/article_5953466437_162dab0450670bhhta.html",
+     "date": "2026-11-10",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "21世纪经济报道",
+     "url": "https://www.21jingji.com/article/20261110/herald/65d09abf4f5e0d1ef3643ec804235d2d.html",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
     {
      "name": "Bloomberg",
      "url": "https://bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
@@ -5632,19 +5789,19 @@
   "cloudcapex": {
    "id": "cloudcapex",
    "name": "云厂商资本开支与 AI 回报",
-   "judgment": "微软收缩外部算力采购，转向自建",
+   "judgment": "Anthropic承诺升至9009亿，算力需求仍强",
    "direction": "持平",
-   "directionNote": "较11月5日：云厂资本开支计划未变，外部算力租用开始收缩",
-   "asOf": "2026-11-06",
+   "directionNote": "较11月6日：微软收缩外采未变，Anthropic承诺与CoreWeave积压上升",
+   "asOf": "2026-11-10",
    "keyNumbers": [
     {
      "label": "Anthropic算力与基础设施承诺",
-     "value": "5420亿—5670亿美元",
-     "compare": "二季度算力支出56亿美元、营收116亿美元",
+     "value": "约9009亿美元",
+     "compare": "此前披露为5420亿—5670亿美元",
      "source": {
-      "name": "Fortune（Anthropic招股书）",
-      "url": "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
-      "date": "2026-10-26",
+      "name": "StockTitan（S-1/A摘要）",
+      "url": "https://www.stocktitan.net/sec-filings/ANT/s-1-a-anthropic-pbc-amends-s-1-registration-statement-d2a82652ec9c.html",
+      "date": "2026-11-10",
       "repost": true
      }
     },
@@ -5682,8 +5839,48 @@
      }
     }
    ],
-   "change": "本期新增：据报微软收缩neocloud合作、退出Nscale英国项目。未检索到微软下调资本开支总额的表态。",
+   "change": "本期新增：Anthropic招股书更新（承诺约9009亿美元、年化收入约810亿）；CoreWeave三季报。Anthropic对谷歌承诺额有1145亿与1213亿两种转述，未取得原文核对。",
    "facts": [
+    {
+     "text": "Anthropic招股书：11月10日S-1/A披露截至9月30日采购与租赁承诺约9009亿美元，未来12个月到期约707亿；10月底年化收入约810亿美元。",
+     "src": [
+      {
+       "name": "StockTitan（S-1/A摘要）",
+       "url": "https://www.stocktitan.net/sec-filings/ANT/s-1-a-anthropic-pbc-amends-s-1-registration-statement-d2a82652ec9c.html",
+       "date": "2026-11-10",
+       "repost": true
+      },
+      {
+       "name": "MLQ.ai",
+       "url": "https://mlq.ai/news/anthropics-compute-bill-901-billion-of-cloud-chip-and-data-center-commitments-against-an-81-billion-run-rate/",
+       "date": "2026-11-10",
+       "repost": true
+      },
+      {
+       "name": "RTÉ",
+       "url": "https://www.rte.ie/news/business/2026/1110/1598679-anthropic-sets-modest-1-trillion-ipo-valuation-target/",
+       "date": "2026-11-10",
+       "repost": false
+      }
+     ]
+    },
+    {
+     "text": "CoreWeave三季报：收入36.6亿美元（+168%），积压订单1325亿美元（6月底约1040亿）；全年资本开支370亿—390亿美元，CEO称旧卡价格环比涨30%—50%。",
+     "src": [
+      {
+       "name": "CoreWeave投资者关系",
+       "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+       "date": "2026-11-10",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "微软收缩neocloud：据CNBC、彭博，微软收紧对Nebius、IREN、Nscale项目审核，因并网推迟到2030年代退出Nscale英国埃塞克斯项目，更多转向自建。",
      "src": [
@@ -5988,6 +6185,11 @@
    ],
    "inferences": [
     {
+     "text": "推断：头部模型公司新增收入几乎全部转为算力采购，海外AI云投入短期不会收缩。",
+     "confidence": "中",
+     "basis": "Anthropic未来12个月到期承诺707亿美元，接近810亿美元年化收入"
+    },
+    {
      "text": "推断：美国三大云三季度增速同时加快，海外AI云投入至少到2027年不会收缩。",
      "confidence": "中",
      "basis": "谷歌云+103%、Azure+48%、AWS+39%；亚马逊预期2027—2028年AWS增速超40%"
@@ -6160,6 +6362,7 @@
     }
    ],
    "drivers": [
+    "模型公司锁算力：Anthropic承诺约9009亿美元，12个月内到期707亿",
     "云需求超供给：谷歌云三季度+103%，积压订单5610亿美元",
     "大模型锁定算力：Anthropic约4,500亿美元十年期不可撤销合同",
     "芯片元器件涨价：阿里财报列为资本开支增长原因之一"
@@ -6196,12 +6399,57 @@
    ],
    "signals": [
     {
-     "what": "Anthropic上市进程；阿里、腾讯三季报",
-     "when": "11月（未官宣）",
-     "why": "看投资者是否接受其亏损与算力承诺，国内资本开支是否继续加速"
+     "what": "Anthropic定价与上市",
+     "when": "（未官宣）",
+     "why": "定价高低反映资本市场对算力高投入的接受度"
+    },
+    {
+     "what": "腾讯三季报资本开支",
+     "when": "2026-11-18（未官宣）",
+     "why": "看国内大厂算力投入是否继续加速"
+    },
+    {
+     "what": "阿里9月季度资本开支与云收入",
+     "when": "2026-11-24（未官宣）",
+     "why": "看国内AI云投入是否被收入追上"
     }
    ],
    "sources": [
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "CoreWeave投资者关系",
+     "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "RTÉ",
+     "url": "https://www.rte.ie/news/business/2026/1110/1598679-anthropic-sets-modest-1-trillion-ipo-valuation-target/",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "MLQ.ai",
+     "url": "https://mlq.ai/news/anthropics-compute-bill-901-billion-of-cloud-chip-and-data-center-commitments-against-an-81-billion-run-rate/",
+     "date": "2026-11-10",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "StockTitan（S-1/A摘要）",
+     "url": "https://www.stocktitan.net/sec-filings/ANT/s-1-a-anthropic-pbc-amends-s-1-registration-statement-d2a82652ec9c.html",
+     "date": "2026-11-10",
+     "repost": true,
+     "stale": false
+    },
     {
      "name": "Investing.com（转彭博）",
      "url": "https://www.investing.com/news/stock-market-news/microsoft-tightens-oversight-of-neocloud-data-center-projects-bloomberg-news-reports-5005281",
@@ -7067,10 +7315,10 @@
    "id": "geo",
    "name": "中美、中欧地缘政策跟踪",
    "domain": "横向",
-   "judgment": "休战正式延至1月10日，仍属短期安排",
-   "direction": "改善",
-   "directionNote": "较11月6日：稀土与关税暂停11月10日到期风险解除",
-   "asOf": "2026-11-09",
+   "judgment": "休战延至1月10日，英伟达涉华调查升级",
+   "direction": "持平",
+   "directionNote": "较11月9日：休战安排未变，美方对英伟达涉华渠道调查升级",
+   "asOf": "2026-11-10",
    "keyNumbers": [
     {
      "label": "中美休战到期日",
@@ -7106,8 +7354,48 @@
      }
     }
    ],
-   "change": "本期新增：中方续停24%关税与稀土等管制至2027年1月10日；美方续停海事301措施，178项排除延期仅见转载，未见USTR原文。",
+   "change": "本期新增：英伟达Megaspeed案升级（FBI调查、申报差约5万颗）；10月外贸数据。对美出口增速CNBC与其他转述不一致，未收录。",
    "facts": [
+    {
+     "text": "英伟达涉华调查：特朗普美东9日称FBI调查黄仁勋与Megaspeed前高管关系；彭博称英伟达申报芯片数比贸易记录少约5万颗；外交部10日回应称污蔑。",
+     "src": [
+      {
+       "name": "NBC News",
+       "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/nvidia-s-intervention-in-chip-probe-brings-fresh-scrutiny",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "新浪新闻（外交部例行记者会）",
+       "url": "https://news.sina.com.cn/c/2026-11-10/doc-iniyfuyz2625957.shtml",
+       "date": "2026-11-10",
+       "repost": true
+      }
+     ]
+    },
+    {
+     "text": "10月外贸数据：出口同比+35.2%、进口+41.6%，顺差1052.8亿美元，前10月顺差超1万亿美元；据CNBC对欧盟出口+24.4%。",
+     "src": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "21世纪经济报道",
+       "url": "https://www.21jingji.com/article/20261110/herald/b25e4e3a7586524ccf974bdcb8f3a131.html",
+       "date": "2026-11-10",
+       "repost": false
+      }
+     ]
+    },
     {
      "text": "休战延期落地：11月9日中方续停24%对美关税和稀土等出口管制至2027年1月10日；美方续停海事301措施，178项301排除据报延至1月9日。",
      "src": [
@@ -7541,6 +7829,39 @@
     }
    ],
    "timeline": [
+    {
+     "date": "2026-11-10",
+     "region": "美国",
+     "title": "英伟达Megaspeed案升级",
+     "status": "调查中",
+     "text": "特朗普称FBI正调查黄仁勋；据彭博，英伟达申报经合作伙伴售予Megaspeed的芯片数比贸易记录少约5万颗；外交部称“中国间谍”说法是污蔑。",
+     "next": {
+      "date": "2026-11-18",
+      "text": "众议院闭门说明，看是否推动收紧第三地转售"
+     },
+     "biz": "昇腾、华为云",
+     "level": "中",
+     "src": [
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/nvidia-s-intervention-in-chip-probe-brings-fresh-scrutiny",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "NBC News",
+       "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439",
+       "date": "2026-11-10",
+       "repost": false
+      },
+      {
+       "name": "新浪新闻（外交部例行记者会）",
+       "url": "https://news.sina.com.cn/c/2026-11-10/doc-iniyfuyz2625957.shtml",
+       "date": "2026-11-10",
+       "repost": true
+      }
+     ]
+    },
     {
      "date": "2026-11-09",
      "region": "中国",
@@ -8248,6 +8569,41 @@
    ],
    "sources": [
     {
+     "name": "新浪新闻（外交部例行记者会）",
+     "url": "https://news.sina.com.cn/c/2026-11-10/doc-iniyfuyz2625957.shtml",
+     "date": "2026-11-10",
+     "repost": true,
+     "stale": false
+    },
+    {
+     "name": "NBC News",
+     "url": "https://www.nbcnews.com/business/corporations/trump-fbi-probe-nvidia-jensen-huang-spy-rcna608439",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/nvidia-s-intervention-in-chip-probe-brings-fresh-scrutiny",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "21世纪经济报道",
+     "url": "https://www.21jingji.com/article/20261110/herald/b25e4e3a7586524ccf974bdcb8f3a131.html",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
+    {
+     "name": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+     "date": "2026-11-10",
+     "repost": false,
+     "stale": false
+    },
+    {
      "name": "Tech Times",
      "url": "https://www.techtimes.com/articles/330285/20261109/ustr-extends-section-301-tariff-exclusions-chinese-goods-entries-after-january-9-pay-full-duty.htm",
      "date": "2026-11-09",
@@ -8615,7 +8971,7 @@
     "name": "AI 是否存在泡沫",
     "desc": "资本开支增速能否被收入兑现",
     "claim": "AI存在泡沫：资本开支增速难以被收入兑现",
-    "summary": "推断：需求方继续用收入回应：AMD四季度指引环比增约27%，苏姿丰11月5日AI股大跌时称市场“短视”、算力即智能；谷歌云增103%接近其资本开支增速，贾西称AWS投入“正在见效”；质疑仍只来自陈福阳；是否泡沫取决于2027年加码的开支能否继续被云收入覆盖。",
+    "summary": "推断：需求方继续用收入回应：CoreWeave的因特拉托11月10日称“突破性季度”，积压升至约1325亿美元；AMD四季度指引环比增约27%，苏姿丰称市场“短视”；贾西称AWS投入见效；质疑仍只来自陈福阳；是否泡沫取决于2027年加码的开支能否被收入覆盖。",
     "confidence": "中"
    },
    {
@@ -8623,7 +8979,7 @@
     "name": "AI 算力需求的持续性",
     "desc": "训练转推理后需求是增是减",
     "claim": "训练转向推理后，算力需求继续增长",
-    "summary": "推断：供需双方仍称需求超过供给：苏姿丰11月3—4日称算力需求迫切、2027年服务器收入翻倍，哈斯11月4日称客户承诺增加、对两年AGI CPU收入最高20亿美元更有信心，乌拉尔预计AI网络2027年翻倍至约70亿美元；分歧在封装、电力、内存瓶颈何时缓解。",
+    "summary": "推断：供需双方仍称需求超过供给：因特拉托11月10日称安培、Hopper旧卡三季度环比涨价30%—50%，可把全部产能卖给排队客户；苏姿丰称2027年服务器收入翻倍，乌拉尔预计AI网络2027年翻倍；分歧在封装、电力、内存瓶颈何时缓解。",
     "confidence": "中"
    },
    {
@@ -9525,6 +9881,36 @@
     },
     "point": "存储厂商自己也认为AI推动的内存涨价不可持续，非AI行业已难以承受。",
     "question": "涨价何时、以何种形式回落？非AI需求萎缩会否先压低消费类DRAM价格？",
+    "suggest": null
+   },
+   "intrator|2026-11-10|这是CoreWeave的": {
+    "hyps": [
+     "H1",
+     "H2"
+    ],
+    "main": "H1",
+    "stance": "反对",
+    "stances": {
+     "H1": "反对",
+     "H2": "支持"
+    },
+    "point": "三季度营收环比增超10亿美元、积压升至约1325亿美元，称“突破性季度”。",
+    "question": "积压订单增长靠少数大模型客户，若某一大客户放缓，收入能否兑现？",
+    "suggest": null
+   },
+   "intrator|2026-11-10|若数据中心建设放缓，算力": {
+    "hyps": [
+     "H2",
+     "H1"
+    ],
+    "main": "H2",
+    "stance": "支持",
+    "stances": {
+     "H2": "支持",
+     "H1": "反对"
+    },
+    "point": "称算力会更稀缺，安培、Hopper旧卡价格三季度环比涨30%—50%。",
+    "question": "旧卡涨价是短期供给缺口，还是推理需求让旧卡寿命变长？",
     "suggest": null
    }
   },

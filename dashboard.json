@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-10",
- "updatedAt": "2026-11-10 07:40",
+ "asOf": "2026-11-11",
+ "updatedAt": "2026-11-11 07:00",
  "leaders": [
   {
    "id": "jensen",
@@ -1050,9 +1050,82 @@
      "ai": "1. 受益方华邦（10月营收据报同比增约257%）都称涨价难以为继，但未给出回落时间；同日模组厂创见称DRAM配额到明年上半年仍不足，我司终端内存成本压力短期难缓解。"
     }
    ]
+  },
+  {
+   "id": "intrator",
+   "name": "迈克尔·因特拉托",
+   "nameEn": "Michael Intrator",
+   "title": "CoreWeave联合创始人兼CEO",
+   "company": "CoreWeave",
+   "biz": "计算与云",
+   "statements": [
+    {
+     "date": "2026-11-10",
+     "quote": "这是CoreWeave的突破性季度：营收环比增加超10亿美元，调整后经营利润率比计划提前一个季度达到两位数。",
+     "topic": "需求与增长",
+     "context": "三季报新闻稿（美东11月10日盘后，北京11日晨）；三季度营收36.6亿美元、同比增168%，收入积压约1325亿美元（6月末约1040亿美元）；他同时称未来几个月预计收到约90亿美元客户预付款和保证金，2027年所需资金大部分来自客户预付款和硬件伙伴融资",
+     "direct": true,
+     "original": "This was a breakout quarter for CoreWeave, with revenue increasing by more than $1 billion sequentially and adjusted operating margins reaching double digits a quarter ahead of plan.",
+     "source": {
+      "name": "Benzinga",
+      "url": "https://www.benzinga.com/markets/earnings/26/11/63123969/coreweave-reports-q3-double-beat-raises-guidance-this-was-a-breakout-quarter"
+     },
+     "ai": "1. 一个季度收入积压增加约285亿美元、并有约90亿美元客户预付款，说明北美大客户仍在提前锁定算力，这削弱了“AI投资见顶”的判断，对我司昇腾和华为云而言，全球算力紧缺短期内不会因海外需求降温而缓解。"
+    },
+    {
+     "date": "2026-11-10",
+     "quote": "若数据中心建设放缓，算力会更稀缺，GPU价格可能更久维持高位；三季度安培、Hopper旧卡价格环比涨30%—50%。",
+     "topic": "价格成本",
+     "context": "三季报电话会；称可把全部产能卖给排队客户；全年资本开支指引370亿—390亿美元",
+     "direct": false,
+     "original": "30% to 50% sequentially in Q3",
+     "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+     },
+     "ai": "1. 上一代A100/H100一个季度涨价30%—50%，说明算力短缺已外溢到性能次一档的卡，美国租赁市场不再只为最新一代付溢价；这为性能对标上一代英伟达卡的国产算力卡定价提供参照，但国内租价取决于本地供需，不能直接类推。"
+    }
+   ]
   }
  ],
  "earnings": [
+  {
+   "company": "CoreWeave",
+   "en": "CoreWeave",
+   "biz": "计算与云",
+   "period": "2026年Q3",
+   "reportDate": "2026-11-10",
+   "metrics": [
+    {
+     "label": "营收",
+     "value": "36.6亿美元",
+     "yoy": "+168%，高于预期约35.6亿美元"
+    },
+    {
+     "label": "调整后经营利润",
+     "value": "3.79亿美元",
+     "yoy": "利润率首次达两位数"
+    },
+    {
+     "label": "GAAP净亏损",
+     "value": "7.09亿美元",
+     "yoy": "上年同期亏损1.10亿美元"
+    },
+    {
+     "label": "收入积压",
+     "value": "约1325亿美元",
+     "yoy": "二季度末约1042亿美元"
+    }
+   ],
+   "highlight": "季度新增超200MW在运电力、总量超1.7GW；CEO称安培、Hopper旧卡价格三季度环比涨30%—50%；债务升至约470亿美元（上季约350亿美元），未来几个月预计收到约90亿美元客户预付款。",
+   "guidance": "2026年营收上调至130亿—133亿美元，调整后经营利润12.75亿—13.75亿美元（中值较前次上调26%）；全年资本开支370亿—390亿美元；年末年化收入200亿—210亿美元、在运电力约1.85GW；Q4利息支出10.5亿—11.5亿美元。",
+   "nextReport": "未披露",
+   "source": {
+    "name": "CoreWeave 8-K（SEC）",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001769628/000176962826000461/coreweave3q26earningspress.htm"
+   },
+   "updatedOn": "2026-11-11"
+  },
   {
    "company": "Onto Innovation",
    "en": "Onto Innovation",
@@ -5871,19 +5944,19 @@
    "biz": "昇腾、云",
    "status": "H200等个案审批并收取25%分成；中资海外子公司购芯须许可",
    "latest": {
-    "date": "2026-11-08",
-    "text": "英伟达董事会宣布由独立董事聘外部律师调查黄仁勋是否成为外国情报行动目标（涉新加坡客户Megaspeed关联人士），称暂无理由认为国家安全或公司机密受损；国会委员会要求黄仁勋11月11日前确认能否出席闭门说明"
+    "date": "2026-11-10",
+    "text": "据彭博，英伟达申报的经合作伙伴售予Megaspeed的芯片数比贸易记录少约5万颗，其法务总监曾于2025年8月联系商务部调查人员；特朗普称FBI正调查黄仁勋；外交部称“中国间谍”说法是污蔑。"
    },
    "next": {
-    "date": "2026-11-11",
-    "text": "黄仁勋答复国会闭门说明期限；11月17日英伟达FY27Q3财报会对中国收入及H200出货的表述"
+    "date": "2026-11-18",
+    "text": "众议院闭门说明（黄仁勋须11日前确认出席）；英伟达FY27Q3财报（美东17日）"
    },
    "level": "中",
    "source": {
-    "name": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+    "name": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/nvidia-s-intervention-in-chip-probe-brings-fresh-scrutiny"
    },
-   "updatedOn": "2026-11-09"
+   "updatedOn": "2026-11-11"
   },
   {
    "title": "中国稀土出口管制暂停期",
@@ -6008,20 +6081,6 @@
  ],
  "calendar": [
   {
-   "date": "2026-11-10",
-   "title": "双11巅峰期开启（20:00）",
-   "type": "行业",
-   "biz": "终端",
-   "confirmed": true
-  },
-  {
-   "date": "2026-11-10",
-   "title": "台积电10月营收（按往月节奏）",
-   "type": "财报",
-   "biz": "芯片半导体",
-   "confirmed": false
-  },
-  {
    "date": "2026-11-11",
    "title": "黄仁勋答复国会闭门说明期限（Megaspeed事件）",
    "type": "政策",
@@ -6035,6 +6094,14 @@
    "type": "财报",
    "biz": "计算与云",
    "confirmed": false
+  },
+  {
+   "date": "2026-11-11",
+   "title": "深蓝G318四驱畅行乾崑版上市（ADS 5 Pro）",
+   "type": "发布",
+   "biz": "汽车",
+   "confirmed": true,
+   "updatedOn": "2026-11-11"
   },
   {
    "date": "2026-11-12",
@@ -6067,6 +6134,22 @@
    "biz": "汽车",
    "confirmed": true,
    "updatedOn": "2026-10-29"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "启境GT7纯电及增程新版上市（乾崑）",
+   "type": "发布",
+   "biz": "汽车",
+   "confirmed": true,
+   "updatedOn": "2026-11-11"
+  },
+  {
+   "date": "2026-11-14",
+   "title": "华为MateBook Fold S开启预订（10:08）",
+   "type": "发布",
+   "biz": "终端",
+   "confirmed": true,
+   "updatedOn": "2026-11-11"
   },
   {
    "date": "2026-11-15",
@@ -6117,6 +6200,14 @@
    "updatedOn": "2026-11-07"
   },
   {
+   "date": "2026-11-17",
+   "title": "小米18 Pro系列巴黎全球发布",
+   "type": "发布",
+   "biz": "终端",
+   "confirmed": true,
+   "updatedOn": "2026-11-11"
+  },
+  {
    "date": "2026-11-18",
    "title": "APEC领导人会议·深圳（11/18—19）",
    "type": "政策",
@@ -6137,6 +6228,14 @@
    "biz": "终端、联接",
    "confirmed": true,
    "updatedOn": "2026-10-21"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "众议院就Megaspeed事件闭门说明（黄仁勋是否出席未定）",
+   "type": "政策",
+   "biz": "昇腾、云",
+   "confirmed": false,
+   "updatedOn": "2026-11-11"
   },
   {
    "date": "2026-11-19",
